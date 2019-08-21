@@ -1,0 +1,419 @@
+
+Cohort AD numerosity: 3201
+
+3 -- Silhouette: 0.096
+DB: 2.438
+CH: 385.170
+Number of clusters found:3, Max Silhouette score:0.096
+Number of clusters found:3, Min DB score:2.438
+Number of clusters found:3, Max HC score:385.170
+
+Max number of clusters chosen: 3
+Cluster 0 numerosity: 399
+% term:icd9::Alzheimer's disease::331.0::C0002395 = 0.12 (399 terms in cluster (1.00), out of 3201 terms in the disease dataset)
+
+            0     1
+subcluster         
+0           0   399
+1           0  1170
+2           0  1632
+
+
+% term:icd9::Blood in stool::578.1::C1321898 = 0.29 (59 terms in cluster (0.15), out of 203 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.2413886083468938e-12, corr_p=6.724165825040681e-12, rej=True
+Comparison: (0, 2) -- p=1.7599977222568354e-09, corr_p=5.2799931667705065e-09, rej=True
+Comparison: (1, 2) -- p=0.0948191934578631, corr_p=0.2844575803735893, rej=False
+               0   1
+subcluster          
+0            340  59
+1           1120  50
+2           1538  94
+
+
+% term:icd9::Other malaise and fatigue::780.79::C0695252 = 0.08 (54 terms in cluster (0.14), out of 691 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0008214327141388618, corr_p=0.0024642981424165857, rej=True
+Comparison: (0, 2) -- p=1.3421224742889045e-05, corr_p=4.0263674228667136e-05, rej=True
+Comparison: (1, 2) -- p=0.1569676375571737, corr_p=0.47090291267152107, rej=False
+               0    1
+subcluster           
+0            345   54
+1            920  250
+2           1245  387
+
+
+% term:icd9::Retention of urine, unspecified::788.20::C0080274 = 0.18 (43 terms in cluster (0.11), out of 234 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.07088917704662685, corr_p=0.21266753113988057, rej=False
+Comparison: (0, 2) -- p=0.0019871438435472874, corr_p=0.005961431530641862, rej=True
+Comparison: (1, 2) -- p=0.13850510650039974, corr_p=0.41551531950119924, rej=False
+               0    1
+subcluster           
+0            356   43
+1           1080   90
+2           1531  101
+
+
+% term:icd9::Edema::782.3::C0013604 = 0.05 (43 terms in cluster (0.11), out of 854 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.3032334694351497e-13, corr_p=6.909700408305448e-13, rej=True
+Comparison: (0, 2) -- p=2.1011689094458226e-13, corr_p=6.303506728337468e-13, rej=True
+Comparison: (1, 2) -- p=0.8091189118260456, corr_p=1.0, rej=False
+               0    1
+subcluster           
+0            356   43
+1            828  342
+2           1163  469
+
+
+% term:icd9::Anemia, unspecified::285.9::C0002871 = 0.06 (37 terms in cluster (0.09), out of 619 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.02551974258416e-07, corr_p=6.07655922775248e-07, rej=True
+Comparison: (0, 2) -- p=2.4641211724687855e-07, corr_p=7.392363517406356e-07, rej=True
+Comparison: (1, 2) -- p=0.814786391959248, corr_p=1.0, rej=False
+               0    1
+subcluster           
+0            362   37
+1            924  246
+2           1296  336
+
+
+% term:icd9::Other and unspecified coagulation defects::286.9::C0029496 = 0.27 (29 terms in cluster (0.07), out of 107 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=8.355117475914918e-06, corr_p=2.5065352427744755e-05, rej=True
+Comparison: (0, 2) -- p=0.0002422941485499414, corr_p=0.0007268824456498242, rej=True
+Comparison: (1, 2) -- p=0.23779552078947092, corr_p=0.7133865623684128, rej=False
+               0   1
+subcluster          
+0            370  29
+1           1143  27
+2           1581  51
+
+
+% term:icd9::Unspecified contraceptive management::V25.9::C0375815 = 0.72 (23 terms in cluster (0.06), out of 32 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.58336165868756e-16, corr_p=2.875008497606268e-15, rej=True
+Comparison: (0, 2) -- p=3.560387679835126e-13, corr_p=1.0681163039505378e-12, rej=True
+Comparison: (1, 2) -- p=0.02740462095961746, corr_p=0.08221386287885238, rej=False
+               0   1
+subcluster          
+0            376  23
+1           1170   0
+2           1623   9
+
+
+% term:icd9::Other and unspecified hyperlipidemia::272.4::C0348494 = 0.03 (22 terms in cluster (0.06), out of 697 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.336939491986291e-13, corr_p=4.010818475958873e-13, rej=True
+Comparison: (0, 2) -- p=6.178513078676564e-18, corr_p=1.853553923602969e-17, rej=True
+Comparison: (1, 2) -- p=0.04524968874095016, corr_p=0.1357490662228505, rej=False
+               0    1
+subcluster           
+0            377   22
+1            911  259
+2           1216  416
+
+
+% term:icd9::Chest pain, unspecified::786.50::C0008031 = 0.04 (21 terms in cluster (0.05), out of 574 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.427114712700243e-12, corr_p=1.9281344138100728e-11, rej=True
+Comparison: (0, 2) -- p=1.6644113598465118e-11, corr_p=4.9932340795395353e-11, rej=True
+Comparison: (1, 2) -- p=0.6586539695989299, corr_p=1.0, rej=False
+               0    1
+subcluster           
+0            378   21
+1            934  236
+2           1315  317
+
+
+
+
+Cluster 1 numerosity: 1170
+% term:icd9::Alzheimer's disease::331.0::C0002395 = 0.37 (1170 terms in cluster (1.00), out of 3201 terms in the disease dataset)
+
+            0     1
+subcluster         
+0           0   399
+1           0  1170
+2           0  1632
+
+
+% term:icd9::Complications affecting other specified body systems, not elsewhere classified, hypertension::997.91::C0020538 = 0.34 (408 terms in cluster (0.35), out of 1211 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.8939681518968661, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.020698617137832814, corr_p=0.06209585141349844, rej=False
+Comparison: (1, 2) -- p=0.0016420080082774518, corr_p=0.004926024024832355, rej=True
+              0    1
+subcluster          
+0           262  137
+1           762  408
+2           966  666
+
+
+% term:icd9::Urinary tract infection, site not specified::599.0::C0042029 = 0.50 (307 terms in cluster (0.26), out of 614 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.924566552885154e-06, corr_p=2.077369965865546e-05, rej=True
+Comparison: (0, 2) -- p=0.9765749937640691, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=4.820394726851938e-13, corr_p=1.4461184180555813e-12, rej=True
+               0    1
+subcluster           
+0            339   60
+1            863  307
+2           1385  247
+
+
+% term:icd9::Rash and other nonspecific skin eruption::782.1::C0015230 = 0.27 (153 terms in cluster (0.13), out of 562 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.16253153664510772, corr_p=0.48759460993532316, rej=False
+Comparison: (0, 2) -- p=0.02729267865142968, corr_p=0.08187803595428904, rej=False
+Comparison: (1, 2) -- p=4.8796089695509137e-08, corr_p=1.463882690865274e-07, rej=True
+               0    1
+subcluster           
+0            335   64
+1           1017  153
+2           1287  345
+
+
+% term:icd9::Osteoporosis, unspecified::733.00::C0029456 = 0.23 (149 terms in cluster (0.13), out of 655 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.997723107214343e-13, corr_p=2.9993169321643026e-12, rej=True
+Comparison: (0, 2) -- p=0.09088875624426918, corr_p=0.2726662687328075, rej=False
+Comparison: (1, 2) -- p=9.338972667464231e-14, corr_p=2.801691800239269e-13, rej=True
+               0    1
+subcluster           
+0            286  113
+1           1021  149
+2           1239  393
+
+
+% term:icd9::Hyperosmolality and/or hypernatremia::276.0::C0342580 = 0.84 (138 terms in cluster (0.12), out of 164 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.4315201575768676e-12, corr_p=4.294560472730603e-12, rej=True
+Comparison: (0, 2) -- p=0.022071689438609772, corr_p=0.06621506831582932, rej=False
+Comparison: (1, 2) -- p=1.9908056928522354e-29, corr_p=5.972417078556706e-29, rej=True
+               0    1
+subcluster           
+0            399    0
+1           1032  138
+2           1606   26
+
+
+% term:icd9::Generalized anxiety disorder::300.02::C0270549 = 0.22 (127 terms in cluster (0.11), out of 570 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0010703081378946576, corr_p=0.003210924413683973, rej=True
+Comparison: (0, 2) -- p=0.017758310890214783, corr_p=0.05327493267064435, rej=False
+Comparison: (1, 2) -- p=3.153862375647267e-16, corr_p=9.4615871269418e-16, rej=True
+               0    1
+subcluster           
+0            330   69
+1           1043  127
+2           1258  374
+
+
+% term:icd9::Unspecified septicemia::038.9::C0036690 = 0.87 (126 terms in cluster (0.11), out of 145 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.913416146033139e-11, corr_p=1.7740248438099416e-10, rej=True
+Comparison: (0, 2) -- p=0.19524073487079735, corr_p=0.585722204612392, rej=False
+Comparison: (1, 2) -- p=8.152328534532018e-30, corr_p=2.4456985603596053e-29, rej=True
+               0    1
+subcluster           
+0            398    1
+1           1044  126
+2           1614   18
+
+
+% term:icd9::Other convulsions::780.39::C0490011 = 0.68 (104 terms in cluster (0.09), out of 153 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.056825455351015e-07, corr_p=1.2170476366053045e-06, rej=True
+Comparison: (0, 2) -- p=0.13313411625067603, corr_p=0.39940234875202807, rej=False
+Comparison: (1, 2) -- p=9.201054997456254e-13, corr_p=2.7603164992368763e-12, rej=True
+               0    1
+subcluster           
+0            394    5
+1           1066  104
+2           1588   44
+
+
+% term:icd9::Other left bundle branch block::426.3::C0155703 = 0.79 (95 terms in cluster (0.08), out of 121 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=8.877274061292813e-09, corr_p=2.6631822183878438e-08, rej=True
+Comparison: (0, 2) -- p=0.022071689438609772, corr_p=0.06621506831582932, rej=False
+Comparison: (1, 2) -- p=1.157630237993162e-16, corr_p=3.4728907139794863e-16, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1075  95
+2           1606  26
+
+
+
+
+Cluster 2 numerosity: 1632
+% term:icd9::Alzheimer's disease::331.0::C0002395 = 0.51 (1632 terms in cluster (1.00), out of 3201 terms in the disease dataset)
+
+            0     1
+subcluster         
+0           0   399
+1           0  1170
+2           0  1632
+
+
+% term:icd9::Complications affecting other specified body systems, not elsewhere classified, hypertension::997.91::C0020538 = 0.55 (666 terms in cluster (0.41), out of 1211 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.8939681518968661, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.020698617137832814, corr_p=0.06209585141349844, rej=False
+Comparison: (1, 2) -- p=0.0016420080082774518, corr_p=0.004926024024832355, rej=True
+              0    1
+subcluster          
+0           262  137
+1           762  408
+2           966  666
+
+
+% term:icd9::Rash and other nonspecific skin eruption::782.1::C0015230 = 0.61 (345 terms in cluster (0.21), out of 562 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.16253153664510772, corr_p=0.48759460993532316, rej=False
+Comparison: (0, 2) -- p=0.02729267865142968, corr_p=0.08187803595428904, rej=False
+Comparison: (1, 2) -- p=4.8796089695509137e-08, corr_p=1.463882690865274e-07, rej=True
+               0    1
+subcluster           
+0            335   64
+1           1017  153
+2           1287  345
+
+
+% term:icd9::Urinary incontinence, unspecified::788.30::C0042024 = 0.61 (290 terms in cluster (0.18), out of 477 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.07201262764886412, corr_p=0.21603788294659237, rej=False
+Comparison: (0, 2) -- p=4.837470448737178e-05, corr_p=0.00014512411346211536, rej=True
+Comparison: (1, 2) -- p=0.0004681953920719767, corr_p=0.00140458617621593, rej=True
+               0    1
+subcluster           
+0            362   37
+1           1020  150
+2           1342  290
+
+
+% term:icd9::Memory loss::780.93::C0751295 = 0.72 (277 terms in cluster (0.17), out of 385 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.36395051423996605, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=2.4363536547163478e-08, corr_p=7.309060964149044e-08, rej=True
+Comparison: (1, 2) -- p=6.453431053434338e-14, corr_p=1.9360293160303013e-13, rej=True
+               0    1
+subcluster           
+0            376   23
+1           1085   85
+2           1355  277
+
+
+% term:icd9::Routine general medical examination at a health care facility::V70.0::C0260851 = 0.87 (237 terms in cluster (0.15), out of 272 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.5300863977413197, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=2.1676966623649486e-10, corr_p=6.503089987094846e-10, rej=True
+Comparison: (1, 2) -- p=8.46222725111527e-29, corr_p=2.538668175334581e-28, rej=True
+               0    1
+subcluster           
+0            388   11
+1           1146   24
+2           1395  237
+
+
+% term:icd9::Palpitations::785.1::C0030252 = 0.68 (229 terms in cluster (0.14), out of 335 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.4130156328634371, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.0010655135165451855, corr_p=0.003196540549635556, rej=True
+Comparison: (1, 2) -- p=2.361584386057766e-10, corr_p=7.084753158173299e-10, rej=True
+               0    1
+subcluster           
+0            368   31
+1           1095   75
+2           1403  229
+
+
+% term:icd9::Undiagnosed cardiac murmurs::785.2::C0375546 = 0.60 (204 terms in cluster (0.12), out of 339 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.4283861397157368, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.006808400986833556, corr_p=0.02042520296050067, rej=True
+Comparison: (1, 2) -- p=0.004013792946118576, corr_p=0.012041378838355729, rej=True
+               0    1
+subcluster           
+0            369   30
+1           1065  105
+2           1428  204
+
+
+% term:icd9::Urinary frequency::788.41::C0042023 = 0.67 (154 terms in cluster (0.09), out of 229 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.03961194250148769, corr_p=0.11883582750446306, rej=False
+Comparison: (0, 2) -- p=1.9076859093442315e-05, corr_p=5.723057728032694e-05, rej=True
+Comparison: (1, 2) -- p=0.00014834822590313742, corr_p=0.00044504467770941226, rej=True
+               0    1
+subcluster           
+0            388   11
+1           1106   64
+2           1478  154
+
+
+% term:icd9::Pain in joint, site unspecified::719.40::C0003862 = 0.73 (131 terms in cluster (0.08), out of 180 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.98957646371643, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.001290245212795554, corr_p=0.003870735638386662, rej=True
+Comparison: (1, 2) -- p=7.562557487045633e-08, corr_p=2.2687672461136898e-07, rej=True
+               0    1
+subcluster           
+0            386   13
+1           1134   36
+2           1501  131
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.02, alphacBonf=0.017
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1  -37.473  0.0       0.0   True
+     0      2 -15.9174  0.0       0.0   True
+     1      2  19.9328  0.0       0.0   True
+--------------------------------------------
+              score                                                 
+              count   mean    std    min    25%    50%    75%    max
+subcluster                                                          
+0           399.000 54.451 22.484 17.000 33.500 51.000 75.500 90.000
+1          1170.000 84.961  9.605 10.000 84.000 90.000 90.000 90.000
+2          1632.000 72.512 19.752  3.000 60.000 81.000 90.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.02, alphacBonf=0.017
+==============================================
+group1 group2   stat    pval  pval_corr reject
+----------------------------------------------
+     0      1 -12.7179    0.0       0.0   True
+     0      2 -10.9204    0.0       0.0   True
+     1      2    1.882 0.0599    0.1798  False
+----------------------------------------------
+              score                                                      
+              count    mean     std   min    25%     50%     75%      max
+subcluster                                                               
+0           399.000  32.241  35.965 3.000 13.000  23.000  38.500  448.000
+1          1170.000 334.485 474.146 9.000 64.000 160.000 416.000 4465.000
+2          1632.000 299.684 488.778 9.000 55.750 128.000 318.250 4576.000
+
+Multiple comparison chi-square test for SEX:
+Comparison: (0, 1) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (0, 2) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (1, 2) -- p=0.000, corr_p=0.000, rej=True
+   female  male
+0     351    48
+1     792   378
+2    1249   381
+
+Processing time: 279.84 seconds
+Task completed
+

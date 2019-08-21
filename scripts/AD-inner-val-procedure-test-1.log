@@ -1,0 +1,323 @@
+
+Cohort AD numerosity: 3201
+
+3 -- Silhouette: 0.096
+DB: 2.438
+CH: 385.170
+Number of clusters found:3, Max Silhouette score:0.096
+Number of clusters found:3, Min DB score:2.438
+Number of clusters found:3, Max HC score:385.170
+
+Max number of clusters chosen: 3
+Cluster 0 numerosity: 399
+% term:procedure::Ra ct upper extremity left without contrast = 1.00 (1 terms in cluster (0.00), out of 1 terms in the disease dataset)
+
+               0  1
+subcluster         
+0            398  1
+1           1170  0
+2           1632  0
+
+
+% term:procedure::Hu ultrasound breast diagnostic bilateral = 1.00 (1 terms in cluster (0.00), out of 1 terms in the disease dataset)
+
+               0  1
+subcluster         
+0            398  1
+1           1170  0
+2           1632  0
+
+
+% term:procedure::Uc knee ap and lateral right = 1.00 (1 terms in cluster (0.00), out of 1 terms in the disease dataset)
+
+               0  1
+subcluster         
+0            398  1
+1           1170  0
+2           1632  0
+
+
+
+
+Cluster 1 numerosity: 1170
+% term:procedure::Pa/ap cxr = 0.83 (85 terms in cluster (0.07), out of 103 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.3745773373837e-08, corr_p=1.91237320121511e-07, rej=True
+Comparison: (0, 2) -- p=0.07041835040225547, corr_p=0.2112550512067664, rej=False
+Comparison: (1, 2) -- p=2.996266862126566e-17, corr_p=8.988800586379698e-17, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1085  85
+2           1614  18
+
+
+% term:procedure::Ct no contrast head = 0.71 (65 terms in cluster (0.06), out of 92 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.0144678712769961e-05, corr_p=3.043403613830988e-05, rej=True
+Comparison: (0, 2) -- p=0.06358610747928829, corr_p=0.1907583224378649, rej=False
+Comparison: (1, 2) -- p=1.0208313304736155e-08, corr_p=3.0624939914208465e-08, rej=True
+               0   1
+subcluster          
+0            398   1
+1           1105  65
+2           1606  26
+
+
+% term:procedure::Rm ct abdomen pelvis with contrast = 0.85 (51 terms in cluster (0.04), out of 60 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.573262923383381e-05, corr_p=0.00013719788770150143, rej=True
+Comparison: (0, 2) -- p=0.28631162569183627, corr_p=0.8589348770755088, rej=False
+Comparison: (1, 2) -- p=1.651630071063628e-11, corr_p=4.9548902131908843e-11, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1119  51
+2           1623   9
+
+
+% term:procedure::Ultrasound renalandbladdr = 0.80 (41 terms in cluster (0.04), out of 51 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.00030929750604568684, corr_p=0.0009278925181370605, rej=True
+Comparison: (0, 2) -- p=0.24259371086829776, corr_p=0.7277811326048933, rej=False
+Comparison: (1, 2) -- p=3.72786231941818e-08, corr_p=1.118358695825454e-07, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1129  41
+2           1622  10
+
+
+% term:procedure::Kub = 0.90 (36 terms in cluster (0.03), out of 40 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0008047742198465353, corr_p=0.0024143226595396057, rej=True
+Comparison: (0, 2) -- p=0.7188153377066941, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=1.2766448447516225e-09, corr_p=3.829934534254868e-09, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1134  36
+2           1628   4
+
+
+% term:procedure::Obstructive series = 0.90 (35 terms in cluster (0.03), out of 39 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0009746406120758598, corr_p=0.0029239218362275793, rej=True
+Comparison: (0, 2) -- p=0.7188153377066941, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=2.5836107240367872e-09, corr_p=7.750832172110362e-09, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1135  35
+2           1628   4
+
+
+% term:procedure::Mra head without contrast = 0.70 (35 terms in cluster (0.03), out of 50 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0030371776791169665, corr_p=0.0091115330373509, rej=True
+Comparison: (0, 2) -- p=0.3453126629229838, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=4.077987516961219e-05, corr_p=0.00012233962550883658, rej=True
+               0   1
+subcluster          
+0            398   1
+1           1135  35
+2           1618  14
+
+
+% term:procedure::Rm abdomen kub = 0.87 (33 terms in cluster (0.03), out of 38 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0014300781444089121, corr_p=0.004290234433226736, rej=True
+Comparison: (0, 2) -- p=0.5867781776052887, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=3.613988306278725e-08, corr_p=1.0841964918836174e-07, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1137  33
+2           1627   5
+
+
+% term:procedure::Rm doppler extremity vein complete = 0.63 (33 terms in cluster (0.03), out of 52 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0014300781444089121, corr_p=0.004290234433226736, rej=True
+Comparison: (0, 2) -- p=0.060742736198048444, corr_p=0.18222820859414535, rej=False
+Comparison: (1, 2) -- p=0.002199972945424612, corr_p=0.006599918836273836, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1137  33
+2           1613  19
+
+
+% term:procedure::Mr brain without contrast = 0.73 (32 terms in cluster (0.03), out of 44 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0017327004790293854, corr_p=0.005198101437088156, rej=True
+Comparison: (0, 2) -- p=0.17587541184857503, corr_p=0.5276262355457251, rej=False
+Comparison: (1, 2) -- p=5.235181829727376e-05, corr_p=0.00015705545489182128, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1138  32
+2           1620  12
+
+
+
+
+Cluster 2 numerosity: 1632
+% term:procedure::Rm screening mammography = 0.77 (44 terms in cluster (0.03), out of 57 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.6062486250043535, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.014136956113843416, corr_p=0.04241086834153025, rej=True
+Comparison: (1, 2) -- p=0.0015443600290749036, corr_p=0.0046330800872247105, rej=True
+               0   1
+subcluster          
+0            397   2
+1           1159  11
+2           1588  44
+
+
+% term:procedure::Ra mri brain without contrast = 0.72 (42 terms in cluster (0.03), out of 58 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.8035138076082926, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.1655151659845156, corr_p=0.4965454979535468, rej=False
+Comparison: (1, 2) -- p=0.002795354529901268, corr_p=0.008386063589703804, rej=True
+               0   1
+subcluster          
+0            394   5
+1           1159  11
+2           1590  42
+
+
+% term:procedure::Mammography bilateral = 0.70 (32 terms in cluster (0.02), out of 46 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.05921415750534905, corr_p=0.17764247251604715, rej=False
+Comparison: (0, 2) -- p=0.009455811984087945, corr_p=0.028367435952263834, rej=True
+Comparison: (1, 2) -- p=0.15584390400251155, corr_p=0.46753171200753463, rej=False
+               0   1
+subcluster          
+0            399   0
+1           1156  14
+2           1600  32
+
+
+% term:procedure::Ra mri spine lumbar without contrast = 0.83 (25 terms in cluster (0.02), out of 30 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.4274370039041404, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.02545817980866536, corr_p=0.07637453942599609, rej=False
+Comparison: (1, 2) -- p=0.008910831060747873, corr_p=0.02673249318224362, rej=True
+               0   1
+subcluster          
+0            399   0
+1           1165   5
+2           1607  25
+
+
+% term:procedure::Ra ultrasound pelvis transvaginal = 0.83 (20 terms in cluster (0.01), out of 24 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.5788644327184493, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.3255918220565096, corr_p=0.9767754661695288, rej=False
+Comparison: (1, 2) -- p=0.003707600024992337, corr_p=0.011122800074977011, rej=True
+               0   1
+subcluster          
+0            397   2
+1           1168   2
+2           1612  20
+
+
+% term:procedure::Rm hip ap and lateral left = 0.32 (12 terms in cluster (0.01), out of 38 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.020261254084390595, corr_p=0.06078376225317178, rej=False
+Comparison: (0, 2) -- p=0.4604782549409018, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.002388348354248106, corr_p=0.007165045062744318, rej=True
+               0   1
+subcluster          
+0            398   1
+1           1145  25
+2           1620  12
+
+
+% term:procedure::Rm ultrasound pelvis transvaginal = 1.00 (10 terms in cluster (0.01), out of 10 terms in the disease dataset)
+
+               0   1
+subcluster          
+0            399   0
+1           1170   0
+2           1622  10
+
+
+% term:procedure::Ra ultrasound abdomen limited = 1.00 (8 terms in cluster (0.00), out of 8 terms in the disease dataset)
+
+               0  1
+subcluster         
+0            399  0
+1           1170  0
+2           1624  8
+
+
+% term:procedure::Du mammography diagnostic left = 1.00 (7 terms in cluster (0.00), out of 7 terms in the disease dataset)
+
+               0  1
+subcluster         
+0            399  0
+1           1170  0
+2           1625  7
+
+
+% term:procedure::Ra mra head without contrast = 1.00 (7 terms in cluster (0.00), out of 7 terms in the disease dataset)
+
+               0  1
+subcluster         
+0            399  0
+1           1170  0
+2           1625  7
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.02, alphacBonf=0.017
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1  -37.473  0.0       0.0   True
+     0      2 -15.9174  0.0       0.0   True
+     1      2  19.9328  0.0       0.0   True
+--------------------------------------------
+              score                                                 
+              count   mean    std    min    25%    50%    75%    max
+subcluster                                                          
+0           399.000 54.451 22.484 17.000 33.500 51.000 75.500 90.000
+1          1170.000 84.961  9.605 10.000 84.000 90.000 90.000 90.000
+2          1632.000 72.512 19.752  3.000 60.000 81.000 90.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.02, alphacBonf=0.017
+==============================================
+group1 group2   stat    pval  pval_corr reject
+----------------------------------------------
+     0      1 -12.7179    0.0       0.0   True
+     0      2 -10.9204    0.0       0.0   True
+     1      2    1.882 0.0599    0.1798  False
+----------------------------------------------
+              score                                                      
+              count    mean     std   min    25%     50%     75%      max
+subcluster                                                               
+0           399.000  32.241  35.965 3.000 13.000  23.000  38.500  448.000
+1          1170.000 334.485 474.146 9.000 64.000 160.000 416.000 4465.000
+2          1632.000 299.684 488.778 9.000 55.750 128.000 318.250 4576.000
+
+Multiple comparison chi-square test for SEX:
+Comparison: (0, 1) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (0, 2) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (1, 2) -- p=0.000, corr_p=0.000, rej=True
+   female  male
+0     351    48
+1     792   378
+2    1249   381
+
+Processing time: 292.22 seconds
+Task completed
+

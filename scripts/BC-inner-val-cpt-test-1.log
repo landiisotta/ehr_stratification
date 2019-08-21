@@ -1,0 +1,236 @@
+
+Cohort BC numerosity: 8051
+
+2 -- Silhouette: 0.290
+DB: 2.003
+CH: 1176.663
+Number of clusters found:2, Max Silhouette score:0.290
+Number of clusters found:2, Min DB score:2.003
+Number of clusters found:2, Max HC score:1176.663
+
+Max number of clusters chosen: 2
+Cluster 0 numerosity: 6871
+% term:cpt::Calcium::1011309::C0201925 = 1.00 (3661 terms in cluster (0.53), out of 3676 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.624436470906033e-240, corr_p=2.624436470906033e-240, rej=True
+               0     1
+subcluster            
+0           3210  3661
+1           1165    15
+
+
+% term:cpt::Blood count; complete (cbc), automated (hgb, hct, rbc, wbc and platelet count) and automated differential wbc count::85025::C3516392|C1144713|C3525784|C3495375|C3525785|C1144711|C3525786|C3516393|C0373762 = 0.99 (3449 terms in cluster (0.50), out of 3493 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.0076111344425445e-194, corr_p=4.0076111344425445e-194, rej=True
+               0     1
+subcluster            
+0           3422  3449
+1           1136    44
+
+
+% term:cpt::Urea nitrogen::1011731::C3683557 = 1.00 (3199 terms in cluster (0.47), out of 3211 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.8454814873876714e-191, corr_p=4.8454814873876714e-191, rej=True
+               0     1
+subcluster            
+0           3672  3199
+1           1168    12
+
+
+% term:cpt::Surgery::1003143::C0543467 = 0.93 (3001 terms in cluster (0.44), out of 3223 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.073538610622094e-58, corr_p=4.073538610622094e-58, rej=True
+               0     1
+subcluster            
+0           3870  3001
+1            958   222
+
+
+% term:cpt::Potassium::1011637::C0202194 = 1.00 (2939 terms in cluster (0.43), out of 2953 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.0231020740361962e-164, corr_p=1.0231020740361962e-164, rej=True
+               0     1
+subcluster            
+0           3932  2939
+1           1166    14
+
+
+% term:cpt::Electrocardiogram, routine ecg with at least 12 leads; with interpretation and report::93000::C0199567|C3516974|C3526715 = 0.98 (2933 terms in cluster (0.43), out of 2986 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.3519645018571025e-138, corr_p=1.3519645018571025e-138, rej=True
+               0     1
+subcluster            
+0           3938  2933
+1           1127    53
+
+
+% term:cpt::Sodium::1011684::C0337443 = 1.00 (2922 terms in cluster (0.43), out of 2934 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.4992050547912958e-164, corr_p=1.4992050547912958e-164, rej=True
+               0     1
+subcluster            
+0           3949  2922
+1           1168    12
+
+
+% term:cpt::Chloride::1011335::C0201952 = 1.00 (2912 terms in cluster (0.42), out of 2924 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.1987012663654433e-163, corr_p=1.1987012663654433e-163, rej=True
+               0     1
+subcluster            
+0           3959  2912
+1           1168    12
+
+
+% term:cpt::Creatinine::1011373::C0201975 = 1.00 (2855 terms in cluster (0.42), out of 2866 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.005940192115707e-159, corr_p=3.005940192115707e-159, rej=True
+               0     1
+subcluster            
+0           4016  2855
+1           1169    11
+
+
+% term:cpt::Glucose::1011445::C0337438 = 1.00 (2851 terms in cluster (0.41), out of 2863 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.241867749141008e-158, corr_p=3.241867749141008e-158, rej=True
+               0     1
+subcluster            
+0           4020  2851
+1           1168    12
+
+
+
+
+Cluster 1 numerosity: 1180
+% term:cpt::Mammography::1014840::C0024671 = 0.18 (397 terms in cluster (0.34), out of 2193 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.0694671280708722e-07, corr_p=1.0694671280708722e-07, rej=True
+               0     1
+subcluster            
+0           5075  1796
+1            783   397
+
+
+% term:cpt::Mammography; bilateral::77056::C0203027 = 0.23 (300 terms in cluster (0.25), out of 1318 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.3618383246369436e-19, corr_p=1.3618383246369436e-19, rej=True
+               0     1
+subcluster            
+0           5853  1018
+1            880   300
+
+
+% term:cpt::Ultrasound, breast(s) (unilateral or bilateral), real time with image documentation = 0.20 (293 terms in cluster (0.25), out of 1454 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.842231540988068e-11, corr_p=7.842231540988068e-11, rej=True
+               0     1
+subcluster            
+0           5710  1161
+1            887   293
+
+
+% term:cpt::Surgery::1003143::C0543467 = 0.07 (222 terms in cluster (0.19), out of 3223 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.073538610622094e-58, corr_p=4.073538610622094e-58, rej=True
+               0     1
+subcluster            
+0           3870  3001
+1            958   222
+
+
+% term:cpt::Mastectomy, partial (eg, lumpectomy, tylectomy, quadrantectomy, segmentectomy)::19301::C0024885|C0405346|C0337354|C0851238 = 0.08 (206 terms in cluster (0.17), out of 2560 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.478901752018366e-30, corr_p=3.478901752018366e-30, rej=True
+               0     1
+subcluster            
+0           4517  2354
+1            974   206
+
+
+% term:cpt::Lidocaine::80176::C0202404 = 0.08 (162 terms in cluster (0.14), out of 2013 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.173367329388843e-22, corr_p=5.173367329388843e-22, rej=True
+               0     1
+subcluster            
+0           5020  1851
+1           1018   162
+
+
+% term:cpt::Mammography; unilateral::77055::C0203026 = 0.18 (150 terms in cluster (0.13), out of 817 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0019012034339784324, corr_p=0.0019012034339784324, rej=True
+               0    1
+subcluster           
+0           6204  667
+1           1030  150
+
+
+% term:cpt::Unlisted chemotherapy procedure::96549::C3665472|C0374478 = 0.05 (89 terms in cluster (0.08), out of 1639 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.123857810859018e-32, corr_p=4.123857810859018e-32, rej=True
+               0     1
+subcluster            
+0           5321  1550
+1           1091    89
+
+
+% term:cpt::Excision::1004869::C0728940 = 0.10 (60 terms in cluster (0.05), out of 622 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.00029573207737961524, corr_p=0.00029573207737961524, rej=True
+               0    1
+subcluster           
+0           6309  562
+1           1120   60
+
+
+% term:cpt::Electrocardiogram, routine ecg with at least 12 leads; with interpretation and report::93000::C0199567|C3516974|C3526715 = 0.02 (53 terms in cluster (0.04), out of 2986 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.3519645018571025e-138, corr_p=1.3519645018571025e-138, rej=True
+               0     1
+subcluster            
+0           3938  2933
+1           1127    53
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+==========================================
+group1 group2  stat  pval pval_corr reject
+------------------------------------------
+     0      1 10.412  0.0       0.0   True
+------------------------------------------
+              score                                                
+              count   mean    std   min    25%    50%    75%    max
+subcluster                                                         
+0          6871.000 66.394 14.220 9.000 56.000 67.000 77.000 90.000
+1          1180.000 61.744 13.886 5.000 52.000 61.000 71.250 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 19.8464  0.0       0.0   True
+-------------------------------------------
+              score                                                      
+              count    mean     std   min    25%     50%     75%      max
+subcluster                                                               
+0          6871.000 293.692 468.232 6.000 52.000 128.000 320.000 4849.000
+1          1180.000  23.096  23.932 3.000  8.000  14.000  32.000  224.000
+
+Multiple comparison chi-square test for SEX:
+Comparison: (0, 1) -- p=0.550, corr_p=0.550, rej=False
+   female  male
+0    6796    75
+1    1168    10
+
+Processing time: 739.84 seconds
+Task completed
+

@@ -1,0 +1,27 @@
+
+icd9::Personal history of malignant neoplasm of prostate::V10.46::C0260429
+icd9::Neoplasm of uncertain behavior of prostate::236.5::C0496923
+icd9::Malignant neoplasm of prostate::185::C0376358
+icd9::Carcinoma in situ of prostate::233.4::C0154088
+training
+PC 13894 28909
+test
+PC 13966 28909
+icd9::Malignant neoplasm of lower-outer quadrant of female breast::174.5::C0153553
+icd9::Malignant neoplasm of nipple and areola of female breast::174.0::C0024621
+icd9::Malignant neoplasm of central portion of female breast::174.1::C0153549
+icd9::Malignant neoplasm of axillary tail of female breast::174.6::C0153554
+icd9::Malignant neoplasm of other specified sites of female breast::174.8::C0153555
+icd9::Personal history of malignant neoplasm of breast::V10.3::C0260421
+icd9::Malignant neoplasm of upper-inner quadrant of female breast::174.2::C0153550
+icd9::Malignant neoplasm of upper-outer quadrant of female breast::174.4::C0153552
+icd9::Malignant neoplasm of lower-inner quadrant of female breast::174.3::C0153551
+icd9::Malignant neoplasm of breast (female), unspecified::174.9::C0235653
+training
+BC 8072 16486
+test
+BC 7908 16486
+
+Processing time: 2391.33 seconds
+Task completed
+

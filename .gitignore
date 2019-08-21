@@ -1,0 +1,7 @@
+*.png
+*.pt
+*.txt
+*.csv
+.ipynb_checkpoints
+bin/__pycache__/
+data/

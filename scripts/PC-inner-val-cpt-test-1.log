@@ -1,0 +1,639 @@
+
+Cohort PC numerosity: 13860
+
+4 -- Silhouette: 0.065
+DB: 2.573
+CH: 1372.337
+Number of clusters found:4, Max Silhouette score:0.065
+Number of clusters found:4, Min DB score:2.573
+Number of clusters found:4, Max HC score:1372.337
+
+Max number of clusters chosen: 4
+Cluster 0 numerosity: 3293
+% term:cpt::Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, ph, protein, specific gravity, urobilinogen, any number of these constituents; non-automated, without microscopy::81002::C3525582|C3525583|C0373519|C3516204 = 0.20 (411 terms in cluster (0.12), out of 2105 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.073976013571974e-05, corr_p=0.00018443856081431844, rej=True
+Comparison: (0, 2) -- p=4.352619381637215e-05, corr_p=0.0002611571628982329, rej=True
+Comparison: (0, 3) -- p=2.478680217068229e-05, corr_p=0.00014872081302409374, rej=True
+Comparison: (1, 2) -- p=0.5209071447626028, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.4632885089393871, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.9634569042239011, corr_p=1.0, rej=False
+               0    1
+subcluster           
+0           2882  411
+1           1681  335
+2           3162  599
+3           4030  760
+
+
+% term:cpt::Laparoscopy, surgical::1007480::C1609019 = 0.94 (221 terms in cluster (0.07), out of 235 terms in the disease dataset)
+
+               0    1
+subcluster           
+0           3072  221
+1           2016    0
+2           3761    0
+3           4776   14
+
+
+% term:cpt::Laparoscopy, surgical::1008579::C0812583 = 0.93 (214 terms in cluster (0.06), out of 230 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.088139565340257e-30, corr_p=3.052883739204154e-29, rej=True
+Comparison: (0, 2) -- p=1.3677212199784376e-55, corr_p=8.206327319870626e-55, rej=True
+Comparison: (0, 3) -- p=9.380937780939466e-62, corr_p=5.6285626685636795e-61, rej=True
+Comparison: (1, 2) -- p=0.5830318374670513, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.2713062404597197, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.012076733365821544, corr_p=0.07246040019492926, rej=False
+               0    1
+subcluster           
+0           3079  214
+1           2014    2
+2           3760    1
+3           4777   13
+
+
+% term:cpt::Laparoscopy, surgical::1008142::C0812580 = 0.94 (213 terms in cluster (0.06), out of 226 terms in the disease dataset)
+
+               0    1
+subcluster           
+0           3080  213
+1           2016    0
+2           3761    0
+3           4777   13
+
+
+% term:cpt::Laparoscopy, surgical::1014149::C1610124 = 0.93 (211 terms in cluster (0.06), out of 226 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.7134948761023946e-30, corr_p=2.2280969256614366e-29, rej=True
+Comparison: (0, 2) -- p=8.504181927249298e-55, corr_p=5.102509156349579e-54, rej=True
+Comparison: (0, 3) -- p=9.189306698091794e-61, corr_p=5.513584018855076e-60, rej=True
+Comparison: (1, 2) -- p=0.7689894884708507, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.12090804816418026, corr_p=0.7254482889850815, rej=False
+Comparison: (2, 3) -- p=0.012076733365821544, corr_p=0.07246040019492926, rej=False
+               0    1
+subcluster           
+0           3082  211
+1           2015    1
+2           3760    1
+3           4777   13
+
+
+% term:cpt::Natriuretic peptide::83880::C2349989 = 0.81 (154 terms in cluster (0.05), out of 191 terms in the disease dataset)
+
+               0    1
+subcluster           
+0           3139  154
+1           2016    0
+2           3761    0
+3           4753   37
+
+
+% term:cpt::Prealbumin::84134::C0337441 = 0.86 (140 terms in cluster (0.04), out of 163 terms in the disease dataset)
+
+               0    1
+subcluster           
+0           3153  140
+1           2016    0
+2           3761    0
+3           4767   23
+
+
+% term:cpt::Urea nitrogen, urine::84540::C0373737|C3516383 = 0.91 (103 terms in cluster (0.03), out of 113 terms in the disease dataset)
+
+               0    1
+subcluster           
+0           3190  103
+1           2016    0
+2           3761    0
+3           4780   10
+
+
+% term:cpt::Haptoglobin; quantitative::83010::C0373631|C2732694 = 0.75 (77 terms in cluster (0.02), out of 103 terms in the disease dataset)
+
+               0   1
+subcluster          
+0           3216  77
+1           2016   0
+2           3761   0
+3           4764  26
+
+
+% term:cpt::Glucose, body fluid, other than blood::82945::C0918175|C0428549 = 0.89 (76 terms in cluster (0.02), out of 85 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.330841673217623e-11, corr_p=3.1985050039305735e-10, rej=True
+Comparison: (0, 2) -- p=2.209017134740449e-20, corr_p=1.3254102808442694e-19, rej=True
+Comparison: (0, 3) -- p=3.133273815114219e-20, corr_p=1.8799642890685314e-19, rej=True
+Comparison: (1, 2) -- p=0.7513284199986509, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.3943660902583993, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.031465062732969895, corr_p=0.18879037639781937, rej=False
+               0   1
+subcluster          
+0           3217  76
+1           2015   1
+2           3761   0
+3           4782   8
+
+
+
+
+Cluster 1 numerosity: 2016
+% term:cpt::Chemotherapy administration, subcutaneous or intramuscular; hormonal anti-neoplastic::96402::C1609003|C3704105|C3527059|C3527058 = 0.42 (20 terms in cluster (0.01), out of 48 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0011278350542952497, corr_p=0.006767010325771499, rej=True
+Comparison: (0, 2) -- p=0.09328357433973045, corr_p=0.5597014460383827, rej=False
+Comparison: (0, 3) -- p=0.7800622735098719, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=4.921756720002803e-07, corr_p=2.953054032001682e-06, rej=True
+Comparison: (1, 3) -- p=0.00122012187769878, corr_p=0.0073207312661926795, rej=True
+Comparison: (2, 3) -- p=0.024623202778834247, corr_p=0.1477392166730055, rej=False
+               0   1
+subcluster          
+0           3284   9
+1           1996  20
+2           3758   3
+3           4774  16
+
+
+% term:cpt::Exposure of prostate, any approach, for insertion of radioactive substance::55860::C0194836|C3514842 = 0.56 (19 terms in cluster (0.01), out of 34 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0004746152943456537, corr_p=0.0028476917660739225, rej=True
+Comparison: (0, 2) -- p=0.12435853885189282, corr_p=0.7461512331113569, rej=False
+Comparison: (0, 3) -- p=0.49646433919257194, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=2.992341263830687e-07, corr_p=1.7954047582984121e-06, rej=True
+Comparison: (1, 3) -- p=1.1225019362378827e-06, corr_p=6.735011617427297e-06, rej=True
+Comparison: (2, 3) -- p=0.4678948280148112, corr_p=1.0, rej=False
+               0   1
+subcluster          
+0           3286   7
+1           1997  19
+2           3759   2
+3           4784   6
+
+
+% term:cpt::Exposure of prostate, any approach, for insertion of radioactive substance::1014185::C0194836 = 0.56 (19 terms in cluster (0.01), out of 34 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0004746152943456537, corr_p=0.0028476917660739225, rej=True
+Comparison: (0, 2) -- p=0.12435853885189282, corr_p=0.7461512331113569, rej=False
+Comparison: (0, 3) -- p=0.49646433919257194, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=2.992341263830687e-07, corr_p=1.7954047582984121e-06, rej=True
+Comparison: (1, 3) -- p=1.1225019362378827e-06, corr_p=6.735011617427297e-06, rej=True
+Comparison: (2, 3) -- p=0.4678948280148112, corr_p=1.0, rej=False
+               0   1
+subcluster          
+0           3286   7
+1           1997  19
+2           3759   2
+3           4784   6
+
+
+% term:cpt::Radiopharmaceutical localization of tumor or distribution of radiopharmaceutical agent(s); whole body, single day imaging::78802::C3865773|C0203654|C3865775|C3703912|C3865772 = 0.45 (9 terms in cluster (0.00), out of 20 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.13520291852649577, corr_p=0.8112175111589746, rej=False
+Comparison: (0, 2) -- p=0.027135729039456203, corr_p=0.16281437423673722, rej=False
+Comparison: (0, 3) -- p=0.5316496351281935, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.0001762443586911374, corr_p=0.0010574661521468244, rej=True
+Comparison: (1, 3) -- p=0.010750973654280294, corr_p=0.06450584192568176, rej=False
+Comparison: (2, 3) -- p=0.1256839684294756, corr_p=0.7541038105768536, rej=False
+               0  1
+subcluster         
+0           3287  6
+1           2007  9
+2           3761  0
+3           4785  5
+
+
+% term:cpt::Injection of corpora cavernosa with pharmacologic agent(s) (eg, papaverine, phentolamine)::54235::C3867663|C0194728|C3514759|C3867662|C3523071 = 0.80 (8 terms in cluster (0.00), out of 10 terms in the disease dataset)
+
+               0  1
+subcluster         
+0           3293  0
+1           2008  8
+2           3761  0
+3           4788  2
+
+
+% term:cpt::Thyroidectomy, removal of all remaining thyroid tissue following previous removal of a portion of thyroid::60260::C3515089|C0193808|C0040145 = 0.04 (6 terms in cluster (0.00), out of 150 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.013480719960568262, corr_p=0.08088431976340957, rej=False
+Comparison: (0, 2) -- p=0.10139352114894942, corr_p=0.6083611268936966, rej=False
+Comparison: (0, 3) -- p=0.11682774850640497, corr_p=0.7009664910384298, rej=False
+Comparison: (1, 2) -- p=0.00018419628615051677, corr_p=0.0011051777169031006, rej=True
+Comparison: (1, 3) -- p=0.00022087017231264377, corr_p=0.0013252210338758627, rej=True
+Comparison: (2, 3) -- p=0.9456003289513528, corr_p=1.0, rej=False
+               0   1
+subcluster          
+0           3263  30
+1           2010   6
+2           3710  51
+3           4727  63
+
+
+% term:cpt::Radiologic examination, ankle; 2 views::73600::C3866428|C2061515|C3866425|C0203281|C3866429|C3515849|C3866426|C3866427 = 0.05 (4 terms in cluster (0.00), out of 75 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.1175102942762756, corr_p=0.7050617656576537, rej=False
+Comparison: (0, 2) -- p=0.7018212561039642, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.17663327843910243, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.24394910201646175, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.007104214367382706, corr_p=0.04262528620429624, rej=True
+Comparison: (2, 3) -- p=0.046130287508379955, corr_p=0.27678172505027976, rej=False
+               0   1
+subcluster          
+0           3276  17
+1           2012   4
+2           3745  16
+3           4752  38
+
+
+% term:cpt::Laparoscopy, surgical; cholecystectomy::47562::C0162522|C3514351 = 0.04 (4 terms in cluster (0.00), out of 99 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0028661351868342674, corr_p=0.017196811121005604, rej=True
+Comparison: (0, 2) -- p=0.6080332523275278, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.5112024057158876, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.01017860628267057, corr_p=0.061071637696023424, rej=False
+Comparison: (1, 3) -- p=0.010703573238861433, corr_p=0.0642214394331686, rej=False
+Comparison: (2, 3) -- p=0.982178071818729, corr_p=1.0, rej=False
+               0   1
+subcluster          
+0           3263  30
+1           2012   4
+2           3732  29
+3           4754  36
+
+
+% term:cpt::Remote afterloading high intensity brachytherapy; over 12 source positions or catheters = 1.00 (2 terms in cluster (0.00), out of 2 terms in the disease dataset)
+
+               0  1
+subcluster         
+0           3293  0
+1           2014  2
+2           3761  0
+3           4790  0
+
+
+% term:cpt::Subcutaneous hormone pellet implantation (implantation of estradiol and/or testosterone pellets beneath the skin)::11980::C3517916|C0812471|C3517914|C3517913|C3517915 = 1.00 (2 terms in cluster (0.00), out of 2 terms in the disease dataset)
+
+               0  1
+subcluster         
+0           3293  0
+1           2014  2
+2           3761  0
+3           4790  0
+
+
+
+
+Cluster 2 numerosity: 3761
+% term:cpt::Unlisted ultrasound procedure (eg, diagnostic, interventional)::76999::C3866089|C0041618 = 0.20 (353 terms in cluster (0.09), out of 1758 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.5266524743897574, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=1.7985864021170664e-10, corr_p=1.07915184127024e-09, rej=True
+Comparison: (0, 3) -- p=0.5080208081034554, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=9.199202248439751e-07, corr_p=5.519521349063851e-06, rej=True
+Comparison: (1, 3) -- p=0.9287213112316239, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=6.461654740553512e-10, corr_p=3.876992844332107e-09, rej=True
+               0    1
+subcluster           
+0           2822  471
+1           1741  275
+2           3408  353
+3           4131  659
+
+
+% term:cpt::Vasectomy, unilateral or bilateral (separate procedure), including postoperative semen examination(s)::55250::C0589113|C0843825|C0372498|C0042387|C3867561|C3867562|C3514817|C3867560 = 0.41 (102 terms in cluster (0.03), out of 250 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.24043808976083186, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.0003698762178191793, corr_p=0.002219257306915076, rej=True
+Comparison: (0, 3) -- p=0.5553889155017894, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=4.194450307901376e-05, corr_p=0.0002516670184740826, rej=True
+Comparison: (1, 3) -- p=0.07315908053524992, corr_p=0.4389544832114995, rej=False
+Comparison: (2, 3) -- p=0.0009220590530350866, corr_p=0.005532354318210519, rej=True
+               0    1
+subcluster           
+0           3245   48
+1           1995   21
+2           3659  102
+3           4711   79
+
+
+% term:cpt::Vaginal delivery only (with or without episiotomy and/or forceps)::59409::C1541822|C3523467|C3523468|C0372639 = 0.92 (82 terms in cluster (0.02), out of 89 terms in the disease dataset)
+
+               0   1
+subcluster          
+0           3293   0
+1           2016   0
+2           3679  82
+3           4783   7
+
+
+% term:cpt::Amniocentesis::1008945::C0002627 = 0.94 (79 terms in cluster (0.02), out of 84 terms in the disease dataset)
+
+               0   1
+subcluster          
+0           3293   0
+1           2016   0
+2           3682  79
+3           4785   5
+
+
+% term:cpt::Vaginal delivery only (with or without episiotomy and/or forceps)::1014217::C0372639 = 0.97 (75 terms in cluster (0.02), out of 77 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.804262939246974, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=3.999910125949495e-15, corr_p=2.399946075569697e-14, rej=True
+Comparison: (0, 3) -- p=0.6504891234968088, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=3.8460369296855775e-10, corr_p=2.3076221578113463e-09, rej=True
+Comparison: (1, 3) -- p=0.6553297400051256, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=1.510672522982768e-21, corr_p=9.064035137896608e-21, rej=True
+               0   1
+subcluster          
+0           3292   1
+1           2016   0
+2           3686  75
+3           4789   1
+
+
+% term:cpt::Amniocentesis; diagnostic::59000::C3515035|C0002627 = 0.94 (73 terms in cluster (0.02), out of 78 terms in the disease dataset)
+
+               0   1
+subcluster          
+0           3293   0
+1           2016   0
+2           3688  73
+3           4785   5
+
+
+% term:cpt::Medical genetics and genetic counseling services, each 30 minutes face-to-face with patient/family::96040::C1740774|C1740484 = 0.80 (60 terms in cluster (0.02), out of 75 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.1398639096207867, corr_p=0.8391834577247202, rej=False
+Comparison: (0, 2) -- p=3.5671406325567744e-12, corr_p=2.1402843795340645e-11, rej=True
+Comparison: (0, 3) -- p=0.067139933442214, corr_p=0.402839600653284, rej=False
+Comparison: (1, 2) -- p=2.562258439411827e-06, corr_p=1.5373550636470963e-05, rej=True
+Comparison: (1, 3) -- p=0.836101582732526, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=3.861929510929295e-12, corr_p=2.3171577065575772e-11, rej=True
+               0   1
+subcluster          
+0           3292   1
+1           2012   4
+2           3701  60
+3           4780  10
+
+
+% term:cpt::Fetal non-stress test::59025::C0372629 = 0.96 (51 terms in cluster (0.01), out of 53 terms in the disease dataset)
+
+               0   1
+subcluster          
+0           3293   0
+1           2016   0
+2           3710  51
+3           4788   2
+
+
+% term:cpt::Cesarean delivery only::1014218::C0372645 = 0.86 (51 terms in cluster (0.01), out of 59 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.804262939246974, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=2.0969688326915857e-10, corr_p=1.2581812996149514e-09, rej=True
+Comparison: (0, 3) -- p=0.20534921740739417, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=3.3217962105467656e-07, corr_p=1.9930777263280596e-06, rej=True
+Comparison: (1, 3) -- p=0.19250724962449092, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=3.284693318145727e-11, corr_p=1.970815990887436e-10, rej=True
+               0   1
+subcluster          
+0           3292   1
+1           2016   0
+2           3710  51
+3           4783   7
+
+
+% term:cpt::Ultrasound, pregnant uterus, real time with image documentation, transvaginal::76817::C3516003|C3866125|C1144708|C3525404 = 0.89 (49 terms in cluster (0.01), out of 55 terms in the disease dataset)
+
+               0   1
+subcluster          
+0           3293   0
+1           2016   0
+2           3712  49
+3           4784   6
+
+
+
+
+Cluster 3 numerosity: 4790
+% term:cpt::Bronchodilation responsiveness, spirometry as in 94010, pre- and post-bronchodilator administration::94060::C0199477|C3526915|C3517134 = 0.80 (225 terms in cluster (0.05), out of 282 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.015492762784259767, corr_p=0.0929565767055586, rej=False
+Comparison: (0, 2) -- p=0.020289769160473294, corr_p=0.12173861496283976, rej=False
+Comparison: (0, 3) -- p=1.2143095822887868e-20, corr_p=7.28585749373272e-20, rej=True
+Comparison: (1, 2) -- p=0.6066851406836273, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=3.3359171692920315e-19, corr_p=2.001550301575219e-18, rej=True
+Comparison: (2, 3) -- p=4.747323676180287e-31, corr_p=2.8483942057081722e-30, rej=True
+               0    1
+subcluster           
+0           3261   32
+1           2009    7
+2           3743   18
+3           4565  225
+
+
+% term:cpt::Comprehensive audiometry threshold evaluation and speech recognition (92553 and 92556 combined)::92557::C0374261|C3516904 = 0.71 (157 terms in cluster (0.03), out of 220 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.8986664428662698, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.35138804265627543, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=1.4295432584688618e-15, corr_p=8.57725955081317e-15, rej=True
+Comparison: (1, 2) -- p=0.42100270869024414, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=1.475649421142103e-10, corr_p=8.853896526852618e-10, rej=True
+Comparison: (2, 3) -- p=2.8421821064004975e-14, corr_p=1.7053092638402984e-13, rej=True
+               0    1
+subcluster           
+0           3273   20
+1           2004   12
+2           3730   31
+3           4633  157
+
+
+% term:cpt::Echocardiography, transthoracic, real-time with image documentation (2d), includes m-mode recording, when performed, during rest and cardiovascular stress test using treadmill, bicycle exercise and/or pharmacologically induced stress, with interpretation and report::93350::C3526787|C3526788|C0520402|C3517031|C3526785|C3526786 = 0.73 (136 terms in cluster (0.03), out of 187 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.05038828609482343, corr_p=0.3023297165689406, rej=False
+Comparison: (0, 2) -- p=0.29510549578008793, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=8.275430337580089e-11, corr_p=4.965258202548054e-10, rej=True
+Comparison: (1, 2) -- p=0.2886232499225878, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=3.965778639544619e-11, corr_p=2.379467183726771e-10, rej=True
+Comparison: (2, 3) -- p=4.781325153536793e-15, corr_p=2.868795092122076e-14, rej=True
+               0    1
+subcluster           
+0           3268   25
+1           2010    6
+2           3741   20
+3           4654  136
+
+
+% term:cpt::Echocardiography, transthoracic, real-time with image documentation (2d), includes m-mode recording, when performed, during rest and cardiovascular stress test using treadmill, bicycle exercise and/or pharmacologically induced stress, with interpretation and report::1019329::C0520402 = 0.72 (134 terms in cluster (0.03), out of 187 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.08924286906014205, corr_p=0.5354572143608523, rej=False
+Comparison: (0, 2) -- p=0.36961096262389614, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=1.527695774188648e-10, corr_p=9.166174645131889e-10, rej=True
+Comparison: (1, 2) -- p=0.3667005557045502, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=1.6957160921680557e-10, corr_p=1.0174296553008335e-09, rej=True
+Comparison: (2, 3) -- p=2.4946954569996947e-14, corr_p=1.4968172741998167e-13, rej=True
+               0    1
+subcluster           
+0           3268   25
+1           2009    7
+2           3740   21
+3           4656  134
+
+
+% term:cpt::Determination of refractive state::92015::C3516845|C0374196 = 0.78 (113 terms in cluster (0.02), out of 144 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.7471420686190526, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.09394840061975752, corr_p=0.5636904037185452, rej=False
+Comparison: (0, 3) -- p=9.402374149271064e-15, corr_p=5.6414244895626384e-14, rej=True
+Comparison: (1, 2) -- p=0.42095406954881254, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=5.775341103697118e-09, corr_p=3.4652046622182704e-08, rej=True
+Comparison: (2, 3) -- p=3.951833169549851e-12, corr_p=2.3710999017299102e-11, rej=True
+               0    1
+subcluster           
+0           3286    7
+1           2010    6
+2           3743   18
+3           4677  113
+
+
+% term:cpt::Destruction (eg, laser surgery, electrosurgery, cryosurgery, chemosurgery, surgical curettement), premalignant lesions (eg, actinic keratoses); second through 14 lesions, each (list separately in addition to code for first lesion)::17003::C3705140|C2183020|C3705135|C4052350|C3705134|C3705141|C3705137|C3705139|C3705142|C3702676|C3705143|C3705138|C3705136|C0520114 = 0.92 (101 terms in cluster (0.02), out of 110 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.6676745253538323, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.18026471046058373, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=4.546117052762743e-16, corr_p=2.7276702316576456e-15, rej=True
+Comparison: (1, 2) -- p=0.8285475674944753, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=1.123136546082076e-09, corr_p=6.738819276492456e-09, rej=True
+Comparison: (2, 3) -- p=1.867331047919806e-15, corr_p=1.1203986287518836e-14, rej=True
+               0    1
+subcluster           
+0           3292    1
+1           2014    2
+2           3755    6
+3           4689  101
+
+
+% term:cpt::Health and behavior assessment (eg, health-focused clinical interview, behavioral observations, psychophysiological monitoring, health-oriented questionnaires), each 15 minutes face-to-face with the patient; initial assessment::96150::C2029789|C0549072|C0973360 = 0.92 (97 terms in cluster (0.02), out of 105 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.7361768524251229, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.10168062246668567, corr_p=0.610083734800114, rej=False
+Comparison: (0, 3) -- p=8.125861359840558e-14, corr_p=4.875516815904334e-13, rej=True
+Comparison: (1, 2) -- p=0.027245252279819162, corr_p=0.16347151367891496, rej=False
+Comparison: (1, 3) -- p=2.3950499866094593e-08, corr_p=1.4370299919656757e-07, rej=True
+Comparison: (2, 3) -- p=4.166234677340184e-18, corr_p=2.4997408064041104e-17, rej=True
+               0   1
+subcluster          
+0           3289   4
+1           2012   4
+2           3761   0
+3           4693  97
+
+
+% term:cpt::Arthrocentesis, aspiration and/or injection; major joint or bursa (eg, shoulder, hip, knee joint, subacromial bursa) = 0.85 (97 terms in cluster (0.02), out of 114 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.6467479454259578, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.9529295481300591, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=2.634837493681464e-13, corr_p=1.5809024962088783e-12, rej=True
+Comparison: (1, 2) -- p=0.8497995270808149, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=6.666162619391628e-08, corr_p=3.9996975716349765e-07, rej=True
+Comparison: (2, 3) -- p=2.9331872257233055e-14, corr_p=1.7599123354339833e-13, rej=True
+               0   1
+subcluster          
+0           3288   5
+1           2011   5
+2           3754   7
+3           4693  97
+
+
+% term:cpt::Pneumococcal conjugate vaccine, 13 valent (pcv13), for intramuscular use::90670::C3152625|C2724349|C3516737 = 0.89 (87 terms in cluster (0.02), out of 98 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.06428283363709054, corr_p=0.3856970018225433, rej=False
+Comparison: (0, 2) -- p=0.15261583011681665, corr_p=0.9156949807008998, rej=False
+Comparison: (0, 3) -- p=2.2389768251109806e-10, corr_p=1.3433860950665884e-09, rej=True
+Comparison: (1, 2) -- p=0.5075651066542577, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=2.3432544128377615e-09, corr_p=1.4059526477026568e-08, rej=True
+Comparison: (2, 3) -- p=1.3219476678531134e-14, corr_p=7.93168600711868e-14, rej=True
+               0   1
+subcluster          
+0           3285   8
+1           2016   0
+2           3758   3
+3           4703  87
+
+
+% term:cpt::Nasal endoscopy, diagnostic, unilateral or bilateral (separate procedure)::31231::C3520129|C3513228|C3520130|C0371395 = 0.81 (82 terms in cluster (0.02), out of 101 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.6737060193620747, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.9876868795131806, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=1.2295919138071649e-09, corr_p=7.3775514828429896e-09, rej=True
+Comparison: (1, 2) -- p=0.8302060132226234, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=2.1929502407007272e-07, corr_p=1.3157701444204363e-06, rej=True
+Comparison: (2, 3) -- p=3.217710669457913e-11, corr_p=1.930626401674748e-10, rej=True
+               0   1
+subcluster          
+0           3285   8
+1           2013   3
+2           3753   8
+3           4708  82
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.01, alphacBonf=0.008
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1    6.835  0.0       0.0   True
+     0      2  82.3944  0.0       0.0   True
+     0      3  21.4376  0.0       0.0   True
+     1      2   64.672  0.0       0.0   True
+     1      3   12.058  0.0       0.0   True
+     2      3 -60.6022  0.0       0.0   True
+--------------------------------------------
+              score                                                 
+              count   mean    std    min    25%    50%    75%    max
+subcluster                                                          
+0          3293.000 71.160 12.110  2.000 63.000 71.000 80.000 90.000
+1          2016.000 68.874 11.354 15.000 62.000 69.000 76.250 90.000
+2          3761.000 44.125 15.037  1.000 33.000 42.000 54.000 90.000
+3          4790.000 64.280 15.441  7.000 55.000 66.000 76.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.01, alphacBonf=0.008
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1  20.4728  0.0       0.0   True
+     0      2  25.1221  0.0       0.0   True
+     0      3   5.5924  0.0       0.0   True
+     1      2  -8.6297  0.0       0.0   True
+     1      3 -22.9721  0.0       0.0   True
+     2      3 -27.2147  0.0       0.0   True
+--------------------------------------------
+              score                                                     
+              count    mean     std   min    25%    50%     75%      max
+subcluster                                                              
+0          3293.000 260.502 458.709 9.000 64.000 96.000 255.000 4337.000
+1          2016.000  49.629  75.123 3.000 13.000 27.000  59.000  896.000
+2          3761.000  68.997  84.431 6.000 24.000 35.000  64.000  864.000
+3          4790.000 212.412 314.398 6.000 47.000 96.000 256.000 4817.000
+
+Multiple comparison chi-square test for SEX:
+Comparison: (0, 1) -- p=0.000, corr_p=0.001, rej=True
+Comparison: (0, 2) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (0, 3) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (1, 2) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (1, 3) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (2, 3) -- p=0.000, corr_p=0.000, rej=True
+   female  male
+0     171  3122
+1      59  1957
+2    3590   171
+3    1517  3272
+
+Processing time: 1445.98 seconds
+Task completed
+
