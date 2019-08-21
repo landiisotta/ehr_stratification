@@ -1,3 +1,4 @@
+scripts/phantomjs*
 *.png
 *.pt
 *.txt
