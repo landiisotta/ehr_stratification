@@ -60,7 +60,8 @@ def freq_term(data, pred_class, vocab):
                     all_comb, p_vals, corrected_p_vals, reject_list, sum_df  = chi_test(raw_ehr, pred_class, MFMT)
                     ctrl_list = [v for idx, v in enumerate(reject_list) if int(subc) in all_comb[idx]]
                     opp_list = [v for idx, v in enumerate(reject_list) if int(subc) not in all_comb[idx]]
-                    ctrl_true = len(list(filter(lambda x: x==True, ctrl_list))) > 0
+                    ctrl_true = True
+                    #ctrl_true = len(list(filter(lambda x: x==True, ctrl_list))) > 0
                     #ctrl_true = len(list(filter(lambda x: x==True, ctrl_list))) == len(ctrl_list)
                     ctrl_false = len(list(filter(lambda x: x==False, opp_list))) == len(opp_list)
                     if ctrl_true and ctrl_false:

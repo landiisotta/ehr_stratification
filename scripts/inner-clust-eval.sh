@@ -3,15 +3,15 @@
 projdir=..
 datadir=$projdir/data
 
-indir=$datadir/ehr-804370-test-1
+indir=$datadir/ehr-804371-test-2
 
 encdir=$indir/encodings
 
 # choose between SNOMED and CCS-SINGLE
 #disease='T2D'
 #disease='PD'
-disease='AD'
-#disease='MM'
+#disease='AD'
+disease='MM'
 #disease='BC'
 #disease='PC'
 

@@ -1,0 +1,236 @@
+
+Cohort BC numerosity: 7908
+
+2 -- Silhouette: 0.213
+DB: 2.353
+CH: 1075.764
+Number of clusters found:2, Max Silhouette score:0.213
+Number of clusters found:2, Min DB score:2.353
+Number of clusters found:2, Max HC score:1075.764
+
+Max number of clusters chosen: 2
+Cluster 0 numerosity: 6051
+% term:icd9::Malignant neoplasm of breast (female), unspecified::174.9::C0235653 = 0.75 (4190 terms in cluster (0.69), out of 5602 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0966850016587887e-08, corr_p=2.0966850016587887e-08, rej=True
+               0     1
+subcluster            
+0           1861  4190
+1            445  1412
+
+
+% term:icd9::Personal history of malignant neoplasm of breast::V10.3::C0260421 = 0.84 (3244 terms in cluster (0.54), out of 3860 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0005594833141287e-53, corr_p=2.0005594833141287e-53, rej=True
+               0     1
+subcluster            
+0           2807  3244
+1           1241   616
+
+
+% term:icd9::Unspecified essential hypertension::401.9::C0085580 = 0.91 (2125 terms in cluster (0.35), out of 2341 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.5352687914470084e-83, corr_p=1.5352687914470084e-83, rej=True
+               0     1
+subcluster            
+0           3926  2125
+1           1641   216
+
+
+% term:icd9::Edema::782.3::C0013604 = 0.96 (1689 terms in cluster (0.28), out of 1752 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.981048286121788e-109, corr_p=1.981048286121788e-109, rej=True
+               0     1
+subcluster            
+0           4362  1689
+1           1794    63
+
+
+% term:icd9::Complications affecting other specified body systems, not elsewhere classified, hypertension::997.91::C0020538 = 0.95 (1616 terms in cluster (0.27), out of 1708 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.6326374862167826e-88, corr_p=4.6326374862167826e-88, rej=True
+               0     1
+subcluster            
+0           4435  1616
+1           1765    92
+
+
+% term:icd9::Constipation, unspecified::564.00::C0009806 = 0.96 (1443 terms in cluster (0.24), out of 1500 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.693369927029103e-88, corr_p=1.693369927029103e-88, rej=True
+               0     1
+subcluster            
+0           4608  1443
+1           1800    57
+
+
+% term:icd9::Other malaise and fatigue::780.79::C0695252 = 0.97 (1438 terms in cluster (0.24), out of 1488 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.5987348746704048e-91, corr_p=1.5987348746704048e-91, rej=True
+               0     1
+subcluster            
+0           4613  1438
+1           1807    50
+
+
+% term:icd9::Shortness of breath::786.05::C0013404 = 0.97 (1414 terms in cluster (0.23), out of 1463 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.130763950060122e-90, corr_p=9.130763950060122e-90, rej=True
+               0     1
+subcluster            
+0           4637  1414
+1           1808    49
+
+
+% term:icd9::Nausea alone::787.02::C0375548 = 0.98 (1331 terms in cluster (0.22), out of 1358 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.29255081950424e-93, corr_p=2.29255081950424e-93, rej=True
+               0     1
+subcluster            
+0           4720  1331
+1           1830    27
+
+
+% term:icd9::Lump or mass in breast::611.72::C0024103 = 0.72 (1316 terms in cluster (0.22), out of 1826 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.7596793291995974e-07, corr_p=3.7596793291995974e-07, rej=True
+               0     1
+subcluster            
+0           4735  1316
+1           1347   510
+
+
+
+
+Cluster 1 numerosity: 1857
+% term:icd9::Malignant neoplasm of breast (female), unspecified::174.9::C0235653 = 0.25 (1412 terms in cluster (0.76), out of 5602 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0966850016587887e-08, corr_p=2.0966850016587887e-08, rej=True
+               0     1
+subcluster            
+0           1861  4190
+1            445  1412
+
+
+% term:icd9::Personal history of malignant neoplasm of breast::V10.3::C0260421 = 0.16 (616 terms in cluster (0.33), out of 3860 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0005594833141287e-53, corr_p=2.0005594833141287e-53, rej=True
+               0     1
+subcluster            
+0           2807  3244
+1           1241   616
+
+
+% term:icd9::Lump or mass in breast::611.72::C0024103 = 0.28 (510 terms in cluster (0.27), out of 1826 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.7596793291995974e-07, corr_p=3.7596793291995974e-07, rej=True
+               0     1
+subcluster            
+0           4735  1316
+1           1347   510
+
+
+% term:icd9::Abnormal mammogram, unspecified::793.80::C0949146 = 0.40 (450 terms in cluster (0.24), out of 1137 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.5873118921685732e-43, corr_p=2.5873118921685732e-43, rej=True
+               0    1
+subcluster           
+0           5364  687
+1           1407  450
+
+
+% term:icd9::Other screening mammogram::V76.12::C0490033 = 0.42 (406 terms in cluster (0.22), out of 969 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.388044392928683e-47, corr_p=5.388044392928683e-47, rej=True
+               0    1
+subcluster           
+0           5488  563
+1           1451  406
+
+
+% term:icd9::Carcinoma in situ of breast::233.0::C0154084 = 0.25 (264 terms in cluster (0.14), out of 1040 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.13014672992615972, corr_p=0.13014672992615972, rej=False
+               0    1
+subcluster           
+0           5275  776
+1           1593  264
+
+
+% term:icd9::Unspecified essential hypertension::401.9::C0085580 = 0.09 (216 terms in cluster (0.12), out of 2341 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.5352687914470084e-83, corr_p=1.5352687914470084e-83, rej=True
+               0     1
+subcluster            
+0           3926  2125
+1           1641   216
+
+
+% term:icd9::Screening mammogram for high-risk patient::V76.11::C0490032 = 0.38 (211 terms in cluster (0.11), out of 549 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.669226820601785e-17, corr_p=1.669226820601785e-17, rej=True
+               0    1
+subcluster           
+0           5713  338
+1           1646  211
+
+
+% term:icd9::Counseling nos::V65.40::C0740209 = 0.13 (176 terms in cluster (0.09), out of 1316 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.737654110051072e-21, corr_p=3.737654110051072e-21, rej=True
+               0     1
+subcluster            
+0           4911  1140
+1           1681   176
+
+
+% term:icd9::Diffuse cystic mastopathy::610.1::C0016034 = 0.31 (174 terms in cluster (0.09), out of 564 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.3130972441726245e-05, corr_p=2.3130972441726245e-05, rej=True
+               0    1
+subcluster           
+0           5661  390
+1           1683  174
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 13.5471  0.0       0.0   True
+-------------------------------------------
+              score                                                 
+              count   mean    std    min    25%    50%    75%    max
+subcluster                                                          
+0          6051.000 66.741 14.516  4.000 56.000 67.000 78.000 90.000
+1          1857.000 61.619 13.351 19.000 52.000 61.000 71.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 23.9784  0.0       0.0   True
+-------------------------------------------
+              score                                                      
+              count    mean     std   min    25%     50%     75%      max
+subcluster                                                               
+0          6051.000 313.408 495.912 4.000 60.000 128.000 352.000 4785.000
+1          1857.000  36.990  51.905 3.000 11.000  20.000  43.000  608.000
+
+Multiple comparison chi-square test for SEX:
+Comparison: (0, 1) -- p=0.001, corr_p=0.001, rej=True
+   female  male
+0    5988    63
+1    1850     4
+
+Processing time: 665.42 seconds
+Task completed
+

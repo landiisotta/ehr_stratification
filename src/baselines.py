@@ -38,52 +38,52 @@ def run_baselines(indir, outdir,
     scaler = MaxAbsScaler(copy=False)
     raw_data = csr_matrix(raw_data, dtype=np.float64)
     raw_mtx = scaler.fit_transform(raw_data)
-    print('Applying SVD')
-    svd = TruncatedSVD(n_components=n_dim)
-    svd_mtx = svd.fit_transform(raw_mtx)
-    print('Applying SVD to the TFIDF matrix')
-    tfidf = TfidfTransformer()
-    tfidf_mtx = tfidf.fit_transform(raw_data)
-    tfidf_mtx = svd.fit_transform(tfidf_mtx)
+    #print('Applying SVD')
+    #svd = TruncatedSVD(n_components=n_dim)
+    #svd_mtx = svd.fit_transform(raw_mtx)
+    #print('Applying SVD to the TFIDF matrix')
+    #tfidf = TfidfTransformer()
+    #tfidf_mtx = tfidf.fit_transform(raw_data)
+    #tfidf_mtx = svd.fit_transform(tfidf_mtx)
 
     if test_set:
         print('\nRescaling the COUNT test matrix')
         raw_data_ts = csr_matrix(raw_data_ts, dtype=np.float64)
         raw_mtx_ts = scaler.transform(raw_data_ts)
-        print('Applying SVD to test set')
-        svd_mtx_ts = svd.transform(raw_mtx_ts)
-        print("Applying SVD to the TFIDF test set matrix")
-        tfidf_mtx_ts = tfidf.transform(raw_data_ts)
-        tfidf_mtx_ts = svd.transform(tfidf_mtx_ts)
+        #print('Applying SVD to test set')
+        #svd_mtx_ts = svd.transform(raw_mtx_ts)
+        #print("Applying SVD to the TFIDF test set matrix")
+        #tfidf_mtx_ts = tfidf.transform(raw_data_ts)
+        #tfidf_mtx_ts = svd.transform(tfidf_mtx_ts)
 
-        _save_matrices(outdir, 'svd-mtx.npy', svd_mtx_ts)
-        #out_mtx_ts = np.zeros((svd_mtx_ts.shape[0], len(vocab)), dtype=np.float64)
-        #spmatrix.toarray(raw_matrix_ts, out=out_mtx_ts)
-        save_npz(os.path.join(outdir, 'raw-mtx.npz'), raw_mtx_ts)
-        _save_matrices(outdir, 'tfidf-mtx.npy', tfidf_mtx_ts)
+        #_save_matrices(outdir, 'svd-mtx.npy', svd_mtx_ts)
+        ##out_mtx_ts = np.zeros((svd_mtx_ts.shape[0], len(vocab)), dtype=np.float64)
+        ##spmatrix.toarray(raw_matrix_ts, out=out_mtx_ts)
+        #save_npz(os.path.join(outdir, 'raw-mtx.npz'), raw_mtx_ts)
+        #_save_matrices(outdir, 'tfidf-mtx.npy', tfidf_mtx_ts)
 
-        _save_matrices(outdir, 'TRsvd-mtx.npy', svd_mtx)
-        save_npz(os.path.join(outdir, 'TRraw-mtx.npz'), raw_mtx)
-        _save_matrices(outdir, 'TRtfidf-mtx.npy', tfidf_mtx)
+        #_save_matrices(outdir, 'TRsvd-mtx.npy', svd_mtx)
+        #save_npz(os.path.join(outdir, 'TRraw-mtx.npz'), raw_mtx)
+        #_save_matrices(outdir, 'TRtfidf-mtx.npy', tfidf_mtx)
     else:
         print("Saving matrices...")
-        _save_matrices(outdir, 'svd-mtx.npy', svd_mtx)
+        #_save_matrices(outdir, 'svd-mtx.npy', svd_mtx)
         #out_mtx = np.zeros((svd_mtx.shape[0], len(vocab)), dtype=np.float64)
         #raw_mtx = spmatrix.toarray(raw_mtx, out=out_mtx)
-        save_npz(os.path.join(outdir, 'raw-mtx.npz'), raw_mtx)
-        _save_matrices(outdir, 'tfidf-mtx.npy', tfidf_mtx)
-    # print('Applying ICA')
-    # ica = FastICA(n_components=n_dim, max_iter=5, tol=0.01, whiten=True)
-    # ica_mtx = ica.fit_transform(raw_mtx)
-    # _save(outdir, 'ica-mxt.npy', ica_mtx)
+        #save_npz(os.path.join(outdir, 'raw-mtx.npz'), raw_mtx)
+        #_save_matrices(outdir, 'tfidf-mtx.npy', tfidf_mtx)
+    ## print('Applying ICA')
+    ## ica = FastICA(n_components=n_dim, max_iter=5, tol=0.01, whiten=True)
+    ## ica_mtx = ica.fit_transform(raw_mtx)
+    ## _save(outdir, 'ica-mxt.npy', ica_mtx)
 
-    #print('Applying DEEP PATIENT')
-    #if test_set:
-    #    dp_mtx = _deep_patient(raw_mtx, raw_mtx_ts, n_dim)
-    #    _save_matrices(outdir, 'dp-mtx.npy', dp_mtx)
-    #else:
-    #    dp_mtx = _deep_patient(raw_mtx, raw_mtx, n_dim)
-    #    _save_matrices(outdir, 'dp-mtx.npy', dp_mtx)
+    print('Applying DEEP PATIENT')
+    if test_set:
+        dp_mtx = _deep_patient(raw_mtx, raw_mtx_ts, n_dim)
+        _save_matrices(outdir, 'dp-mtx.npy', dp_mtx)
+    else:
+        dp_mtx = _deep_patient(raw_mtx, raw_mtx, n_dim)
+        _save_matrices(outdir, 'dp-mtx.npy', dp_mtx)
 
 
 """
@@ -150,15 +150,15 @@ def _load_ehr_dataset(indir):
 
 # run deep patient model
 
-#def _deep_patient(data_tr, data_ts, n_dim):
-#    param = {'epochs': 10,
-#             'batch_size': 2,
-#             'corrupt_lvl': 0.05}
-#    sda = dp.SDA(data_tr.shape[1], nhidden=n_dim, nlayer=3,
-#                 param=param)
-#    print('Parameters DEEP PATIENT: {0}'.format(param.items()))
-#    sda.train(data_tr)
-#    return sda.apply(data_ts)
+def _deep_patient(data_tr, data_ts, n_dim):
+    param = {'epochs': 5,
+             'batch_size': 2,
+             'corrupt_lvl': 0.05}
+    sda = dp.SDA(data_tr.shape[1], nhidden=n_dim, nlayer=3,
+                 param=param)
+    print('Parameters DEEP PATIENT: {0}'.format(param.items()))
+    sda.train(data_tr)
+    return sda.apply(data_ts)
 
 
 # save data

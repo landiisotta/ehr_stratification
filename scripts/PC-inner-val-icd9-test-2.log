@@ -1,0 +1,236 @@
+
+Cohort PC numerosity: 13966
+
+2 -- Silhouette: 0.135
+DB: 2.284
+CH: 2341.153
+Number of clusters found:2, Max Silhouette score:0.135
+Number of clusters found:2, Min DB score:2.284
+Number of clusters found:2, Max HC score:2341.153
+
+Max number of clusters chosen: 2
+Cluster 0 numerosity: 7491
+% term:icd9::Malignant neoplasm of prostate::185::C0376358 = 0.54 (7489 terms in cluster (1.00), out of 13934 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.9479696079030372e-07, corr_p=1.9479696079030372e-07, rej=True
+             0     1
+subcluster          
+0            2  7489
+1           30  6445
+
+
+% term:icd9::Malignant neoplasm of colon, unspecified site::153.9::C0007102 = 0.78 (3391 terms in cluster (0.45), out of 4330 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           4100  3391
+1           5536   939
+
+
+% term:icd9::Routine gynecological examination::V72.31::C1455982 = 0.86 (2992 terms in cluster (0.40), out of 3484 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           4499  2992
+1           5983   492
+
+
+% term:icd9::Counseling nos::V65.40::C0740209 = 0.69 (2694 terms in cluster (0.36), out of 3896 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.6655724766966638e-115, corr_p=1.6655724766966638e-115, rej=True
+               0     1
+subcluster            
+0           4797  2694
+1           5273  1202
+
+
+% term:icd9::Complications affecting other specified body systems, not elsewhere classified, hypertension::997.91::C0020538 = 0.56 (2536 terms in cluster (0.34), out of 4532 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.00014887275807979304, corr_p=0.00014887275807979304, rej=True
+               0     1
+subcluster            
+0           4955  2536
+1           4479  1996
+
+
+% term:icd9::Malignant neoplasm of ovary::183.0::C1140680 = 0.83 (2426 terms in cluster (0.32), out of 2917 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=8.129847249986138e-283, corr_p=8.129847249986138e-283, rej=True
+               0     1
+subcluster            
+0           5065  2426
+1           5984   491
+
+
+% term:icd9::Malignant neoplasm of uterus, part unspecified::179::C0153567 = 0.84 (2244 terms in cluster (0.30), out of 2658 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.60183647956126e-274, corr_p=9.60183647956126e-274, rej=True
+               0     1
+subcluster            
+0           5247  2244
+1           6061   414
+
+
+% term:icd9::Fever, unspecified::780.60::C0015967 = 0.59 (2050 terms in cluster (0.27), out of 3499 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.343441722912459e-11, corr_p=1.343441722912459e-11, rej=True
+               0     1
+subcluster            
+0           5441  2050
+1           5026  1449
+
+
+% term:icd9::Constipation, unspecified::564.00::C0009806 = 0.59 (1929 terms in cluster (0.26), out of 3263 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=8.646400936160827e-13, corr_p=8.646400936160827e-13, rej=True
+               0     1
+subcluster            
+0           5562  1929
+1           5141  1334
+
+
+% term:icd9::Nocturia::788.43::C0028734 = 0.73 (1915 terms in cluster (0.26), out of 2627 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.251710282169303e-107, corr_p=9.251710282169303e-107, rej=True
+               0     1
+subcluster            
+0           5576  1915
+1           5763   712
+
+
+
+
+Cluster 1 numerosity: 6475
+% term:icd9::Malignant neoplasm of prostate::185::C0376358 = 0.46 (6445 terms in cluster (1.00), out of 13934 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.9479696079030372e-07, corr_p=1.9479696079030372e-07, rej=True
+             0     1
+subcluster          
+0            2  7489
+1           30  6445
+
+
+% term:icd9::Unspecified essential hypertension::401.9::C0085580 = 0.73 (2568 terms in cluster (0.40), out of 3512 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0249934895036926e-295, corr_p=2.0249934895036926e-295, rej=True
+               0     1
+subcluster            
+0           6547   944
+1           3907  2568
+
+
+% term:icd9::Complications affecting other specified body systems, not elsewhere classified, hypertension::997.91::C0020538 = 0.44 (1996 terms in cluster (0.31), out of 4532 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.00014887275807979304, corr_p=0.00014887275807979304, rej=True
+               0     1
+subcluster            
+0           4955  2536
+1           4479  1996
+
+
+% term:icd9::Edema::782.3::C0013604 = 0.54 (1677 terms in cluster (0.26), out of 3082 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.0112366019107325e-24, corr_p=4.0112366019107325e-24, rej=True
+               0     1
+subcluster            
+0           6086  1405
+1           4798  1677
+
+
+% term:icd9::Other and unspecified hyperlipidemia::272.4::C0348494 = 0.65 (1655 terms in cluster (0.26), out of 2531 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.1509337457666318e-99, corr_p=1.1509337457666318e-99, rej=True
+               0     1
+subcluster            
+0           6615   876
+1           4820  1655
+
+
+% term:icd9::Fever, unspecified::780.60::C0015967 = 0.41 (1449 terms in cluster (0.22), out of 3499 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.343441722912459e-11, corr_p=1.343441722912459e-11, rej=True
+               0     1
+subcluster            
+0           5441  2050
+1           5026  1449
+
+
+% term:icd9::Shortness of breath::786.05::C0013404 = 0.53 (1374 terms in cluster (0.21), out of 2583 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.4711597772738025e-14, corr_p=1.4711597772738025e-14, rej=True
+               0     1
+subcluster            
+0           6282  1209
+1           5101  1374
+
+
+% term:icd9::Constipation, unspecified::564.00::C0009806 = 0.41 (1334 terms in cluster (0.21), out of 3263 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=8.646400936160827e-13, corr_p=8.646400936160827e-13, rej=True
+               0     1
+subcluster            
+0           5562  1929
+1           5141  1334
+
+
+% term:icd9::Other malaise and fatigue::780.79::C0695252 = 0.42 (1323 terms in cluster (0.20), out of 3123 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.056118979276072e-07, corr_p=4.056118979276072e-07, rej=True
+               0     1
+subcluster            
+0           5691  1800
+1           5152  1323
+
+
+% term:icd9::Personal history of malignant neoplasm of prostate::V10.46::C0260429 = 0.90 (1256 terms in cluster (0.19), out of 1389 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0092282390716547e-263, corr_p=2.0092282390716547e-263, rej=True
+               0     1
+subcluster            
+0           7358   133
+1           5219  1256
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1 -33.7774  0.0       0.0   True
+--------------------------------------------
+              score                                                
+              count   mean    std   min    25%    50%    75%    max
+subcluster                                                         
+0          7491.000 56.557 17.943 1.000 43.000 59.000 70.000 90.000
+1          6475.000 66.338 15.988 1.000 58.000 68.000 78.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1 -33.5162  0.0       0.0   True
+--------------------------------------------
+              score                                                     
+              count    mean     std   min    25%    50%     75%      max
+subcluster                                                              
+0          7491.000  85.328 134.816 3.000 22.000 36.000  95.000 1869.000
+1          6475.000 254.013 410.763 9.000 64.000 96.000 256.000 4849.000
+
+Multiple comparison chi-square test for SEX:
+Comparison: (0, 1) -- p=0.000, corr_p=0.000, rej=True
+   female  male
+0    4148  3342
+1    1172  5303
+
+Processing time: 1175.79 seconds
+Task completed
+

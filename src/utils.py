@@ -38,7 +38,7 @@ FRpar = {'n_terms': 10}
 # diseases to consider for internal validation
 #val_disease = ['T2D', 'PD', 'AD', 'MM']
 val_disease = ['BC', 'PC']
-select_terms = ['lab']
+select_terms = ['icd9']
 
 # length of padded sub-sequences
 len_padded = 32

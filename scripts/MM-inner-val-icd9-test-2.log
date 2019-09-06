@@ -1,375 +1,638 @@
 
 Cohort MM numerosity: 1883
 
-3 -- Silhouette: 0.143
-DB: 2.055
-CH: 242.762
-4 -- Silhouette: 0.161
-DB: 2.024
-CH: 223.700
-5 -- Silhouette: 0.116
-DB: 2.380
-CH: 190.299
-6 -- Silhouette: 0.104
-DB: 2.278
-CH: 166.243
-7 -- Silhouette: 0.106
-DB: 2.363
-CH: 148.338
-8 -- Silhouette: 0.096
-DB: 2.337
-CH: 135.852
-9 -- Silhouette: 0.098
-DB: 2.285
-CH: 125.539
-10 -- Silhouette: 0.100
-DB: 2.493
-CH: 117.294
-11 -- Silhouette: 0.102
-DB: 2.539
-CH: 110.774
-12 -- Silhouette: 0.036
-DB: 2.537
-CH: 105.040
-13 -- Silhouette: 0.038
-DB: 2.452
-CH: 100.194
-14 -- Silhouette: 0.038
-DB: 2.464
-CH: 95.829
-Number of clusters found:4, Max Silhouette score:0.161
-Number of clusters found:4, Min DB score:2.024
-Number of clusters found:3, Max HC score:242.762
+4 -- Silhouette: 0.141
+DB: 2.303
+CH: 212.737
+Number of clusters found:4, Max Silhouette score:0.141
+Number of clusters found:4, Min DB score:2.303
+Number of clusters found:4, Max HC score:212.737
 
 Max number of clusters chosen: 4
-Cluster 0 numerosity: 1052
-% term:icd9::Other inflammatory and toxic neuropathy::357.89::C0154764 = 0.89 (477 terms in cluster (0.45), out of 537 terms in the disease dataset
+Cluster 0 numerosity: 191
+% term:icd9::Multiple myeloma, without mention of having achieved remission::203.00::C2349260 = 0.10 (189 terms in cluster (0.99), out of 1880 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.7420045561382864e-20, corr_p=1.0452027336829718e-19, rej=True
-Comparison: (0, 2) -- p=7.170197934061934e-39, corr_p=4.3021187604371605e-38, rej=True
-Comparison: (0, 3) -- p=4.5878886295663884e-33, corr_p=2.752733177739833e-32, rej=True
-Comparison: (1, 2) -- p=0.029631107342880672, corr_p=0.17778664405728403, rej=False
-Comparison: (1, 3) -- p=0.011201268081591428, corr_p=0.06720760848954857, rej=False
-Comparison: (2, 3) -- p=0.5797172008422257, corr_p=1.0, rej=False
+            0    1
+subcluster        
+0           2  189
+1           0  891
+2           1  501
+3           0  299
+
+
+% term:icd9::Other malaise and fatigue::780.79::C0695252 = 0.05 (36 terms in cluster (0.19), out of 707 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.2989601340259084e-07, corr_p=2.579376080415545e-06, rej=True
+Comparison: (0, 2) -- p=8.787631187151653e-10, corr_p=5.2725787122909915e-09, rej=True
+Comparison: (0, 3) -- p=0.00011862245924288031, corr_p=0.0007117347554572819, rej=True
+Comparison: (1, 2) -- p=0.03180291563284533, corr_p=0.190817493797072, rej=False
+Comparison: (1, 3) -- p=0.4028207818006918, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.015440441341684335, corr_p=0.09264264805010601, rej=False
               0    1
 subcluster          
-0           575  477
-1           122    2
-2           344   28
-3           305   30
+0           155   36
+1           549  342
+2           279  223
+3           193  106
 
 
-% term:icd9::Unspecified inflammatory and toxic neuropathy::357.9::C0154758 = 0.87 (383 terms in cluster (0.36), out of 440 terms in the disease dataset
+% term:icd9::Anxiety state, unspecified::300.00::C0700613 = 0.06 (24 terms in cluster (0.13), out of 403 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.2775767034535009e-14, corr_p=7.665460220721005e-14, rej=True
-Comparison: (0, 2) -- p=8.79757814684806e-28, corr_p=5.278546888108835e-27, rej=True
-Comparison: (0, 3) -- p=5.991294890839151e-21, corr_p=3.5947769345034904e-20, rej=True
-Comparison: (1, 2) -- p=0.0627331532613588, corr_p=0.37639891956815275, rej=False
-Comparison: (1, 3) -- p=0.009041126165783486, corr_p=0.05424675699470091, rej=False
-Comparison: (2, 3) -- p=0.21190663769429696, corr_p=1.0, rej=False
+Comparison: (0, 1) -- p=0.020613870038875538, corr_p=0.12368322023325323, rej=False
+Comparison: (0, 2) -- p=0.0002430278125405489, corr_p=0.0014581668752432935, rej=True
+Comparison: (0, 3) -- p=0.004288373719248818, corr_p=0.02573024231549291, rej=True
+Comparison: (1, 2) -- p=0.014801593019146542, corr_p=0.08880955811487926, rej=False
+Comparison: (1, 3) -- p=0.254434859175005, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.48296290429908595, corr_p=1.0, rej=False
               0    1
 subcluster          
-0           669  383
-1           122    2
-2           348   24
-3           304   31
+0           167   24
+1           712  179
+2           372  130
+3           229   70
 
 
-% term:icd9::Painful respiration::786.52::C0423729 = 0.88 (220 terms in cluster (0.21), out of 250 terms in the disease dataset
+% term:icd9::Generalized anxiety disorder::300.02::C0270549 = 0.06 (21 terms in cluster (0.11), out of 381 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=3.272605371589863e-08, corr_p=1.9635632229539177e-07, rej=True
-Comparison: (0, 2) -- p=3.190200385812383e-14, corr_p=1.9141202314874298e-13, rej=True
-Comparison: (0, 3) -- p=1.3641690540417367e-11, corr_p=8.18501432425042e-11, rej=True
-Comparison: (1, 2) -- p=0.060334837605892276, corr_p=0.36200902563535364, rej=False
-Comparison: (1, 3) -- p=0.028480191673876686, corr_p=0.1708811500432601, rej=False
-Comparison: (2, 3) -- p=0.6311137643241198, corr_p=1.0, rej=False
+Comparison: (0, 1) -- p=0.006087724850014462, corr_p=0.03652634910008677, rej=True
+Comparison: (0, 2) -- p=0.0005189354511290877, corr_p=0.0031136127067745265, rej=True
+Comparison: (0, 3) -- p=0.0015274301591804585, corr_p=0.009164580955082751, rej=True
+Comparison: (1, 2) -- p=0.15907264623930628, corr_p=0.9544358774358377, rej=False
+Comparison: (1, 3) -- p=0.30531502984460784, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.9744885364089027, corr_p=1.0, rej=False
               0    1
 subcluster          
-0           832  220
-1           124    0
-2           358   14
-3           319   16
+0           170   21
+1           715  176
+2           386  116
+3           231   68
 
 
-% term:icd9::Mineral deficiency, not elsewhere classified::269.3::C0869423 = 0.90 (204 terms in cluster (0.19), out of 227 terms in the disease dataset
+% term:icd9::Backache, unspecified::724.5::C0004604 = 0.05 (21 terms in cluster (0.11), out of 457 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.376581368040572e-07, corr_p=8.259488208243433e-07, rej=True
-Comparison: (0, 2) -- p=1.148637327327556e-12, corr_p=6.891823963965337e-12, rej=True
-Comparison: (0, 3) -- p=2.905209543535553e-13, corr_p=1.7431257261213318e-12, rej=True
-Comparison: (1, 2) -- p=0.060334837605892276, corr_p=0.36200902563535364, rej=False
-Comparison: (1, 3) -- p=0.14311728042969538, corr_p=0.8587036825781722, rej=False
-Comparison: (2, 3) -- p=0.5527736039611544, corr_p=1.0, rej=False
+Comparison: (0, 1) -- p=3.857378184602537e-05, corr_p=0.00023144269107615225, rej=True
+Comparison: (0, 2) -- p=1.3600875749317612e-06, corr_p=8.160525449590566e-06, rej=True
+Comparison: (0, 3) -- p=0.0015274301591804585, corr_p=0.009164580955082751, rej=True
+Comparison: (1, 2) -- p=0.13256820045283707, corr_p=0.7954092027170224, rej=False
+Comparison: (1, 3) -- p=0.4728216022568119, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.06871199765047203, corr_p=0.4122719859028322, rej=False
               0    1
 subcluster          
-0           848  204
-1           124    0
-2           358   14
-3           326    9
+0           170   21
+1           668  223
+2           357  145
+3           231   68
 
 
-% term:icd9::Beta thalassemia::282.44::C0005283 = 0.95 (189 terms in cluster (0.18), out of 199 terms in the disease dataset
+% term:icd9::Rash and other nonspecific skin eruption::782.1::C0015230 = 0.04 (20 terms in cluster (0.10), out of 483 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=5.093039315921853e-07, corr_p=3.055823589553112e-06, rej=True
-Comparison: (0, 2) -- p=1.8166418256668082e-13, corr_p=1.0899850954000848e-12, rej=True
-Comparison: (0, 3) -- p=5.52574910060714e-16, corr_p=3.315449460364284e-15, rej=True
-Comparison: (1, 2) -- p=0.17397501506688512, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.6043225566997878, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=0.03886902094712631, corr_p=0.23321412568275787, rej=False
+Comparison: (0, 1) -- p=7.34517018153685e-07, corr_p=4.407102108922111e-06, rej=True
+Comparison: (0, 2) -- p=8.935716246485571e-06, corr_p=5.361429747891343e-05, rej=True
+Comparison: (0, 3) -- p=1.1126456013531882e-05, corr_p=6.675873608119129e-05, rej=True
+Comparison: (1, 2) -- p=0.634063346494605, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.9504824639313213, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.8375041759050854, corr_p=1.0, rej=False
               0    1
 subcluster          
-0           863  189
-1           124    0
-2           363    9
-3           334    1
+0           171   20
+1           643  248
+2           369  133
+3           217   82
 
 
+% term:icd9::Other disease of nasal cavity and sinuses::478.19::C0029581 = 0.12 (12 terms in cluster (0.06), out of 102 terms in the disease dataset)
 
-
-Cluster 1 numerosity: 124
-% term:icd9::Other malaise and fatigue::780.79::C0695252 = 0.02 (13 terms in cluster (0.10), out of 707 terms in the disease dataset
-
-Comparison: (0, 1) -- p=3.7355404010909585e-11, corr_p=2.2413242406545753e-10, rej=True
-Comparison: (0, 2) -- p=0.38897628642161775, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.01866786408199888, corr_p=0.11200718449199328, rej=False
-Comparison: (1, 2) -- p=9.42645889880039e-09, corr_p=5.655875339280234e-08, rej=True
-Comparison: (1, 3) -- p=1.0103853063663542e-06, corr_p=6.062311838198126e-06, rej=True
-Comparison: (2, 3) -- p=0.2253608515503248, corr_p=1.0, rej=False
-              0    1
-subcluster          
-0           616  436
-1           111   13
-2           228  144
-3           221  114
-
-
-% term:icd9::Anxiety state, unspecified::300.00::C0700613 = 0.02 (9 terms in cluster (0.07), out of 403 terms in the disease dataset
-
-Comparison: (0, 1) -- p=4.494502348712462e-05, corr_p=0.0002696701409227477, rej=True
-Comparison: (0, 2) -- p=0.17660029353466514, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.26052435473236935, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.001475630538612756, corr_p=0.008853783231676536, rej=True
-Comparison: (1, 3) -- p=0.00120045127213834, corr_p=0.00720270763283004, rej=True
-Comparison: (2, 3) -- p=0.9600195383298297, corr_p=1.0, rej=False
-              0    1
-subcluster          
-0           802  250
-1           115    9
-2           297   75
-3           266   69
-
-
-% term:icd9::Constipation, unspecified::564.00::C0009806 = 0.01 (8 terms in cluster (0.06), out of 603 terms in the disease dataset
-
-Comparison: (0, 1) -- p=3.5408565320780747e-10, corr_p=2.124513919246845e-09, rej=True
-Comparison: (0, 2) -- p=0.9707371085898322, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.18183150620580807, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=2.345576561855085e-09, corr_p=1.407345937113051e-08, rej=True
-Comparison: (1, 3) -- p=1.7449723328148731e-07, corr_p=1.046983399688924e-06, rej=True
-Comparison: (2, 3) -- p=0.2639970056046802, corr_p=1.0, rej=False
-              0    1
-subcluster          
-0           688  364
-1           116    8
-2           243  129
-3           233  102
-
-
-% term:icd9::Dysuria::788.1::C0013428 = 0.02 (5 terms in cluster (0.04), out of 267 terms in the disease dataset
-
-Comparison: (0, 1) -- p=0.0012287824549349535, corr_p=0.007372694729609721, rej=True
-Comparison: (0, 2) -- p=0.945562112141591, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.7922008042839507, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.0025197486018634207, corr_p=0.015118491611180524, rej=True
-Comparison: (1, 3) -- p=0.0037267794999197032, corr_p=0.02236067699951822, rej=True
-Comparison: (2, 3) -- p=0.948112871645396, corr_p=1.0, rej=False
-              0    1
-subcluster          
-0           893  159
-1           119    5
-2           317   55
-3           287   48
-
-
-% term:icd9::Lumbago::724.2::C0024031 = 0.02 (4 terms in cluster (0.03), out of 251 terms in the disease dataset
-
-Comparison: (0, 1) -- p=0.001834680157623654, corr_p=0.011008080945741924, rej=True
-Comparison: (0, 2) -- p=0.5636695037024031, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.45348993228127343, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.0010263580987338703, corr_p=0.0061581485924032215, rej=True
-Comparison: (1, 3) -- p=0.0008000234431818503, corr_p=0.0048001406590911025, rej=True
-Comparison: (2, 3) -- p=0.9539525696317828, corr_p=1.0, rej=False
-              0    1
-subcluster          
-0           911  141
-1           120    4
-2           317   55
-3           284   51
-
-
-
-
-Cluster 2 numerosity: 372
-% term:icd9::Other ascites::789.59::C1955521 = 0.53 (85 terms in cluster (0.23), out of 161 terms in the disease dataset
-
-Comparison: (0, 1) -- p=0.02611360053847668, corr_p=0.15668160323086008, rej=False
-Comparison: (0, 2) -- p=2.6593511488213932e-19, corr_p=1.595610689292836e-18, rej=True
-Comparison: (0, 3) -- p=0.06653277282247881, corr_p=0.39919663693487284, rej=False
-Comparison: (1, 2) -- p=4.299451006203362e-08, corr_p=2.5796706037220174e-07, rej=True
-Comparison: (1, 3) -- p=0.25118105109714345, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=7.829088601548098e-14, corr_p=4.697453160928859e-13, rej=True
+Comparison: (0, 1) -- p=0.4282806297873166, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.6223769267870336, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.5863486970236778, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.8509455656090189, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.035012301057132045, corr_p=0.21007380634279227, rej=False
+Comparison: (2, 3) -- p=0.11231305366244465, corr_p=0.6738783219746679, rej=False
               0   1
 subcluster         
-0           988  64
-1           123   1
-2           287  85
-3           324  11
+0           179  12
+1           850  41
+2           477  25
+3           275  24
 
 
-% term:icd9::Atrial fibrillation::427.31::C0004238 = 0.48 (80 terms in cluster (0.22), out of 168 terms in the disease dataset
+% term:icd9::Acute bronchitis::466.0::C0149514 = 0.10 (11 terms in cluster (0.06), out of 110 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.10555732193806412, corr_p=0.6333439316283848, rej=False
-Comparison: (0, 2) -- p=3.829791196134929e-19, corr_p=2.2978747176809576e-18, rej=True
-Comparison: (0, 3) -- p=0.04438292951415716, corr_p=0.26629757708494295, rej=False
-Comparison: (1, 2) -- p=5.043577110196298e-07, corr_p=3.0261462661177787e-06, rej=True
-Comparison: (1, 3) -- p=0.013863972286047509, corr_p=0.08318383371628506, rej=False
-Comparison: (2, 3) -- p=3.845243703464756e-06, corr_p=2.3071462220788537e-05, rej=True
+Comparison: (0, 1) -- p=0.7739688785401226, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.9784657591646126, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.44087426995791235, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.3906301742303563, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.0647616157722663, corr_p=0.3885696946335978, rej=False
+Comparison: (2, 3) -- p=0.3910081886793967, corr_p=1.0, rej=False
               0   1
 subcluster         
-0           995  57
-1           122   2
-2           292  80
-3           306  29
+0           180  11
+1           847  44
+2           471  31
+3           275  24
 
 
-% term:icd9::Pneumonia, organism unspecified::486::C0339951 = 0.54 (78 terms in cluster (0.21), out of 144 terms in the disease dataset
+% term:icd9::Bronchitis, not specified as acute or chronic::490::C0006277 = 0.10 (10 terms in cluster (0.05), out of 103 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.01380138997437658, corr_p=0.08280833984625949, rej=False
-Comparison: (0, 2) -- p=7.04067615521241e-18, corr_p=4.224405693127446e-17, rej=True
-Comparison: (0, 3) -- p=0.02832677962194383, corr_p=0.16996067773166298, rej=False
-Comparison: (1, 2) -- p=6.232220327928353e-08, corr_p=3.739332196757012e-07, rej=True
-Comparison: (1, 3) -- p=0.18207919398859265, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=1.075301540661398e-13, corr_p=6.451809243968387e-13, rej=True
+Comparison: (0, 1) -- p=0.9395600558310322, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.871547971532353, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.45936948180788295, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.9824881437978428, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.1761318579985976, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.2702020800459237, corr_p=1.0, rej=False
               0   1
 subcluster         
-0           994  58
-1           124   0
-2           294  78
-3           327   8
+0           181  10
+1           846  45
+2           476  26
+3           277  22
 
 
-% term:icd9::Secondary malignant neoplasm of other specified sites::198.89::C0153684 = 0.42 (74 terms in cluster (0.20), out of 175 terms in the disease dataset
+% term:icd9::Unspecified disorder of liver::573.9::C0023895 = 0.10 (9 terms in cluster (0.05), out of 88 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.17267745284975766, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=3.932879878938775e-10, corr_p=2.3597279273632648e-09, rej=True
-Comparison: (0, 3) -- p=0.016656005859117043, corr_p=0.09993603515470226, rej=False
-Comparison: (1, 2) -- p=5.3893519769911445e-05, corr_p=0.00032336111861946867, rej=True
-Comparison: (1, 3) -- p=0.8442651315666037, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=2.0621654188168778e-10, corr_p=1.2372992512901267e-09, rej=True
+Comparison: (0, 1) -- p=0.6539471975646893, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.516552577777151, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.8385266352149583, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.032614871963493636, corr_p=0.19568923178096181, rej=False
+Comparison: (1, 3) -- p=0.561800253753105, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.4016571230670425, corr_p=1.0, rej=False
               0   1
 subcluster         
-0           969  83
-1           119   5
-2           298  74
-3           322  13
+0           182   9
+1           858  33
+2           470  32
+3           285  14
 
 
-% term:icd9::Osteoarthrosis, unspecified whether generalized or localized, site unspecified::715.90::C0157959 = 0.29 (74 terms in cluster (0.20), out of 253 terms in the disease dataset
 
-Comparison: (0, 1) -- p=0.07423168824611938, corr_p=0.4453901294767163, rej=False
-Comparison: (0, 2) -- p=0.0005024368985579885, corr_p=0.003014621391347931, rej=True
-Comparison: (0, 3) -- p=0.9697656381807545, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.000808801229999322, corr_p=0.004852807379995932, rej=True
-Comparison: (1, 3) -- p=0.106818616203039, corr_p=0.6409116972182339, rej=False
-Comparison: (2, 3) -- p=0.008017866253270086, corr_p=0.04810719751962052, rej=True
+
+Cluster 1 numerosity: 891
+% term:icd9::Multiple myeloma, without mention of having achieved remission::203.00::C2349260 = 0.47 (891 terms in cluster (1.00), out of 1880 terms in the disease dataset)
+
+            0    1
+subcluster        
+0           2  189
+1           0  891
+2           1  501
+3           0  299
+
+
+% term:icd9::Acute nasopharyngitis [common cold]::460::C0009443 = 0.58 (147 terms in cluster (0.16), out of 252 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.001815428920319654, corr_p=0.010892573521917925, rej=True
+Comparison: (0, 2) -- p=0.3193518300703245, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.05272041278164305, corr_p=0.3163224766898583, rej=False
+Comparison: (1, 2) -- p=0.0015088981556123575, corr_p=0.009053388933674144, rej=True
+Comparison: (1, 3) -- p=0.23363121637322146, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.20291063267834758, corr_p=1.0, rej=False
               0    1
 subcluster          
-0           922  130
-1           116    8
-2           298   74
-3           294   41
+0           177   14
+1           744  147
+2           451   51
+3           259   40
 
 
+% term:icd9::Myalgia and myositis, unspecified::729.1::C0026893 = 0.53 (104 terms in cluster (0.12), out of 195 terms in the disease dataset)
 
-
-Cluster 3 numerosity: 335
-% term:icd9::Routine general medical examination at a health care facility::V70.0::C0260851 = 0.66 (76 terms in cluster (0.23), out of 115 terms in the disease dataset
-
-Comparison: (0, 1) -- p=0.941452490225609, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.4642629256628822, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=1.3149676532187557e-32, corr_p=7.889805919312534e-32, rej=True
-Comparison: (1, 2) -- p=1.0, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=6.747341403077155e-07, corr_p=4.048404841846293e-06, rej=True
-Comparison: (2, 3) -- p=2.5840269696909368e-17, corr_p=1.5504161818145622e-16, rej=True
-               0   1
+Comparison: (0, 1) -- p=0.006451852034344726, corr_p=0.038711112206068356, rej=True
+Comparison: (0, 2) -- p=0.06414880725887492, corr_p=0.38489284355324954, rej=False
+Comparison: (0, 3) -- p=0.013177047675274245, corr_p=0.07906228605164548, rej=False
+Comparison: (1, 2) -- p=0.2144020664807623, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.9294958792878582, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.34844227934667904, corr_p=1.0, rej=False
+              0    1
 subcluster          
-0           1023  29
-1            121   3
-2            365   7
-3            259  76
+0           182    9
+1           787  104
+2           455   47
+3           264   35
 
 
-% term:icd9::Cyanosis::782.5::C0010520 = 0.46 (44 terms in cluster (0.13), out of 96 terms in the disease dataset
+% term:icd9::Localized adiposity::278.1::C0154270 = 0.75 (101 terms in cluster (0.11), out of 135 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.2057100128638441, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.47977123586389137, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=3.844043775767552e-11, corr_p=2.3064262654605312e-10, rej=True
-Comparison: (1, 2) -- p=0.11702051899221136, corr_p=0.7021231139532682, rej=False
-Comparison: (1, 3) -- p=0.00016514580706344448, corr_p=0.0009908748423806668, rej=True
-Comparison: (2, 3) -- p=4.639884072932668e-05, corr_p=0.0002783930443759601, rej=True
-               0   1
+Comparison: (0, 1) -- p=6.667407334202757e-06, corr_p=4.0004444005216544e-05, rej=True
+Comparison: (0, 2) -- p=0.017401004183686165, corr_p=0.104406025102117, rej=False
+Comparison: (0, 3) -- p=0.0813090974720317, corr_p=0.48785458483219024, rej=False
+Comparison: (1, 2) -- p=3.2969452929939514e-05, corr_p=0.00019781671757963709, rej=True
+Comparison: (1, 3) -- p=6.430724045391589e-05, corr_p=0.0003858434427234953, rej=True
+Comparison: (2, 3) -- p=0.5039124019224699, corr_p=1.0, rej=False
+              0    1
 subcluster          
-0           1017  35
-1            123   1
-2            356  16
-3            291  44
+0           190    1
+1           790  101
+2           479   23
+3           289   10
 
 
-% term:icd9::Heartburn::787.1::C0018834 = 0.39 (39 terms in cluster (0.12), out of 99 terms in the disease dataset
+% term:icd9::Insomnia, unspecified::780.52::C0917801 = 0.52 (100 terms in cluster (0.11), out of 191 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.028614139743549778, corr_p=0.17168483846129867, rej=False
-Comparison: (0, 2) -- p=0.3405474004999487, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=6.0543259035296025e-06, corr_p=3.6325955421177613e-05, rej=True
-Comparison: (1, 2) -- p=0.09156464728663802, corr_p=0.549387883719828, rej=False
-Comparison: (1, 3) -- p=0.00015467360730886357, corr_p=0.0009280416438531814, rej=True
-Comparison: (2, 3) -- p=3.0019960659333866e-05, corr_p=0.00018011976395600318, rej=True
-               0   1
+Comparison: (0, 1) -- p=0.004949705229273536, corr_p=0.029698231375641218, rej=True
+Comparison: (0, 2) -- p=0.018067886659864873, corr_p=0.10840731995918923, rej=False
+Comparison: (0, 3) -- p=0.016431466589268695, corr_p=0.09858879953561217, rej=False
+Comparison: (1, 2) -- p=0.6006160661249114, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.8872209114317519, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.9012857944756003, corr_p=1.0, rej=False
+              0    1
 subcluster          
-0           1004  48
-1            124   0
-2            360  12
-3            296  39
+0           183    8
+1           791  100
+2           451   51
+3           267   32
 
 
-% term:icd9::Other screening mammogram::V76.12::C0490033 = 0.49 (35 terms in cluster (0.10), out of 71 terms in the disease dataset
+% term:icd9::Diplopia::368.2::C0012569 = 0.60 (93 terms in cluster (0.10), out of 156 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.9835991988312389, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.3009311870216641, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=5.6732278261745974e-11, corr_p=3.4039366957047583e-10, rej=True
-Comparison: (1, 2) -- p=0.531240878793362, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.0038005308887555274, corr_p=0.022803185332533164, rej=True
-Comparison: (2, 3) -- p=0.00021753546370890673, corr_p=0.0013052127822534404, rej=True
-               0   1
+Comparison: (0, 1) -- p=0.002401166847047644, corr_p=0.014407001082285865, rej=True
+Comparison: (0, 2) -- p=0.04978388866057883, corr_p=0.298703331963473, rej=False
+Comparison: (0, 3) -- p=0.17194320216591627, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.09589762186724858, corr_p=0.5753857312034915, rej=False
+Comparison: (1, 3) -- p=0.04794196840364846, corr_p=0.2876518104218908, rej=False
+Comparison: (2, 3) -- p=0.6135825175473397, corr_p=1.0, rej=False
+              0   1
+subcluster         
+0           185   6
+1           798  93
+2           464  38
+3           280  19
+
+
+% term:icd9::Urinary hesitancy::788.64::C0152032 = 0.65 (91 terms in cluster (0.10), out of 140 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.001328203260955527, corr_p=0.007969219565733161, rej=True
+Comparison: (0, 2) -- p=0.10744930878390627, corr_p=0.6446958527034377, rej=False
+Comparison: (0, 3) -- p=0.36043020666474057, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.00940904114363785, corr_p=0.056454246861827095, rej=False
+Comparison: (1, 3) -- p=0.0051122110189992616, corr_p=0.030673266113995568, rej=True
+Comparison: (2, 3) -- p=0.5372226444900706, corr_p=1.0, rej=False
+              0   1
+subcluster         
+0           186   5
+1           800  91
+2           472  30
+3           285  14
+
+
+% term:icd9::Unspecified hereditary and idiopathic peripheral neuropathy::356.9::C0859673 = 0.65 (79 terms in cluster (0.09), out of 121 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.00035047766466359486, corr_p=0.002102865987981569, rej=True
+Comparison: (0, 2) -- p=0.010465987515897054, corr_p=0.06279592509538232, rej=False
+Comparison: (0, 3) -- p=0.19189786285400545, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.06806069274560644, corr_p=0.40836415647363866, rej=False
+Comparison: (1, 3) -- p=0.0025795302107355215, corr_p=0.01547718126441313, rej=True
+Comparison: (2, 3) -- p=0.1372294808652152, corr_p=0.8233768851912912, rej=False
+              0   1
+subcluster         
+0           189   2
+1           812  79
+2           472  30
+3           289  10
+
+
+% term:icd9::Arthropathy, unspecified, site unspecified::716.90::C0022408 = 0.48 (72 terms in cluster (0.08), out of 151 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0866837384829586, corr_p=0.5201024308977515, rej=False
+Comparison: (0, 2) -- p=0.13209014449032958, corr_p=0.7925408669419775, rej=False
+Comparison: (0, 3) -- p=0.016431466589268695, corr_p=0.09858879953561217, rej=False
+Comparison: (1, 2) -- p=0.9176974170132106, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.20387984956076644, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.1990338429486891, corr_p=1.0, rej=False
+              0   1
+subcluster         
+0           183   8
+1           819  72
+2           463  39
+3           267  32
+
+
+% term:icd9::Asthma, unspecified type, unspecified::493.90::C0155886 = 0.33 (68 terms in cluster (0.08), out of 203 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.021478205020404848, corr_p=0.1288692301224291, rej=False
+Comparison: (0, 2) -- p=0.6706578012181597, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.25056637972703133, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.018629894481785914, corr_p=0.11177936689071549, rej=False
+Comparison: (1, 3) -- p=2.1536588004956653e-06, corr_p=1.2921952802973991e-05, rej=True
+Comparison: (2, 3) -- p=0.026723708224905256, corr_p=0.16034224934943153, rej=False
+              0   1
+subcluster         
+0           166  25
+1           823  68
+2           444  58
+3           247  52
+
+
+
+
+Cluster 2 numerosity: 502
+% term:icd9::Multiple myeloma, without mention of having achieved remission::203.00::C2349260 = 0.27 (501 terms in cluster (1.00), out of 1880 terms in the disease dataset)
+
+            0    1
+subcluster        
+0           2  189
+1           0  891
+2           1  501
+3           0  299
+
+
+% term:icd9::Cardiomegaly::429.3::C0018800 = 0.64 (133 terms in cluster (0.26), out of 207 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.011984423871754501, corr_p=0.071906543230527, rej=False
+Comparison: (0, 2) -- p=3.4779185824219527e-13, corr_p=2.086751149453172e-12, rej=True
+Comparison: (0, 3) -- p=0.15376802897702732, corr_p=0.9226081738621639, rej=False
+Comparison: (1, 2) -- p=5.165384830414063e-25, corr_p=3.0992308982484382e-24, rej=True
+Comparison: (1, 3) -- p=0.22078252262882037, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=8.637989375989452e-15, corr_p=5.182793625593672e-14, rej=True
+              0    1
 subcluster          
-0           1030  22
-1            122   2
-2            360  12
-3            300  35
+0           188    3
+1           833   58
+2           369  133
+3           286   13
 
 
-% term:icd9::Unspecified cataract::366.9::C0086543 = 0.39 (35 terms in cluster (0.10), out of 89 terms in the disease dataset
+% term:icd9::Sepsis::995.91::C0243026 = 0.74 (123 terms in cluster (0.25), out of 166 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.3926114929348312, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.7683814486165941, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=1.3087199910974662e-06, corr_p=7.852319946584797e-06, rej=True
-Comparison: (1, 2) -- p=0.3185518162432627, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.0038005308887555274, corr_p=0.022803185332533164, rej=True
-Comparison: (2, 3) -- p=0.00149523316838748, corr_p=0.008971399010324881, rej=True
-               0   1
+Comparison: (0, 1) -- p=0.009239022108737283, corr_p=0.055434132652423695, rej=False
+Comparison: (0, 2) -- p=1.0713790512260304e-13, corr_p=6.428274307356182e-13, rej=True
+Comparison: (0, 3) -- p=0.08193180167963719, corr_p=0.4915908100778231, rej=False
+Comparison: (1, 2) -- p=2.555495638582258e-30, corr_p=1.5332973831493548e-29, rej=True
+Comparison: (1, 3) -- p=0.2366883919669241, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=4.3557155875608553e-16, corr_p=2.6134293525365133e-15, rej=True
+              0    1
 subcluster          
-0           1015  37
-1            122   2
-2            357  15
-3            300  35
+0           191    0
+1           855   36
+2           379  123
+3           292    7
+
+
+% term:icd9::Other ascites::789.59::C1955521 = 0.70 (113 terms in cluster (0.23), out of 161 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.050853802230659974, corr_p=0.30512281338395986, rej=False
+Comparison: (0, 2) -- p=6.828557137102252e-12, corr_p=4.0971342822613517e-11, rej=True
+Comparison: (0, 3) -- p=0.009463532014023508, corr_p=0.05678119208414105, rej=False
+Comparison: (1, 2) -- p=1.1290673825660151e-28, corr_p=6.774404295396091e-28, rej=True
+Comparison: (1, 3) -- p=0.20535069084845797, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=3.158786627444158e-10, corr_p=1.8952719764664945e-09, rej=True
+              0    1
+subcluster          
+0           190    1
+1           860   31
+2           389  113
+3           283   16
+
+
+% term:icd9::Pneumonia, organism unspecified::486::C0339951 = 0.72 (104 terms in cluster (0.21), out of 144 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.06527390165076136, corr_p=0.39164340990456814, rej=False
+Comparison: (0, 2) -- p=7.711322953177029e-11, corr_p=4.626793771906217e-10, rej=True
+Comparison: (0, 3) -- p=0.0813090974720317, corr_p=0.48785458483219024, rej=False
+Comparison: (1, 2) -- p=4.9301493352806736e-26, corr_p=2.958089601168404e-25, rej=True
+Comparison: (1, 3) -- p=0.9105856830839383, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=2.0531480393409145e-11, corr_p=1.2318888236045486e-10, rej=True
+              0    1
+subcluster          
+0           190    1
+1           862   29
+2           398  104
+3           289   10
+
+
+% term:icd9::Secondary malignant neoplasm of other specified sites::198.89::C0153684 = 0.58 (102 terms in cluster (0.20), out of 175 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.8896745997159414, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=1.011864378100513e-06, corr_p=6.0711862686030775e-06, rej=True
+Comparison: (0, 3) -- p=0.7931077627097648, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=6.040492320314317e-18, corr_p=3.6242953921885904e-17, rej=True
+Comparison: (1, 3) -- p=0.9011300186561284, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=3.21225731512602e-08, corr_p=1.9273543890756122e-07, rej=True
+              0    1
+subcluster          
+0           182    9
+1           844   47
+2           400  102
+3           282   17
+
+
+% term:icd9::Dysuria::788.1::C0013428 = 0.37 (100 terms in cluster (0.20), out of 267 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.14900353253795048, corr_p=0.8940211952277028, rej=False
+Comparison: (0, 2) -- p=0.00021479142910092229, corr_p=0.0012887485746055337, rej=True
+Comparison: (0, 3) -- p=0.015736853172781787, corr_p=0.09442111903669073, rej=False
+Comparison: (1, 2) -- p=5.4289176597852927e-05, corr_p=0.00032573505958711753, rej=True
+Comparison: (1, 3) -- p=0.0961968453634708, corr_p=0.5771810721808248, rej=False
+Comparison: (2, 3) -- p=0.16411781823590815, corr_p=0.9847069094154489, rej=False
+              0    1
+subcluster          
+0           176   15
+1           786  105
+2           402  100
+3           252   47
+
+
+% term:icd9::Dehydration::276.51::C0011175 = 0.61 (89 terms in cluster (0.18), out of 147 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.018360557913287293, corr_p=0.11016334747972376, rej=False
+Comparison: (0, 2) -- p=1.3160266237707915e-08, corr_p=7.896159742624749e-08, rej=True
+Comparison: (0, 3) -- p=0.26362860206636274, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=1.1305558036763951e-13, corr_p=6.783334822058371e-13, rej=True
+Comparison: (1, 3) -- p=0.1491597510628162, corr_p=0.8949585063768972, rej=False
+Comparison: (2, 3) -- p=1.5664736437302518e-09, corr_p=9.398841862381511e-09, rej=True
+              0   1
+subcluster         
+0           189   2
+1           844  47
+2           413  89
+3           290   9
+
+
+% term:icd9::Lumbago::724.2::C0024031 = 0.35 (89 terms in cluster (0.18), out of 251 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.32550102337001163, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.0031829684026293678, corr_p=0.019097810415776205, rej=True
+Comparison: (0, 3) -- p=0.02577000580773788, corr_p=0.15462003484642728, rej=False
+Comparison: (1, 2) -- p=0.0007013545107314802, corr_p=0.004208127064388881, rej=True
+Comparison: (1, 3) -- p=0.04553886997857226, corr_p=0.27323321987143356, rej=False
+Comparison: (2, 3) -- p=0.5250511199150978, corr_p=1.0, rej=False
+              0   1
+subcluster         
+0           175  16
+1           792  99
+2           413  89
+3           252  47
+
+
+% term:icd9::Other diseases of lung, not elsewhere classified::518.89::C0029579 = 0.55 (82 terms in cluster (0.16), out of 149 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.360070477415414, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=2.1233701017879458e-06, corr_p=1.2740220610727674e-05, rej=True
+Comparison: (0, 3) -- p=0.030722929483761537, corr_p=0.18433757690256922, rej=False
+Comparison: (1, 2) -- p=5.959963647436983e-14, corr_p=3.57597818846219e-13, rej=True
+Comparison: (1, 3) -- p=0.03737007177635709, corr_p=0.2242204306581425, rej=False
+Comparison: (2, 3) -- p=0.0006808790894755865, corr_p=0.004085274536853519, rej=True
+              0   1
+subcluster         
+0           186   5
+1           852  39
+2           420  82
+3           276  23
+
+
+
+
+Cluster 3 numerosity: 299
+% term:icd9::Multiple myeloma, without mention of having achieved remission::203.00::C2349260 = 0.16 (299 terms in cluster (1.00), out of 1880 terms in the disease dataset)
+
+            0    1
+subcluster        
+0           2  189
+1           0  891
+2           1  501
+3           0  299
+
+
+% term:icd9::Routine general medical examination at a health care facility::V70.0::C0260851 = 0.69 (79 terms in cluster (0.26), out of 115 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.2680438735626255, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.4107547953043664, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=2.3502848581676634e-10, corr_p=1.410170914900598e-09, rej=True
+Comparison: (1, 2) -- p=0.9846650432123092, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=6.622621753276393e-40, corr_p=3.9735730519658357e-39, rej=True
+Comparison: (2, 3) -- p=2.837982841047855e-25, corr_p=1.702789704628713e-24, rej=True
+              0   1
+subcluster         
+0           184   7
+1           873  18
+2           491  11
+3           220  79
+
+
+% term:icd9::Unspecified vitamin d deficiency::268.9::C0042870 = 0.40 (70 terms in cluster (0.23), out of 177 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.08684810126984854, corr_p=0.5210886076190913, rej=False
+Comparison: (0, 2) -- p=0.17088870808713563, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=1.0023548569935202e-08, corr_p=6.014129141961121e-08, rej=True
+Comparison: (1, 2) -- p=0.7396203776834283, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=1.1594149825411886e-13, corr_p=6.956489895247132e-13, rej=True
+Comparison: (2, 3) -- p=2.602045461713628e-11, corr_p=1.5612272770281768e-10, rej=True
+              0   1
+subcluster         
+0           184   7
+1           825  66
+2           468  34
+3           229  70
+
+
+% term:icd9::Osteoporosis, unspecified::733.00::C0029456 = 0.26 (52 terms in cluster (0.17), out of 201 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.09028937240274659, corr_p=0.5417362344164796, rej=False
+Comparison: (0, 2) -- p=0.12783914050248843, corr_p=0.7670348430149305, rej=False
+Comparison: (0, 3) -- p=0.0003023074423141811, corr_p=0.0018138446538850865, rej=True
+Comparison: (1, 2) -- p=0.965504863838506, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.0008882178365910738, corr_p=0.005329307019546443, rej=True
+Comparison: (2, 3) -- p=0.002393069377299126, corr_p=0.014358416263794756, rej=True
+              0   1
+subcluster         
+0           180  11
+1           802  89
+2           453  49
+3           247  52
+
+
+% term:icd9::Asthma, unspecified type, unspecified::493.90::C0155886 = 0.26 (52 terms in cluster (0.17), out of 203 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.021478205020404848, corr_p=0.1288692301224291, rej=False
+Comparison: (0, 2) -- p=0.6706578012181597, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.25056637972703133, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.018629894481785914, corr_p=0.11177936689071549, rej=False
+Comparison: (1, 3) -- p=2.1536588004956653e-06, corr_p=1.2921952802973991e-05, rej=True
+Comparison: (2, 3) -- p=0.026723708224905256, corr_p=0.16034224934943153, rej=False
+              0   1
+subcluster         
+0           166  25
+1           823  68
+2           444  58
+3           247  52
+
+
+% term:icd9::Pain in joint, site unspecified::719.40::C0003862 = 0.28 (46 terms in cluster (0.15), out of 165 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.7300733172275825, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.998663512183174, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.006863770778668524, corr_p=0.04118262467201114, rej=True
+Comparison: (1, 2) -- p=0.7205593945005795, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.00022873647370573187, corr_p=0.0013724188422343912, rej=True
+Comparison: (2, 3) -- p=0.00033265019507208103, corr_p=0.0019959011704324863, rej=True
+              0   1
+subcluster         
+0           178  13
+1           821  70
+2           466  36
+3           253  46
+
+
+% term:icd9::Family history of osteoporosis::V17.81::C2911643 = 0.26 (46 terms in cluster (0.15), out of 179 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0783682564102064, corr_p=0.47020953846123836, rej=False
+Comparison: (0, 2) -- p=0.08776048554625851, corr_p=0.5265629132775511, rej=False
+Comparison: (0, 3) -- p=0.00045955489564865755, corr_p=0.0027573293738919454, rej=True
+Comparison: (1, 2) -- p=0.9708778016293863, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.0021272509823614164, corr_p=0.012763505894168498, rej=True
+Comparison: (2, 3) -- p=0.007942080248998423, corr_p=0.04765248149399054, rej=True
+              0   1
+subcluster         
+0           182   9
+1           812  79
+2           457  45
+3           253  46
+
+
+% term:icd9::Cyanosis::782.5::C0010520 = 0.47 (45 terms in cluster (0.15), out of 96 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.30993325952133866, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.024286828720137408, corr_p=0.14572097232082445, rej=False
+Comparison: (0, 3) -- p=6.480281582115777e-07, corr_p=3.888168949269466e-06, rej=True
+Comparison: (1, 2) -- p=0.017526763522882943, corr_p=0.10516058113729765, rej=False
+Comparison: (1, 3) -- p=2.9372344567026306e-15, corr_p=1.7623406740215782e-14, rej=True
+Comparison: (2, 3) -- p=3.7351866666805414e-06, corr_p=2.2411120000083247e-05, rej=True
+              0   1
+subcluster         
+0           189   2
+1           868  23
+2           476  26
+3           254  45
+
+
+% term:icd9::Throat pain::784.1::C0242429 = 0.23 (44 terms in cluster (0.15), out of 190 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.48786069337894655, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.02974885820963285, corr_p=0.17849314925779708, rej=False
+Comparison: (0, 3) -- p=0.006609047309985396, corr_p=0.039654283859912376, rej=True
+Comparison: (1, 2) -- p=0.012412712712186096, corr_p=0.07447627627311658, rej=False
+Comparison: (1, 3) -- p=0.001219384593965769, corr_p=0.007316307563794614, rej=True
+Comparison: (2, 3) -- p=0.39662365951664247, corr_p=1.0, rej=False
+              0   1
+subcluster         
+0           179  12
+1           819  72
+2           440  62
+3           255  44
+
+
+% term:icd9::Heart disease, unspecified::429.9::C0018799 = 0.38 (40 terms in cluster (0.13), out of 105 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.38773547901413796, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.791902680111447, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.003035501669234528, corr_p=0.018213010015407167, rej=True
+Comparison: (1, 2) -- p=0.03758252656623226, corr_p=0.22549515939739356, rej=False
+Comparison: (1, 3) -- p=1.0903147170818722e-10, corr_p=6.541888302491233e-10, rej=True
+Comparison: (2, 3) -- p=0.0002156918831550335, corr_p=0.001294151298930201, rej=True
+              0   1
+subcluster         
+0           182   9
+1           863  28
+2           474  28
+3           259  40
 
 
 
@@ -381,56 +644,56 @@ alphacSidak=0.01, alphacBonf=0.008
 =============================================
 group1 group2   stat   pval  pval_corr reject
 ---------------------------------------------
-     0      1   0.586  0.558       1.0  False
-     0      2 -4.6519    0.0       0.0   True
-     0      3 -3.3968 0.0007    0.0042   True
-     1      2 -2.7208 0.0067    0.0405   True
-     1      3 -2.1115 0.0353    0.2116  False
-     2      3  0.7722 0.4402       1.0  False
+     0      1  -2.384 0.0173    0.1038  False
+     0      2 -3.9176 0.0001    0.0006   True
+     0      3 -3.4877 0.0005    0.0032   True
+     1      2 -3.6714 0.0003    0.0015   True
+     1      3 -3.1718 0.0016    0.0093   True
+     2      3 -0.0548 0.9563       1.0  False
 ---------------------------------------------
-              score                                                 
-              count   mean    std    min    25%    50%    75%    max
-subcluster                                                          
-0          1052.000 64.181 12.882 17.000 56.750 65.000 73.000 90.000
-1           124.000 63.427 18.194  9.000 51.000 66.000 76.250 90.000
-2           372.000 68.000 15.492  1.000 60.000 70.000 79.250 90.000
-3           335.000 67.090 15.830 11.000 57.500 69.000 79.000 90.000
+             score                                                 
+             count   mean    std    min    25%    50%    75%    max
+subcluster                                                         
+0          191.000 61.874 18.760  9.000 50.000 65.000 76.000 90.000
+1          891.000 64.490 12.438 24.000 57.000 65.000 73.000 90.000
+2          502.000 67.237 14.970  1.000 58.250 68.000 78.750 90.000
+3          299.000 67.298 15.398 19.000 58.500 69.000 79.000 90.000
 
 Multiple comparison t-test for SEQUENCE LENGTH:
 Test Multiple Comparison ttest_ind 
 FWER=0.05 method=bonf
 alphacSidak=0.01, alphacBonf=0.008
-===========================================
-group1 group2   stat  pval pval_corr reject
--------------------------------------------
-     0      1  8.5149  0.0       0.0   True
-     0      2  4.2232  0.0    0.0002   True
-     0      3  9.6736  0.0       0.0   True
-     1      2  -9.067  0.0       0.0   True
-     1      3 -5.8833  0.0       0.0   True
-     2      3  7.4042  0.0       0.0   True
--------------------------------------------
-              score                                                          
-              count    mean      std    min     25%     50%      75%      max
-subcluster                                                                   
-0          1052.000 947.216 1202.031  6.000  96.000 411.000 1343.250 4849.000
-1           124.000  27.661   40.824  3.000   8.000  15.000   28.750  320.000
-2           372.000 664.981  781.833 11.000 160.000 405.500  854.250 4849.000
-3           335.000 294.272  503.667 20.000  39.500 122.000  349.000 3835.000
+=============================================
+group1 group2   stat    pval pval_corr reject
+---------------------------------------------
+     0      1     -9.4   0.0       0.0   True
+     0      2 -10.8953   0.0       0.0   True
+     0      3  -7.5142   0.0       0.0   True
+     1      2   -0.418 0.676       1.0  False
+     1      3   6.6239   0.0       0.0   True
+     2      3   7.4945   0.0       0.0   True
+---------------------------------------------
+             score                                                          
+             count    mean      std    min     25%     50%      75%      max
+subcluster                                                                  
+0          191.000  67.649  113.914  3.000  11.000  29.000   54.000  779.000
+1          891.000 862.422 1166.898  6.000  96.000 318.000 1120.000 4849.000
+2          502.000 888.602 1038.513 16.000 160.000 507.000 1176.000 4849.000
+3          299.000 396.114  597.008 20.000  62.500 160.000  472.000 3835.000
 
 Multiple comparison chi-square test for SEX:
-Comparison: (0, 1) -- p=0.664, corr_p=1.000, rej=False
-Comparison: (0, 2) -- p=0.154, corr_p=0.926, rej=False
-Comparison: (0, 3) -- p=0.033, corr_p=0.201, rej=False
-Comparison: (1, 2) -- p=0.213, corr_p=1.000, rej=False
-Comparison: (1, 3) -- p=0.465, corr_p=1.000, rej=False
-Comparison: (2, 3) -- p=0.003, corr_p=0.020, rej=True
+Comparison: (0, 1) -- p=0.430, corr_p=1.000, rej=False
+Comparison: (0, 2) -- p=0.015, corr_p=0.088, rej=False
+Comparison: (0, 3) -- p=0.955, corr_p=1.000, rej=False
+Comparison: (1, 2) -- p=0.011, corr_p=0.065, rej=False
+Comparison: (1, 3) -- p=0.358, corr_p=1.000, rej=False
+Comparison: (2, 3) -- p=0.005, corr_p=0.029, rej=True
    female  male
-0     542   510
-1      67    57
-2     175   197
-3     195   139
+0     108    83
+1     473   418
+2     230   272
+3     168   130
 
-Processing time: 150.44 seconds
+Processing time: 150.54 seconds
 Task completed
 
