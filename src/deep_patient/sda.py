@@ -1,7 +1,5 @@
 from .da import DA
 from queue import Queue
-from sklearn.decomposition import TruncatedSVD
-from sklearn.feature_extraction.text import TfidfTransformer
 import timeit
 
 
@@ -17,9 +15,6 @@ class SDA(object):
 
         corrupt_lvl = Queue()
         self._tune_corruption_level(corrupt_lvl, param)
-
-        self.tfidf = TfidfTransformer()
-        self.svd = TruncatedSVD(n_components=nvisible)
 
         self.sda = []
         for i in range(1, self.nlayer + 1):
@@ -42,9 +37,7 @@ class SDA(object):
 
         # pre-step
         print('Pre-processing')
-        tfidf_dt = self.tfidf.fit_transform(data)
-        svd_dt = self.svd.fit_transform(tfidf_dt)
-        dt = svd_dt
+        dt = data
 
         print('Training: %d-layer SDAs\n' % self.nlayer)
 
@@ -69,11 +62,7 @@ class SDA(object):
         @param data: matrix samples x features
         """
         print('Applying: %d-layer SDA' % self.nlayer)
-
-        # pre-step
-        tfidf_dt = self.tfidf.transform(data)
-        svd_dt = self.svd.transform(tfidf_dt)
-        dt = svd_dt
+        dt = data
 
         for i in range(self.nlayer):
             print('(*) applying: DA [layer: %d]' % self.sda[i].layer)

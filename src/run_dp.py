@@ -1,27 +1,25 @@
-from sklearn import preprocessing
-from scipy import stats
-from sklearn.decomposition import FastICA, TruncatedSVD
-from sklearn.cluster import AgglomerativeClustering
+from scipy import sparse
 from sklearn.preprocessing import MaxAbsScaler
-from sklearn.feature_extraction.text import TfidfTransformer
-from scipy.sparse import csr_matrix, spmatrix, save_npz
 from os import path
 import deep_patient as dp
 from time import time
-from datetime import datetime
 import numpy as np
 import utils as ut
 import sys
 import argparse
-import random
 import csv
-import os
 
 
 def run_dp(indir,
            outdir,
            n_dim=ut.dim_baseline,
-           test_set=True):
+           test_set=False):
+
+    # check test_set flag
+    try:
+        test_set = bool(test_set)
+    except Exception:
+        test_set = False
 
     # load data
     if test_set:
@@ -36,13 +34,21 @@ def run_dp(indir,
         mrns, raw_data, ehrs, vocab = _load_ehr_dataset(indir)
         _save_mrns(outdir, mrns, 'bs-mrn.txt')
 
-    # run deep patient
-    print('Applying DEEP PATIENT')
+    # rescale the matrices
+    scaler = MaxAbsScaler(copy=False)
+    raw_data = sparse.csr_matrix(raw_data, dtype=np.float32)
+    raw_mtx_trn = scaler.fit_transform(raw_data)
     if test_set:
-        dp_mtx = _deep_patient(raw_mtx, raw_mtx_ts, n_dim)
+        raw_data_ts = sparse.csr_matrix(raw_data_ts, dtype=np.float32)
+        raw_mtx_ts = scaler.transform(raw_data_ts)
+
+    # run deep patient
+    print('\nApplying DEEP PATIENT\n')
+    if test_set:
+        dp_mtx = _deep_patient(raw_mtx_trn, raw_mtx_ts, n_dim)
         _save_matrices(outdir, 'dp-mtx.npy', dp_mtx)
     else:
-        dp_mtx = _deep_patient(raw_mtx, raw_mtx, n_dim)
+        dp_mtx = _deep_patient(raw_mtx_trn, raw_mtx_trn, n_dim)
         _save_matrices(outdir, 'dp-mtx.npy', dp_mtx)
 
 
@@ -110,11 +116,11 @@ def _load_ehr_dataset(indir):
 
 # run deep patient model
 
-def _deep_patient(data_tr, data_ts, n_dim, nvisible=3000):
+def _deep_patient(data_tr, data_ts, n_dim):
     param = {'epochs': 5,
              'batch_size': 16,
              'corrupt_lvl': 0.05}
-    sda = dp.SDA(nvisible, nhidden=n_dim, nlayer=3, param=param)
+    sda = dp.SDA(data_tr.shape[1], nhidden=n_dim, nlayer=3, param=param)
     print('Parameters DEEP PATIENT: {0}'.format(param.items()))
     sda.train(data_tr)
     return sda.apply(data_ts)

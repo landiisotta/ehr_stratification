@@ -7,7 +7,7 @@ import theano.tensor as T
 import theano
 import timeit
 
-max_sample = 2000000
+max_sample = 40000000
 
 
 class DA(object):
