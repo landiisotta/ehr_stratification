@@ -4,8 +4,8 @@ clear
 projdir=/home/isotta/data1/ehr-stratification
 datadir=$projdir/data
 
-indir=$datadir/ehr-804371-test-2
-outdir=/home/riccardo/data1/projects/ehr-stratification/data/dp-test-2-last
+indir=$datadir/ehr-804370-test-1
+outdir=/home/riccardo/data1/projects/ehr-stratification/data/dp-test-1-last
 
 test_set=$1
 
