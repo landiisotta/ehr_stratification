@@ -3,7 +3,7 @@
 projdir=..
 datadir=$projdir/data
 
-indir=$datadir/ehr-804370-test-1
+indir=$datadir/ehr-804371-test-2
 
 encdir=$indir/encodings
 

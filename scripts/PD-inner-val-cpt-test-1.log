@@ -10,6 +10,15 @@ Number of clusters found:2, Max HC score:642.315
 
 Max number of clusters chosen: 2
 Cluster 0 numerosity: 1368
+% term:cpt::Unlisted psychiatric service or procedure::90899::C3526597|C3526598|C3516796|C0204513 = 0.47 (345 terms in cluster (0.25), out of 729 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.12993900628264135, corr_p=0.12993900628264135, rej=False
+               0    1
+subcluster           
+0           1023  345
+1           1300  384
+
+
 % term:cpt::Magnetic resonance (eg, proton) imaging, brain (including brain stem); without contrast material::70551::C3866606|C0412675|C0202699 = 0.36 (177 terms in cluster (0.13), out of 495 terms in the disease dataset)
 
 Comparison: (0, 1) -- p=1.1785264617191174e-05, corr_p=1.1785264617191174e-05, rej=True
@@ -193,6 +202,15 @@ subcluster
 1           1024  660
 
 
+% term:cpt::Albumin::1011249::C0201838 = 0.96 (616 terms in cluster (0.37), out of 642 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0617321013157216e-120, corr_p=2.0617321013157216e-120, rej=True
+               0    1
+subcluster           
+0           1342   26
+1           1068  616
+
+
 
 
 Multiple comparison t-test for AGE:
@@ -231,6 +249,6 @@ Comparison: (0, 1) -- p=0.976, corr_p=0.976, rej=False
 0     596   771
 1     734   950
 
-Processing time: 275.46 seconds
+Processing time: 246.29 seconds
 Task completed
 

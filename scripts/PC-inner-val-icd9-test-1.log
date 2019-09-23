@@ -1,578 +1,214 @@
 
-Cohort PC numerosity: 13860
+Cohort PC numerosity: 8522
 
-4 -- Silhouette: 0.065
-DB: 2.573
-CH: 1372.337
-Number of clusters found:4, Max Silhouette score:0.065
-Number of clusters found:4, Min DB score:2.573
-Number of clusters found:4, Max HC score:1372.337
+2 -- Silhouette: 0.246
+DB: 2.065
+CH: 1337.772
+Number of clusters found:2, Max Silhouette score:0.246
+Number of clusters found:2, Min DB score:2.065
+Number of clusters found:2, Max HC score:1337.772
 
-Max number of clusters chosen: 4
-Cluster 0 numerosity: 3293
-% term:icd9::Malignant neoplasm of prostate::185::C0376358 = 0.24 (3261 terms in cluster (0.99), out of 13820 terms in the disease dataset)
+Max number of clusters chosen: 2
+Cluster 0 numerosity: 6916
+% term:icd9::Malignant neoplasm of prostate::185::C0376358 = 0.81 (6876 terms in cluster (0.99), out of 8482 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=0.004340824961071784, corr_p=0.004340824961071784, rej=True
              0     1
 subcluster          
-0           32  3261
-1            0  2016
-2            0  3761
-3            8  4782
+0           40  6876
+1            0  1606
 
 
-% term:icd9::Care involving other specified rehabilitation procedure::V57.89::C0260775 = 0.89 (129 terms in cluster (0.04), out of 145 terms in the disease dataset)
+% term:icd9::Unspecified essential hypertension::401.9::C0085580 = 0.92 (2739 terms in cluster (0.40), out of 2964 terms in the disease dataset)
 
-               0    1
-subcluster           
-0           3164  129
-1           2016    0
-2           3761    0
-3           4774   16
-
-
-% term:icd9::Pressure ulcer, unspecified site::707.00::C0011127 = 0.87 (128 terms in cluster (0.04), out of 147 terms in the disease dataset)
-
-               0    1
-subcluster           
-0           3165  128
-1           2016    0
-2           3761    0
-3           4771   19
+Comparison: (0, 1) -- p=1.3502881911468256e-83, corr_p=1.3502881911468256e-83, rej=True
+               0     1
+subcluster            
+0           4177  2739
+1           1381   225
 
 
-% term:icd9::Do not resuscitate status::V49.86::C0582114 = 0.91 (121 terms in cluster (0.04), out of 133 terms in the disease dataset)
+% term:icd9::Complications affecting other specified body systems, not elsewhere classified, hypertension::997.91::C0020538 = 0.93 (2061 terms in cluster (0.30), out of 2216 terms in the disease dataset)
 
-               0    1
-subcluster           
-0           3172  121
-1           2016    0
-2           3761    0
-3           4778   12
-
-
-% term:icd9::Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation::E878.8::C0261585 = 0.89 (116 terms in cluster (0.04), out of 130 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=3.638824417583158e-17, corr_p=2.1832946505498946e-16, rej=True
-Comparison: (0, 2) -- p=5.472995728321536e-30, corr_p=3.2837974369929216e-29, rej=True
-Comparison: (0, 3) -- p=5.876341341103338e-30, corr_p=3.525804804662003e-29, rej=True
-Comparison: (1, 2) -- p=0.7513284199986509, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.04161737588928909, corr_p=0.24970425533573454, rej=False
-Comparison: (2, 3) -- p=0.012076733365821544, corr_p=0.07246040019492926, rej=False
-               0    1
-subcluster           
-0           3177  116
-1           2016    0
-2           3760    1
-3           4777   13
+Comparison: (0, 1) -- p=1.560652148310644e-61, corr_p=1.560652148310644e-61, rej=True
+               0     1
+subcluster            
+0           4855  2061
+1           1451   155
 
 
-% term:icd9::Acute respiratory failure::518.81::C0264490 = 0.92 (112 terms in cluster (0.03), out of 122 terms in the disease dataset)
+% term:icd9::Other and unspecified hyperlipidemia::272.4::C0348494 = 0.95 (1916 terms in cluster (0.28), out of 2010 terms in the disease dataset)
 
-               0    1
-subcluster           
-0           3181  112
-1           2016    0
-2           3761    0
-3           4780   10
-
-
-% term:icd9::Unspecified septicemia::038.9::C0036690 = 0.89 (110 terms in cluster (0.03), out of 124 terms in the disease dataset)
-
-               0    1
-subcluster           
-0           3183  110
-1           2016    0
-2           3761    0
-3           4776   14
+Comparison: (0, 1) -- p=8.30851227483214e-77, corr_p=8.30851227483214e-77, rej=True
+               0     1
+subcluster            
+0           5000  1916
+1           1512    94
 
 
-% term:icd9::Encounter for palliative care::V66.7::C0375892 = 0.97 (108 terms in cluster (0.03), out of 111 terms in the disease dataset)
+% term:icd9::Edema::782.3::C0013604 = 0.94 (1643 terms in cluster (0.24), out of 1754 terms in the disease dataset)
 
-               0    1
-subcluster           
-0           3185  108
-1           2016    0
-2           3761    0
-3           4787    3
-
-
-% term:icd9::Unspecified intracranial hemorrhage::432.9::C0151699 = 0.76 (106 terms in cluster (0.03), out of 140 terms in the disease dataset)
-
-               0    1
-subcluster           
-0           3187  106
-1           2016    0
-2           3761    0
-3           4756   34
+Comparison: (0, 1) -- p=6.568941127323572e-51, corr_p=6.568941127323572e-51, rej=True
+               0     1
+subcluster            
+0           5273  1643
+1           1495   111
 
 
-% term:icd9::Personal history of antineoplastic chemotherapy::V87.41::C2349913 = 0.90 (95 terms in cluster (0.03), out of 106 terms in the disease dataset)
+% term:icd9::Personal history of malignant neoplasm of prostate::V10.46::C0260429 = 0.97 (1362 terms in cluster (0.20), out of 1401 terms in the disease dataset)
 
-               0   1
-subcluster          
-0           3198  95
-1           2016   0
-2           3761   0
-3           4779  11
+Comparison: (0, 1) -- p=3.4366377991658043e-63, corr_p=3.4366377991658043e-63, rej=True
+               0     1
+subcluster            
+0           5554  1362
+1           1567    39
+
+
+% term:icd9::Shortness of breath::786.05::C0013404 = 0.98 (1359 terms in cluster (0.20), out of 1393 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0927765658246507e-65, corr_p=2.0927765658246507e-65, rej=True
+               0     1
+subcluster            
+0           5557  1359
+1           1572    34
+
+
+% term:icd9::Constipation, unspecified::564.00::C0009806 = 0.96 (1289 terms in cluster (0.19), out of 1343 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.6811877894409416e-51, corr_p=1.6811877894409416e-51, rej=True
+               0     1
+subcluster            
+0           5627  1289
+1           1552    54
+
+
+% term:icd9::Other malaise and fatigue::780.79::C0695252 = 0.96 (1285 terms in cluster (0.19), out of 1335 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.26963046597195e-53, corr_p=5.26963046597195e-53, rej=True
+               0     1
+subcluster            
+0           5631  1285
+1           1556    50
+
+
+% term:icd9::Fever, unspecified::780.60::C0015967 = 0.96 (1276 terms in cluster (0.18), out of 1335 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.5993349560873455e-48, corr_p=1.5993349560873455e-48, rej=True
+               0     1
+subcluster            
+0           5640  1276
+1           1547    59
+
+
+% term:icd9::Chest pain, unspecified::786.50::C0008031 = 0.97 (1255 terms in cluster (0.18), out of 1291 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.8580486791598546e-57, corr_p=1.8580486791598546e-57, rej=True
+               0     1
+subcluster            
+0           5661  1255
+1           1570    36
 
 
 
 
-Cluster 1 numerosity: 2016
-% term:icd9::Malignant neoplasm of prostate::185::C0376358 = 0.15 (2016 terms in cluster (1.00), out of 13820 terms in the disease dataset)
+Cluster 1 numerosity: 1606
+% term:icd9::Malignant neoplasm of prostate::185::C0376358 = 0.19 (1606 terms in cluster (1.00), out of 8482 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=0.004340824961071784, corr_p=0.004340824961071784, rej=True
              0     1
 subcluster          
-0           32  3261
-1            0  2016
-2            0  3761
-3            8  4782
+0           40  6876
+1            0  1606
 
 
-% term:icd9::Personal history of allergy to penicillin::V14.0::C0260484 = 0.09 (52 terms in cluster (0.03), out of 554 terms in the disease dataset)
+% term:icd9::Nocturia::788.43::C0028734 = 0.33 (460 terms in cluster (0.29), out of 1378 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=3.541601345181072e-05, corr_p=0.00021249608071086432, rej=True
-Comparison: (0, 2) -- p=0.0506880769601683, corr_p=0.30412846176100977, rej=False
-Comparison: (0, 3) -- p=0.05592505588436374, corr_p=0.33555033530618245, rej=False
-Comparison: (1, 2) -- p=0.00902300481120019, corr_p=0.054138028867201135, rej=False
-Comparison: (1, 3) -- p=0.004746226520771598, corr_p=0.028477359124629585, rej=True
-Comparison: (2, 3) -- p=0.9074431677067456, corr_p=1.0, rej=False
+Comparison: (0, 1) -- p=4.484632055023701e-51, corr_p=4.484632055023701e-51, rej=True
                0    1
 subcluster           
-0           3131  162
-1           1964   52
-2           3613  148
-3           4598  192
+0           5998  918
+1           1146  460
 
 
-% term:icd9::Splitting of urinary stream::788.61::C0232855 = 0.65 (20 terms in cluster (0.01), out of 31 terms in the disease dataset)
+% term:icd9::Elevated prostate specific antigen [psa]::790.93::C0178415 = 0.27 (294 terms in cluster (0.18), out of 1101 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=3.892946312509581e-08, corr_p=2.3357677875057486e-07, rej=True
-Comparison: (0, 2) -- p=0.9469825046461241, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.0213576401036226, corr_p=0.12814584062173562, rej=False
-Comparison: (1, 2) -- p=2.3697081270149452e-08, corr_p=1.421824876208967e-07, rej=True
-Comparison: (1, 3) -- p=2.104651601615454e-05, corr_p=0.00012627909609692724, rej=True
-Comparison: (2, 3) -- p=0.0424563179471889, corr_p=0.25473790768313337, rej=False
-               0   1
-subcluster          
-0           3293   0
-1           1996  20
-2           3760   1
-3           4780  10
-
-
-% term:icd9::Personal history of allergy to other antibiotic agent::V14.1 = 0.08 (18 terms in cluster (0.01), out of 215 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.007236300492139048, corr_p=0.04341780295283429, rej=True
-Comparison: (0, 2) -- p=0.697796842526501, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.2610525688110401, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.018253504722386387, corr_p=0.10952102833431832, rej=False
-Comparison: (1, 3) -- p=0.057938183608667856, corr_p=0.3476291016520071, rej=False
-Comparison: (2, 3) -- p=0.5212909417497384, corr_p=1.0, rej=False
-               0   1
-subcluster          
-0           3232  61
-1           1998  18
-2           3697  64
-3           4718  72
-
-
-% term:icd9::Redundant prepuce and phimosis::605::C0034919 = 0.32 (12 terms in cluster (0.01), out of 37 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.16609640715715623, corr_p=0.9965784429429374, rej=False
-Comparison: (0, 2) -- p=0.11191938653453326, corr_p=0.6715163192071996, rej=False
-Comparison: (0, 3) -- p=0.6744290622763642, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.0018867747777752682, corr_p=0.011320648666651608, rej=True
-Comparison: (1, 3) -- p=0.0320179997199897, corr_p=0.1921079983199382, rej=False
-Comparison: (2, 3) -- p=0.27482531290336426, corr_p=1.0, rej=False
-               0   1
-subcluster          
-0           3283  10
-1           2004  12
-2           3757   4
-3           4779  11
-
-
-% term:icd9::Nocturnal enuresis::788.36::C0270327 = 0.27 (12 terms in cluster (0.01), out of 44 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.005135719676854816, corr_p=0.030814318061128894, rej=True
-Comparison: (0, 2) -- p=0.38270934749763885, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.038480625048173685, corr_p=0.23088375028904212, rej=False
-Comparison: (1, 2) -- p=0.055704486849592845, corr_p=0.3342269210975571, rej=False
-Comparison: (1, 3) -- p=0.3608655100309506, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=0.2829903555235971, corr_p=1.0, rej=False
-               0   1
-subcluster          
-0           3289   4
-1           2004  12
-2           3752   9
-3           4771  19
-
-
-% term:icd9::Malignant neoplasm of bronchus and lung, unspecified::162.9::C0348343 = 0.03 (11 terms in cluster (0.01), out of 379 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=1.1166046075860403e-08, corr_p=6.699627645516241e-08, rej=True
-Comparison: (0, 2) -- p=0.5670412197088095, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.23260267293679007, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=6.485686834063251e-10, corr_p=3.8914121004379505e-09, rej=True
-Comparison: (1, 3) -- p=3.843573044337696e-11, corr_p=2.3061438266026177e-10, rej=True
-Comparison: (2, 3) -- p=0.5823310068842624, corr_p=1.0, rej=False
+Comparison: (0, 1) -- p=1.21956357581495e-12, corr_p=1.21956357581495e-12, rej=True
                0    1
 subcluster           
-0           3200   93
-1           2005   11
-2           3645  116
-3           4631  159
+0           6109  807
+1           1312  294
 
 
-% term:icd9::Other functional disorder of bladder::596.59::C0156274 = 0.41 (7 terms in cluster (0.00), out of 17 terms in the disease dataset)
+% term:icd9::Impotence of organic origin::607.84::C0156309 = 0.35 (283 terms in cluster (0.18), out of 801 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.03409961042682514, corr_p=0.20459766256095085, rej=False
-Comparison: (0, 2) -- p=0.9082931488627604, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.4284451840904928, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.005914006977028176, corr_p=0.03548404186216905, rej=True
-Comparison: (1, 3) -- p=0.1679605747393801, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=0.1502851945170211, corr_p=0.9017111671021266, rej=False
-               0  1
-subcluster         
-0           3291  2
-1           2009  7
-2           3760  1
-3           4783  7
-
-
-% term:icd9::Other anterior pituitary disorders::253.4::C0701162 = 0.37 (7 terms in cluster (0.00), out of 19 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.03409961042682514, corr_p=0.20459766256095085, rej=False
-Comparison: (0, 2) -- p=0.9082931488627604, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.223726118524567, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.005914006977028176, corr_p=0.03548404186216905, rej=True
-Comparison: (1, 3) -- p=0.33445987279692363, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=0.06466678667489399, corr_p=0.3880007200493639, rej=False
-               0  1
-subcluster         
-0           3291  2
-1           2009  7
-2           3760  1
-3           4781  9
-
-
-% term:icd9::Unspecified leukemia, without mention of having achieved remission::208.90::C2349312 = 0.06 (6 terms in cluster (0.00), out of 108 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.06495757668949867, corr_p=0.389745460136992, rej=False
-Comparison: (0, 2) -- p=0.9467097153921072, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.209886867263765, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.0421044701165648, corr_p=0.2526268206993888, rej=False
-Comparison: (1, 3) -- p=0.0036911760911929633, corr_p=0.02214705654715778, rej=True
-Comparison: (2, 3) -- p=0.2706598773308389, corr_p=1.0, rej=False
-               0   1
-subcluster          
-0           3269  24
-1           2010   6
-2           3732  29
-3           4741  49
-
-
-
-
-Cluster 2 numerosity: 3761
-% term:icd9::Malignant neoplasm of prostate::185::C0376358 = 0.27 (3761 terms in cluster (1.00), out of 13820 terms in the disease dataset)
-
-             0     1
-subcluster          
-0           32  3261
-1            0  2016
-2            0  3761
-3            8  4782
-
-
-% term:icd9::Supervision of normal first pregnancy::V22.0::C0260550 = 0.92 (225 terms in cluster (0.06), out of 244 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.4468829235060804, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=7.209775999066785e-44, corr_p=4.325865599440071e-43, rej=True
-Comparison: (0, 3) -- p=0.04744685051425771, corr_p=0.2846811030855463, rej=False
-Comparison: (1, 2) -- p=8.856616035005995e-29, corr_p=5.313969621003597e-28, rej=True
-Comparison: (1, 3) -- p=0.020127523150477257, corr_p=0.12076513890286354, rej=False
-Comparison: (2, 3) -- p=7.308968465716264e-55, corr_p=4.3853810794297586e-54, rej=True
+Comparison: (0, 1) -- p=8.829375262072414e-36, corr_p=8.829375262072414e-36, rej=True
                0    1
 subcluster           
-0           3290    3
-1           2016    0
-2           3536  225
-3           4774   16
+0           6398  518
+1           1323  283
 
 
-% term:icd9::Outcome of delivery, single liveborn::V27.0::C1313895 = 0.98 (144 terms in cluster (0.04), out of 147 terms in the disease dataset)
+% term:icd9::Urinary frequency::788.41::C0042023 = 0.27 (248 terms in cluster (0.15), out of 923 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.804262939246974, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=8.68187248132056e-29, corr_p=5.209123488792336e-28, rej=True
-Comparison: (0, 3) -- p=0.7440539183976453, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=1.2657121904222484e-18, corr_p=7.59427314253349e-18, rej=True
-Comparison: (1, 3) -- p=0.8861729941850816, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=1.4747853950895147e-40, corr_p=8.848712370537087e-40, rej=True
+Comparison: (0, 1) -- p=5.5153118614482875e-11, corr_p=5.5153118614482875e-11, rej=True
                0    1
 subcluster           
-0           3292    1
-1           2016    0
-2           3617  144
-3           4788    2
+0           6241  675
+1           1358  248
 
 
-% term:icd9::Unspecified contraceptive management::V25.9::C0375815 = 0.92 (132 terms in cluster (0.04), out of 143 terms in the disease dataset)
+% term:icd9::Unspecified essential hypertension::401.9::C0085580 = 0.08 (225 terms in cluster (0.14), out of 2964 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=1.3502881911468256e-83, corr_p=1.3502881911468256e-83, rej=True
+               0     1
+subcluster            
+0           4177  2739
+1           1381   225
+
+
+% term:icd9::Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (luts)::600.00::C1719538 = 0.15 (176 terms in cluster (0.11), out of 1156 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0008223870224044625, corr_p=0.0008223870224044625, rej=True
                0    1
 subcluster           
-0           3293    0
-1           2016    0
-2           3629  132
-3           4779   11
+0           5936  980
+1           1430  176
 
 
-% term:icd9::Other general counseling and advice on contraceptive management::V25.09::C0029624 = 0.89 (120 terms in cluster (0.03), out of 135 terms in the disease dataset)
+% term:icd9::Urinary hesitancy::788.64::C0152032 = 0.33 (172 terms in cluster (0.11), out of 517 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.7053494387759149, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=5.1642337851159946e-24, corr_p=3.0985402710695966e-23, rej=True
-Comparison: (0, 3) -- p=0.0221117012093692, corr_p=0.1326702072562152, rej=False
-Comparison: (1, 2) -- p=4.1575636496109565e-15, corr_p=2.494538189766574e-14, rej=True
-Comparison: (1, 3) -- p=0.12090804816418026, corr_p=0.7254482889850815, rej=False
-Comparison: (2, 3) -- p=6.572183414653827e-27, corr_p=3.9433100487922967e-26, rej=True
+Comparison: (0, 1) -- p=8.355055235673611e-18, corr_p=8.355055235673611e-18, rej=True
                0    1
 subcluster           
-0           3292    1
-1           2015    1
-2           3641  120
-3           4777   13
+0           6571  345
+1           1434  172
 
 
-% term:icd9::Candidiasis of vulva and vagina::112.1::C0700345 = 0.81 (109 terms in cluster (0.03), out of 135 terms in the disease dataset)
+% term:icd9::Dysuria::788.1::C0013428 = 0.16 (167 terms in cluster (0.10), out of 1057 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.5123702974126201, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=1.6937599556157345e-19, corr_p=1.0162559733694406e-18, rej=True
-Comparison: (0, 3) -- p=0.05614240586492999, corr_p=0.3368544351895799, rej=False
-Comparison: (1, 2) -- p=9.337334392291292e-14, corr_p=5.602400635374775e-13, rej=True
-Comparison: (1, 3) -- p=0.02385029417615167, corr_p=0.14310176505691002, rej=False
-Comparison: (2, 3) -- p=2.2136221935648492e-20, corr_p=1.3281733161389096e-19, rej=True
+Comparison: (0, 1) -- p=0.007733066291166764, corr_p=0.007733066291166764, rej=True
                0    1
 subcluster           
-0           3288    5
-1           2015    1
-2           3652  109
-3           4770   20
+0           6026  890
+1           1439  167
 
 
-% term:icd9::Other specified antenatal screening::V28.89::C0260598 = 0.97 (101 terms in cluster (0.03), out of 104 terms in the disease dataset)
+% term:icd9::Hematuria, unspecified::599.70::C0018965 = 0.14 (165 terms in cluster (0.10), out of 1142 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=5.293110379415984e-05, corr_p=5.293110379415984e-05, rej=True
                0    1
 subcluster           
-0           3293    0
-1           2016    0
-2           3660  101
-3           4787    3
+0           5939  977
+1           1441  165
 
 
-% term:icd9::Surveillance of intrauterine contraceptive device::V25.42::C0260572 = 0.86 (100 terms in cluster (0.03), out of 116 terms in the disease dataset)
+% term:icd9::Complications affecting other specified body systems, not elsewhere classified, hypertension::997.91::C0020538 = 0.07 (155 terms in cluster (0.10), out of 2216 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.7053494387759149, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=4.7060551522577905e-20, corr_p=2.8236330913546744e-19, rej=True
-Comparison: (0, 3) -- p=0.015297189405327436, corr_p=0.09178313643196462, rej=False
-Comparison: (1, 2) -- p=1.184461892180881e-12, corr_p=7.106771353085286e-12, rej=True
-Comparison: (1, 3) -- p=0.09567667379724146, corr_p=0.5740600427834488, rej=False
-Comparison: (2, 3) -- p=6.838326793334664e-21, corr_p=4.102996076000798e-20, rej=True
-               0    1
-subcluster           
-0           3292    1
-1           2015    1
-2           3661  100
-3           4776   14
-
-
-% term:icd9::Pneumonia due to streptococcus, group b::482.32::C0348801 = 0.76 (100 terms in cluster (0.03), out of 131 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.011133279604158943, corr_p=0.06679967762495366, rej=False
-Comparison: (0, 2) -- p=8.570605839800788e-14, corr_p=5.142363503880472e-13, rej=True
-Comparison: (0, 3) -- p=0.9622174181193134, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=3.34383571890032e-13, corr_p=2.006301431340192e-12, rej=True
-Comparison: (1, 3) -- p=0.012503568653216144, corr_p=0.07502141191929687, rej=False
-Comparison: (2, 3) -- p=6.135819661981891e-19, corr_p=3.6814917971891345e-18, rej=True
-               0    1
-subcluster           
-0           3280   13
-1           2016    0
-2           3661  100
-3           4772   18
-
-
-% term:icd9::Encounter for insertion of intrauterine contraceptive device::V25.11::C0375820 = 0.83 (99 terms in cluster (0.03), out of 119 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.7053494387759149, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=2.974279491668357e-19, corr_p=1.784567695001014e-18, rej=True
-Comparison: (0, 3) -- p=0.010067610863051763, corr_p=0.06040566517831058, rej=False
-Comparison: (1, 2) -- p=4.434845364379464e-13, corr_p=2.6609072186276783e-12, rej=True
-Comparison: (1, 3) -- p=0.012503568653216144, corr_p=0.07502141191929687, rej=False
-Comparison: (2, 3) -- p=1.1256135723229236e-18, corr_p=6.753681433937542e-18, rej=True
-               0   1
-subcluster          
-0           3291   2
-1           2016   0
-2           3662  99
-3           4772  18
-
-
-
-
-Cluster 3 numerosity: 4790
-% term:icd9::Malignant neoplasm of prostate::185::C0376358 = 0.35 (4782 terms in cluster (1.00), out of 13820 terms in the disease dataset)
-
-             0     1
-subcluster          
-0           32  3261
-1            0  2016
-2            0  3761
-3            8  4782
-
-
-% term:icd9::Cyanosis::782.5::C0010520 = 0.66 (576 terms in cluster (0.12), out of 878 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.1995731984075567, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.323630672754376, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=3.240380938521929e-39, corr_p=1.9442285631131573e-38, rej=True
-Comparison: (1, 2) -- p=0.6730025139094595, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=1.9225514293099155e-31, corr_p=1.1535308575859492e-30, rej=True
-Comparison: (2, 3) -- p=3.817594310722146e-49, corr_p=2.2905565864332878e-48, rej=True
-               0    1
-subcluster           
-0           3172  121
-1           1956   60
-2           3640  121
-3           4214  576
-
-
-% term:icd9::Special screening for malignant neoplasms of colon::V76.51::C0878742 = 0.76 (348 terms in cluster (0.07), out of 456 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.13256998124168679, corr_p=0.7954198874501207, rej=False
-Comparison: (0, 2) -- p=0.5419284005642038, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=1.396367225449774e-35, corr_p=8.378203352698644e-35, rej=True
-Comparison: (1, 2) -- p=0.035178372019535435, corr_p=0.2110702321172126, rej=False
-Comparison: (1, 3) -- p=1.5591431557361807e-27, corr_p=9.354858934417084e-27, rej=True
-Comparison: (2, 3) -- p=9.576400045630747e-37, corr_p=5.745840027378449e-36, rej=True
-               0    1
-subcluster           
-0           3253   40
-1           2001   15
-2           3708   53
-3           4442  348
-
-
-% term:icd9::Actinic keratosis::702.0::C0022602 = 0.75 (267 terms in cluster (0.06), out of 358 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.06253832606650718, corr_p=0.3752299563990431, rej=False
-Comparison: (0, 2) -- p=0.06370325035202444, corr_p=0.3822195021121466, rej=False
-Comparison: (0, 3) -- p=3.8727749800501394e-22, corr_p=2.3236649880300836e-21, rej=True
-Comparison: (1, 2) -- p=0.7817502722698224, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=1.2744027480157326e-19, corr_p=7.646416488094396e-19, rej=True
-Comparison: (2, 3) -- p=7.698169458152844e-32, corr_p=4.618901674891706e-31, rej=True
-               0    1
-subcluster           
-0           3249   44
-1           2001   15
-2           3729   32
-3           4523  267
-
-
-% term:icd9::Other seborrheic keratosis::702.19::C0375488 = 0.65 (221 terms in cluster (0.05), out of 339 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.20489445579910653, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.24163236040146158, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=9.647093900456337e-14, corr_p=5.788256340273802e-13, rej=True
-Comparison: (1, 2) -- p=0.8203228946491874, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=1.4488836205414578e-12, corr_p=8.693301723248747e-12, rej=True
-Comparison: (2, 3) -- p=2.9082280931776574e-19, corr_p=1.7449368559065945e-18, rej=True
-               0    1
-subcluster           
-0           3242   51
-1           1994   22
-2           3716   45
-3           4569  221
-
-
-% term:icd9::Personal history of colonic polyps::V12.72::C0375804 = 0.72 (156 terms in cluster (0.03), out of 217 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.7298341967600108, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.18108212918567962, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=8.030376348931476e-13, corr_p=4.8182258093588856e-12, rej=True
-Comparison: (1, 2) -- p=0.5551739570012866, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=1.0631081382709612e-09, corr_p=6.3786488296257674e-09, rej=True
-Comparison: (2, 3) -- p=2.486641501443847e-18, corr_p=1.491984900866308e-17, rej=True
-               0    1
-subcluster           
-0           3266   27
-1           2002   14
-2           3741   20
-3           4634  156
-
-
-% term:icd9::Sensorineural hearing loss, bilateral::389.18::C0452138 = 0.78 (144 terms in cluster (0.03), out of 185 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.11219771414319009, corr_p=0.6731862848591406, rej=False
-Comparison: (0, 2) -- p=0.13204577638076012, corr_p=0.7922746582845608, rej=False
-Comparison: (0, 3) -- p=1.6900261814732518e-18, corr_p=1.0140157088839511e-17, rej=True
-Comparison: (1, 2) -- p=0.9014497504464696, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=2.2329206655650257e-09, corr_p=1.3397523993390154e-08, rej=True
-Comparison: (2, 3) -- p=2.370493932733635e-16, corr_p=1.4222963596401811e-15, rej=True
-               0    1
-subcluster           
-0           3284    9
-1           2004   12
-2           3741   20
-3           4646  144
-
-
-% term:icd9::Deviated nasal septum::470::C0549397 = 0.68 (141 terms in cluster (0.03), out of 206 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.024548198356568126, corr_p=0.14728919013940875, rej=False
-Comparison: (0, 2) -- p=0.02460473548469926, corr_p=0.14762841290819556, rej=False
-Comparison: (0, 3) -- p=1.9631348459122325e-08, corr_p=1.1778809075473394e-07, rej=True
-Comparison: (1, 2) -- p=0.709764145272322, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=2.672540105934519e-10, corr_p=1.6035240635607114e-09, rej=True
-Comparison: (2, 3) -- p=1.853294612241543e-15, corr_p=1.1119767673449257e-14, rej=True
-               0    1
-subcluster           
-0           3258   35
-1           2007    9
-2           3740   21
-3           4649  141
-
-
-% term:icd9::Observation and evaluation for other specified suspected conditions::V71.89::C0481850 = 0.91 (139 terms in cluster (0.03), out of 152 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.5743414470926465, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.09065419832056959, corr_p=0.5439251899234175, rej=False
-Comparison: (0, 3) -- p=3.0646464537519572e-19, corr_p=1.8387878722511742e-18, rej=True
-Comparison: (1, 2) -- p=0.015277054971311514, corr_p=0.09166232982786908, rej=False
-Comparison: (1, 3) -- p=2.0627526201134466e-11, corr_p=1.237651572068068e-10, rej=True
-Comparison: (2, 3) -- p=6.098672039864428e-25, corr_p=3.659203223918657e-24, rej=True
-               0    1
-subcluster           
-0           3287    6
-1           2010    6
-2           3760    1
-3           4651  139
-
-
-% term:icd9::Sciatica::724.3::C0036396 = 0.68 (127 terms in cluster (0.03), out of 188 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.08924286906014205, corr_p=0.5354572143608523, rej=False
-Comparison: (0, 2) -- p=0.9364206917433633, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=1.2774583862756056e-09, corr_p=7.664750317653633e-09, rej=True
-Comparison: (1, 2) -- p=0.07575322966373603, corr_p=0.45451937798241615, rej=False
-Comparison: (1, 3) -- p=7.667197406165491e-10, corr_p=4.6003184436992946e-09, rej=True
-Comparison: (2, 3) -- p=1.9225232566268068e-10, corr_p=1.153513953976084e-09, rej=True
-               0    1
-subcluster           
-0           3268   25
-1           2009    7
-2           3732   29
-3           4663  127
+Comparison: (0, 1) -- p=1.560652148310644e-61, corr_p=1.560652148310644e-61, rej=True
+               0     1
+subcluster            
+0           4855  2061
+1           1451   155
 
 
 
@@ -580,60 +216,35 @@ subcluster
 Multiple comparison t-test for AGE:
 Test Multiple Comparison ttest_ind 
 FWER=0.05 method=bonf
-alphacSidak=0.01, alphacBonf=0.008
-============================================
-group1 group2   stat   pval pval_corr reject
---------------------------------------------
-     0      1    6.835  0.0       0.0   True
-     0      2  82.3944  0.0       0.0   True
-     0      3  21.4376  0.0       0.0   True
-     1      2   64.672  0.0       0.0   True
-     1      3   12.058  0.0       0.0   True
-     2      3 -60.6022  0.0       0.0   True
---------------------------------------------
+alphacSidak=0.05, alphacBonf=0.050
+=============================================
+group1 group2   stat   pval  pval_corr reject
+---------------------------------------------
+     0      1 -0.4107 0.6813    0.6813  False
+---------------------------------------------
               score                                                 
               count   mean    std    min    25%    50%    75%    max
 subcluster                                                          
-0          3293.000 71.160 12.110  2.000 63.000 71.000 80.000 90.000
-1          2016.000 68.874 11.354 15.000 62.000 69.000 76.250 90.000
-2          3761.000 44.125 15.037  1.000 33.000 42.000 54.000 90.000
-3          4790.000 64.280 15.441  7.000 55.000 66.000 76.000 90.000
+0          6916.000 69.638 12.981  2.000 62.000 70.000 79.000 90.000
+1          1606.000 69.781 10.558 27.000 63.000 70.000 77.000 90.000
 
 Multiple comparison t-test for SEQUENCE LENGTH:
 Test Multiple Comparison ttest_ind 
 FWER=0.05 method=bonf
-alphacSidak=0.01, alphacBonf=0.008
-============================================
-group1 group2   stat   pval pval_corr reject
---------------------------------------------
-     0      1  20.4728  0.0       0.0   True
-     0      2  25.1221  0.0       0.0   True
-     0      3   5.5924  0.0       0.0   True
-     1      2  -8.6297  0.0       0.0   True
-     1      3 -22.9721  0.0       0.0   True
-     2      3 -27.2147  0.0       0.0   True
---------------------------------------------
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 19.2622  0.0       0.0   True
+-------------------------------------------
               score                                                     
               count    mean     std   min    25%    50%     75%      max
 subcluster                                                              
-0          3293.000 260.502 458.709 9.000 64.000 96.000 255.000 4337.000
-1          2016.000  49.629  75.123 3.000 13.000 27.000  59.000  896.000
-2          3761.000  68.997  84.431 6.000 24.000 35.000  64.000  864.000
-3          4790.000 212.412 314.398 6.000 47.000 96.000 256.000 4817.000
+0          6916.000 219.177 378.430 9.000 55.000 96.000 224.000 4817.000
+1          1606.000  36.843  54.113 3.000 11.000 20.000  39.000  672.000
 
 Multiple comparison chi-square test for SEX:
-Comparison: (0, 1) -- p=0.000, corr_p=0.001, rej=True
-Comparison: (0, 2) -- p=0.000, corr_p=0.000, rej=True
-Comparison: (0, 3) -- p=0.000, corr_p=0.000, rej=True
-Comparison: (1, 2) -- p=0.000, corr_p=0.000, rej=True
-Comparison: (1, 3) -- p=0.000, corr_p=0.000, rej=True
-Comparison: (2, 3) -- p=0.000, corr_p=0.000, rej=True
-   female  male
-0     171  3122
-1      59  1957
-2    3590   171
-3    1517  3272
 
-Processing time: 1434.01 seconds
+Processing time: 711.16 seconds
 Task completed
 

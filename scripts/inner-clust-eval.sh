@@ -8,10 +8,10 @@ indir=$datadir/ehr-804371-test-2
 encdir=$indir/encodings
 
 # choose between SNOMED and CCS-SINGLE
-#disease='T2D'
+disease='T2D'
 #disease='PD'
 #disease='AD'
-disease='MM'
+#disease='MM'
 #disease='BC'
 #disease='PC'
 

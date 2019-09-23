@@ -1,283 +1,415 @@
 
-Cohort T2D numerosity: 1050
+Cohort T2D numerosity: 48688
 
-3 -- Silhouette: 0.130
-DB: 1.798
-CH: 203.182
-Number of clusters found:3, Max Silhouette score:0.130
-Number of clusters found:3, Min DB score:1.798
-Number of clusters found:3, Max HC score:203.182
+3 -- Silhouette: 0.116
+DB: 2.409
+CH: 5125.640
+Number of clusters found:3, Max Silhouette score:0.116
+Number of clusters found:3, Min DB score:2.409
+Number of clusters found:3, Max HC score:5125.640
 
 Max number of clusters chosen: 3
-Cluster 0 numerosity: 608
-% term:procedure::Electrocardiogram complete = 0.51 (444 terms in cluster (0.73), out of 864 terms in the disease dataset)
+Cluster 0 numerosity: 18325
+% term:procedure::Electrocardiogram complete = 0.18 (4236 terms in cluster (0.23), out of 23655 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=4.379362504484287e-84, corr_p=1.3138087513452862e-83, rej=True
+                0      1
+subcluster              
+0           14089   4236
+1            8875  13784
+2            2069   5635
 
-Comparison: (0, 1) -- p=9.096893074978901e-09, corr_p=2.7290679224936703e-08, rej=True
-Comparison: (0, 2) -- p=2.9002193104803566e-14, corr_p=8.700657931441069e-14, rej=True
-Comparison: (1, 2) -- p=0.8857214508094211, corr_p=1.0, rej=False
-              0    1
-subcluster          
-0           164  444
-1             8  149
-2            14  271
 
+% term:procedure::Electrocardiogram tracing = 0.18 (1603 terms in cluster (0.09), out of 8978 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.8691307174934046e-288, corr_p=8.607392152480214e-288, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=1.283421320689266e-57, corr_p=3.850263962067798e-57, rej=True
+                0     1
+subcluster             
+0           16722  1603
+1           17676  4983
+2            5312  2392
 
-% term:procedure::Ultrasound abdomen complete = 0.79 (45 terms in cluster (0.07), out of 57 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.000888957131433206, corr_p=0.002666871394299618, rej=True
-Comparison: (0, 2) -- p=0.09463666986416323, corr_p=0.2839100095924897, rej=False
-Comparison: (1, 2) -- p=0.021394728374674727, corr_p=0.06418418512402418, rej=False
-              0   1
-subcluster         
-0           563  45
-1           157   0
-2           273  12
+% term:procedure::Rm chest pa and left lateral only = 0.21 (1569 terms in cluster (0.09), out of 7590 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.177609018388134e-05, corr_p=3.532827055164402e-05, rej=True
+Comparison: (1, 2) -- p=1.0552708175039668e-236, corr_p=3.1658124525119007e-236, rej=True
+                0     1
+subcluster             
+0           16756  1569
+1           17172  5487
+2            7170   534
 
 
-% term:procedure::Rm shoulder left = 0.74 (31 terms in cluster (0.05), out of 42 terms in the disease dataset)
+% term:procedure::Rm screening mammography = 0.70 (1240 terms in cluster (0.07), out of 1779 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.007781064363142582, corr_p=0.023343193089427745, rej=True
-Comparison: (0, 2) -- p=0.5184660192508636, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.029716665671846797, corr_p=0.08914999701554038, rej=False
-              0   1
-subcluster         
-0           577  31
-1           157   0
-2           274  11
+Comparison: (0, 1) -- p=1.4265367999408203e-106, corr_p=4.2796103998224606e-106, rej=True
+Comparison: (0, 2) -- p=2.3992814732959456e-115, corr_p=7.197844419887837e-115, rej=True
+Comparison: (1, 2) -- p=1.850868664913931e-36, corr_p=5.552605994741793e-36, rej=True
+                0     1
+subcluster             
+0           17085  1240
+1           22130   529
+2            7694    10
 
 
-% term:procedure::Ra mammography screening = 0.82 (27 terms in cluster (0.04), out of 33 terms in the disease dataset)
+% term:procedure::Ra chest pa and left lateral only = 0.36 (669 terms in cluster (0.04), out of 1841 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.014455048896560747, corr_p=0.04336514668968224, rej=True
-Comparison: (0, 2) -- p=0.12495773833788275, corr_p=0.37487321501364823, rej=False
-Comparison: (1, 2) -- p=0.16119754090083677, corr_p=0.4835926227025103, rej=False
-              0   1
-subcluster         
-0           581  27
-1           157   0
-2           279   6
+Comparison: (0, 1) -- p=7.971017012600372e-11, corr_p=2.391305103780112e-10, rej=True
+Comparison: (0, 2) -- p=1.2105478454679739e-43, corr_p=3.631643536403922e-43, rej=True
+Comparison: (1, 2) -- p=3.8120198664292976e-67, corr_p=1.1436059599287893e-66, rej=True
+                0     1
+subcluster             
+0           17656   669
+1           21531  1128
+2            7660    44
 
 
-% term:procedure::Ultrasound pelvis complete = 0.77 (27 terms in cluster (0.04), out of 35 terms in the disease dataset)
+% term:procedure::Pa ll cxr = 0.16 (559 terms in cluster (0.03), out of 3466 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.014455048896560747, corr_p=0.04336514668968224, rej=True
-Comparison: (0, 2) -- p=0.3232482136516874, corr_p=0.9697446409550621, rej=False
-Comparison: (1, 2) -- p=0.08084928805751124, corr_p=0.2425478641725337, rej=False
-              0   1
-subcluster         
-0           581  27
-1           157   0
-2           277   8
+Comparison: (0, 1) -- p=7.010548291679788e-243, corr_p=2.103164487503936e-242, rej=True
+Comparison: (0, 2) -- p=0.0017765539604069904, corr_p=0.0053296618812209715, rej=True
+Comparison: (1, 2) -- p=1.2834722967660957e-137, corr_p=3.850416890298287e-137, rej=True
+                0     1
+subcluster             
+0           17766   559
+1           19932  2727
+2            7524   180
 
 
-% term:procedure::Du mammography diagnostic right = 1.00 (10 terms in cluster (0.02), out of 10 terms in the disease dataset)
+% term:procedure::Rm chest 1 view portable = 0.09 (547 terms in cluster (0.03), out of 5976 terms in the disease dataset)
 
-              0   1
-subcluster         
-0           598  10
-1           157   0
-2           285   0
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.07316298779603102, corr_p=0.21948896338809304, rej=False
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           17778   547
+1           17428  5231
+2            7506   198
 
 
-% term:procedure::Ra mammography bilateral = 1.00 (10 terms in cluster (0.02), out of 10 terms in the disease dataset)
+% term:procedure::Rm ct head without contrast = 0.16 (502 terms in cluster (0.03), out of 3124 terms in the disease dataset)
 
-              0   1
-subcluster         
-0           598  10
-1           157   0
-2           285   0
+Comparison: (0, 1) -- p=3.5409864139468624e-235, corr_p=1.0622959241840587e-234, rej=True
+Comparison: (0, 2) -- p=2.050592458465162e-22, corr_p=6.151777375395486e-22, rej=True
+Comparison: (1, 2) -- p=3.249744595688068e-176, corr_p=9.749233787064203e-176, rej=True
+                0     1
+subcluster             
+0           17823   502
+1           20099  2560
+2            7642    62
 
 
-% term:procedure::C-hi res chest = 1.00 (9 terms in cluster (0.01), out of 9 terms in the disease dataset)
+% term:procedure::Screening mammography = 0.57 (471 terms in cluster (0.03), out of 826 terms in the disease dataset)
 
-              0  1
-subcluster        
-0           599  9
-1           157  0
-2           285  0
+Comparison: (0, 1) -- p=1.723369569991151e-13, corr_p=5.170108709973452e-13, rej=True
+Comparison: (0, 2) -- p=2.494242203765967e-42, corr_p=7.482726611297901e-42, rej=True
+Comparison: (1, 2) -- p=1.1398374074783771e-24, corr_p=3.419512222435131e-24, rej=True
+                0    1
+subcluster            
+0           17854  471
+1           22310  349
+2            7698    6
 
 
-% term:procedure::Ra ankle left = 1.00 (7 terms in cluster (0.01), out of 7 terms in the disease dataset)
+% term:procedure::Mammography bilateral = 0.45 (365 terms in cluster (0.02), out of 803 terms in the disease dataset)
 
-              0  1
-subcluster        
-0           601  7
-1           157  0
-2           285  0
+Comparison: (0, 1) -- p=0.6025606796430809, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=2.546637642472737e-33, corr_p=7.63991292741821e-33, rej=True
+Comparison: (1, 2) -- p=4.1676874058399923e-32, corr_p=1.2503062217519977e-31, rej=True
+                0    1
+subcluster            
+0           17960  365
+1           22225  434
+2            7700    4
 
 
-% term:procedure::C neck = 1.00 (7 terms in cluster (0.01), out of 7 terms in the disease dataset)
+% term:procedure::Cxr pa and ll only = 0.19 (274 terms in cluster (0.01), out of 1481 terms in the disease dataset)
 
-              0  1
-subcluster        
-0           601  7
-1           157  0
-2           285  0
+Comparison: (0, 1) -- p=1.044636610765706e-83, corr_p=3.133909832297118e-83, rej=True
+Comparison: (0, 2) -- p=0.00039115950113120774, corr_p=0.0011734785033936232, rej=True
+Comparison: (1, 2) -- p=4.348408409105926e-56, corr_p=1.3045225227317778e-55, rej=True
+                0     1
+subcluster             
+0           18051   274
+1           21524  1135
+2            7632    72
 
 
 
 
-Cluster 1 numerosity: 157
-% term:procedure::Ultrasound compression pseudoaneurysm = 1.00 (1 terms in cluster (0.01), out of 1 terms in the disease dataset)
+Cluster 1 numerosity: 22659
+% term:procedure::Electrocardiogram complete = 0.58 (13784 terms in cluster (0.61), out of 23655 terms in the disease dataset)
 
-              0  1
-subcluster        
-0           608  0
-1           156  1
-2           285  0
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=4.379362504484287e-84, corr_p=1.3138087513452862e-83, rej=True
+                0      1
+subcluster              
+0           14089   4236
+1            8875  13784
+2            2069   5635
 
 
-% term:procedure::Ra cta lower extremity contrast = 1.00 (1 terms in cluster (0.01), out of 1 terms in the disease dataset)
+% term:procedure::Rm chest pa and left lateral only = 0.72 (5487 terms in cluster (0.24), out of 7590 terms in the disease dataset)
 
-              0  1
-subcluster        
-0           608  0
-1           156  1
-2           285  0
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.177609018388134e-05, corr_p=3.532827055164402e-05, rej=True
+Comparison: (1, 2) -- p=1.0552708175039668e-236, corr_p=3.1658124525119007e-236, rej=True
+                0     1
+subcluster             
+0           16756  1569
+1           17172  5487
+2            7170   534
 
 
-% term:procedure::Nm pet research reportable exam = 1.00 (1 terms in cluster (0.01), out of 1 terms in the disease dataset)
+% term:procedure::Rm chest 1 view portable = 0.88 (5231 terms in cluster (0.23), out of 5976 terms in the disease dataset)
 
-              0  1
-subcluster        
-0           608  0
-1           156  1
-2           285  0
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.07316298779603102, corr_p=0.21948896338809304, rej=False
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           17778   547
+1           17428  5231
+2            7506   198
 
 
-% term:procedure::Pa ll cxr = 0.01 (1 terms in cluster (0.01), out of 182 terms in the disease dataset)
+% term:procedure::Electrocardiogram tracing = 0.56 (4983 terms in cluster (0.22), out of 8978 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.2476272410443982e-08, corr_p=3.7428817231331946e-08, rej=True
-Comparison: (0, 2) -- p=0.5048926774280281, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=2.92969011728874e-09, corr_p=8.78907035186622e-09, rej=True
-              0    1
-subcluster          
-0           489  119
-1           156    1
-2           223   62
+Comparison: (0, 1) -- p=2.8691307174934046e-288, corr_p=8.607392152480214e-288, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=1.283421320689266e-57, corr_p=3.850263962067798e-57, rej=True
+                0     1
+subcluster             
+0           16722  1603
+1           17676  4983
+2            5312  2392
 
 
+% term:procedure::Cxr 1 view portable = 0.86 (2860 terms in cluster (0.13), out of 3325 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=4.63550436499345e-25, corr_p=1.3906513094980351e-24, rej=True
+Comparison: (1, 2) -- p=2.001476140626354e-125, corr_p=6.004428421879062e-125, rej=True
+                0     1
+subcluster             
+0           18099   226
+1           19799  2860
+2            7465   239
 
-Cluster 2 numerosity: 285
-% term:procedure::Rm chest pa or ap = 0.68 (70 terms in cluster (0.25), out of 103 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.020164948757849414, corr_p=0.060494846273548245, rej=False
-Comparison: (0, 2) -- p=7.519441136592941e-17, corr_p=2.2558323409778823e-16, rej=True
-Comparison: (1, 2) -- p=1.360795074387699e-10, corr_p=4.082385223163097e-10, rej=True
-              0   1
-subcluster         
-0           576  32
-1           156   1
-2           215  70
+% term:procedure::Pa ll cxr = 0.79 (2727 terms in cluster (0.12), out of 3466 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=7.010548291679788e-243, corr_p=2.103164487503936e-242, rej=True
+Comparison: (0, 2) -- p=0.0017765539604069904, corr_p=0.0053296618812209715, rej=True
+Comparison: (1, 2) -- p=1.2834722967660957e-137, corr_p=3.850416890298287e-137, rej=True
+                0     1
+subcluster             
+0           17766   559
+1           19932  2727
+2            7524   180
 
-% term:procedure::Rm doppler extremity vein limited = 0.58 (53 terms in cluster (0.19), out of 92 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.025086188040653455, corr_p=0.07525856412196036, rej=False
-Comparison: (0, 2) -- p=1.4290031713107556e-08, corr_p=4.2870095139322666e-08, rej=True
-Comparison: (1, 2) -- p=2.9011216881327866e-07, corr_p=8.70336506439836e-07, rej=True
-              0   1
-subcluster         
-0           571  37
-1           155   2
-2           232  53
+% term:procedure::Rm ct head without contrast = 0.82 (2560 terms in cluster (0.11), out of 3124 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=3.5409864139468624e-235, corr_p=1.0622959241840587e-234, rej=True
+Comparison: (0, 2) -- p=2.050592458465162e-22, corr_p=6.151777375395486e-22, rej=True
+Comparison: (1, 2) -- p=3.249744595688068e-176, corr_p=9.749233787064203e-176, rej=True
+                0     1
+subcluster             
+0           17823   502
+1           20099  2560
+2            7642    62
 
-% term:procedure::Rm doppler extremity vein complete = 0.68 (50 terms in cluster (0.18), out of 74 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.023045816336436573, corr_p=0.06913744900930972, rej=False
-Comparison: (0, 2) -- p=1.58394807166657e-11, corr_p=4.75184421499971e-11, rej=True
-Comparison: (1, 2) -- p=6.094794193963298e-08, corr_p=1.8284382581889893e-07, rej=True
-              0   1
-subcluster         
-0           584  24
-1           157   0
-2           235  50
+% term:procedure::Rm chest pa or ap = 0.88 (1628 terms in cluster (0.07), out of 1857 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=6.5836732348975645e-192, corr_p=1.9751019704692695e-191, rej=True
+Comparison: (0, 2) -- p=7.869085060026617e-10, corr_p=2.360725518007985e-09, rej=True
+Comparison: (1, 2) -- p=4.917703364468118e-116, corr_p=1.4753110093404354e-115, rej=True
+                0     1
+subcluster             
+0           18121   204
+1           21031  1628
+2            7679    25
 
-% term:procedure::Rm ct abdomen pelvis without contrast = 0.68 (41 terms in cluster (0.14), out of 60 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.050533680515056745, corr_p=0.15160104154517023, rej=False
-Comparison: (0, 2) -- p=9.215455861983721e-10, corr_p=2.764636758595116e-09, rej=True
-Comparison: (1, 2) -- p=1.4485150758556773e-06, corr_p=4.345545227567032e-06, rej=True
-              0   1
-subcluster         
-0           589  19
-1           157   0
-2           244  41
+% term:procedure::Rm doppler extremity vein complete = 0.87 (1194 terms in cluster (0.05), out of 1378 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=2.5000207442258693e-133, corr_p=7.500062232677607e-133, rej=True
+Comparison: (0, 2) -- p=3.7136216625380795e-08, corr_p=1.1140864987614239e-07, rej=True
+Comparison: (1, 2) -- p=1.8429218484217343e-83, corr_p=5.528765545265203e-83, rej=True
+                0     1
+subcluster             
+0           18161   164
+1           21465  1194
+2            7684    20
 
-% term:procedure::Rm abdomen kub = 0.85 (40 terms in cluster (0.14), out of 47 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.3785530303166784, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=3.3659759164048874e-15, corr_p=1.0097927749214662e-14, rej=True
-Comparison: (1, 2) -- p=2.044841976691024e-06, corr_p=6.134525930073072e-06, rej=True
-              0   1
-subcluster         
-0           601   7
-1           157   0
-2           245  40
+% term:procedure::C- head = 0.88 (1138 terms in cluster (0.05), out of 1298 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=1.703026117178264e-142, corr_p=5.109078351534792e-142, rej=True
+Comparison: (0, 2) -- p=0.17230463686009428, corr_p=0.5169139105802829, rej=False
+Comparison: (1, 2) -- p=3.832341801193301e-70, corr_p=1.1497025403579903e-69, rej=True
+                0     1
+subcluster             
+0           18204   121
+1           21521  1138
+2            7665    39
 
-% term:procedure::Rm ultrasound renal = 0.55 (40 terms in cluster (0.14), out of 73 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.020164948757849414, corr_p=0.060494846273548245, rej=False
-Comparison: (0, 2) -- p=1.3233420638157313e-05, corr_p=3.970026191447194e-05, rej=True
-Comparison: (1, 2) -- p=7.619600164635926e-06, corr_p=2.2858800493907777e-05, rej=True
-              0   1
-subcluster         
-0           576  32
-1           156   1
-2           245  40
+% term:procedure::Cxr pa and ll only = 0.77 (1135 terms in cluster (0.05), out of 1481 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=1.044636610765706e-83, corr_p=3.133909832297118e-83, rej=True
+Comparison: (0, 2) -- p=0.00039115950113120774, corr_p=0.0011734785033936232, rej=True
+Comparison: (1, 2) -- p=4.348408409105926e-56, corr_p=1.3045225227317778e-55, rej=True
+                0     1
+subcluster             
+0           18051   274
+1           21524  1135
+2            7632    72
 
-% term:procedure::Rm abdomen obstructive series = 0.75 (36 terms in cluster (0.13), out of 48 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.15734573008750657, corr_p=0.4720371902625197, rej=False
-Comparison: (0, 2) -- p=1.3289492372694e-10, corr_p=3.9868477118082e-10, rej=True
-Comparison: (1, 2) -- p=8.013432777925527e-06, corr_p=2.404029833377658e-05, rej=True
-              0   1
-subcluster         
-0           596  12
-1           157   0
-2           249  36
 
 
-% term:procedure::Rm cta chest contrast = 0.71 (36 terms in cluster (0.13), out of 51 terms in the disease dataset)
+Cluster 2 numerosity: 7704
+% term:procedure::Electrocardiogram complete = 0.24 (5635 terms in cluster (0.73), out of 23655 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.09594670810160512, corr_p=0.28784012430481537, rej=False
-Comparison: (0, 2) -- p=2.7323400523182925e-09, corr_p=8.197020156954878e-09, rej=True
-Comparison: (1, 2) -- p=8.013432777925527e-06, corr_p=2.404029833377658e-05, rej=True
-              0   1
-subcluster         
-0           593  15
-1           157   0
-2           249  36
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=4.379362504484287e-84, corr_p=1.3138087513452862e-83, rej=True
+                0      1
+subcluster              
+0           14089   4236
+1            8875  13784
+2            2069   5635
 
 
-% term:procedure::Rm abdomen chest obstructive series = 0.70 (33 terms in cluster (0.12), out of 47 terms in the disease dataset)
+% term:procedure::Electrocardiogram tracing = 0.27 (2392 terms in cluster (0.31), out of 8978 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.1129562993578272, corr_p=0.3388688980734816, rej=False
-Comparison: (0, 2) -- p=1.843369887776275e-08, corr_p=5.530109663328825e-08, rej=True
-Comparison: (1, 2) -- p=2.202740032989889e-05, corr_p=6.608220098969667e-05, rej=True
-              0   1
-subcluster         
-0           594  14
-1           157   0
-2           252  33
+Comparison: (0, 1) -- p=2.8691307174934046e-288, corr_p=8.607392152480214e-288, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=1.283421320689266e-57, corr_p=3.850263962067798e-57, rej=True
+                0     1
+subcluster             
+0           16722  1603
+1           17676  4983
+2            5312  2392
 
 
-% term:procedure::Rm ct chest without contrast = 0.65 (28 terms in cluster (0.10), out of 43 terms in the disease dataset)
+% term:procedure::Rm chest pa and left lateral only = 0.07 (534 terms in cluster (0.07), out of 7590 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.30812967555760784, corr_p=0.9243890266728235, rej=False
-Comparison: (0, 2) -- p=1.7554802550501262e-06, corr_p=5.2664407651503785e-06, rej=True
-Comparison: (1, 2) -- p=0.00041124156570053895, corr_p=0.0012337246971016167, rej=True
-              0   1
-subcluster         
-0           594  14
-1           156   1
-2           257  28
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.177609018388134e-05, corr_p=3.532827055164402e-05, rej=True
+Comparison: (1, 2) -- p=1.0552708175039668e-236, corr_p=3.1658124525119007e-236, rej=True
+                0     1
+subcluster             
+0           16756  1569
+1           17172  5487
+2            7170   534
+
+
+% term:procedure::Cxr 1 view portable = 0.07 (239 terms in cluster (0.03), out of 3325 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=4.63550436499345e-25, corr_p=1.3906513094980351e-24, rej=True
+Comparison: (1, 2) -- p=2.001476140626354e-125, corr_p=6.004428421879062e-125, rej=True
+                0     1
+subcluster             
+0           18099   226
+1           19799  2860
+2            7465   239
+
+
+% term:procedure::Rm chest 1 view portable = 0.03 (198 terms in cluster (0.03), out of 5976 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.07316298779603102, corr_p=0.21948896338809304, rej=False
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           17778   547
+1           17428  5231
+2            7506   198
+
+
+% term:procedure::Pa ll cxr = 0.05 (180 terms in cluster (0.02), out of 3466 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.010548291679788e-243, corr_p=2.103164487503936e-242, rej=True
+Comparison: (0, 2) -- p=0.0017765539604069904, corr_p=0.0053296618812209715, rej=True
+Comparison: (1, 2) -- p=1.2834722967660957e-137, corr_p=3.850416890298287e-137, rej=True
+                0     1
+subcluster             
+0           17766   559
+1           19932  2727
+2            7524   180
+
+
+% term:procedure::Cxr pa and ll only = 0.05 (72 terms in cluster (0.01), out of 1481 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.044636610765706e-83, corr_p=3.133909832297118e-83, rej=True
+Comparison: (0, 2) -- p=0.00039115950113120774, corr_p=0.0011734785033936232, rej=True
+Comparison: (1, 2) -- p=4.348408409105926e-56, corr_p=1.3045225227317778e-55, rej=True
+                0     1
+subcluster             
+0           18051   274
+1           21524  1135
+2            7632    72
+
+
+% term:procedure::Rm ct head without contrast = 0.02 (62 terms in cluster (0.01), out of 3124 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.5409864139468624e-235, corr_p=1.0622959241840587e-234, rej=True
+Comparison: (0, 2) -- p=2.050592458465162e-22, corr_p=6.151777375395486e-22, rej=True
+Comparison: (1, 2) -- p=3.249744595688068e-176, corr_p=9.749233787064203e-176, rej=True
+                0     1
+subcluster             
+0           17823   502
+1           20099  2560
+2            7642    62
+
+
+% term:procedure::Ra chest pa and left lateral only = 0.02 (44 terms in cluster (0.01), out of 1841 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.971017012600372e-11, corr_p=2.391305103780112e-10, rej=True
+Comparison: (0, 2) -- p=1.2105478454679739e-43, corr_p=3.631643536403922e-43, rej=True
+Comparison: (1, 2) -- p=3.8120198664292976e-67, corr_p=1.1436059599287893e-66, rej=True
+                0     1
+subcluster             
+0           17656   669
+1           21531  1128
+2            7660    44
+
+
+% term:procedure::Ra cta coronary artery with calcium = 0.29 (41 terms in cluster (0.01), out of 141 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.990193174739617e-07, corr_p=1.7970579524218851e-06, rej=True
+Comparison: (0, 2) -- p=0.11108594843781835, corr_p=0.33325784531345504, rej=False
+Comparison: (1, 2) -- p=8.271744126768377e-10, corr_p=2.481523238030513e-09, rej=True
+                0   1
+subcluster           
+0           18255  70
+1           22629  30
+2            7663  41
+
+
+% term:procedure::C- head = 0.03 (39 terms in cluster (0.01), out of 1298 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.703026117178264e-142, corr_p=5.109078351534792e-142, rej=True
+Comparison: (0, 2) -- p=0.17230463686009428, corr_p=0.5169139105802829, rej=False
+Comparison: (1, 2) -- p=3.832341801193301e-70, corr_p=1.1497025403579903e-69, rej=True
+                0     1
+subcluster             
+0           18204   121
+1           21521  1138
+2            7665    39
 
 
 
@@ -286,19 +418,19 @@ Multiple comparison t-test for AGE:
 Test Multiple Comparison ttest_ind 
 FWER=0.05 method=bonf
 alphacSidak=0.02, alphacBonf=0.017
-===========================================
-group1 group2   stat  pval pval_corr reject
--------------------------------------------
-     0      1 -9.4647  0.0       0.0   True
-     0      2 -4.5002  0.0       0.0   True
-     1      2  4.9608  0.0       0.0   True
--------------------------------------------
-             score                                                 
-             count   mean    std    min    25%    50%    75%    max
-subcluster                                                         
-0          608.000 61.905 12.071 25.000 54.000 62.000 70.000 90.000
-1          157.000 71.720  9.453 41.000 65.000 71.000 78.000 90.000
-2          285.000 65.895 12.929 28.000 57.000 67.000 75.000 90.000
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1 -11.8987  0.0       0.0   True
+     0      2 -25.3984  0.0       0.0   True
+     1      2  -15.466  0.0       0.0   True
+--------------------------------------------
+               score                                                 
+               count   mean    std    min    25%    50%    75%    max
+subcluster                                                           
+0          18325.000 64.770 14.322  1.000 56.000 66.000 75.000 90.000
+1          22659.000 66.516 15.131  2.000 57.000 67.000 78.000 90.000
+2           7704.000 69.424 11.285 23.000 61.000 69.000 78.000 90.000
 
 Multiple comparison t-test for SEQUENCE LENGTH:
 Test Multiple Comparison ttest_ind 
@@ -307,26 +439,26 @@ alphacSidak=0.02, alphacBonf=0.017
 ============================================
 group1 group2   stat   pval pval_corr reject
 --------------------------------------------
-     0      1  12.6835  0.0       0.0   True
-     0      2   -6.245  0.0       0.0   True
-     1      2 -14.1467  0.0       0.0   True
+     0      1 -21.5719  0.0       0.0   True
+     0      2  29.4448  0.0       0.0   True
+     1      2  40.9427  0.0       0.0   True
 --------------------------------------------
-             score                                                            
-             count     mean      std    min     25%      50%      75%      max
-subcluster                                                                    
-0          608.000 1491.967 1216.714 32.000 608.000 1120.000 2077.750 4849.000
-1          157.000  250.427  295.678 28.000  64.000  160.000  316.000 1856.000
-2          285.000 2101.625 1624.085 32.000 564.000 1745.000 3520.000 4849.000
+               score                                                      
+               count    mean     std   min    25%     50%     75%      max
+subcluster                                                                
+0          18325.000 351.385 647.693 3.000 32.000  96.000 384.000 4849.000
+1          22659.000 509.901 806.369 9.000 64.000 192.000 544.000 4849.000
+2           7704.000 130.364 186.108 5.000 34.000  64.000 160.000 3767.000
 
 Multiple comparison chi-square test for SEX:
-Comparison: (0, 1) -- p=0.000, corr_p=0.001, rej=True
-Comparison: (0, 2) -- p=0.008, corr_p=0.023, rej=True
-Comparison: (1, 2) -- p=0.188, corr_p=0.563, rej=False
-   female  male
-0     395   213
-1      76    81
-2     158   127
+Comparison: (0, 1) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (0, 2) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (1, 2) -- p=0.000, corr_p=0.000, rej=True
+   female   male
+0    9729   8585
+1   11053  11602
+2    3191   4510
 
-Processing time: 95.99 seconds
+Processing time: 10543.26 seconds
 Task completed
 

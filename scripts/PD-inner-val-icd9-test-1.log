@@ -27,6 +27,15 @@ subcluster
 1           1455  229
 
 
+% term:icd9::Anxiety state, unspecified::300.00::C0700613 = 0.45 (270 terms in cluster (0.20), out of 602 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.9755645727568724, corr_p=0.9755645727568724, rej=False
+               0    1
+subcluster           
+0           1098  270
+1           1352  332
+
+
 % term:icd9::Constipation, unspecified::564.00::C0009806 = 0.34 (254 terms in cluster (0.19), out of 748 terms in the disease dataset)
 
 Comparison: (0, 1) -- p=8.184858751961284e-12, corr_p=8.184858751961284e-12, rej=True
@@ -34,6 +43,24 @@ Comparison: (0, 1) -- p=8.184858751961284e-12, corr_p=8.184858751961284e-12, rej
 subcluster           
 0           1114  254
 1           1190  494
+
+
+% term:icd9::Generalized anxiety disorder::300.02::C0270549 = 0.45 (235 terms in cluster (0.17), out of 527 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.9449089773173888, corr_p=0.9449089773173888, rej=False
+               0    1
+subcluster           
+0           1133  235
+1           1392  292
+
+
+% term:icd9::Counseling nos::V65.40::C0740209 = 0.42 (225 terms in cluster (0.16), out of 538 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.1349959043821713, corr_p=0.1349959043821713, rej=False
+               0    1
+subcluster           
+0           1143  225
+1           1371  313
 
 
 % term:icd9::Depressive disorder, not elsewhere classified::311::C0868892 = 0.40 (189 terms in cluster (0.14), out of 468 terms in the disease dataset)
@@ -79,24 +106,6 @@ Comparison: (0, 1) -- p=2.3547220524578646e-05, corr_p=2.3547220524578646e-05, r
 subcluster           
 0           1215  153
 1           1570  114
-
-
-% term:icd9::Unspecified essential hypertension::401.9::C0085580 = 0.19 (152 terms in cluster (0.11), out of 811 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=1.0206458185591187e-67, corr_p=1.0206458185591187e-67, rej=True
-               0    1
-subcluster           
-0           1216  152
-1           1025  659
-
-
-% term:icd9::Unspecified fall::E888.9::C0085639 = 0.27 (142 terms in cluster (0.10), out of 531 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=4.7202566121466857e-20, corr_p=4.7202566121466857e-20, rej=True
-               0    1
-subcluster           
-0           1226  142
-1           1295  389
 
 
 
@@ -191,6 +200,15 @@ subcluster
 1           1305  379
 
 
+% term:icd9::Chest pain, unspecified::786.50::C0008031 = 0.93 (346 terms in cluster (0.21), out of 374 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=8.24182441471662e-54, corr_p=8.24182441471662e-54, rej=True
+               0    1
+subcluster           
+0           1340   28
+1           1338  346
+
+
 
 
 Multiple comparison t-test for AGE:
@@ -229,6 +247,6 @@ Comparison: (0, 1) -- p=0.976, corr_p=0.976, rej=False
 0     596   771
 1     734   950
 
-Processing time: 247.51 seconds
+Processing time: 241.15 seconds
 Task completed
 

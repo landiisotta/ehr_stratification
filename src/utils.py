@@ -25,7 +25,7 @@ model_param = {'num_epochs': 5,
                }
 
 # embeddings to evaluate
-ev_model = ['raw', 'tfidf', 'svd']
+ev_model = ['dp']
 #ev_model = ['convae']
 
 HCpar = {'linkage_clu': 'ward',
@@ -33,12 +33,12 @@ HCpar = {'linkage_clu': 'ward',
          'min_cl': 2,
          'max_cl': 15}
 
-FRpar = {'n_terms': 10}
+FRpar = {'n_terms': 11}
 
 # diseases to consider for internal validation
 #val_disease = ['T2D', 'PD', 'AD', 'MM']
-val_disease = ['BC', 'PC']
-select_terms = ['icd9']
+val_disease = ['T2D']
+select_terms = ['cpt']
 
 # length of padded sub-sequences
 len_padded = 32

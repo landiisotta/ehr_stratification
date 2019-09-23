@@ -1,0 +1,27 @@
+
+icd9::Diabetes with other specified manifestations, type ii or unspecified type, uncontrolled::250.82::C0375147
+icd9::Diabetes with hyperosmolarity, type ii or unspecified type, uncontrolled::250.22::C0375124
+icd9::Diabetes with ophthalmic manifestations, type ii or unspecified type, not stated as uncontrolled::250.50::C0375134
+icd9::Diabetes with hyperosmolarity, type ii or unspecified type, not stated as uncontrolled::250.20::C0375122
+icd9::Diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled::250.00::C0375113
+icd9::Diabetes with renal manifestations, type ii or unspecified type, uncontrolled::250.42::C0375132
+icd9::Diabetes with renal manifestations, type ii or unspecified type, not stated as uncontrolled::250.40::C0375130
+icd9::Diabetes with ketoacidosis, type ii or unspecified type, not stated as uncontrolled::250.10::C0375117
+icd9::Diabetes with other coma, type ii or unspecified type, not stated as uncontrolled::250.30::C0375126
+icd9::Diabetes with peripheral circulatory disorders, type ii or unspecified type, uncontrolled::250.72::C0375143
+icd9::Diabetes with unspecified complication, type ii or unspecified type, not stated as uncontrolled::250.90::C0375149
+icd9::Diabetes with peripheral circulatory disorders, type ii or unspecified type, not stated as uncontrolled::250.70::C0375141
+icd9::Diabetes with other specified manifestations, type ii or unspecified type, not stated as uncontrolled::250.80::C0375145
+icd9::Diabetes mellitus without mention of complication, type ii or unspecified type, uncontrolled::250.02::C0375115
+icd9::Diabetes with ketoacidosis, type ii or unspecified type, uncontrolled::250.12::C0375119
+icd9::Diabetes with unspecified complication, type ii or unspecified type, uncontrolled::250.92::C0375151
+icd9::Diabetes with neurological manifestations, type ii or unspecified type, not stated as uncontrolled::250.60::C0375137
+icd9::Diabetes with neurological manifestations, type ii or unspecified type, uncontrolled::250.62::C0375139
+training
+T2D 48746 100581
+test
+T2D 48688 100581
+
+Processing time: 4278.0 seconds
+Task completed
+

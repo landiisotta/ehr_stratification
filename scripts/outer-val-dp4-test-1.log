@@ -1,0 +1,4513 @@
+
+Cohort subsampling N 0
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2508
+CD -- 2499
+BC -- 2502
+AD -- 2526
+ADHD -- 2530
+T2D -- 2543
+MM -- 1947
+PC -- 2447
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.790, Purity: 0.235, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.777, Purity: 0.263, Max(p): BC
+-- Cluster 2 -- Entropy: 2.510, Purity: 0.412, Max(p): ADHD
+-- Cluster 3 -- Entropy: 0.460, Purity: 0.942, Max(p): MM
+-- Cluster 4 -- Entropy: 2.912, Purity: 0.203, Max(p): CD
+-- Cluster 5 -- Entropy: 2.936, Purity: 0.183, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.640, Purity: 0.353, Max(p): AD
+-- Cluster 7 -- Entropy: 2.633, Purity: 0.318, Max(p): T2D
+
+Average Entropy: 2.79
+Average Purity: 0.24
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2311
+-- cluster 1: 2074
+-- cluster 2: 1131
+-- cluster 3: 486
+-- cluster 4: 3542
+-- cluster 5: 8869
+-- cluster 6: 646
+-- cluster 7: 443
+****************************************************************************************************
+
+
+Cohort subsampling N 1
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2482
+CD -- 2488
+BC -- 2522
+AD -- 2514
+ADHD -- 2531
+T2D -- 2543
+MM -- 1947
+PC -- 2487
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.937, Purity: 0.184, Max(p): BC
+-- Cluster 1 -- Entropy: 1.300, Purity: 0.781, Max(p): MM
+-- Cluster 2 -- Entropy: 2.271, Purity: 0.488, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.804, Purity: 0.237, Max(p): CD
+-- Cluster 4 -- Entropy: 2.600, Purity: 0.335, Max(p): AD
+-- Cluster 5 -- Entropy: 2.939, Purity: 0.178, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.904, Purity: 0.204, Max(p): AD
+-- Cluster 7 -- Entropy: 2.730, Purity: 0.262, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 3699
+-- cluster 1: 666
+-- cluster 2: 764
+-- cluster 3: 1791
+-- cluster 4: 549
+-- cluster 5: 8993
+-- cluster 6: 2392
+-- cluster 7: 660
+****************************************************************************************************
+
+
+Cohort subsampling N 2
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2476
+CD -- 2495
+BC -- 2544
+AD -- 2520
+ADHD -- 2556
+T2D -- 2530
+MM -- 1947
+PC -- 2575
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.816, Purity: 0.223, Max(p): AD
+-- Cluster 1 -- Entropy: 2.848, Purity: 0.215, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.947, Purity: 0.177, Max(p): ADHD
+-- Cluster 3 -- Entropy: 1.526, Purity: 0.663, Max(p): MM
+-- Cluster 4 -- Entropy: 2.021, Purity: 0.575, Max(p): BC
+-- Cluster 5 -- Entropy: 2.592, Purity: 0.338, Max(p): MM
+-- Cluster 6 -- Entropy: 2.939, Purity: 0.185, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.726, Purity: 0.332, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1707
+-- cluster 1: 2901
+-- cluster 2: 1980
+-- cluster 3: 644
+-- cluster 4: 730
+-- cluster 5: 458
+-- cluster 6: 10650
+-- cluster 7: 573
+****************************************************************************************************
+
+
+Cohort subsampling N 3
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2510
+CD -- 2471
+BC -- 2541
+AD -- 2564
+ADHD -- 2551
+T2D -- 2468
+MM -- 1947
+PC -- 2518
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.913, Purity: 0.233, Max(p): BC
+-- Cluster 1 -- Entropy: 2.851, Purity: 0.228, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.798, Purity: 0.248, Max(p): AD
+-- Cluster 3 -- Entropy: 2.900, Purity: 0.215, Max(p): PC
+-- Cluster 4 -- Entropy: 2.720, Purity: 0.269, Max(p): MM
+-- Cluster 5 -- Entropy: 0.123, Purity: 0.987, Max(p): MM
+-- Cluster 6 -- Entropy: 2.271, Purity: 0.479, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.941, Purity: 0.172, Max(p): ADHD
+
+Average Entropy: 2.83
+Average Purity: 0.23
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 3129
+-- cluster 1: 2728
+-- cluster 2: 1695
+-- cluster 3: 1314
+-- cluster 4: 618
+-- cluster 5: 318
+-- cluster 6: 649
+-- cluster 7: 9119
+****************************************************************************************************
+
+
+Cohort subsampling N 4
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2495
+CD -- 2530
+BC -- 2506
+AD -- 2518
+ADHD -- 2551
+T2D -- 2479
+MM -- 1947
+PC -- 2468
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.852, Purity: 0.175, Max(p): CD
+-- Cluster 1 -- Entropy: 2.254, Purity: 0.488, Max(p): BC
+-- Cluster 2 -- Entropy: 2.766, Purity: 0.220, Max(p): AD
+-- Cluster 3 -- Entropy: 2.797, Purity: 0.284, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.851, Purity: 0.223, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.941, Purity: 0.174, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.093, Purity: 0.990, Max(p): MM
+-- Cluster 7 -- Entropy: 2.603, Purity: 0.323, Max(p): MM
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2225
+-- cluster 1: 642
+-- cluster 2: 1113
+-- cluster 3: 2088
+-- cluster 4: 2820
+-- cluster 5: 9785
+-- cluster 6: 313
+-- cluster 7: 508
+****************************************************************************************************
+
+
+Cohort subsampling N 5
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2447
+CD -- 2481
+BC -- 2436
+AD -- 2507
+ADHD -- 2555
+T2D -- 2472
+MM -- 1947
+PC -- 2489
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.848, Purity: 0.216, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.844, Purity: 0.204, Max(p): BC
+-- Cluster 2 -- Entropy: 2.139, Purity: 0.518, Max(p): ADHD
+-- Cluster 3 -- Entropy: 0.057, Purity: 0.994, Max(p): MM
+-- Cluster 4 -- Entropy: 2.644, Purity: 0.302, Max(p): MM
+-- Cluster 5 -- Entropy: 2.918, Purity: 0.212, Max(p): PC
+-- Cluster 6 -- Entropy: 2.948, Purity: 0.173, Max(p): BC
+-- Cluster 7 -- Entropy: 2.928, Purity: 0.187, Max(p): ADHD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2583
+-- cluster 1: 1717
+-- cluster 2: 878
+-- cluster 3: 308
+-- cluster 4: 673
+-- cluster 5: 925
+-- cluster 6: 4333
+-- cluster 7: 7917
+****************************************************************************************************
+
+
+Cohort subsampling N 6
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2501
+CD -- 2452
+BC -- 2561
+AD -- 2534
+ADHD -- 2539
+T2D -- 2536
+MM -- 1947
+PC -- 2572
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.837, Purity: 0.208, Max(p): AD
+-- Cluster 1 -- Entropy: 2.759, Purity: 0.282, Max(p): BC
+-- Cluster 2 -- Entropy: 2.138, Purity: 0.523, Max(p): ADHD
+-- Cluster 3 -- Entropy: 1.899, Purity: 0.600, Max(p): MM
+-- Cluster 4 -- Entropy: 2.508, Purity: 0.358, Max(p): MM
+-- Cluster 5 -- Entropy: 2.933, Purity: 0.178, Max(p): PD
+-- Cluster 6 -- Entropy: 2.949, Purity: 0.190, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.779, Purity: 0.256, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2711
+-- cluster 1: 1986
+-- cluster 2: 731
+-- cluster 3: 829
+-- cluster 4: 391
+-- cluster 5: 8359
+-- cluster 6: 4038
+-- cluster 7: 597
+****************************************************************************************************
+
+
+Cohort subsampling N 7
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2481
+CD -- 2494
+BC -- 2504
+AD -- 2538
+ADHD -- 2515
+T2D -- 2508
+MM -- 1947
+PC -- 2457
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.714, Purity: 0.264, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.237, Purity: 0.501, Max(p): BC
+-- Cluster 2 -- Entropy: 2.934, Purity: 0.187, Max(p): PC
+-- Cluster 3 -- Entropy: 2.857, Purity: 0.170, Max(p): MM
+-- Cluster 4 -- Entropy: 0.357, Purity: 0.958, Max(p): MM
+-- Cluster 5 -- Entropy: 2.933, Purity: 0.187, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.846, Purity: 0.215, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.781, Purity: 0.252, Max(p): AD
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 836
+-- cluster 1: 762
+-- cluster 2: 3349
+-- cluster 3: 1758
+-- cluster 4: 429
+-- cluster 5: 8701
+-- cluster 6: 2475
+-- cluster 7: 1134
+****************************************************************************************************
+
+
+Cohort subsampling N 8
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2513
+CD -- 2422
+BC -- 2557
+AD -- 2554
+ADHD -- 2525
+T2D -- 2508
+MM -- 1947
+PC -- 2514
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.663, Purity: 0.269, Max(p): AD
+-- Cluster 1 -- Entropy: 2.953, Purity: 0.173, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.252, Purity: 0.484, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.950, Purity: 0.197, Max(p): PC
+-- Cluster 4 -- Entropy: 2.782, Purity: 0.245, Max(p): T2D
+-- Cluster 5 -- Entropy: 0.270, Purity: 0.968, Max(p): MM
+-- Cluster 6 -- Entropy: 2.856, Purity: 0.166, Max(p): T2D
+-- Cluster 7 -- Entropy: 1.073, Purity: 0.832, Max(p): BC
+
+Average Entropy: 2.79
+Average Purity: 0.23
+Completeness score: 0.10
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 655
+-- cluster 1: 10735
+-- cluster 2: 711
+-- cluster 3: 2537
+-- cluster 4: 2333
+-- cluster 5: 343
+-- cluster 6: 1732
+-- cluster 7: 494
+****************************************************************************************************
+
+
+Cohort subsampling N 9
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2492
+CD -- 2493
+BC -- 2569
+AD -- 2485
+ADHD -- 2528
+T2D -- 2527
+MM -- 1947
+PC -- 2477
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.816, Purity: 0.222, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.960, Purity: 0.158, Max(p): PC
+-- Cluster 2 -- Entropy: 2.929, Purity: 0.184, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.930, Purity: 0.187, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.258, Purity: 0.481, Max(p): ADHD
+-- Cluster 5 -- Entropy: 2.750, Purity: 0.278, Max(p): T2D
+-- Cluster 6 -- Entropy: 0.538, Purity: 0.921, Max(p): MM
+-- Cluster 7 -- Entropy: 1.099, Purity: 0.832, Max(p): BC
+
+Average Entropy: 2.77
+Average Purity: 0.24
+Completeness score: 0.10
+Homogeneity score: 0.08
+Adjusted Rand score: 0.03
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2661
+-- cluster 1: 2059
+-- cluster 2: 3352
+-- cluster 3: 9042
+-- cluster 4: 802
+-- cluster 5: 511
+-- cluster 6: 521
+-- cluster 7: 570
+****************************************************************************************************
+
+
+Cohort subsampling N 10
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2491
+CD -- 2450
+BC -- 2508
+AD -- 2544
+ADHD -- 2531
+T2D -- 2489
+MM -- 1947
+PC -- 2504
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.805, Purity: 0.195, Max(p): AD
+-- Cluster 1 -- Entropy: 2.897, Purity: 0.191, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.169, Purity: 0.506, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.944, Purity: 0.173, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.702, Purity: 0.271, Max(p): T2D
+-- Cluster 5 -- Entropy: 0.246, Purity: 0.972, Max(p): MM
+-- Cluster 6 -- Entropy: 2.938, Purity: 0.205, Max(p): PC
+-- Cluster 7 -- Entropy: 1.171, Purity: 0.819, Max(p): BC
+
+Average Entropy: 2.78
+Average Purity: 0.23
+Completeness score: 0.10
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1934
+-- cluster 1: 3000
+-- cluster 2: 704
+-- cluster 3: 9276
+-- cluster 4: 768
+-- cluster 5: 460
+-- cluster 6: 2859
+-- cluster 7: 463
+****************************************************************************************************
+
+
+Cohort subsampling N 11
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2490
+CD -- 2517
+BC -- 2571
+AD -- 2519
+ADHD -- 2574
+T2D -- 2481
+MM -- 1947
+PC -- 2498
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.942, Purity: 0.195, Max(p): BC
+-- Cluster 1 -- Entropy: 2.808, Purity: 0.255, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.171, Purity: 0.496, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.942, Purity: 0.177, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.602, Purity: 0.324, Max(p): MM
+-- Cluster 5 -- Entropy: 2.882, Purity: 0.254, Max(p): AD
+-- Cluster 6 -- Entropy: 0.117, Purity: 0.987, Max(p): MM
+-- Cluster 7 -- Entropy: 2.724, Purity: 0.250, Max(p): MM
+
+Average Entropy: 2.83
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 3761
+-- cluster 1: 2415
+-- cluster 2: 687
+-- cluster 3: 9842
+-- cluster 4: 516
+-- cluster 5: 1193
+-- cluster 6: 316
+-- cluster 7: 867
+****************************************************************************************************
+
+
+Cohort subsampling N 12
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2520
+CD -- 2506
+BC -- 2495
+AD -- 2507
+ADHD -- 2486
+T2D -- 2490
+MM -- 1947
+PC -- 2491
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.958, Purity: 0.161, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.825, Purity: 0.203, Max(p): AD
+-- Cluster 2 -- Entropy: 2.883, Purity: 0.259, Max(p): BC
+-- Cluster 3 -- Entropy: 2.321, Purity: 0.455, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.898, Purity: 0.207, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.505, Purity: 0.388, Max(p): MM
+-- Cluster 6 -- Entropy: 2.530, Purity: 0.366, Max(p): AD
+-- Cluster 7 -- Entropy: 0.077, Purity: 0.992, Max(p): MM
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 10897
+-- cluster 1: 1730
+-- cluster 2: 2085
+-- cluster 3: 670
+-- cluster 4: 2730
+-- cluster 5: 394
+-- cluster 6: 546
+-- cluster 7: 390
+****************************************************************************************************
+
+
+Cohort subsampling N 13
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2468
+CD -- 2487
+BC -- 2520
+AD -- 2513
+ADHD -- 2501
+T2D -- 2494
+MM -- 1947
+PC -- 2546
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 1.942, Purity: 0.608, Max(p): MM
+-- Cluster 1 -- Entropy: 2.957, Purity: 0.178, Max(p): PC
+-- Cluster 2 -- Entropy: 2.430, Purity: 0.408, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.748, Purity: 0.231, Max(p): CD
+-- Cluster 4 -- Entropy: 2.849, Purity: 0.199, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.939, Purity: 0.180, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.641, Purity: 0.318, Max(p): AD
+-- Cluster 7 -- Entropy: 2.822, Purity: 0.265, Max(p): AD
+
+Average Entropy: 2.84
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 983
+-- cluster 1: 3859
+-- cluster 2: 519
+-- cluster 3: 1190
+-- cluster 4: 2348
+-- cluster 5: 9194
+-- cluster 6: 406
+-- cluster 7: 977
+****************************************************************************************************
+
+
+Cohort subsampling N 14
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2492
+CD -- 2499
+BC -- 2558
+AD -- 2554
+ADHD -- 2504
+T2D -- 2510
+MM -- 1947
+PC -- 2481
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.759, Purity: 0.279, Max(p): AD
+-- Cluster 1 -- Entropy: 2.857, Purity: 0.182, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.340, Purity: 0.434, Max(p): ADHD
+-- Cluster 3 -- Entropy: 1.340, Purity: 0.768, Max(p): MM
+-- Cluster 4 -- Entropy: 2.948, Purity: 0.198, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.929, Purity: 0.185, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.932, Purity: 0.211, Max(p): PC
+-- Cluster 7 -- Entropy: 1.109, Purity: 0.831, Max(p): BC
+
+Average Entropy: 2.79
+Average Purity: 0.24
+Completeness score: 0.08
+Homogeneity score: 0.07
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1011
+-- cluster 1: 2708
+-- cluster 2: 645
+-- cluster 3: 673
+-- cluster 4: 3586
+-- cluster 5: 8606
+-- cluster 6: 1830
+-- cluster 7: 486
+****************************************************************************************************
+
+
+Cohort subsampling N 15
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2491
+CD -- 2429
+BC -- 2513
+AD -- 2494
+ADHD -- 2538
+T2D -- 2559
+MM -- 1947
+PC -- 2496
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.287, Purity: 0.501, Max(p): BC
+-- Cluster 1 -- Entropy: 2.847, Purity: 0.214, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.890, Purity: 0.220, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.297, Purity: 0.458, Max(p): MM
+-- Cluster 4 -- Entropy: 2.653, Purity: 0.332, Max(p): AD
+-- Cluster 5 -- Entropy: 2.953, Purity: 0.166, Max(p): PD
+-- Cluster 6 -- Entropy: 2.805, Purity: 0.189, Max(p): CD
+-- Cluster 7 -- Entropy: 0.293, Purity: 0.962, Max(p): MM
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 7
+Cluster Numerosity:
+-- cluster 0: 902
+-- cluster 1: 2909
+-- cluster 2: 3342
+-- cluster 3: 301
+-- cluster 4: 810
+-- cluster 5: 9908
+-- cluster 6: 923
+-- cluster 7: 372
+****************************************************************************************************
+
+
+Cohort subsampling N 16
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2500
+CD -- 2493
+BC -- 2496
+AD -- 2547
+ADHD -- 2597
+T2D -- 2492
+MM -- 1947
+PC -- 2445
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.704, Purity: 0.333, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.879, Purity: 0.174, Max(p): CD
+-- Cluster 2 -- Entropy: 2.300, Purity: 0.471, Max(p): BC
+-- Cluster 3 -- Entropy: 2.635, Purity: 0.274, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.954, Purity: 0.168, Max(p): T2D
+-- Cluster 5 -- Entropy: 0.652, Purity: 0.902, Max(p): MM
+-- Cluster 6 -- Entropy: 2.938, Purity: 0.180, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.762, Purity: 0.255, Max(p): AD
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1365
+-- cluster 1: 2322
+-- cluster 2: 773
+-- cluster 3: 657
+-- cluster 4: 4196
+-- cluster 5: 396
+-- cluster 6: 9111
+-- cluster 7: 697
+****************************************************************************************************
+
+
+Cohort subsampling N 17
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2491
+CD -- 2464
+BC -- 2465
+AD -- 2500
+ADHD -- 2502
+T2D -- 2534
+MM -- 1947
+PC -- 2477
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.951, Purity: 0.190, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.240, Purity: 0.493, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.776, Purity: 0.215, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.912, Purity: 0.223, Max(p): BC
+-- Cluster 4 -- Entropy: 2.944, Purity: 0.172, Max(p): PD
+-- Cluster 5 -- Entropy: 2.860, Purity: 0.198, Max(p): AD
+-- Cluster 6 -- Entropy: 0.089, Purity: 0.991, Max(p): MM
+-- Cluster 7 -- Entropy: 2.664, Purity: 0.290, Max(p): MM
+
+Average Entropy: 2.84
+Average Purity: 0.21
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 3416
+-- cluster 1: 611
+-- cluster 2: 908
+-- cluster 3: 2398
+-- cluster 4: 8824
+-- cluster 5: 2281
+-- cluster 6: 331
+-- cluster 7: 611
+****************************************************************************************************
+
+
+Cohort subsampling N 18
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2495
+CD -- 2497
+BC -- 2528
+AD -- 2566
+ADHD -- 2519
+T2D -- 2523
+MM -- 1947
+PC -- 2520
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.793, Purity: 0.205, Max(p): AD
+-- Cluster 1 -- Entropy: 2.933, Purity: 0.201, Max(p): PC
+-- Cluster 2 -- Entropy: 2.709, Purity: 0.244, Max(p): MM
+-- Cluster 3 -- Entropy: 2.942, Purity: 0.178, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.934, Purity: 0.195, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.336, Purity: 0.437, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.232, Purity: 0.974, Max(p): MM
+-- Cluster 7 -- Entropy: 1.147, Purity: 0.823, Max(p): BC
+
+Average Entropy: 2.78
+Average Purity: 0.24
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2078
+-- cluster 1: 2331
+-- cluster 2: 741
+-- cluster 3: 9568
+-- cluster 4: 3087
+-- cluster 5: 790
+-- cluster 6: 378
+-- cluster 7: 622
+****************************************************************************************************
+
+
+Cohort subsampling N 19
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2488
+CD -- 2455
+BC -- 2541
+AD -- 2525
+ADHD -- 2545
+T2D -- 2508
+MM -- 1947
+PC -- 2479
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.799, Purity: 0.243, Max(p): MM
+-- Cluster 1 -- Entropy: 2.930, Purity: 0.176, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.775, Purity: 0.271, Max(p): BC
+-- Cluster 3 -- Entropy: 2.366, Purity: 0.445, Max(p): ADHD
+-- Cluster 4 -- Entropy: 1.023, Purity: 0.842, Max(p): MM
+-- Cluster 5 -- Entropy: 2.932, Purity: 0.189, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.807, Purity: 0.262, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.767, Purity: 0.243, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 996
+-- cluster 1: 4522
+-- cluster 2: 1842
+-- cluster 3: 779
+-- cluster 4: 501
+-- cluster 5: 9034
+-- cluster 6: 343
+-- cluster 7: 1471
+****************************************************************************************************
+
+
+Cohort subsampling N 20
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2500
+CD -- 2489
+BC -- 2544
+AD -- 2528
+ADHD -- 2526
+T2D -- 2526
+MM -- 1947
+PC -- 2540
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.913, Purity: 0.216, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.852, Purity: 0.186, Max(p): AD
+-- Cluster 2 -- Entropy: 2.948, Purity: 0.172, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.344, Purity: 0.476, Max(p): MM
+-- Cluster 4 -- Entropy: 2.843, Purity: 0.197, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.478, Purity: 0.339, Max(p): AD
+-- Cluster 6 -- Entropy: 2.291, Purity: 0.493, Max(p): BC
+-- Cluster 7 -- Entropy: 0.211, Purity: 0.975, Max(p): MM
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2082
+-- cluster 1: 2299
+-- cluster 2: 11023
+-- cluster 3: 334
+-- cluster 4: 2310
+-- cluster 5: 401
+-- cluster 6: 828
+-- cluster 7: 323
+****************************************************************************************************
+
+
+Cohort subsampling N 21
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2496
+CD -- 2539
+BC -- 2557
+AD -- 2512
+ADHD -- 2546
+T2D -- 2528
+MM -- 1947
+PC -- 2485
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.195, Purity: 0.522, Max(p): ADHD
+-- Cluster 1 -- Entropy: 1.713, Purity: 0.669, Max(p): MM
+-- Cluster 2 -- Entropy: 2.943, Purity: 0.171, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.784, Purity: 0.193, Max(p): AD
+-- Cluster 4 -- Entropy: 2.920, Purity: 0.191, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.672, Purity: 0.321, Max(p): AD
+-- Cluster 6 -- Entropy: 2.912, Purity: 0.229, Max(p): PC
+-- Cluster 7 -- Entropy: 0.868, Purity: 0.876, Max(p): BC
+
+Average Entropy: 2.78
+Average Purity: 0.24
+Completeness score: 0.10
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 768
+-- cluster 1: 744
+-- cluster 2: 10157
+-- cluster 3: 1799
+-- cluster 4: 3831
+-- cluster 5: 782
+-- cluster 6: 995
+-- cluster 7: 534
+****************************************************************************************************
+
+
+Cohort subsampling N 22
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2480
+CD -- 2470
+BC -- 2518
+AD -- 2534
+ADHD -- 2550
+T2D -- 2525
+MM -- 1947
+PC -- 2482
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.805, Purity: 0.208, Max(p): CD
+-- Cluster 1 -- Entropy: 2.933, Purity: 0.204, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.921, Purity: 0.210, Max(p): PC
+-- Cluster 3 -- Entropy: 2.940, Purity: 0.177, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.261, Purity: 0.506, Max(p): BC
+-- Cluster 5 -- Entropy: 0.427, Purity: 0.946, Max(p): MM
+-- Cluster 6 -- Entropy: 2.860, Purity: 0.254, Max(p): T2D
+-- Cluster 7 -- Entropy: 1.083, Purity: 0.825, Max(p): ADHD
+
+Average Entropy: 2.79
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2525
+-- cluster 1: 4621
+-- cluster 2: 1037
+-- cluster 3: 9281
+-- cluster 4: 701
+-- cluster 5: 503
+-- cluster 6: 473
+-- cluster 7: 365
+****************************************************************************************************
+
+
+Cohort subsampling N 23
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2495
+CD -- 2496
+BC -- 2549
+AD -- 2521
+ADHD -- 2576
+T2D -- 2515
+MM -- 1947
+PC -- 2502
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.203, Purity: 0.503, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.758, Purity: 0.229, Max(p): AD
+-- Cluster 2 -- Entropy: 2.958, Purity: 0.157, Max(p): BC
+-- Cluster 3 -- Entropy: 2.736, Purity: 0.255, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.968, Purity: 0.172, Max(p): AD
+-- Cluster 5 -- Entropy: 2.944, Purity: 0.173, Max(p): PD
+-- Cluster 6 -- Entropy: 0.292, Purity: 0.966, Max(p): MM
+-- Cluster 7 -- Entropy: 2.813, Purity: 0.235, Max(p): CD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 7
+Cluster Numerosity:
+-- cluster 0: 793
+-- cluster 1: 1682
+-- cluster 2: 3681
+-- cluster 3: 650
+-- cluster 4: 1743
+-- cluster 5: 8789
+-- cluster 6: 502
+-- cluster 7: 1761
+****************************************************************************************************
+
+
+Cohort subsampling N 24
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2502
+CD -- 2449
+BC -- 2546
+AD -- 2521
+ADHD -- 2563
+T2D -- 2560
+MM -- 1947
+PC -- 2518
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.820, Purity: 0.200, Max(p): AD
+-- Cluster 1 -- Entropy: 2.346, Purity: 0.432, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.939, Purity: 0.181, Max(p): BC
+-- Cluster 3 -- Entropy: 2.526, Purity: 0.355, Max(p): MM
+-- Cluster 4 -- Entropy: 2.721, Purity: 0.303, Max(p): AD
+-- Cluster 5 -- Entropy: 2.935, Purity: 0.180, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.957, Purity: 0.180, Max(p): PC
+-- Cluster 7 -- Entropy: 0.250, Purity: 0.969, Max(p): MM
+
+Average Entropy: 2.84
+Average Purity: 0.21
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2138
+-- cluster 1: 599
+-- cluster 2: 4534
+-- cluster 3: 437
+-- cluster 4: 893
+-- cluster 5: 8564
+-- cluster 6: 2091
+-- cluster 7: 350
+****************************************************************************************************
+
+
+Cohort subsampling N 25
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2520
+CD -- 2466
+BC -- 2487
+AD -- 2510
+ADHD -- 2543
+T2D -- 2510
+MM -- 1947
+PC -- 2510
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.904, Purity: 0.231, Max(p): BC
+-- Cluster 1 -- Entropy: 1.743, Purity: 0.662, Max(p): MM
+-- Cluster 2 -- Entropy: 2.826, Purity: 0.248, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.786, Purity: 0.248, Max(p): AD
+-- Cluster 4 -- Entropy: 2.284, Purity: 0.461, Max(p): ADHD
+-- Cluster 5 -- Entropy: 2.569, Purity: 0.339, Max(p): AD
+-- Cluster 6 -- Entropy: 2.970, Purity: 0.156, Max(p): CD
+-- Cluster 7 -- Entropy: 2.914, Purity: 0.195, Max(p): ADHD
+
+Average Entropy: 2.83
+Average Purity: 0.23
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2717
+-- cluster 1: 731
+-- cluster 2: 1908
+-- cluster 3: 1599
+-- cluster 4: 727
+-- cluster 5: 425
+-- cluster 6: 4502
+-- cluster 7: 6884
+****************************************************************************************************
+
+
+Cohort subsampling N 26
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2476
+CD -- 2513
+BC -- 2550
+AD -- 2524
+ADHD -- 2541
+T2D -- 2523
+MM -- 1947
+PC -- 2465
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.160, Purity: 0.511, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.792, Purity: 0.243, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.767, Purity: 0.247, Max(p): AD
+-- Cluster 3 -- Entropy: 2.901, Purity: 0.225, Max(p): BC
+-- Cluster 4 -- Entropy: 2.911, Purity: 0.190, Max(p): T2D
+-- Cluster 5 -- Entropy: 0.189, Purity: 0.979, Max(p): MM
+-- Cluster 6 -- Entropy: 2.845, Purity: 0.197, Max(p): BC
+-- Cluster 7 -- Entropy: 2.950, Purity: 0.171, Max(p): ADHD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 655
+-- cluster 1: 814
+-- cluster 2: 1419
+-- cluster 3: 2174
+-- cluster 4: 3089
+-- cluster 5: 432
+-- cluster 6: 1178
+-- cluster 7: 9778
+****************************************************************************************************
+
+
+Cohort subsampling N 27
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2494
+CD -- 2476
+BC -- 2465
+AD -- 2515
+ADHD -- 2526
+T2D -- 2565
+MM -- 1947
+PC -- 2483
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.892, Purity: 0.184, Max(p): AD
+-- Cluster 1 -- Entropy: 2.254, Purity: 0.487, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.931, Purity: 0.187, Max(p): BC
+-- Cluster 3 -- Entropy: 2.637, Purity: 0.305, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.724, Purity: 0.291, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.919, Purity: 0.199, Max(p): PC
+-- Cluster 6 -- Entropy: 0.424, Purity: 0.949, Max(p): MM
+-- Cluster 7 -- Entropy: 2.937, Purity: 0.177, Max(p): PD
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 7
+Cluster Numerosity:
+-- cluster 0: 1768
+-- cluster 1: 815
+-- cluster 2: 5066
+-- cluster 3: 1473
+-- cluster 4: 546
+-- cluster 5: 1044
+-- cluster 6: 468
+-- cluster 7: 8291
+****************************************************************************************************
+
+
+Cohort subsampling N 28
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2480
+CD -- 2503
+BC -- 2499
+AD -- 2538
+ADHD -- 2550
+T2D -- 2464
+MM -- 1947
+PC -- 2537
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 1.596, Purity: 0.705, Max(p): MM
+-- Cluster 1 -- Entropy: 2.670, Purity: 0.361, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.277, Purity: 0.473, Max(p): BC
+-- Cluster 3 -- Entropy: 2.858, Purity: 0.182, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.926, Purity: 0.185, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.925, Purity: 0.192, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.711, Purity: 0.304, Max(p): AD
+-- Cluster 7 -- Entropy: 2.897, Purity: 0.197, Max(p): CD
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 772
+-- cluster 1: 1268
+-- cluster 2: 721
+-- cluster 3: 2255
+-- cluster 4: 3503
+-- cluster 5: 8389
+-- cluster 6: 573
+-- cluster 7: 2037
+****************************************************************************************************
+
+
+Cohort subsampling N 29
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2479
+CD -- 2493
+BC -- 2504
+AD -- 2486
+ADHD -- 2539
+T2D -- 2482
+MM -- 1947
+PC -- 2490
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.866, Purity: 0.177, Max(p): AD
+-- Cluster 1 -- Entropy: 2.942, Purity: 0.162, Max(p): PC
+-- Cluster 2 -- Entropy: 2.263, Purity: 0.486, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.940, Purity: 0.173, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.731, Purity: 0.253, Max(p): MM
+-- Cluster 5 -- Entropy: 2.914, Purity: 0.223, Max(p): T2D
+-- Cluster 6 -- Entropy: 0.074, Purity: 0.991, Max(p): MM
+-- Cluster 7 -- Entropy: 0.972, Purity: 0.857, Max(p): BC
+
+Average Entropy: 2.79
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2370
+-- cluster 1: 1846
+-- cluster 2: 903
+-- cluster 3: 9457
+-- cluster 4: 780
+-- cluster 5: 3269
+-- cluster 6: 332
+-- cluster 7: 463
+****************************************************************************************************
+
+
+Cohort subsampling N 30
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2479
+CD -- 2468
+BC -- 2523
+AD -- 2517
+ADHD -- 2514
+T2D -- 2545
+MM -- 1947
+PC -- 2470
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.842, Purity: 0.279, Max(p): BC
+-- Cluster 1 -- Entropy: 2.853, Purity: 0.236, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.294, Purity: 0.465, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.530, Purity: 0.355, Max(p): MM
+-- Cluster 4 -- Entropy: 2.750, Purity: 0.206, Max(p): CD
+-- Cluster 5 -- Entropy: 2.953, Purity: 0.168, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.614, Purity: 0.359, Max(p): AD
+-- Cluster 7 -- Entropy: 0.185, Purity: 0.978, Max(p): MM
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1848
+-- cluster 1: 3418
+-- cluster 2: 825
+-- cluster 3: 301
+-- cluster 4: 1109
+-- cluster 5: 10812
+-- cluster 6: 786
+-- cluster 7: 364
+****************************************************************************************************
+
+
+Cohort subsampling N 31
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2474
+CD -- 2501
+BC -- 2495
+AD -- 2563
+ADHD -- 2509
+T2D -- 2519
+MM -- 1947
+PC -- 2553
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.924, Purity: 0.202, Max(p): BC
+-- Cluster 1 -- Entropy: 2.827, Purity: 0.220, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.238, Purity: 0.493, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.767, Purity: 0.218, Max(p): AD & CD
+-- Cluster 4 -- Entropy: 2.942, Purity: 0.186, Max(p): PC
+-- Cluster 5 -- Entropy: 0.388, Purity: 0.953, Max(p): MM
+-- Cluster 6 -- Entropy: 2.764, Purity: 0.254, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.942, Purity: 0.176, Max(p): PD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 8
+Cluster Numerosity:
+-- cluster 0: 3508
+-- cluster 1: 2862
+-- cluster 2: 708
+-- cluster 3: 698
+-- cluster 4: 2031
+-- cluster 5: 468
+-- cluster 6: 850
+-- cluster 7: 8436
+****************************************************************************************************
+
+
+Cohort subsampling N 32
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2493
+CD -- 2494
+BC -- 2489
+AD -- 2519
+ADHD -- 2533
+T2D -- 2527
+MM -- 1947
+PC -- 2526
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.672, Purity: 0.296, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.868, Purity: 0.246, Max(p): CD
+-- Cluster 2 -- Entropy: 1.749, Purity: 0.659, Max(p): MM
+-- Cluster 3 -- Entropy: 2.904, Purity: 0.216, Max(p): BC
+-- Cluster 4 -- Entropy: 2.704, Purity: 0.317, Max(p): AD
+-- Cluster 5 -- Entropy: 2.180, Purity: 0.516, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.715, Purity: 0.299, Max(p): AD
+-- Cluster 7 -- Entropy: 2.938, Purity: 0.178, Max(p): ADHD
+
+Average Entropy: 2.81
+Average Purity: 0.24
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1539
+-- cluster 1: 2272
+-- cluster 2: 674
+-- cluster 3: 3404
+-- cluster 4: 635
+-- cluster 5: 819
+-- cluster 6: 1163
+-- cluster 7: 9022
+****************************************************************************************************
+
+
+Cohort subsampling N 33
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2495
+CD -- 2518
+BC -- 2557
+AD -- 2501
+ADHD -- 2567
+T2D -- 2483
+MM -- 1947
+PC -- 2487
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.849, Purity: 0.224, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.947, Purity: 0.187, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.941, Purity: 0.167, Max(p): PC
+-- Cluster 3 -- Entropy: 2.738, Purity: 0.264, Max(p): AD
+-- Cluster 4 -- Entropy: 2.462, Purity: 0.333, Max(p): ADHD
+-- Cluster 5 -- Entropy: 2.926, Purity: 0.190, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.317, Purity: 0.964, Max(p): MM
+-- Cluster 7 -- Entropy: 0.881, Purity: 0.870, Max(p): BC
+
+Average Entropy: 2.76
+Average Purity: 0.24
+Completeness score: 0.10
+Homogeneity score: 0.08
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 849
+-- cluster 1: 4400
+-- cluster 2: 1930
+-- cluster 3: 1733
+-- cluster 4: 1299
+-- cluster 5: 8288
+-- cluster 6: 501
+-- cluster 7: 555
+****************************************************************************************************
+
+
+Cohort subsampling N 34
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2475
+CD -- 2493
+BC -- 2521
+AD -- 2531
+ADHD -- 2557
+T2D -- 2466
+MM -- 1947
+PC -- 2463
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.859, Purity: 0.188, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.939, Purity: 0.169, Max(p): BC
+-- Cluster 2 -- Entropy: 2.292, Purity: 0.421, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.505, Purity: 0.284, Max(p): CD
+-- Cluster 4 -- Entropy: 2.927, Purity: 0.207, Max(p): PC
+-- Cluster 5 -- Entropy: 0.308, Purity: 0.962, Max(p): MM
+-- Cluster 6 -- Entropy: 2.697, Purity: 0.267, Max(p): AD
+-- Cluster 7 -- Entropy: 2.944, Purity: 0.169, Max(p): PD
+
+Average Entropy: 2.82
+Average Purity: 0.21
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 8
+Cluster Numerosity:
+-- cluster 0: 2913
+-- cluster 1: 3214
+-- cluster 2: 606
+-- cluster 3: 837
+-- cluster 4: 1813
+-- cluster 5: 443
+-- cluster 6: 570
+-- cluster 7: 9057
+****************************************************************************************************
+
+
+Cohort subsampling N 35
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2499
+CD -- 2506
+BC -- 2500
+AD -- 2536
+ADHD -- 2567
+T2D -- 2513
+MM -- 1947
+PC -- 2492
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.844, Purity: 0.201, Max(p): AD
+-- Cluster 1 -- Entropy: 2.249, Purity: 0.501, Max(p): BC
+-- Cluster 2 -- Entropy: 2.945, Purity: 0.165, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.952, Purity: 0.188, Max(p): PC
+-- Cluster 4 -- Entropy: 2.616, Purity: 0.307, Max(p): MM
+-- Cluster 5 -- Entropy: 0.144, Purity: 0.984, Max(p): MM
+-- Cluster 6 -- Entropy: 2.935, Purity: 0.180, Max(p): ADHD
+-- Cluster 7 -- Entropy: 1.031, Purity: 0.834, Max(p): ADHD
+
+Average Entropy: 2.81
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2406
+-- cluster 1: 804
+-- cluster 2: 4349
+-- cluster 3: 1998
+-- cluster 4: 567
+-- cluster 5: 374
+-- cluster 6: 8754
+-- cluster 7: 308
+****************************************************************************************************
+
+
+Cohort subsampling N 36
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2511
+CD -- 2441
+BC -- 2514
+AD -- 2522
+ADHD -- 2506
+T2D -- 2457
+MM -- 1947
+PC -- 2518
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.219, Purity: 0.507, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.842, Purity: 0.206, Max(p): AD
+-- Cluster 2 -- Entropy: 2.917, Purity: 0.192, Max(p): PC
+-- Cluster 3 -- Entropy: 2.942, Purity: 0.174, Max(p): PD
+-- Cluster 4 -- Entropy: 2.727, Purity: 0.293, Max(p): T2D
+-- Cluster 5 -- Entropy: 0.409, Purity: 0.952, Max(p): MM
+-- Cluster 6 -- Entropy: 2.773, Purity: 0.228, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.873, Purity: 0.203, Max(p): T2D
+
+Average Entropy: 2.81
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 864
+-- cluster 1: 1374
+-- cluster 2: 3242
+-- cluster 3: 9557
+-- cluster 4: 532
+-- cluster 5: 495
+-- cluster 6: 1237
+-- cluster 7: 2115
+****************************************************************************************************
+
+
+Cohort subsampling N 37
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2481
+CD -- 2464
+BC -- 2556
+AD -- 2549
+ADHD -- 2552
+T2D -- 2437
+MM -- 1947
+PC -- 2426
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 1.947, Purity: 0.604, Max(p): MM
+-- Cluster 1 -- Entropy: 2.133, Purity: 0.534, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.797, Purity: 0.302, Max(p): BC
+-- Cluster 3 -- Entropy: 2.836, Purity: 0.230, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.752, Purity: 0.254, Max(p): MM
+-- Cluster 5 -- Entropy: 2.931, Purity: 0.182, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.670, Purity: 0.323, Max(p): AD
+-- Cluster 7 -- Entropy: 2.960, Purity: 0.172, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.24
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.03
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 664
+-- cluster 1: 904
+-- cluster 2: 1952
+-- cluster 3: 2733
+-- cluster 4: 1171
+-- cluster 5: 8200
+-- cluster 6: 663
+-- cluster 7: 3125
+****************************************************************************************************
+
+
+Cohort subsampling N 38
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2494
+CD -- 2528
+BC -- 2520
+AD -- 2530
+ADHD -- 2533
+T2D -- 2568
+MM -- 1947
+PC -- 2494
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 1.941, Purity: 0.607, Max(p): MM
+-- Cluster 1 -- Entropy: 2.700, Purity: 0.363, Max(p): BC
+-- Cluster 2 -- Entropy: 2.724, Purity: 0.257, Max(p): AD
+-- Cluster 3 -- Entropy: 2.719, Purity: 0.247, Max(p): CD
+-- Cluster 4 -- Entropy: 2.816, Purity: 0.267, Max(p): AD
+-- Cluster 5 -- Entropy: 2.240, Purity: 0.475, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.904, Purity: 0.216, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.942, Purity: 0.180, Max(p): ADHD
+
+Average Entropy: 2.82
+Average Purity: 0.24
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 799
+-- cluster 1: 1240
+-- cluster 2: 1294
+-- cluster 3: 1516
+-- cluster 4: 924
+-- cluster 5: 678
+-- cluster 6: 3453
+-- cluster 7: 9710
+****************************************************************************************************
+
+
+Cohort subsampling N 39
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2500
+CD -- 2493
+BC -- 2454
+AD -- 2485
+ADHD -- 2522
+T2D -- 2504
+MM -- 1947
+PC -- 2544
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.381, Purity: 0.368, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.954, Purity: 0.189, Max(p): CD
+-- Cluster 2 -- Entropy: 2.916, Purity: 0.203, Max(p): PC
+-- Cluster 3 -- Entropy: 2.950, Purity: 0.163, Max(p): PD
+-- Cluster 4 -- Entropy: 2.612, Purity: 0.316, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.625, Purity: 0.286, Max(p): T2D
+-- Cluster 6 -- Entropy: 0.345, Purity: 0.959, Max(p): MM
+-- Cluster 7 -- Entropy: 2.504, Purity: 0.325, Max(p): CD
+
+Average Entropy: 2.79
+Average Purity: 0.22
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1096
+-- cluster 1: 2591
+-- cluster 2: 1786
+-- cluster 3: 10415
+-- cluster 4: 525
+-- cluster 5: 1720
+-- cluster 6: 485
+-- cluster 7: 831
+****************************************************************************************************
+
+
+Cohort subsampling N 40
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2480
+CD -- 2509
+BC -- 2476
+AD -- 2536
+ADHD -- 2527
+T2D -- 2478
+MM -- 1947
+PC -- 2472
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.764, Purity: 0.212, Max(p): MM
+-- Cluster 1 -- Entropy: 2.925, Purity: 0.199, Max(p): BC
+-- Cluster 2 -- Entropy: 2.258, Purity: 0.482, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.701, Purity: 0.285, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.960, Purity: 0.165, Max(p): PC
+-- Cluster 5 -- Entropy: 2.925, Purity: 0.192, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.149, Purity: 0.982, Max(p): MM
+-- Cluster 7 -- Entropy: 2.844, Purity: 0.195, Max(p): AD
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1166
+-- cluster 1: 4789
+-- cluster 2: 800
+-- cluster 3: 1916
+-- cluster 4: 1531
+-- cluster 5: 7612
+-- cluster 6: 342
+-- cluster 7: 1269
+****************************************************************************************************
+
+
+Cohort subsampling N 41
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2493
+CD -- 2455
+BC -- 2517
+AD -- 2531
+ADHD -- 2510
+T2D -- 2515
+MM -- 1947
+PC -- 2508
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.912, Purity: 0.222, Max(p): BC
+-- Cluster 1 -- Entropy: 2.841, Purity: 0.219, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.284, Purity: 0.469, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.951, Purity: 0.163, Max(p): ADHD
+-- Cluster 4 -- Entropy: 0.303, Purity: 0.965, Max(p): MM
+-- Cluster 5 -- Entropy: 2.910, Purity: 0.174, Max(p): AD
+-- Cluster 6 -- Entropy: 2.639, Purity: 0.277, Max(p): AD
+-- Cluster 7 -- Entropy: 2.687, Purity: 0.246, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2677
+-- cluster 1: 2002
+-- cluster 2: 832
+-- cluster 3: 10449
+-- cluster 4: 461
+-- cluster 5: 1996
+-- cluster 6: 607
+-- cluster 7: 452
+****************************************************************************************************
+
+
+Cohort subsampling N 42
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2536
+CD -- 2545
+BC -- 2515
+AD -- 2562
+ADHD -- 2562
+T2D -- 2501
+MM -- 1947
+PC -- 2496
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.206, Purity: 0.522, Max(p): BC
+-- Cluster 1 -- Entropy: 2.697, Purity: 0.259, Max(p): AD
+-- Cluster 2 -- Entropy: 2.918, Purity: 0.229, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.852, Purity: 0.218, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.800, Purity: 0.221, Max(p): AD
+-- Cluster 5 -- Entropy: 2.738, Purity: 0.287, Max(p): T2D
+-- Cluster 6 -- Entropy: 0.816, Purity: 0.844, Max(p): MM
+-- Cluster 7 -- Entropy: 2.934, Purity: 0.179, Max(p): ADHD
+
+Average Entropy: 2.79
+Average Purity: 0.24
+Completeness score: 0.08
+Homogeneity score: 0.07
+Adjusted Rand score: 0.03
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 856
+-- cluster 1: 958
+-- cluster 2: 3185
+-- cluster 3: 2417
+-- cluster 4: 2244
+-- cluster 5: 543
+-- cluster 6: 588
+-- cluster 7: 8873
+****************************************************************************************************
+
+
+Cohort subsampling N 43
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2505
+CD -- 2477
+BC -- 2522
+AD -- 2544
+ADHD -- 2543
+T2D -- 2484
+MM -- 1947
+PC -- 2490
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.768, Purity: 0.306, Max(p): BC
+-- Cluster 1 -- Entropy: 2.708, Purity: 0.280, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.792, Purity: 0.261, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.744, Purity: 0.283, Max(p): CD
+-- Cluster 4 -- Entropy: 0.955, Purity: 0.849, Max(p): MM
+-- Cluster 5 -- Entropy: 2.507, Purity: 0.407, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.935, Purity: 0.172, Max(p): CD
+-- Cluster 7 -- Entropy: 2.941, Purity: 0.173, Max(p): ADHD
+
+Average Entropy: 2.80
+Average Purity: 0.24
+Completeness score: 0.08
+Homogeneity score: 0.07
+Adjusted Rand score: 0.03
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2111
+-- cluster 1: 1691
+-- cluster 2: 784
+-- cluster 3: 938
+-- cluster 4: 582
+-- cluster 5: 1186
+-- cluster 6: 2772
+-- cluster 7: 9448
+****************************************************************************************************
+
+
+Cohort subsampling N 44
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2494
+CD -- 2446
+BC -- 2478
+AD -- 2562
+ADHD -- 2579
+T2D -- 2474
+MM -- 1947
+PC -- 2450
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.218, Purity: 0.503, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.831, Purity: 0.188, Max(p): AD
+-- Cluster 2 -- Entropy: 2.947, Purity: 0.180, Max(p): BC
+-- Cluster 3 -- Entropy: 2.952, Purity: 0.166, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.658, Purity: 0.297, Max(p): AD
+-- Cluster 5 -- Entropy: 2.900, Purity: 0.199, Max(p): T2D
+-- Cluster 6 -- Entropy: 2.249, Purity: 0.479, Max(p): MM
+-- Cluster 7 -- Entropy: 0.114, Purity: 0.987, Max(p): MM
+
+Average Entropy: 2.83
+Average Purity: 0.21
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 775
+-- cluster 1: 2058
+-- cluster 2: 2643
+-- cluster 3: 10367
+-- cluster 4: 694
+-- cluster 5: 2200
+-- cluster 6: 313
+-- cluster 7: 380
+****************************************************************************************************
+
+
+Cohort subsampling N 45
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2506
+CD -- 2460
+BC -- 2551
+AD -- 2527
+ADHD -- 2514
+T2D -- 2513
+MM -- 1947
+PC -- 2507
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.797, Purity: 0.263, Max(p): BC
+-- Cluster 1 -- Entropy: 2.826, Purity: 0.191, Max(p): CD
+-- Cluster 2 -- Entropy: 2.255, Purity: 0.483, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.524, Purity: 0.371, Max(p): MM
+-- Cluster 4 -- Entropy: 2.918, Purity: 0.180, Max(p): CD
+-- Cluster 5 -- Entropy: 2.940, Purity: 0.180, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.720, Purity: 0.338, Max(p): AD
+-- Cluster 7 -- Entropy: 0.138, Purity: 0.984, Max(p): MM
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2154
+-- cluster 1: 1897
+-- cluster 2: 695
+-- cluster 3: 448
+-- cluster 4: 3380
+-- cluster 5: 9789
+-- cluster 6: 786
+-- cluster 7: 376
+****************************************************************************************************
+
+
+Cohort subsampling N 46
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2465
+CD -- 2406
+BC -- 2542
+AD -- 2535
+ADHD -- 2489
+T2D -- 2544
+MM -- 1947
+PC -- 2503
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.936, Purity: 0.196, Max(p): BC
+-- Cluster 1 -- Entropy: 2.255, Purity: 0.473, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.835, Purity: 0.203, Max(p): CD
+-- Cluster 3 -- Entropy: 2.723, Purity: 0.292, Max(p): AD
+-- Cluster 4 -- Entropy: 0.342, Purity: 0.959, Max(p): MM
+-- Cluster 5 -- Entropy: 2.955, Purity: 0.176, Max(p): PC
+-- Cluster 6 -- Entropy: 2.762, Purity: 0.258, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.936, Purity: 0.182, Max(p): ADHD
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 7
+Cluster Numerosity:
+-- cluster 0: 3788
+-- cluster 1: 670
+-- cluster 2: 1787
+-- cluster 3: 631
+-- cluster 4: 464
+-- cluster 5: 1322
+-- cluster 6: 1822
+-- cluster 7: 8947
+****************************************************************************************************
+
+
+Cohort subsampling N 47
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2500
+CD -- 2451
+BC -- 2550
+AD -- 2515
+ADHD -- 2592
+T2D -- 2490
+MM -- 1947
+PC -- 2492
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.854, Purity: 0.227, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.905, Purity: 0.236, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.029, Purity: 0.586, Max(p): BC
+-- Cluster 3 -- Entropy: 2.760, Purity: 0.235, Max(p): AD
+-- Cluster 4 -- Entropy: 2.662, Purity: 0.306, Max(p): T2D
+-- Cluster 5 -- Entropy: 0.505, Purity: 0.936, Max(p): MM
+-- Cluster 6 -- Entropy: 2.829, Purity: 0.188, Max(p): CD
+-- Cluster 7 -- Entropy: 2.930, Purity: 0.178, Max(p): ADHD
+
+Average Entropy: 2.79
+Average Purity: 0.24
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2865
+-- cluster 1: 3436
+-- cluster 2: 817
+-- cluster 3: 975
+-- cluster 4: 693
+-- cluster 5: 515
+-- cluster 6: 1552
+-- cluster 7: 8684
+****************************************************************************************************
+
+
+Cohort subsampling N 48
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2472
+CD -- 2468
+BC -- 2503
+AD -- 2524
+ADHD -- 2532
+T2D -- 2474
+MM -- 1947
+PC -- 2513
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.792, Purity: 0.276, Max(p): BC
+-- Cluster 1 -- Entropy: 2.788, Purity: 0.252, Max(p): AD
+-- Cluster 2 -- Entropy: 2.280, Purity: 0.474, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.943, Purity: 0.176, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.807, Purity: 0.249, Max(p): MM
+-- Cluster 5 -- Entropy: 0.323, Purity: 0.963, Max(p): MM
+-- Cluster 6 -- Entropy: 2.908, Purity: 0.193, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.576, Purity: 0.363, Max(p): AD
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1892
+-- cluster 1: 880
+-- cluster 2: 796
+-- cluster 3: 9650
+-- cluster 4: 1594
+-- cluster 5: 354
+-- cluster 6: 3275
+-- cluster 7: 992
+****************************************************************************************************
+
+
+Cohort subsampling N 49
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2495
+CD -- 2500
+BC -- 2565
+AD -- 2539
+ADHD -- 2542
+T2D -- 2479
+MM -- 1947
+PC -- 2513
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.568, Purity: 0.387, Max(p): BC
+-- Cluster 1 -- Entropy: 2.902, Purity: 0.196, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.407, Purity: 0.400, Max(p): AD
+-- Cluster 3 -- Entropy: 1.456, Purity: 0.740, Max(p): MM
+-- Cluster 4 -- Entropy: 2.795, Purity: 0.237, Max(p): AD
+-- Cluster 5 -- Entropy: 2.948, Purity: 0.172, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.581, Purity: 0.281, Max(p): PC
+-- Cluster 7 -- Entropy: 2.918, Purity: 0.194, Max(p): PC
+
+Average Entropy: 2.83
+Average Purity: 0.23
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1452
+-- cluster 1: 2811
+-- cluster 2: 520
+-- cluster 3: 627
+-- cluster 4: 1542
+-- cluster 5: 9531
+-- cluster 6: 334
+-- cluster 7: 2763
+****************************************************************************************************
+
+
+Cohort subsampling N 50
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2500
+CD -- 2509
+BC -- 2554
+AD -- 2510
+ADHD -- 2541
+T2D -- 2507
+MM -- 1947
+PC -- 2504
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.908, Purity: 0.171, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.925, Purity: 0.197, Max(p): BC
+-- Cluster 2 -- Entropy: 2.134, Purity: 0.543, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.606, Purity: 0.334, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.697, Purity: 0.278, Max(p): AD
+-- Cluster 5 -- Entropy: 2.941, Purity: 0.176, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.733, Purity: 0.261, Max(p): AD
+-- Cluster 7 -- Entropy: 0.288, Purity: 0.967, Max(p): MM
+
+Average Entropy: 2.79
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1574
+-- cluster 1: 4984
+-- cluster 2: 940
+-- cluster 3: 1129
+-- cluster 4: 432
+-- cluster 5: 8898
+-- cluster 6: 1126
+-- cluster 7: 489
+****************************************************************************************************
+
+
+Cohort subsampling N 51
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2485
+CD -- 2450
+BC -- 2544
+AD -- 2510
+ADHD -- 2506
+T2D -- 2504
+MM -- 1947
+PC -- 2518
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.845, Purity: 0.189, Max(p): CD
+-- Cluster 1 -- Entropy: 2.749, Purity: 0.303, Max(p): BC
+-- Cluster 2 -- Entropy: 2.247, Purity: 0.493, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.615, Purity: 0.292, Max(p): T2D
+-- Cluster 4 -- Entropy: 0.187, Purity: 0.980, Max(p): MM
+-- Cluster 5 -- Entropy: 2.936, Purity: 0.178, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.955, Purity: 0.167, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.819, Purity: 0.289, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2447
+-- cluster 1: 1632
+-- cluster 2: 596
+-- cluster 3: 459
+-- cluster 4: 393
+-- cluster 5: 8524
+-- cluster 6: 4568
+-- cluster 7: 845
+****************************************************************************************************
+
+
+Cohort subsampling N 52
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2504
+CD -- 2463
+BC -- 2491
+AD -- 2519
+ADHD -- 2520
+T2D -- 2527
+MM -- 1947
+PC -- 2514
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.893, Purity: 0.202, Max(p): AD
+-- Cluster 1 -- Entropy: 2.298, Purity: 0.472, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.946, Purity: 0.173, Max(p): BC
+-- Cluster 3 -- Entropy: 2.775, Purity: 0.226, Max(p): CD
+-- Cluster 4 -- Entropy: 0.428, Purity: 0.947, Max(p): MM
+-- Cluster 5 -- Entropy: 2.931, Purity: 0.186, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.782, Purity: 0.288, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.756, Purity: 0.264, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1612
+-- cluster 1: 774
+-- cluster 2: 4986
+-- cluster 3: 1061
+-- cluster 4: 512
+-- cluster 5: 8956
+-- cluster 6: 372
+-- cluster 7: 1212
+****************************************************************************************************
+
+
+Cohort subsampling N 53
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2490
+CD -- 2512
+BC -- 2550
+AD -- 2505
+ADHD -- 2570
+T2D -- 2496
+MM -- 1947
+PC -- 2478
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.834, Purity: 0.218, Max(p): CD
+-- Cluster 1 -- Entropy: 2.661, Purity: 0.310, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.905, Purity: 0.198, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.937, Purity: 0.183, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.934, Purity: 0.194, Max(p): AD
+-- Cluster 5 -- Entropy: 2.725, Purity: 0.285, Max(p): T2D
+-- Cluster 6 -- Entropy: 0.248, Purity: 0.973, Max(p): MM
+-- Cluster 7 -- Entropy: 0.928, Purity: 0.867, Max(p): BC
+
+Average Entropy: 2.78
+Average Purity: 0.24
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2248
+-- cluster 1: 1648
+-- cluster 2: 3617
+-- cluster 3: 9108
+-- cluster 4: 1436
+-- cluster 5: 589
+-- cluster 6: 413
+-- cluster 7: 489
+****************************************************************************************************
+
+
+Cohort subsampling N 54
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2491
+CD -- 2477
+BC -- 2504
+AD -- 2504
+ADHD -- 2484
+T2D -- 2498
+MM -- 1947
+PC -- 2542
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.917, Purity: 0.209, Max(p): BC
+-- Cluster 1 -- Entropy: 2.728, Purity: 0.300, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.321, Purity: 0.455, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.947, Purity: 0.175, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.716, Purity: 0.285, Max(p): AD
+-- Cluster 5 -- Entropy: 1.282, Purity: 0.772, Max(p): MM
+-- Cluster 6 -- Entropy: 2.817, Purity: 0.224, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.910, Purity: 0.189, Max(p): AD
+
+Average Entropy: 2.83
+Average Purity: 0.23
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 3112
+-- cluster 1: 597
+-- cluster 2: 796
+-- cluster 3: 9586
+-- cluster 4: 965
+-- cluster 5: 649
+-- cluster 6: 2116
+-- cluster 7: 1626
+****************************************************************************************************
+
+
+Cohort subsampling N 55
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2506
+CD -- 2514
+BC -- 2518
+AD -- 2531
+ADHD -- 2553
+T2D -- 2469
+MM -- 1947
+PC -- 2472
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.632, Purity: 0.312, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.866, Purity: 0.214, Max(p): CD
+-- Cluster 2 -- Entropy: 2.080, Purity: 0.556, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.686, Purity: 0.271, Max(p): MM
+-- Cluster 4 -- Entropy: 2.936, Purity: 0.187, Max(p): BC
+-- Cluster 5 -- Entropy: 0.120, Purity: 0.987, Max(p): MM
+-- Cluster 6 -- Entropy: 2.945, Purity: 0.172, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.680, Purity: 0.291, Max(p): PC
+
+Average Entropy: 2.80
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1694
+-- cluster 1: 1575
+-- cluster 2: 819
+-- cluster 3: 557
+-- cluster 4: 4316
+-- cluster 5: 385
+-- cluster 6: 9467
+-- cluster 7: 697
+****************************************************************************************************
+
+
+Cohort subsampling N 56
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2493
+CD -- 2495
+BC -- 2512
+AD -- 2536
+ADHD -- 2510
+T2D -- 2514
+MM -- 1947
+PC -- 2553
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.867, Purity: 0.177, Max(p): AD
+-- Cluster 1 -- Entropy: 2.741, Purity: 0.267, Max(p): AD
+-- Cluster 2 -- Entropy: 2.244, Purity: 0.478, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.942, Purity: 0.185, Max(p): PC
+-- Cluster 4 -- Entropy: 2.897, Purity: 0.199, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.933, Purity: 0.175, Max(p): ADHD
+-- Cluster 6 -- Entropy: 1.065, Purity: 0.830, Max(p): MM
+-- Cluster 7 -- Entropy: 1.230, Purity: 0.807, Max(p): BC
+
+Average Entropy: 2.79
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2467
+-- cluster 1: 647
+-- cluster 2: 776
+-- cluster 3: 2177
+-- cluster 4: 3247
+-- cluster 5: 9183
+-- cluster 6: 525
+-- cluster 7: 538
+****************************************************************************************************
+
+
+Cohort subsampling N 57
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2484
+CD -- 2517
+BC -- 2496
+AD -- 2528
+ADHD -- 2526
+T2D -- 2510
+MM -- 1947
+PC -- 2524
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.807, Purity: 0.196, Max(p): AD
+-- Cluster 1 -- Entropy: 2.911, Purity: 0.211, Max(p): BC
+-- Cluster 2 -- Entropy: 2.105, Purity: 0.547, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.836, Purity: 0.220, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.524, Purity: 0.368, Max(p): MM
+-- Cluster 5 -- Entropy: 2.935, Purity: 0.181, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.883, Purity: 0.234, Max(p): PC
+-- Cluster 7 -- Entropy: 0.136, Purity: 0.984, Max(p): MM
+
+Average Entropy: 2.80
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1813
+-- cluster 1: 3588
+-- cluster 2: 836
+-- cluster 3: 2372
+-- cluster 4: 378
+-- cluster 5: 8674
+-- cluster 6: 1489
+-- cluster 7: 382
+****************************************************************************************************
+
+
+Cohort subsampling N 58
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2474
+CD -- 2478
+BC -- 2517
+AD -- 2538
+ADHD -- 2483
+T2D -- 2494
+MM -- 1947
+PC -- 2475
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.838, Purity: 0.277, Max(p): BC
+-- Cluster 1 -- Entropy: 2.819, Purity: 0.225, Max(p): AD
+-- Cluster 2 -- Entropy: 2.469, Purity: 0.447, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.480, Purity: 0.376, Max(p): MM
+-- Cluster 4 -- Entropy: 2.865, Purity: 0.200, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.725, Purity: 0.312, Max(p): AD
+-- Cluster 6 -- Entropy: 2.949, Purity: 0.165, Max(p): PD
+-- Cluster 7 -- Entropy: 0.187, Purity: 0.978, Max(p): MM
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2334
+-- cluster 1: 2250
+-- cluster 2: 1352
+-- cluster 3: 444
+-- cluster 4: 2545
+-- cluster 5: 622
+-- cluster 6: 9541
+-- cluster 7: 318
+****************************************************************************************************
+
+
+Cohort subsampling N 59
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2491
+CD -- 2522
+BC -- 2534
+AD -- 2513
+ADHD -- 2543
+T2D -- 2491
+MM -- 1947
+PC -- 2494
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.883, Purity: 0.205, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.925, Purity: 0.203, Max(p): BC
+-- Cluster 2 -- Entropy: 2.159, Purity: 0.524, Max(p): ADHD
+-- Cluster 3 -- Entropy: 0.905, Purity: 0.869, Max(p): MM
+-- Cluster 4 -- Entropy: 2.793, Purity: 0.217, Max(p): CD
+-- Cluster 5 -- Entropy: 2.943, Purity: 0.176, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.688, Purity: 0.305, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.673, Purity: 0.263, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 3348
+-- cluster 1: 3060
+-- cluster 2: 760
+-- cluster 3: 536
+-- cluster 4: 1193
+-- cluster 5: 9741
+-- cluster 6: 331
+-- cluster 7: 566
+****************************************************************************************************
+
+
+Cohort subsampling N 60
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2490
+CD -- 2469
+BC -- 2570
+AD -- 2509
+ADHD -- 2559
+T2D -- 2534
+MM -- 1947
+PC -- 2501
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.890, Purity: 0.220, Max(p): AD
+-- Cluster 1 -- Entropy: 2.070, Purity: 0.562, Max(p): BC
+-- Cluster 2 -- Entropy: 0.261, Purity: 0.971, Max(p): MM
+-- Cluster 3 -- Entropy: 2.872, Purity: 0.236, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.931, Purity: 0.176, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.728, Purity: 0.259, Max(p): AD
+-- Cluster 6 -- Entropy: 2.939, Purity: 0.178, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.647, Purity: 0.317, Max(p): T2D
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1475
+-- cluster 1: 833
+-- cluster 2: 420
+-- cluster 3: 2454
+-- cluster 4: 4351
+-- cluster 5: 796
+-- cluster 6: 8931
+-- cluster 7: 319
+****************************************************************************************************
+
+
+Cohort subsampling N 61
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2516
+CD -- 2446
+BC -- 2554
+AD -- 2520
+ADHD -- 2528
+T2D -- 2513
+MM -- 1947
+PC -- 2525
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.292, Purity: 0.484, Max(p): BC
+-- Cluster 1 -- Entropy: 2.767, Purity: 0.246, Max(p): AD
+-- Cluster 2 -- Entropy: 1.788, Purity: 0.629, Max(p): MM
+-- Cluster 3 -- Entropy: 2.834, Purity: 0.289, Max(p): PC
+-- Cluster 4 -- Entropy: 2.753, Purity: 0.280, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.852, Purity: 0.220, Max(p): T2D
+-- Cluster 6 -- Entropy: 2.891, Purity: 0.230, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.935, Purity: 0.181, Max(p): ADHD
+
+Average Entropy: 2.81
+Average Purity: 0.24
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 814
+-- cluster 1: 1814
+-- cluster 2: 964
+-- cluster 3: 1057
+-- cluster 4: 632
+-- cluster 5: 2982
+-- cluster 6: 2208
+-- cluster 7: 9078
+****************************************************************************************************
+
+
+Cohort subsampling N 62
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2481
+CD -- 2514
+BC -- 2535
+AD -- 2542
+ADHD -- 2522
+T2D -- 2435
+MM -- 1947
+PC -- 2490
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.165, Purity: 0.541, Max(p): BC
+-- Cluster 1 -- Entropy: 2.815, Purity: 0.216, Max(p): AD
+-- Cluster 2 -- Entropy: 2.315, Purity: 0.447, Max(p): MM
+-- Cluster 3 -- Entropy: 1.849, Purity: 0.617, Max(p): MM
+-- Cluster 4 -- Entropy: 2.583, Purity: 0.356, Max(p): AD
+-- Cluster 5 -- Entropy: 2.958, Purity: 0.173, Max(p): T2D
+-- Cluster 6 -- Entropy: 2.639, Purity: 0.376, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.943, Purity: 0.175, Max(p): ADHD
+
+Average Entropy: 2.81
+Average Purity: 0.24
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1026
+-- cluster 1: 2252
+-- cluster 2: 635
+-- cluster 3: 611
+-- cluster 4: 522
+-- cluster 5: 4166
+-- cluster 6: 1164
+-- cluster 7: 9090
+****************************************************************************************************
+
+
+Cohort subsampling N 63
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2480
+CD -- 2515
+BC -- 2484
+AD -- 2528
+ADHD -- 2541
+T2D -- 2500
+MM -- 1947
+PC -- 2496
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.895, Purity: 0.187, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.836, Purity: 0.181, Max(p): AD
+-- Cluster 2 -- Entropy: 2.258, Purity: 0.499, Max(p): BC
+-- Cluster 3 -- Entropy: 2.951, Purity: 0.193, Max(p): PC
+-- Cluster 4 -- Entropy: 2.740, Purity: 0.251, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.942, Purity: 0.175, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.408, Purity: 0.950, Max(p): MM
+-- Cluster 7 -- Entropy: 1.145, Purity: 0.816, Max(p): ADHD
+
+Average Entropy: 2.79
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 3849
+-- cluster 1: 1462
+-- cluster 2: 826
+-- cluster 3: 2209
+-- cluster 4: 686
+-- cluster 5: 9533
+-- cluster 6: 481
+-- cluster 7: 445
+****************************************************************************************************
+
+
+Cohort subsampling N 64
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2479
+CD -- 2504
+BC -- 2507
+AD -- 2497
+ADHD -- 2568
+T2D -- 2475
+MM -- 1947
+PC -- 2494
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.207, Purity: 0.499, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.944, Purity: 0.179, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.731, Purity: 0.324, Max(p): BC
+-- Cluster 3 -- Entropy: 2.660, Purity: 0.286, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.888, Purity: 0.187, Max(p): MM
+-- Cluster 5 -- Entropy: 0.328, Purity: 0.962, Max(p): MM
+-- Cluster 6 -- Entropy: 2.944, Purity: 0.169, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.674, Purity: 0.297, Max(p): AD
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 922
+-- cluster 1: 4011
+-- cluster 2: 1046
+-- cluster 3: 573
+-- cluster 4: 2157
+-- cluster 5: 338
+-- cluster 6: 9696
+-- cluster 7: 728
+****************************************************************************************************
+
+
+Cohort subsampling N 65
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2488
+CD -- 2551
+BC -- 2495
+AD -- 2536
+ADHD -- 2540
+T2D -- 2474
+MM -- 1947
+PC -- 2525
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.859, Purity: 0.215, Max(p): PC
+-- Cluster 1 -- Entropy: 2.861, Purity: 0.181, Max(p): CD
+-- Cluster 2 -- Entropy: 2.903, Purity: 0.195, Max(p): BC
+-- Cluster 3 -- Entropy: 2.942, Purity: 0.173, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.695, Purity: 0.278, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.334, Purity: 0.461, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.225, Purity: 0.976, Max(p): MM
+-- Cluster 7 -- Entropy: 2.646, Purity: 0.339, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 7
+Cluster Numerosity:
+-- cluster 0: 1522
+-- cluster 1: 2637
+-- cluster 2: 3967
+-- cluster 3: 9073
+-- cluster 4: 492
+-- cluster 5: 927
+-- cluster 6: 410
+-- cluster 7: 528
+****************************************************************************************************
+
+
+Cohort subsampling N 66
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2505
+CD -- 2455
+BC -- 2504
+AD -- 2492
+ADHD -- 2545
+T2D -- 2482
+MM -- 1947
+PC -- 2531
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.706, Purity: 0.243, Max(p): MM
+-- Cluster 1 -- Entropy: 2.832, Purity: 0.205, Max(p): MM
+-- Cluster 2 -- Entropy: 2.271, Purity: 0.485, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.470, Purity: 0.422, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.863, Purity: 0.205, Max(p): CD
+-- Cluster 5 -- Entropy: 2.944, Purity: 0.197, Max(p): BC
+-- Cluster 6 -- Entropy: 0.035, Purity: 0.996, Max(p): MM
+-- Cluster 7 -- Entropy: 2.947, Purity: 0.170, Max(p): ADHD
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 783
+-- cluster 1: 1758
+-- cluster 2: 954
+-- cluster 3: 695
+-- cluster 4: 2145
+-- cluster 5: 2937
+-- cluster 6: 274
+-- cluster 7: 9915
+****************************************************************************************************
+
+
+Cohort subsampling N 67
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2482
+CD -- 2479
+BC -- 2538
+AD -- 2504
+ADHD -- 2545
+T2D -- 2497
+MM -- 1947
+PC -- 2481
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.351, Purity: 0.439, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.891, Purity: 0.224, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.746, Purity: 0.308, Max(p): BC
+-- Cluster 3 -- Entropy: 2.945, Purity: 0.174, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.690, Purity: 0.272, Max(p): T2D
+-- Cluster 5 -- Entropy: 0.242, Purity: 0.973, Max(p): MM
+-- Cluster 6 -- Entropy: 2.904, Purity: 0.169, Max(p): BC
+-- Cluster 7 -- Entropy: 2.707, Purity: 0.282, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 773
+-- cluster 1: 3287
+-- cluster 2: 1211
+-- cluster 3: 10754
+-- cluster 4: 677
+-- cluster 5: 437
+-- cluster 6: 1502
+-- cluster 7: 832
+****************************************************************************************************
+
+
+Cohort subsampling N 68
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2504
+CD -- 2474
+BC -- 2504
+AD -- 2547
+ADHD -- 2556
+T2D -- 2543
+MM -- 1947
+PC -- 2528
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 1.705, Purity: 0.674, Max(p): MM
+-- Cluster 1 -- Entropy: 2.204, Purity: 0.498, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.941, Purity: 0.183, Max(p): BC
+-- Cluster 3 -- Entropy: 2.785, Purity: 0.256, Max(p): AD
+-- Cluster 4 -- Entropy: 2.723, Purity: 0.312, Max(p): AD
+-- Cluster 5 -- Entropy: 2.924, Purity: 0.184, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.903, Purity: 0.248, Max(p): PC
+-- Cluster 7 -- Entropy: 2.856, Purity: 0.169, Max(p): BC
+
+Average Entropy: 2.83
+Average Purity: 0.23
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 827
+-- cluster 1: 749
+-- cluster 2: 5886
+-- cluster 3: 1377
+-- cluster 4: 689
+-- cluster 5: 7884
+-- cluster 6: 886
+-- cluster 7: 1305
+****************************************************************************************************
+
+
+Cohort subsampling N 69
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2491
+CD -- 2507
+BC -- 2581
+AD -- 2523
+ADHD -- 2531
+T2D -- 2466
+MM -- 1947
+PC -- 2474
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.942, Purity: 0.172, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.844, Purity: 0.198, Max(p): AD
+-- Cluster 2 -- Entropy: 2.222, Purity: 0.492, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.922, Purity: 0.228, Max(p): PC
+-- Cluster 4 -- Entropy: 2.684, Purity: 0.331, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.926, Purity: 0.188, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.187, Purity: 0.980, Max(p): MM
+-- Cluster 7 -- Entropy: 1.278, Purity: 0.796, Max(p): BC
+
+Average Entropy: 2.79
+Average Purity: 0.24
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.03
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 5069
+-- cluster 1: 2545
+-- cluster 2: 787
+-- cluster 3: 1677
+-- cluster 4: 378
+-- cluster 5: 8106
+-- cluster 6: 349
+-- cluster 7: 609
+****************************************************************************************************
+
+
+Cohort subsampling N 70
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2468
+CD -- 2494
+BC -- 2516
+AD -- 2517
+ADHD -- 2524
+T2D -- 2497
+MM -- 1947
+PC -- 2438
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 1.263, Purity: 0.779, Max(p): MM
+-- Cluster 1 -- Entropy: 2.056, Purity: 0.568, Max(p): BC
+-- Cluster 2 -- Entropy: 2.910, Purity: 0.205, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.831, Purity: 0.196, Max(p): MM
+-- Cluster 4 -- Entropy: 2.890, Purity: 0.205, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.936, Purity: 0.180, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.742, Purity: 0.308, Max(p): AD
+-- Cluster 7 -- Entropy: 2.553, Purity: 0.352, Max(p): AD
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 569
+-- cluster 1: 807
+-- cluster 2: 2764
+-- cluster 3: 1572
+-- cluster 4: 3461
+-- cluster 5: 8777
+-- cluster 6: 821
+-- cluster 7: 630
+****************************************************************************************************
+
+
+Cohort subsampling N 71
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2481
+CD -- 2511
+BC -- 2501
+AD -- 2548
+ADHD -- 2481
+T2D -- 2480
+MM -- 1947
+PC -- 2504
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.819, Purity: 0.221, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.207, Purity: 0.502, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.956, Purity: 0.170, Max(p): BC
+-- Cluster 3 -- Entropy: 2.694, Purity: 0.358, Max(p): PC
+-- Cluster 4 -- Entropy: 0.877, Purity: 0.864, Max(p): MM
+-- Cluster 5 -- Entropy: 2.635, Purity: 0.296, Max(p): AD
+-- Cluster 6 -- Entropy: 2.877, Purity: 0.188, Max(p): AD
+-- Cluster 7 -- Entropy: 2.935, Purity: 0.175, Max(p): PD
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 7
+Cluster Numerosity:
+-- cluster 0: 2325
+-- cluster 1: 560
+-- cluster 2: 5144
+-- cluster 3: 703
+-- cluster 4: 523
+-- cluster 5: 331
+-- cluster 6: 1577
+-- cluster 7: 8290
+****************************************************************************************************
+
+
+Cohort subsampling N 72
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2508
+CD -- 2524
+BC -- 2538
+AD -- 2504
+ADHD -- 2583
+T2D -- 2519
+MM -- 1947
+PC -- 2432
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.812, Purity: 0.191, Max(p): AD
+-- Cluster 1 -- Entropy: 2.737, Purity: 0.325, Max(p): BC
+-- Cluster 2 -- Entropy: 2.958, Purity: 0.169, Max(p): T2D
+-- Cluster 3 -- Entropy: 0.402, Purity: 0.950, Max(p): MM
+-- Cluster 4 -- Entropy: 2.161, Purity: 0.520, Max(p): ADHD
+-- Cluster 5 -- Entropy: 2.936, Purity: 0.179, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.541, Purity: 0.396, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.849, Purity: 0.245, Max(p): AD
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1997
+-- cluster 1: 1602
+-- cluster 2: 5141
+-- cluster 3: 481
+-- cluster 4: 786
+-- cluster 5: 8600
+-- cluster 6: 283
+-- cluster 7: 665
+****************************************************************************************************
+
+
+Cohort subsampling N 73
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2477
+CD -- 2481
+BC -- 2558
+AD -- 2498
+ADHD -- 2544
+T2D -- 2520
+MM -- 1947
+PC -- 2451
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.923, Purity: 0.196, Max(p): BC
+-- Cluster 1 -- Entropy: 2.910, Purity: 0.193, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.875, Purity: 0.191, Max(p): CD
+-- Cluster 3 -- Entropy: 2.519, Purity: 0.389, Max(p): AD
+-- Cluster 4 -- Entropy: 2.555, Purity: 0.347, Max(p): MM
+-- Cluster 5 -- Entropy: 0.341, Purity: 0.959, Max(p): MM
+-- Cluster 6 -- Entropy: 2.261, Purity: 0.479, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.943, Purity: 0.175, Max(p): ADHD
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 3075
+-- cluster 1: 2780
+-- cluster 2: 2543
+-- cluster 3: 455
+-- cluster 4: 493
+-- cluster 5: 386
+-- cluster 6: 816
+-- cluster 7: 8928
+****************************************************************************************************
+
+
+Cohort subsampling N 74
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2477
+CD -- 2519
+BC -- 2504
+AD -- 2527
+ADHD -- 2534
+T2D -- 2413
+MM -- 1947
+PC -- 2460
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.722, Purity: 0.255, Max(p): AD
+-- Cluster 1 -- Entropy: 2.848, Purity: 0.190, Max(p): CD
+-- Cluster 2 -- Entropy: 2.946, Purity: 0.179, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.949, Purity: 0.173, Max(p): ADHD
+-- Cluster 4 -- Entropy: 0.306, Purity: 0.966, Max(p): MM
+-- Cluster 5 -- Entropy: 2.872, Purity: 0.216, Max(p): T2D
+-- Cluster 6 -- Entropy: 1.188, Purity: 0.812, Max(p): BC
+-- Cluster 7 -- Entropy: 2.572, Purity: 0.257, Max(p): AD
+
+Average Entropy: 2.80
+Average Purity: 0.22
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 961
+-- cluster 1: 2014
+-- cluster 2: 3572
+-- cluster 3: 9962
+-- cluster 4: 470
+-- cluster 5: 1495
+-- cluster 6: 611
+-- cluster 7: 296
+****************************************************************************************************
+
+
+Cohort subsampling N 75
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2494
+CD -- 2485
+BC -- 2584
+AD -- 2553
+ADHD -- 2564
+T2D -- 2527
+MM -- 1947
+PC -- 2442
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.469, Purity: 0.307, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.800, Purity: 0.199, Max(p): AD
+-- Cluster 2 -- Entropy: 2.965, Purity: 0.156, Max(p): CD
+-- Cluster 3 -- Entropy: 0.374, Purity: 0.956, Max(p): MM
+-- Cluster 4 -- Entropy: 2.904, Purity: 0.194, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.937, Purity: 0.182, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.788, Purity: 0.287, Max(p): AD
+-- Cluster 7 -- Entropy: 2.698, Purity: 0.260, Max(p): T2D
+
+Average Entropy: 2.80
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.07
+Adjusted Rand score: 0.03
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1892
+-- cluster 1: 1797
+-- cluster 2: 1701
+-- cluster 3: 519
+-- cluster 4: 4184
+-- cluster 5: 8330
+-- cluster 6: 927
+-- cluster 7: 246
+****************************************************************************************************
+
+
+Cohort subsampling N 76
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2522
+CD -- 2487
+BC -- 2563
+AD -- 2494
+ADHD -- 2514
+T2D -- 2513
+MM -- 1947
+PC -- 2489
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.736, Purity: 0.322, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.909, Purity: 0.179, Max(p): CD
+-- Cluster 2 -- Entropy: 2.884, Purity: 0.186, Max(p): AD
+-- Cluster 3 -- Entropy: 2.843, Purity: 0.214, Max(p): AD
+-- Cluster 4 -- Entropy: 0.222, Purity: 0.976, Max(p): MM
+-- Cluster 5 -- Entropy: 2.341, Purity: 0.468, Max(p): BC
+-- Cluster 6 -- Entropy: 2.646, Purity: 0.283, Max(p): AD
+-- Cluster 7 -- Entropy: 2.944, Purity: 0.176, Max(p): ADHD
+
+Average Entropy: 2.82
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1387
+-- cluster 1: 3448
+-- cluster 2: 1475
+-- cluster 3: 1619
+-- cluster 4: 417
+-- cluster 5: 803
+-- cluster 6: 438
+-- cluster 7: 9942
+****************************************************************************************************
+
+
+Cohort subsampling N 77
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2495
+CD -- 2509
+BC -- 2527
+AD -- 2499
+ADHD -- 2549
+T2D -- 2478
+MM -- 1947
+PC -- 2483
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.829, Purity: 0.194, Max(p): CD
+-- Cluster 1 -- Entropy: 2.884, Purity: 0.245, Max(p): BC
+-- Cluster 2 -- Entropy: 2.177, Purity: 0.510, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.661, Purity: 0.282, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.886, Purity: 0.192, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.938, Purity: 0.181, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.215, Purity: 0.978, Max(p): MM
+-- Cluster 7 -- Entropy: 2.791, Purity: 0.235, Max(p): AD
+
+Average Entropy: 2.80
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2200
+-- cluster 1: 1881
+-- cluster 2: 847
+-- cluster 3: 745
+-- cluster 4: 2930
+-- cluster 5: 9460
+-- cluster 6: 448
+-- cluster 7: 976
+****************************************************************************************************
+
+
+Cohort subsampling N 78
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2502
+CD -- 2478
+BC -- 2448
+AD -- 2543
+ADHD -- 2575
+T2D -- 2542
+MM -- 1947
+PC -- 2449
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.679, Purity: 0.338, Max(p): BC
+-- Cluster 1 -- Entropy: 2.870, Purity: 0.193, Max(p): AD
+-- Cluster 2 -- Entropy: 2.214, Purity: 0.502, Max(p): ADHD
+-- Cluster 3 -- Entropy: 0.390, Purity: 0.953, Max(p): MM
+-- Cluster 4 -- Entropy: 2.928, Purity: 0.189, Max(p): CD
+-- Cluster 5 -- Entropy: 2.743, Purity: 0.304, Max(p): T2D
+-- Cluster 6 -- Entropy: 2.942, Purity: 0.172, Max(p): ADHD
+-- Cluster 7 -- Entropy: 2.733, Purity: 0.248, Max(p): AD
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1446
+-- cluster 1: 1848
+-- cluster 2: 880
+-- cluster 3: 446
+-- cluster 4: 4416
+-- cluster 5: 480
+-- cluster 6: 9105
+-- cluster 7: 863
+****************************************************************************************************
+
+
+Cohort subsampling N 79
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2472
+CD -- 2516
+BC -- 2524
+AD -- 2504
+ADHD -- 2536
+T2D -- 2475
+MM -- 1947
+PC -- 2477
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.262, Purity: 0.474, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.818, Purity: 0.193, Max(p): AD
+-- Cluster 2 -- Entropy: 2.959, Purity: 0.168, Max(p): BC
+-- Cluster 3 -- Entropy: 2.803, Purity: 0.250, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.653, Purity: 0.296, Max(p): MM
+-- Cluster 5 -- Entropy: 2.936, Purity: 0.181, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.174, Purity: 0.982, Max(p): MM
+-- Cluster 7 -- Entropy: 2.952, Purity: 0.166, Max(p): T2D
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 844
+-- cluster 1: 1709
+-- cluster 2: 2659
+-- cluster 3: 1634
+-- cluster 4: 561
+-- cluster 5: 8844
+-- cluster 6: 380
+-- cluster 7: 2820
+****************************************************************************************************
+
+
+Cohort subsampling N 80
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2483
+CD -- 2448
+BC -- 2555
+AD -- 2497
+ADHD -- 2537
+T2D -- 2497
+MM -- 1947
+PC -- 2486
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.880, Purity: 0.179, Max(p): MM
+-- Cluster 1 -- Entropy: 2.314, Purity: 0.464, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.884, Purity: 0.237, Max(p): BC
+-- Cluster 3 -- Entropy: 0.765, Purity: 0.893, Max(p): MM
+-- Cluster 4 -- Entropy: 2.886, Purity: 0.205, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.941, Purity: 0.174, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.583, Purity: 0.397, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.686, Purity: 0.278, Max(p): AD
+
+Average Entropy: 2.84
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2343
+-- cluster 1: 811
+-- cluster 2: 2743
+-- cluster 3: 364
+-- cluster 4: 2784
+-- cluster 5: 9481
+-- cluster 6: 330
+-- cluster 7: 594
+****************************************************************************************************
+
+
+Cohort subsampling N 81
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2525
+CD -- 2491
+BC -- 2569
+AD -- 2521
+ADHD -- 2556
+T2D -- 2475
+MM -- 1947
+PC -- 2447
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.873, Purity: 0.203, Max(p): AD
+-- Cluster 1 -- Entropy: 2.918, Purity: 0.201, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.161, Purity: 0.532, Max(p): BC
+-- Cluster 3 -- Entropy: 1.586, Purity: 0.706, Max(p): MM
+-- Cluster 4 -- Entropy: 2.870, Purity: 0.202, Max(p): CD
+-- Cluster 5 -- Entropy: 2.939, Purity: 0.176, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.820, Purity: 0.226, Max(p): T2D
+-- Cluster 7 -- Entropy: 1.209, Purity: 0.805, Max(p): ADHD
+
+Average Entropy: 2.79
+Average Purity: 0.24
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1631
+-- cluster 1: 3228
+-- cluster 2: 725
+-- cluster 3: 684
+-- cluster 4: 2529
+-- cluster 5: 9152
+-- cluster 6: 1049
+-- cluster 7: 533
+****************************************************************************************************
+
+
+Cohort subsampling N 82
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2521
+CD -- 2502
+BC -- 2510
+AD -- 2553
+ADHD -- 2614
+T2D -- 2470
+MM -- 1947
+PC -- 2549
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.847, Purity: 0.219, Max(p): AD
+-- Cluster 1 -- Entropy: 2.865, Purity: 0.218, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.810, Purity: 0.274, Max(p): BC
+-- Cluster 3 -- Entropy: 2.651, Purity: 0.303, Max(p): MM
+-- Cluster 4 -- Entropy: 2.976, Purity: 0.158, Max(p): AD
+-- Cluster 5 -- Entropy: 2.283, Purity: 0.457, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.091, Purity: 0.991, Max(p): MM
+-- Cluster 7 -- Entropy: 2.930, Purity: 0.184, Max(p): ADHD
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2323
+-- cluster 1: 2551
+-- cluster 2: 1517
+-- cluster 3: 620
+-- cluster 4: 3010
+-- cluster 5: 834
+-- cluster 6: 322
+-- cluster 7: 8489
+****************************************************************************************************
+
+
+Cohort subsampling N 83
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2496
+CD -- 2450
+BC -- 2551
+AD -- 2488
+ADHD -- 2534
+T2D -- 2449
+MM -- 1947
+PC -- 2511
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 1.607, Purity: 0.699, Max(p): MM
+-- Cluster 1 -- Entropy: 2.856, Purity: 0.185, Max(p): AD
+-- Cluster 2 -- Entropy: 2.945, Purity: 0.189, Max(p): BC
+-- Cluster 3 -- Entropy: 2.573, Purity: 0.394, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.861, Purity: 0.196, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.926, Purity: 0.185, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.783, Purity: 0.245, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.571, Purity: 0.326, Max(p): PC
+
+Average Entropy: 2.84
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 661
+-- cluster 1: 2092
+-- cluster 2: 3935
+-- cluster 3: 1162
+-- cluster 4: 2525
+-- cluster 5: 8074
+-- cluster 6: 621
+-- cluster 7: 356
+****************************************************************************************************
+
+
+Cohort subsampling N 84
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2505
+CD -- 2482
+BC -- 2478
+AD -- 2523
+ADHD -- 2485
+T2D -- 2473
+MM -- 1947
+PC -- 2477
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.650, Purity: 0.346, Max(p): BC
+-- Cluster 1 -- Entropy: 2.234, Purity: 0.467, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.929, Purity: 0.182, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.803, Purity: 0.194, Max(p): CD
+-- Cluster 4 -- Entropy: 2.500, Purity: 0.409, Max(p): MM
+-- Cluster 5 -- Entropy: 2.942, Purity: 0.178, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.735, Purity: 0.308, Max(p): AD
+-- Cluster 7 -- Entropy: 0.111, Purity: 0.987, Max(p): MM
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1487
+-- cluster 1: 707
+-- cluster 2: 3546
+-- cluster 3: 1852
+-- cluster 4: 394
+-- cluster 5: 10139
+-- cluster 6: 931
+-- cluster 7: 314
+****************************************************************************************************
+
+
+Cohort subsampling N 85
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2491
+CD -- 2497
+BC -- 2560
+AD -- 2501
+ADHD -- 2517
+T2D -- 2529
+MM -- 1947
+PC -- 2460
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.700, Purity: 0.231, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.850, Purity: 0.252, Max(p): BC
+-- Cluster 2 -- Entropy: 2.910, Purity: 0.194, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.734, Purity: 0.288, Max(p): AD
+-- Cluster 4 -- Entropy: 0.292, Purity: 0.960, Max(p): MM
+-- Cluster 5 -- Entropy: 2.386, Purity: 0.432, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.906, Purity: 0.221, Max(p): PC
+-- Cluster 7 -- Entropy: 2.942, Purity: 0.179, Max(p): ADHD
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1059
+-- cluster 1: 2883
+-- cluster 2: 2558
+-- cluster 3: 1444
+-- cluster 4: 375
+-- cluster 5: 856
+-- cluster 6: 867
+-- cluster 7: 9460
+****************************************************************************************************
+
+
+Cohort subsampling N 86
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2504
+CD -- 2490
+BC -- 2506
+AD -- 2516
+ADHD -- 2528
+T2D -- 2475
+MM -- 1947
+PC -- 2462
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.243, Purity: 0.481, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.944, Purity: 0.178, Max(p): BC
+-- Cluster 2 -- Entropy: 2.849, Purity: 0.184, Max(p): BC
+-- Cluster 3 -- Entropy: 2.849, Purity: 0.204, Max(p): AD
+-- Cluster 4 -- Entropy: 0.471, Purity: 0.939, Max(p): MM
+-- Cluster 5 -- Entropy: 2.727, Purity: 0.253, Max(p): T2D
+-- Cluster 6 -- Entropy: 2.948, Purity: 0.204, Max(p): PC
+-- Cluster 7 -- Entropy: 2.945, Purity: 0.174, Max(p): ADHD
+
+Average Entropy: 2.84
+Average Purity: 0.21
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 726
+-- cluster 1: 3251
+-- cluster 2: 1731
+-- cluster 3: 1874
+-- cluster 4: 445
+-- cluster 5: 707
+-- cluster 6: 1196
+-- cluster 7: 9498
+****************************************************************************************************
+
+
+Cohort subsampling N 87
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2450
+CD -- 2493
+BC -- 2544
+AD -- 2548
+ADHD -- 2517
+T2D -- 2487
+MM -- 1947
+PC -- 2525
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.684, Purity: 0.313, Max(p): BC
+-- Cluster 1 -- Entropy: 2.824, Purity: 0.241, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.965, Purity: 0.164, Max(p): AD
+-- Cluster 3 -- Entropy: 2.944, Purity: 0.179, Max(p): ADHD
+-- Cluster 4 -- Entropy: 0.128, Purity: 0.985, Max(p): MM
+-- Cluster 5 -- Entropy: 2.292, Purity: 0.459, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.502, Purity: 0.326, Max(p): MM
+-- Cluster 7 -- Entropy: 2.562, Purity: 0.366, Max(p): AD
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1966
+-- cluster 1: 1875
+-- cluster 2: 3417
+-- cluster 3: 10374
+-- cluster 4: 411
+-- cluster 5: 619
+-- cluster 6: 414
+-- cluster 7: 435
+****************************************************************************************************
+
+
+Cohort subsampling N 88
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2476
+CD -- 2507
+BC -- 2548
+AD -- 2551
+ADHD -- 2541
+T2D -- 2527
+MM -- 1947
+PC -- 2491
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.716, Purity: 0.308, Max(p): BC
+-- Cluster 1 -- Entropy: 2.701, Purity: 0.268, Max(p): MM
+-- Cluster 2 -- Entropy: 2.182, Purity: 0.515, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.795, Purity: 0.208, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.924, Purity: 0.194, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.937, Purity: 0.185, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.065, Purity: 0.993, Max(p): MM
+-- Cluster 7 -- Entropy: 2.855, Purity: 0.231, Max(p): AD
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 1781
+-- cluster 1: 698
+-- cluster 2: 779
+-- cluster 3: 1572
+-- cluster 4: 3955
+-- cluster 5: 9095
+-- cluster 6: 295
+-- cluster 7: 1413
+****************************************************************************************************
+
+
+Cohort subsampling N 89
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2523
+CD -- 2437
+BC -- 2538
+AD -- 2505
+ADHD -- 2510
+T2D -- 2514
+MM -- 1947
+PC -- 2529
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 1.612, Purity: 0.701, Max(p): MM
+-- Cluster 1 -- Entropy: 2.840, Purity: 0.182, Max(p): CD
+-- Cluster 2 -- Entropy: 2.161, Purity: 0.518, Max(p): BC
+-- Cluster 3 -- Entropy: 2.918, Purity: 0.200, Max(p): PC
+-- Cluster 4 -- Entropy: 2.791, Purity: 0.285, Max(p): AD
+-- Cluster 5 -- Entropy: 2.943, Purity: 0.175, Max(p): PD
+-- Cluster 6 -- Entropy: 2.942, Purity: 0.181, Max(p): T2D
+-- Cluster 7 -- Entropy: 1.167, Purity: 0.817, Max(p): ADHD
+
+Average Entropy: 2.80
+Average Purity: 0.23
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 8
+Cluster Numerosity:
+-- cluster 0: 645
+-- cluster 1: 2450
+-- cluster 2: 760
+-- cluster 3: 1662
+-- cluster 4: 634
+-- cluster 5: 8939
+-- cluster 6: 3868
+-- cluster 7: 545
+****************************************************************************************************
+
+
+Cohort subsampling N 90
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2482
+CD -- 2500
+BC -- 2525
+AD -- 2531
+ADHD -- 2565
+T2D -- 2488
+MM -- 1947
+PC -- 2518
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.779, Purity: 0.222, Max(p): AD
+-- Cluster 1 -- Entropy: 2.957, Purity: 0.170, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.240, Purity: 0.481, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.842, Purity: 0.229, Max(p): T2D
+-- Cluster 4 -- Entropy: 0.253, Purity: 0.970, Max(p): MM
+-- Cluster 5 -- Entropy: 2.972, Purity: 0.160, Max(p): PC
+-- Cluster 6 -- Entropy: 2.592, Purity: 0.293, Max(p): AD
+-- Cluster 7 -- Entropy: 1.593, Purity: 0.666, Max(p): BC
+
+Average Entropy: 2.78
+Average Purity: 0.23
+Completeness score: 0.10
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 1349
+-- cluster 1: 10890
+-- cluster 2: 759
+-- cluster 3: 2389
+-- cluster 4: 439
+-- cluster 5: 2395
+-- cluster 6: 580
+-- cluster 7: 755
+****************************************************************************************************
+
+
+Cohort subsampling N 91
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2509
+CD -- 2441
+BC -- 2502
+AD -- 2543
+ADHD -- 2551
+T2D -- 2498
+MM -- 1947
+PC -- 2496
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.309, Purity: 0.457, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.850, Purity: 0.184, Max(p): AD
+-- Cluster 2 -- Entropy: 2.965, Purity: 0.163, Max(p): CD
+-- Cluster 3 -- Entropy: 2.838, Purity: 0.240, Max(p): T2D
+-- Cluster 4 -- Entropy: 0.284, Purity: 0.968, Max(p): MM
+-- Cluster 5 -- Entropy: 2.940, Purity: 0.181, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.682, Purity: 0.227, Max(p): AD
+-- Cluster 7 -- Entropy: 1.255, Purity: 0.800, Max(p): BC
+
+Average Entropy: 2.78
+Average Purity: 0.23
+Completeness score: 0.10
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 772
+-- cluster 1: 2654
+-- cluster 2: 3763
+-- cluster 3: 674
+-- cluster 4: 431
+-- cluster 5: 9753
+-- cluster 6: 856
+-- cluster 7: 584
+****************************************************************************************************
+
+
+Cohort subsampling N 92
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2522
+CD -- 2457
+BC -- 2556
+AD -- 2525
+ADHD -- 2556
+T2D -- 2459
+MM -- 1947
+PC -- 2451
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.841, Purity: 0.203, Max(p): AD
+-- Cluster 1 -- Entropy: 2.971, Purity: 0.169, Max(p): AD
+-- Cluster 2 -- Entropy: 2.969, Purity: 0.155, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.276, Purity: 0.465, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.927, Purity: 0.185, Max(p): ADHD
+-- Cluster 5 -- Entropy: 0.542, Purity: 0.915, Max(p): MM
+-- Cluster 6 -- Entropy: 2.755, Purity: 0.237, Max(p): MM
+-- Cluster 7 -- Entropy: 1.043, Purity: 0.846, Max(p): BC
+
+Average Entropy: 2.80
+Average Purity: 0.22
+Completeness score: 0.08
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2805
+-- cluster 1: 2229
+-- cluster 2: 4066
+-- cluster 3: 733
+-- cluster 4: 8059
+-- cluster 5: 412
+-- cluster 6: 662
+-- cluster 7: 507
+****************************************************************************************************
+
+
+Cohort subsampling N 93
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2473
+CD -- 2515
+BC -- 2518
+AD -- 2512
+ADHD -- 2539
+T2D -- 2508
+MM -- 1947
+PC -- 2489
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.869, Purity: 0.198, Max(p): MM
+-- Cluster 1 -- Entropy: 2.748, Purity: 0.299, Max(p): BC
+-- Cluster 2 -- Entropy: 2.730, Purity: 0.276, Max(p): T2D
+-- Cluster 3 -- Entropy: 2.936, Purity: 0.183, Max(p): ADHD
+-- Cluster 4 -- Entropy: 2.938, Purity: 0.194, Max(p): CD
+-- Cluster 5 -- Entropy: 2.062, Purity: 0.543, Max(p): ADHD
+-- Cluster 6 -- Entropy: 2.691, Purity: 0.322, Max(p): T2D
+-- Cluster 7 -- Entropy: 0.355, Purity: 0.957, Max(p): MM
+
+Average Entropy: 2.82
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2304
+-- cluster 1: 1914
+-- cluster 2: 1546
+-- cluster 3: 9420
+-- cluster 4: 2959
+-- cluster 5: 646
+-- cluster 6: 388
+-- cluster 7: 324
+****************************************************************************************************
+
+
+Cohort subsampling N 94
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2475
+CD -- 2520
+BC -- 2467
+AD -- 2532
+ADHD -- 2525
+T2D -- 2497
+MM -- 1947
+PC -- 2445
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 1.893, Purity: 0.617, Max(p): MM
+-- Cluster 1 -- Entropy: 2.848, Purity: 0.203, Max(p): AD
+-- Cluster 2 -- Entropy: 2.272, Purity: 0.481, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.938, Purity: 0.192, Max(p): PC
+-- Cluster 4 -- Entropy: 2.572, Purity: 0.345, Max(p): AD
+-- Cluster 5 -- Entropy: 2.653, Purity: 0.290, Max(p): BC
+-- Cluster 6 -- Entropy: 2.659, Purity: 0.318, Max(p): T2D
+-- Cluster 7 -- Entropy: 2.940, Purity: 0.183, Max(p): ADHD
+
+Average Entropy: 2.81
+Average Purity: 0.24
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 849
+-- cluster 1: 2716
+-- cluster 2: 692
+-- cluster 3: 3400
+-- cluster 4: 522
+-- cluster 5: 1340
+-- cluster 6: 1241
+-- cluster 7: 8648
+****************************************************************************************************
+
+
+Cohort subsampling N 95
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2504
+CD -- 2502
+BC -- 2507
+AD -- 2526
+ADHD -- 2536
+T2D -- 2497
+MM -- 1947
+PC -- 2488
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.860, Purity: 0.226, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.868, Purity: 0.189, Max(p): AD
+-- Cluster 2 -- Entropy: 2.260, Purity: 0.466, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.943, Purity: 0.176, Max(p): ADHD
+-- Cluster 4 -- Entropy: 1.386, Purity: 0.750, Max(p): MM
+-- Cluster 5 -- Entropy: 2.770, Purity: 0.267, Max(p): T2D
+-- Cluster 6 -- Entropy: 2.927, Purity: 0.203, Max(p): BC
+-- Cluster 7 -- Entropy: 2.695, Purity: 0.221, Max(p): AD
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 2888
+-- cluster 1: 1686
+-- cluster 2: 725
+-- cluster 3: 9767
+-- cluster 4: 680
+-- cluster 5: 412
+-- cluster 6: 2815
+-- cluster 7: 534
+****************************************************************************************************
+
+
+Cohort subsampling N 96
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2486
+CD -- 2447
+BC -- 2504
+AD -- 2525
+ADHD -- 2518
+T2D -- 2537
+MM -- 1947
+PC -- 2535
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.185, Purity: 0.511, Max(p): ADHD
+-- Cluster 1 -- Entropy: 2.671, Purity: 0.300, Max(p): T2D
+-- Cluster 2 -- Entropy: 2.903, Purity: 0.215, Max(p): BC
+-- Cluster 3 -- Entropy: 2.950, Purity: 0.165, Max(p): ADHD
+-- Cluster 4 -- Entropy: 0.395, Purity: 0.953, Max(p): MM
+-- Cluster 5 -- Entropy: 2.718, Purity: 0.320, Max(p): T2D
+-- Cluster 6 -- Entropy: 2.845, Purity: 0.200, Max(p): CD
+-- Cluster 7 -- Entropy: 2.873, Purity: 0.267, Max(p): CD
+
+Average Entropy: 2.81
+Average Purity: 0.23
+Completeness score: 0.08
+Homogeneity score: 0.06
+Adjusted Rand score: 0.02
+Number of diseases identified: 5
+Cluster Numerosity:
+-- cluster 0: 842
+-- cluster 1: 1625
+-- cluster 2: 2461
+-- cluster 3: 10110
+-- cluster 4: 451
+-- cluster 5: 544
+-- cluster 6: 1509
+-- cluster 7: 1957
+****************************************************************************************************
+
+
+Cohort subsampling N 97
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2480
+CD -- 2524
+BC -- 2534
+AD -- 2513
+ADHD -- 2548
+T2D -- 2494
+MM -- 1947
+PC -- 2490
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.872, Purity: 0.248, Max(p): BC
+-- Cluster 1 -- Entropy: 2.722, Purity: 0.270, Max(p): MM
+-- Cluster 2 -- Entropy: 2.227, Purity: 0.471, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.788, Purity: 0.223, Max(p): T2D
+-- Cluster 4 -- Entropy: 2.914, Purity: 0.192, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.938, Purity: 0.174, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.196, Purity: 0.977, Max(p): MM
+-- Cluster 7 -- Entropy: 2.968, Purity: 0.170, Max(p): MM
+
+Average Entropy: 2.83
+Average Purity: 0.22
+Completeness score: 0.07
+Homogeneity score: 0.05
+Adjusted Rand score: 0.02
+Number of diseases identified: 4
+Cluster Numerosity:
+-- cluster 0: 2810
+-- cluster 1: 601
+-- cluster 2: 705
+-- cluster 3: 1684
+-- cluster 4: 3131
+-- cluster 5: 9031
+-- cluster 6: 341
+-- cluster 7: 1227
+****************************************************************************************************
+
+
+Cohort subsampling N 98
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2488
+CD -- 2517
+BC -- 2530
+AD -- 2543
+ADHD -- 2527
+T2D -- 2536
+MM -- 1947
+PC -- 2501
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.782, Purity: 0.218, Max(p): T2D
+-- Cluster 1 -- Entropy: 2.955, Purity: 0.174, Max(p): PC
+-- Cluster 2 -- Entropy: 2.277, Purity: 0.468, Max(p): ADHD
+-- Cluster 3 -- Entropy: 2.578, Purity: 0.343, Max(p): MM
+-- Cluster 4 -- Entropy: 2.831, Purity: 0.204, Max(p): CD
+-- Cluster 5 -- Entropy: 2.949, Purity: 0.172, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.183, Purity: 0.980, Max(p): MM
+-- Cluster 7 -- Entropy: 1.190, Purity: 0.812, Max(p): BC
+
+Average Entropy: 2.79
+Average Purity: 0.23
+Completeness score: 0.10
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2041
+-- cluster 1: 3275
+-- cluster 2: 727
+-- cluster 3: 464
+-- cluster 4: 1698
+-- cluster 5: 10513
+-- cluster 6: 345
+-- cluster 7: 526
+****************************************************************************************************
+
+
+Cohort subsampling N 99
+Loading data...
+
+
+Model DP -- Disease code SNOMED
+Disease numerosities:
+PD -- 2491
+CD -- 2538
+BC -- 2542
+AD -- 2531
+ADHD -- 2539
+T2D -- 2463
+MM -- 1947
+PC -- 2492
+
+
+Evaluating DP embeddings
+
+-- Cluster 0 -- Entropy: 2.850, Purity: 0.215, Max(p): AD
+-- Cluster 1 -- Entropy: 2.343, Purity: 0.438, Max(p): ADHD
+-- Cluster 2 -- Entropy: 2.937, Purity: 0.193, Max(p): CD
+-- Cluster 3 -- Entropy: 2.688, Purity: 0.252, Max(p): MM
+-- Cluster 4 -- Entropy: 2.915, Purity: 0.221, Max(p): T2D
+-- Cluster 5 -- Entropy: 2.940, Purity: 0.175, Max(p): ADHD
+-- Cluster 6 -- Entropy: 0.735, Purity: 0.893, Max(p): MM
+-- Cluster 7 -- Entropy: 1.873, Purity: 0.592, Max(p): BC
+
+Average Entropy: 2.79
+Average Purity: 0.24
+Completeness score: 0.09
+Homogeneity score: 0.07
+Adjusted Rand score: 0.02
+Number of diseases identified: 6
+Cluster Numerosity:
+-- cluster 0: 2347
+-- cluster 1: 717
+-- cluster 2: 2380
+-- cluster 3: 709
+-- cluster 4: 2865
+-- cluster 5: 9181
+-- cluster 6: 456
+-- cluster 7: 888
+****************************************************************************************************
+
+
+Model DP
+Mean Entropy: 2.811 (SD = 0.017) -- CI = [2.798, 2.841]
+Mean Purity: 0.228 (SD = 0.008) -- CI = [0.223, 0.242]
+Mean Completeness: 0.081 (SD = 0.008) -- CI = [0.075, 0.099]
+Mean Homogeneity: 0.061 (SD = 0.006) -- CI = [0.057, 0.072]
+Mean Adjusted Rand: 0.023 (SD = 0.002) -- CI = [0.021, 0.027]
+Mean number of detected diseases: 5.720 (SD = 0.722)
+
+
+Processing time: 4792.75 seconds
+Task completed
+

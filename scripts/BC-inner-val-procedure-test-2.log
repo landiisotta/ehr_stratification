@@ -1,0 +1,250 @@
+
+Cohort BC numerosity: 7838
+
+2 -- Silhouette: 0.207
+DB: 2.409
+CH: 1141.936
+Number of clusters found:2, Max Silhouette score:0.207
+Number of clusters found:2, Min DB score:2.409
+Number of clusters found:2, Max HC score:1141.936
+
+Max number of clusters chosen: 2
+Cluster 0 numerosity: 5601
+% term:procedure::Electrocardiogram complete = 0.97 (2201 terms in cluster (0.39), out of 2278 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.1604222617284278e-218, corr_p=2.1604222617284278e-218, rej=True
+               0     1
+subcluster            
+0           3400  2201
+1           2160    77
+
+
+% term:procedure::Rm chest pa and left lateral only = 0.99 (646 terms in cluster (0.12), out of 653 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.076146400074165e-59, corr_p=6.076146400074165e-59, rej=True
+               0    1
+subcluster           
+0           4955  646
+1           2230    7
+
+
+% term:procedure::Rm chest 1 view portable = 0.99 (640 terms in cluster (0.11), out of 646 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.288873057691045e-59, corr_p=7.288873057691045e-59, rej=True
+               0    1
+subcluster           
+0           4961  640
+1           2231    6
+
+
+% term:procedure::Electrocardiogram tracing = 0.99 (635 terms in cluster (0.11), out of 640 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.851740950011993e-59, corr_p=6.851740950011993e-59, rej=True
+               0    1
+subcluster           
+0           4966  635
+1           2232    5
+
+
+% term:procedure::Nm lymphoscintigraphy = 0.79 (455 terms in cluster (0.08), out of 578 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.245898719594346e-05, corr_p=7.245898719594346e-05, rej=True
+               0    1
+subcluster           
+0           5146  455
+1           2114  123
+
+
+% term:procedure::Ra chest pa and left lateral only = 0.92 (385 terms in cluster (0.07), out of 417 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.359968823931535e-22, corr_p=5.359968823931535e-22, rej=True
+               0    1
+subcluster           
+0           5216  385
+1           2205   32
+
+
+% term:procedure::Cxr 1 view portable = 0.92 (382 terms in cluster (0.07), out of 415 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.3647618201990535e-21, corr_p=2.3647618201990535e-21, rej=True
+               0    1
+subcluster           
+0           5219  382
+1           2204   33
+
+
+% term:procedure::Pa ll cxr = 0.95 (342 terms in cluster (0.06), out of 361 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.1215690348891725e-23, corr_p=2.1215690348891725e-23, rej=True
+               0    1
+subcluster           
+0           5259  342
+1           2218   19
+
+
+% term:procedure::Du breast consultation = 0.59 (317 terms in cluster (0.06), out of 535 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.2965283952071664e-10, corr_p=1.2965283952071664e-10, rej=True
+               0    1
+subcluster           
+0           5284  317
+1           2019  218
+
+
+% term:procedure::Nm pet fdg oncology = 0.93 (308 terms in cluster (0.05), out of 330 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.347624997883438e-19, corr_p=4.347624997883438e-19, rej=True
+               0    1
+subcluster           
+0           5293  308
+1           2215   22
+
+
+% term:procedure::Lymphoscintigraphy = 0.76 (282 terms in cluster (0.05), out of 369 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.03541259550555788, corr_p=0.03541259550555788, rej=True
+               0    1
+subcluster           
+0           5319  282
+1           2150   87
+
+
+
+
+Cluster 1 numerosity: 2237
+% term:procedure::Du mammography screening = 0.55 (258 terms in cluster (0.12), out of 469 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.385428502892011e-39, corr_p=7.385428502892011e-39, rej=True
+               0    1
+subcluster           
+0           5390  211
+1           1979  258
+
+
+% term:procedure::Du mammography bilateral = 0.47 (220 terms in cluster (0.10), out of 468 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.1841139696087048e-19, corr_p=1.1841139696087048e-19, rej=True
+               0    1
+subcluster           
+0           5353  248
+1           2017  220
+
+
+% term:procedure::Du breast consultation = 0.41 (218 terms in cluster (0.10), out of 535 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.2965283952071664e-10, corr_p=1.2965283952071664e-10, rej=True
+               0    1
+subcluster           
+0           5284  317
+1           2019  218
+
+
+% term:procedure::Du ultrasound breast diagnostic bilateral = 0.47 (204 terms in cluster (0.09), out of 435 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.3850393424713645e-18, corr_p=4.3850393424713645e-18, rej=True
+               0    1
+subcluster           
+0           5370  231
+1           2033  204
+
+
+% term:procedure::Rm screening mammography = 0.45 (196 terms in cluster (0.09), out of 435 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.472235953622508e-15, corr_p=6.472235953622508e-15, rej=True
+               0    1
+subcluster           
+0           5362  239
+1           2041  196
+
+
+% term:procedure::Du mammography left = 0.44 (143 terms in cluster (0.06), out of 325 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.357264155211196e-10, corr_p=4.357264155211196e-10, rej=True
+               0    1
+subcluster           
+0           5419  182
+1           2094  143
+
+
+% term:procedure::Du mammography surgical specimen = 0.35 (128 terms in cluster (0.06), out of 366 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.006304477692777072, corr_p=0.006304477692777072, rej=True
+               0    1
+subcluster           
+0           5363  238
+1           2109  128
+
+
+% term:procedure::Du mammography right = 0.44 (127 terms in cluster (0.06), out of 288 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.8634328311358685e-09, corr_p=3.8634328311358685e-09, rej=True
+               0    1
+subcluster           
+0           5440  161
+1           2110  127
+
+
+% term:procedure::Nm lymphoscintigraphy = 0.21 (123 terms in cluster (0.05), out of 578 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.245898719594346e-05, corr_p=7.245898719594346e-05, rej=True
+               0    1
+subcluster           
+0           5146  455
+1           2114  123
+
+
+% term:procedure::Du ultrasound breast diagnostic right unilateral = 0.40 (122 terms in cluster (0.05), out of 305 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=8.361094586117821e-06, corr_p=8.361094586117821e-06, rej=True
+               0    1
+subcluster           
+0           5418  183
+1           2115  122
+
+
+% term:procedure::Ra mri breast bilateral contrast = 0.36 (122 terms in cluster (0.05), out of 339 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0023435837565280383, corr_p=0.0023435837565280383, rej=True
+               0    1
+subcluster           
+0           5384  217
+1           2115  122
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 14.1909  0.0       0.0   True
+-------------------------------------------
+              score                                                 
+              count   mean    std    min    25%    50%    75%    max
+subcluster                                                          
+0          5601.000 66.980 14.572 17.000 56.000 67.000 78.000 90.000
+1          2237.000 61.938 13.246  4.000 53.000 61.000 71.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 26.6825  0.0       0.0   True
+-------------------------------------------
+              score                                                      
+              count    mean     std   min    25%     50%     75%      max
+subcluster                                                               
+0          5601.000 328.769 506.162 6.000 64.000 128.000 380.000 4785.000
+1          2237.000  42.510  56.030 3.000 12.000  25.000  52.000  480.000
+
+Multiple comparison chi-square test for SEX:
+
+Processing time: 623.63 seconds
+Task completed
+

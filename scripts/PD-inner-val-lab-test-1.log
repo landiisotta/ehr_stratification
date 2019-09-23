@@ -100,6 +100,15 @@ subcluster
 1            708  976
 
 
+% term:lab::Free T4 and TSH panel::LP14144-7 = 0.07 (32 terms in cluster (0.02), out of 476 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.4425637778168478e-73, corr_p=1.4425637778168478e-73, rej=True
+               0    1
+subcluster           
+0           1336   32
+1           1240  444
+
+
 
 
 Cluster 1 numerosity: 1684
@@ -193,6 +202,15 @@ subcluster
 1            709  975
 
 
+% term:lab::Chloride::LP15483-8 = 0.97 (974 terms in cluster (0.58), out of 1001 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.152345594000097e-234, corr_p=7.152345594000097e-234, rej=True
+               0    1
+subcluster           
+0           1341   27
+1            710  974
+
+
 
 
 Multiple comparison t-test for AGE:
@@ -231,6 +249,6 @@ Comparison: (0, 1) -- p=0.976, corr_p=0.976, rej=False
 0     596   771
 1     734   950
 
-Processing time: 246.44 seconds
+Processing time: 267.85 seconds
 Task completed
 

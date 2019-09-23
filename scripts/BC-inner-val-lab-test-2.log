@@ -1,0 +1,250 @@
+
+Cohort BC numerosity: 7838
+
+2 -- Silhouette: 0.207
+DB: 2.409
+CH: 1141.936
+Number of clusters found:2, Max Silhouette score:0.207
+Number of clusters found:2, Min DB score:2.409
+Number of clusters found:2, Max HC score:1141.936
+
+Max number of clusters chosen: 2
+Cluster 0 numerosity: 5601
+% term:lab::Leukocytes::LP14419-3 = 0.97 (3867 terms in cluster (0.69), out of 4000 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1734  3867
+1           2104   133
+
+
+% term:lab::Glucose::LP14635-4 = 0.97 (3852 terms in cluster (0.69), out of 3978 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1749  3852
+1           2111   126
+
+
+% term:lab::Hematocrit::LP15101-6 = 0.97 (3759 terms in cluster (0.67), out of 3865 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1842  3759
+1           2131   106
+
+
+% term:lab::Erythrocytes::LP14304-7 = 0.97 (3757 terms in cluster (0.67), out of 3865 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1844  3757
+1           2129   108
+
+
+% term:lab::Width::LP18016-3 = 0.97 (3714 terms in cluster (0.66), out of 3823 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1887  3714
+1           2128   109
+
+
+% term:lab::Mean corp. hgb = 0.97 (3704 terms in cluster (0.66), out of 3804 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1897  3704
+1           2137   100
+
+
+% term:lab::Mean corp. hgb conc = 0.97 (3701 terms in cluster (0.66), out of 3809 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1900  3701
+1           2129   108
+
+
+% term:lab::Mean plt volume = 0.97 (3700 terms in cluster (0.66), out of 3801 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1901  3700
+1           2136   101
+
+
+% term:lab::Mean corp. volume = 0.97 (3700 terms in cluster (0.66), out of 3802 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1901  3700
+1           2135   102
+
+
+% term:lab::Hemoglobin::LP14449-0 = 0.97 (3697 terms in cluster (0.66), out of 3802 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1904  3697
+1           2132   105
+
+
+% term:lab::Platelets::LP14597-6 = 0.97 (3697 terms in cluster (0.66), out of 3802 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1904  3697
+1           2132   105
+
+
+
+
+Cluster 1 numerosity: 2237
+% term:lab::Leukocytes::LP14419-3 = 0.03 (133 terms in cluster (0.06), out of 4000 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1734  3867
+1           2104   133
+
+
+% term:lab::Glucose::LP14635-4 = 0.03 (126 terms in cluster (0.06), out of 3978 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1749  3852
+1           2111   126
+
+
+% term:lab::Width::LP18016-3 = 0.03 (109 terms in cluster (0.05), out of 3823 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1887  3714
+1           2128   109
+
+
+% term:lab::Mean corp. hgb conc = 0.03 (108 terms in cluster (0.05), out of 3809 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1900  3701
+1           2129   108
+
+
+% term:lab::Erythrocytes::LP14304-7 = 0.03 (108 terms in cluster (0.05), out of 3865 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1844  3757
+1           2129   108
+
+
+% term:lab::Hematocrit::LP15101-6 = 0.03 (106 terms in cluster (0.05), out of 3865 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1842  3759
+1           2131   106
+
+
+% term:lab::Hemoglobin::LP14449-0 = 0.03 (105 terms in cluster (0.05), out of 3802 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1904  3697
+1           2132   105
+
+
+% term:lab::Platelets::LP14597-6 = 0.03 (105 terms in cluster (0.05), out of 3802 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1904  3697
+1           2132   105
+
+
+% term:lab::Mean corp. volume = 0.03 (102 terms in cluster (0.05), out of 3802 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1901  3700
+1           2135   102
+
+
+% term:lab::Mean plt volume = 0.03 (101 terms in cluster (0.05), out of 3801 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1901  3700
+1           2136   101
+
+
+% term:lab::Mean corp. hgb = 0.03 (100 terms in cluster (0.04), out of 3804 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           1897  3704
+1           2137   100
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 14.1909  0.0       0.0   True
+-------------------------------------------
+              score                                                 
+              count   mean    std    min    25%    50%    75%    max
+subcluster                                                          
+0          5601.000 66.980 14.572 17.000 56.000 67.000 78.000 90.000
+1          2237.000 61.938 13.246  4.000 53.000 61.000 71.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 26.6825  0.0       0.0   True
+-------------------------------------------
+              score                                                      
+              count    mean     std   min    25%     50%     75%      max
+subcluster                                                               
+0          5601.000 328.769 506.162 6.000 64.000 128.000 380.000 4785.000
+1          2237.000  42.510  56.030 3.000 12.000  25.000  52.000  480.000
+
+Multiple comparison chi-square test for SEX:
+
+Processing time: 599.46 seconds
+Task completed
+

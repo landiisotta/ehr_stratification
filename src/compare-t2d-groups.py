@@ -1,16 +1,6 @@
 import csv
 from sklearn.metrics import adjusted_mutual_info_score, fowlkes_mallows_score
 
-with open('../data/ehr-804370-test-1/cohort-T2D-innerval-labels.csv') as f:
-    rd = csv.reader(f)
-    next(rd)
-    convae = {}
-    convae_mrn = []
-    class_lab = []
-    for r in rd:
-        convae_mrn.append(r[0])
-        class_lab.append(r[1])
-        convae.setdefault(r[1], list()).append(r[0])
 
 with open('../data/mrn-t2d-groups.csv') as f:
     rd = csv.reader(f)
@@ -20,6 +10,18 @@ with open('../data/mrn-t2d-groups.csv') as f:
     for r in rd:
         gt_dict[r[0]] = r[1]
         lili.setdefault(r[1], list()).append(r[0])
+
+with open('../data/ehr-804370-test-1/cohort-T2D-innerval-labels.csv') as f:
+    rd = csv.reader(f)
+    next(rd)
+    convae = {}
+    convae_mrn = []
+    class_lab = []
+    for r in rd:
+        if r[0] in gt_dict.keys():
+            convae_mrn.append(r[0])
+            class_lab.append(r[1])
+            convae.setdefault(r[1], list()).append(r[0])
 
 gt_lab = [gt_dict[mrn] for mrn in convae_mrn if mrn in gt_dict.keys()]
 

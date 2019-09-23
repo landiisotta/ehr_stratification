@@ -1,196 +1,214 @@
 
-Cohort BC numerosity: 8051
+Cohort BC numerosity: 7964
 
-2 -- Silhouette: 0.290
-DB: 2.003
-CH: 1176.663
-Number of clusters found:2, Max Silhouette score:0.290
-Number of clusters found:2, Min DB score:2.003
-Number of clusters found:2, Max HC score:1176.663
+2 -- Silhouette: 0.246
+DB: 2.166
+CH: 1388.250
+Number of clusters found:2, Max Silhouette score:0.246
+Number of clusters found:2, Min DB score:2.166
+Number of clusters found:2, Max HC score:1388.250
 
 Max number of clusters chosen: 2
-Cluster 0 numerosity: 6871
-% term:medication::Acetaminophen::161::C0000970 = 0.98 (3209 terms in cluster (0.47), out of 3263 terms in the disease dataset)
+Cluster 0 numerosity: 5971
+% term:medication::Acetaminophen::161::C0000970 = 0.92 (2967 terms in cluster (0.50), out of 3222 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=6.806790403633818e-163, corr_p=6.806790403633818e-163, rej=True
+Comparison: (0, 1) -- p=2.5953201866583585e-185, corr_p=2.5953201866583585e-185, rej=True
                0     1
 subcluster            
-0           3662  3209
-1           1126    54
+0           3004  2967
+1           1738   255
 
 
-% term:medication::Fentanyl::4337::C0015846 = 0.96 (3121 terms in cluster (0.45), out of 3255 terms in the disease dataset)
+% term:medication::Ondansetron::26225::C0061851 = 0.87 (2718 terms in cluster (0.46), out of 3132 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=3.0903127070821494e-107, corr_p=3.0903127070821494e-107, rej=True
+Comparison: (0, 1) -- p=3.5753501317559e-85, corr_p=3.5753501317559e-85, rej=True
                0     1
 subcluster            
-0           3750  3121
-1           1046   134
+0           3253  2718
+1           1579   414
 
 
-% term:medication::Ondansetron::26225::C0061851 = 0.97 (3075 terms in cluster (0.45), out of 3159 terms in the disease dataset)
+% term:medication::Fentanyl::4337::C0015846 = 0.84 (2702 terms in cluster (0.45), out of 3222 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=8.80670789970113e-132, corr_p=8.80670789970113e-132, rej=True
+Comparison: (0, 1) -- p=2.77613083643562e-51, corr_p=2.77613083643562e-51, rej=True
                0     1
 subcluster            
-0           3796  3075
-1           1096    84
+0           3269  2702
+1           1473   520
 
 
-% term:medication::Propofol::8782::C0033487 = 0.95 (2794 terms in cluster (0.41), out of 2943 terms in the disease dataset)
+% term:medication::Oxycodone::7804::C0030049 = 0.91 (2546 terms in cluster (0.43), out of 2795 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=6.037056906697033e-76, corr_p=6.037056906697033e-76, rej=True
+Comparison: (0, 1) -- p=2.244870661473934e-131, corr_p=2.244870661473934e-131, rej=True
                0     1
 subcluster            
-0           4077  2794
-1           1031   149
+0           3425  2546
+1           1744   249
 
 
-% term:medication::Oxycodone::7804::C0030049 = 0.98 (2780 terms in cluster (0.40), out of 2827 terms in the disease dataset)
+% term:medication::Propofol::8782::C0033487 = 0.81 (2371 terms in cluster (0.40), out of 2914 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.4398524471206511e-129, corr_p=1.4398524471206511e-129, rej=True
+Comparison: (0, 1) -- p=1.959845911099021e-23, corr_p=1.959845911099021e-23, rej=True
                0     1
 subcluster            
-0           4091  2780
-1           1133    47
+0           3600  2371
+1           1450   543
 
 
-% term:medication::Midazolam::6960::C0026056 = 0.95 (2384 terms in cluster (0.35), out of 2506 terms in the disease dataset)
+% term:medication::Injection::1649574::C1272883 = 0.93 (2151 terms in cluster (0.36), out of 2323 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=2.5482112991228433e-62, corr_p=2.5482112991228433e-62, rej=True
+Comparison: (0, 1) -- p=9.301625835687151e-120, corr_p=9.301625835687151e-120, rej=True
                0     1
 subcluster            
-0           4487  2384
-1           1058   122
+0           3820  2151
+1           1821   172
 
 
-% term:medication::Injection::1649574::C1272883 = 0.99 (2330 terms in cluster (0.34), out of 2350 terms in the disease dataset)
+% term:medication::Sodium chloride::9863::C0037494 = 0.98 (2045 terms in cluster (0.34), out of 2095 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.210030447954849e-111, corr_p=1.210030447954849e-111, rej=True
+Comparison: (0, 1) -- p=1.5577500293730076e-170, corr_p=1.5577500293730076e-170, rej=True
                0     1
 subcluster            
-0           4541  2330
-1           1160    20
+0           3926  2045
+1           1943    50
 
 
-% term:medication::Cefazolin::2180::C0007546 = 0.97 (2330 terms in cluster (0.34), out of 2405 terms in the disease dataset)
+% term:medication::Cefazolin::2180::C0007546 = 0.86 (2041 terms in cluster (0.34), out of 2380 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=4.4464297954284905e-81, corr_p=4.4464297954284905e-81, rej=True
+Comparison: (0, 1) -- p=1.7898344120418532e-47, corr_p=1.7898344120418532e-47, rej=True
                0     1
 subcluster            
-0           4541  2330
-1           1105    75
+0           3930  2041
+1           1654   339
 
 
-% term:medication::Lidocaine::6387::C0023660 = 0.93 (2174 terms in cluster (0.32), out of 2340 terms in the disease dataset)
+% term:medication::Midazolam::6960::C0026056 = 0.82 (2039 terms in cluster (0.34), out of 2486 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.7522591949000109e-34, corr_p=1.7522591949000109e-34, rej=True
+Comparison: (0, 1) -- p=1.8618114285561633e-22, corr_p=1.8618114285561633e-22, rej=True
                0     1
 subcluster            
-0           4697  2174
-1           1014   166
+0           3932  2039
+1           1546   447
 
 
-% term:medication::Calcium::1895::C0006675 = 0.97 (2168 terms in cluster (0.32), out of 2233 terms in the disease dataset)
+% term:medication::Calcium::1895::C0006675 = 0.89 (1979 terms in cluster (0.33), out of 2219 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=8.129166925887561e-76, corr_p=8.129166925887561e-76, rej=True
+Comparison: (0, 1) -- p=9.730885134636458e-74, corr_p=9.730885134636458e-74, rej=True
                0     1
 subcluster            
-0           4703  2168
-1           1115    65
+0           3992  1979
+1           1753   240
 
 
+% term:medication::Lidocaine::6387::C0023660 = 0.79 (1827 terms in cluster (0.31), out of 2325 terms in the disease dataset)
 
-
-Cluster 1 numerosity: 1180
-% term:medication::Lidocaine::6387::C0023660 = 0.07 (166 terms in cluster (0.14), out of 2340 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=1.7522591949000109e-34, corr_p=1.7522591949000109e-34, rej=True
+Comparison: (0, 1) -- p=2.1199305061319696e-06, corr_p=2.1199305061319696e-06, rej=True
                0     1
 subcluster            
-0           4697  2174
-1           1014   166
+0           4144  1827
+1           1495   498
 
 
-% term:medication::Propofol::8782::C0033487 = 0.05 (149 terms in cluster (0.13), out of 2943 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=6.037056906697033e-76, corr_p=6.037056906697033e-76, rej=True
+
+Cluster 1 numerosity: 1993
+% term:medication::Propofol::8782::C0033487 = 0.19 (543 terms in cluster (0.27), out of 2914 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.959845911099021e-23, corr_p=1.959845911099021e-23, rej=True
                0     1
 subcluster            
-0           4077  2794
-1           1031   149
+0           3600  2371
+1           1450   543
 
 
-% term:medication::Fentanyl::4337::C0015846 = 0.04 (134 terms in cluster (0.11), out of 3255 terms in the disease dataset)
+% term:medication::Fentanyl::4337::C0015846 = 0.16 (520 terms in cluster (0.26), out of 3222 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=3.0903127070821494e-107, corr_p=3.0903127070821494e-107, rej=True
+Comparison: (0, 1) -- p=2.77613083643562e-51, corr_p=2.77613083643562e-51, rej=True
                0     1
 subcluster            
-0           3750  3121
-1           1046   134
+0           3269  2702
+1           1473   520
 
 
-% term:medication::Midazolam::6960::C0026056 = 0.05 (122 terms in cluster (0.10), out of 2506 terms in the disease dataset)
+% term:medication::Lidocaine::6387::C0023660 = 0.21 (498 terms in cluster (0.25), out of 2325 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=2.5482112991228433e-62, corr_p=2.5482112991228433e-62, rej=True
+Comparison: (0, 1) -- p=2.1199305061319696e-06, corr_p=2.1199305061319696e-06, rej=True
                0     1
 subcluster            
-0           4487  2384
-1           1058   122
+0           4144  1827
+1           1495   498
 
 
-% term:medication::Tamoxifen::10324::C0039286 = 0.08 (90 terms in cluster (0.08), out of 1140 terms in the disease dataset)
+% term:medication::Midazolam::6960::C0026056 = 0.18 (447 terms in cluster (0.22), out of 2486 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=4.447066751992868e-12, corr_p=4.447066751992868e-12, rej=True
+Comparison: (0, 1) -- p=1.8618114285561633e-22, corr_p=1.8618114285561633e-22, rej=True
                0     1
 subcluster            
-0           5821  1050
-1           1090    90
+0           3932  2039
+1           1546   447
 
 
-% term:medication::Ondansetron::26225::C0061851 = 0.03 (84 terms in cluster (0.07), out of 3159 terms in the disease dataset)
+% term:medication::Ondansetron::26225::C0061851 = 0.13 (414 terms in cluster (0.21), out of 3132 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=8.80670789970113e-132, corr_p=8.80670789970113e-132, rej=True
+Comparison: (0, 1) -- p=3.5753501317559e-85, corr_p=3.5753501317559e-85, rej=True
                0     1
 subcluster            
-0           3796  3075
-1           1096    84
+0           3253  2718
+1           1579   414
 
 
-% term:medication::Cefazolin::2180::C0007546 = 0.03 (75 terms in cluster (0.06), out of 2405 terms in the disease dataset)
+% term:medication::Cefazolin::2180::C0007546 = 0.14 (339 terms in cluster (0.17), out of 2380 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=4.4464297954284905e-81, corr_p=4.4464297954284905e-81, rej=True
+Comparison: (0, 1) -- p=1.7898344120418532e-47, corr_p=1.7898344120418532e-47, rej=True
                0     1
 subcluster            
-0           4541  2330
-1           1105    75
+0           3930  2041
+1           1654   339
 
 
-% term:medication::Calcium::1895::C0006675 = 0.03 (65 terms in cluster (0.06), out of 2233 terms in the disease dataset)
+% term:medication::Paraffin::7906::C0030415 = 0.18 (259 terms in cluster (0.13), out of 1450 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=8.129166925887561e-76, corr_p=8.129166925887561e-76, rej=True
+Comparison: (0, 1) -- p=4.232936028772992e-12, corr_p=4.232936028772992e-12, rej=True
                0     1
 subcluster            
-0           4703  2168
-1           1115    65
+0           4780  1191
+1           1734   259
 
 
-% term:medication::Paraffin::7906::C0030415 = 0.04 (54 terms in cluster (0.05), out of 1456 terms in the disease dataset)
+% term:medication::Acetaminophen::161::C0000970 = 0.08 (255 terms in cluster (0.13), out of 3222 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.0813941672050774e-38, corr_p=1.0813941672050774e-38, rej=True
+Comparison: (0, 1) -- p=2.5953201866583585e-185, corr_p=2.5953201866583585e-185, rej=True
                0     1
 subcluster            
-0           5469  1402
-1           1126    54
+0           3004  2967
+1           1738   255
 
 
-% term:medication::Acetaminophen::161::C0000970 = 0.02 (54 terms in cluster (0.05), out of 3263 terms in the disease dataset)
+% term:medication::Oxycodone::7804::C0030049 = 0.09 (249 terms in cluster (0.12), out of 2795 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=6.806790403633818e-163, corr_p=6.806790403633818e-163, rej=True
+Comparison: (0, 1) -- p=2.244870661473934e-131, corr_p=2.244870661473934e-131, rej=True
                0     1
 subcluster            
-0           3662  3209
-1           1126    54
+0           3425  2546
+1           1744   249
+
+
+% term:medication::Calcium::1895::C0006675 = 0.11 (240 terms in cluster (0.12), out of 2219 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.730885134636458e-74, corr_p=9.730885134636458e-74, rej=True
+               0     1
+subcluster            
+0           3992  1979
+1           1753   240
+
+
+% term:medication::Tamoxifen::10324::C0039286 = 0.21 (238 terms in cluster (0.12), out of 1136 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0007067246869922433, corr_p=0.0007067246869922433, rej=True
+               0    1
+subcluster           
+0           5073  898
+1           1755  238
 
 
 
@@ -199,16 +217,16 @@ Multiple comparison t-test for AGE:
 Test Multiple Comparison ttest_ind 
 FWER=0.05 method=bonf
 alphacSidak=0.05, alphacBonf=0.050
-==========================================
-group1 group2  stat  pval pval_corr reject
-------------------------------------------
-     0      1 10.412  0.0       0.0   True
-------------------------------------------
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 10.4128  0.0       0.0   True
+-------------------------------------------
               score                                                
               count   mean    std   min    25%    50%    75%    max
 subcluster                                                         
-0          6871.000 66.394 14.220 9.000 56.000 67.000 77.000 90.000
-1          1180.000 61.744 13.886 5.000 52.000 61.000 71.250 90.000
+0          5971.000 66.669 14.272 9.000 56.000 67.000 77.000 90.000
+1          1993.000 62.861 13.732 5.000 53.000 62.000 72.000 90.000
 
 Multiple comparison t-test for SEQUENCE LENGTH:
 Test Multiple Comparison ttest_ind 
@@ -217,20 +235,16 @@ alphacSidak=0.05, alphacBonf=0.050
 ===========================================
 group1 group2   stat  pval pval_corr reject
 -------------------------------------------
-     0      1 19.8464  0.0       0.0   True
+     0      1 25.1498  0.0       0.0   True
 -------------------------------------------
               score                                                      
               count    mean     std   min    25%     50%     75%      max
 subcluster                                                               
-0          6871.000 293.692 468.232 6.000 52.000 128.000 320.000 4849.000
-1          1180.000  23.096  23.932 3.000  8.000  14.000  32.000  224.000
+0          5971.000 323.429 491.113 6.000 63.500 128.000 381.000 4849.000
+1          1993.000  45.464  81.946 3.000 12.000  26.000  53.000 2010.000
 
 Multiple comparison chi-square test for SEX:
-Comparison: (0, 1) -- p=0.550, corr_p=0.550, rej=False
-   female  male
-0    6796    75
-1    1168    10
 
-Processing time: 694.15 seconds
+Processing time: 659.17 seconds
 Task completed
 

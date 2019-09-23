@@ -1,0 +1,464 @@
+
+Cohort T2D numerosity: 48759
+
+3 -- Silhouette: 0.118
+DB: 2.195
+CH: 5517.041
+Number of clusters found:3, Max Silhouette score:0.118
+Number of clusters found:3, Min DB score:2.195
+Number of clusters found:3, Max HC score:5517.041
+
+Max number of clusters chosen: 3
+Cluster 0 numerosity: 22791
+% term:medication::Metformin::6809::C0025598 = 0.60 (12286 terms in cluster (0.54), out of 20333 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=5.917996078319041e-208, corr_p=1.7753988234957125e-207, rej=True
+Comparison: (1, 2) -- p=0.03456178484587983, corr_p=0.1036853545376395, rej=False
+                0      1
+subcluster              
+0           10505  12286
+1           13609   6012
+2            4312   2035
+
+
+% term:medication::Aspirin 81 mg::315431::C0983882 = 0.50 (8005 terms in cluster (0.35), out of 15887 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.8570151093136e-49, corr_p=1.15710453279408e-48, rej=True
+Comparison: (0, 2) -- p=0.08135276373729017, corr_p=0.2440582912118705, rej=False
+Comparison: (1, 2) -- p=1.6521796859584234e-32, corr_p=4.95653905787527e-32, rej=True
+                0     1
+subcluster             
+0           14786  8005
+1           14044  5577
+2            4042  2305
+
+
+% term:medication::Calcium::1895::C0006675 = 0.55 (6153 terms in cluster (0.27), out of 11194 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.602828884230203e-12, corr_p=2.2808486652690612e-11, rej=True
+Comparison: (0, 2) -- p=1.0256862869968048e-304, corr_p=3.0770588609904147e-304, rej=True
+Comparison: (1, 2) -- p=5.40955309143865e-245, corr_p=1.622865927431595e-244, rej=True
+                0     1
+subcluster             
+0           16638  6153
+1           14896  4725
+2            6031   316
+
+
+% term:medication::Injection::1649574::C1272883 = 0.35 (5826 terms in cluster (0.26), out of 16463 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.00011130123976479759, corr_p=0.00033390371929439274, rej=True
+Comparison: (1, 2) -- p=9.873922848523097e-241, corr_p=2.962176854556929e-240, rej=True
+                0     1
+subcluster             
+0           16965  5826
+1           10455  9166
+2            4876  1471
+
+
+% term:medication::Acetaminophen::161::C0000970 = 0.30 (5734 terms in cluster (0.25), out of 19275 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.1762782649156101e-33, corr_p=3.52883479474683e-33, rej=True
+Comparison: (1, 2) -- p=1.6413658931571598e-276, corr_p=4.924097679471479e-276, rej=True
+                0      1
+subcluster              
+0           17057   5734
+1            8160  11461
+2            4267   2080
+
+
+% term:medication::Cholesterol::2438::C0008377 = 0.69 (5362 terms in cluster (0.24), out of 7772 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0162202788827065e-293, corr_p=6.048660836648119e-293, rej=True
+Comparison: (0, 2) -- p=3.234056898162581e-188, corr_p=9.702170694487743e-188, rej=True
+Comparison: (1, 2) -- p=1.4416330090464968e-13, corr_p=4.3248990271394905e-13, rej=True
+                0     1
+subcluster             
+0           17429  5362
+1           17651  1970
+2            5907   440
+
+
+% term:medication::Vitamin d::11253::C0042866 = 0.68 (5066 terms in cluster (0.22), out of 7492 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.0118646093926222e-174, corr_p=9.035593828177866e-174, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=3.059989602014988e-129, corr_p=9.179968806044964e-129, rej=True
+                0     1
+subcluster             
+0           17725  5066
+1           17300  2321
+2            6242   105
+
+
+% term:medication::Ergocalciferol::4018::C0014695 = 0.69 (4961 terms in cluster (0.22), out of 7158 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.023973282617636e-208, corr_p=1.2071919847852906e-207, rej=True
+Comparison: (0, 2) -- p=5.479938962712504e-300, corr_p=1.6439816888137512e-299, rej=True
+Comparison: (1, 2) -- p=1.5534732110849556e-105, corr_p=4.660419633254867e-105, rej=True
+                0     1
+subcluster             
+0           17830  4961
+1           17540  2081
+2            6231   116
+
+
+% term:medication::Aspirin::1191::C0004057 = 0.29 (4908 terms in cluster (0.22), out of 17030 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           17883  4908
+1           12104  7517
+2            1742  4605
+
+
+% term:medication::Glucophage::151827::C0591573 = 0.49 (4627 terms in cluster (0.20), out of 9348 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.551715337641746e-138, corr_p=1.0655146012925239e-137, rej=True
+Comparison: (0, 2) -- p=5.488659937081809e-214, corr_p=1.6465979811245427e-213, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           18164  4627
+1           17398  2223
+2            3849  2498
+
+
+% term:medication::Oxycodone::7804::C0030049 = 0.31 (4456 terms in cluster (0.20), out of 14410 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.5493392207043444, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=2.5592196433488688e-264, corr_p=7.677658930046606e-264, rej=True
+                0     1
+subcluster             
+0           18335  4456
+1           10930  8691
+2            5084  1263
+
+
+
+
+Cluster 1 numerosity: 19621
+% term:medication::Acetaminophen::161::C0000970 = 0.59 (11461 terms in cluster (0.58), out of 19275 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.1762782649156101e-33, corr_p=3.52883479474683e-33, rej=True
+Comparison: (1, 2) -- p=1.6413658931571598e-276, corr_p=4.924097679471479e-276, rej=True
+                0      1
+subcluster              
+0           17057   5734
+1            8160  11461
+2            4267   2080
+
+
+% term:medication::Sodium chloride::9863::C0037494 = 0.60 (11109 terms in cluster (0.57), out of 18367 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=4.509347476821922e-44, corr_p=1.3528042430465766e-43, rej=True
+                0      1
+subcluster              
+0           18490   4301
+1            8512  11109
+2            3390   2957
+
+
+% term:medication::Human::T016 = 0.67 (10023 terms in cluster (0.51), out of 14864 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.9123115356976223e-208, corr_p=5.736934607092867e-208, rej=True
+Comparison: (1, 2) -- p=3.113697417500356e-200, corr_p=9.341092252501069e-200, rej=True
+                0      1
+subcluster              
+0           19813   2978
+1            9598  10023
+2            4484   1863
+
+
+% term:medication::Injection::1649574::C1272883 = 0.56 (9166 terms in cluster (0.47), out of 16463 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.00011130123976479759, corr_p=0.00033390371929439274, rej=True
+Comparison: (1, 2) -- p=9.873922848523097e-241, corr_p=2.962176854556929e-240, rej=True
+                0     1
+subcluster             
+0           16965  5826
+1           10455  9166
+2            4876  1471
+
+
+% term:medication::Glucagon::4832::C0017687 = 0.66 (8799 terms in cluster (0.45), out of 13311 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.0088360884600578e-265, corr_p=3.026508265380173e-265, rej=True
+Comparison: (1, 2) -- p=1.3202317304105336e-103, corr_p=3.9606951912316006e-103, rej=True
+                0     1
+subcluster             
+0           20150  2641
+1           10822  8799
+2            4476  1871
+
+
+% term:medication::Oxycodone::7804::C0030049 = 0.60 (8691 terms in cluster (0.44), out of 14410 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.5493392207043444, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=2.5592196433488688e-264, corr_p=7.677658930046606e-264, rej=True
+                0     1
+subcluster             
+0           18335  4456
+1           10930  8691
+2            5084  1263
+
+
+% term:medication::Fentanyl::4337::C0015846 = 0.69 (7905 terms in cluster (0.40), out of 11427 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=6.907599755881211e-103, corr_p=2.0722799267643634e-102, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           19541  3250
+1           11716  7905
+2            6075   272
+
+
+% term:medication::Heparin::5224::C0019134 = 0.75 (7582 terms in cluster (0.39), out of 10130 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.9229496803629744e-25, corr_p=5.768849041088923e-25, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           21006  1785
+1           12039  7582
+2            5584   763
+
+
+% term:medication::Aspirin::1191::C0004057 = 0.44 (7517 terms in cluster (0.38), out of 17030 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           17883  4908
+1           12104  7517
+2            1742  4605
+
+
+% term:medication::Ondansetron::26225::C0061851 = 0.66 (7367 terms in cluster (0.38), out of 11232 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=9.91508073265477e-140, corr_p=2.9745242197964307e-139, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           19166  3625
+1           12254  7367
+2            6107   240
+
+
+% term:medication::Insulin lispro::86009::C0293359 = 0.61 (6992 terms in cluster (0.36), out of 11478 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.5130096284428204e-47, corr_p=4.539028885328461e-47, rej=True
+Comparison: (1, 2) -- p=1.8379542909552708e-101, corr_p=5.513862872865812e-101, rej=True
+                0     1
+subcluster             
+0           19651  3140
+1           12629  6992
+2            5001  1346
+
+
+
+
+Cluster 2 numerosity: 6347
+% term:medication::Aspirin::1191::C0004057 = 0.27 (4605 terms in cluster (0.73), out of 17030 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           17883  4908
+1           12104  7517
+2            1742  4605
+
+
+% term:medication::Sodium chloride::9863::C0037494 = 0.16 (2957 terms in cluster (0.47), out of 18367 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=4.509347476821922e-44, corr_p=1.3528042430465766e-43, rej=True
+                0      1
+subcluster              
+0           18490   4301
+1            8512  11109
+2            3390   2957
+
+
+% term:medication::Plavix::174742::C0633084 = 0.34 (2739 terms in cluster (0.43), out of 8041 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.2637789957518712e-125, corr_p=3.7913369872556137e-125, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           20752  2039
+1           16358  3263
+2            3608  2739
+
+
+% term:medication::Ic ntg = 0.55 (2596 terms in cluster (0.41), out of 4728 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.831620720668484e-99, corr_p=1.1494862162005453e-98, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           22120   671
+1           18160  1461
+2            3751  2596
+
+
+% term:medication::Glucophage::151827::C0591573 = 0.27 (2498 terms in cluster (0.39), out of 9348 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.551715337641746e-138, corr_p=1.0655146012925239e-137, rej=True
+Comparison: (0, 2) -- p=5.488659937081809e-214, corr_p=1.6465979811245427e-213, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           18164  4627
+1           17398  2223
+2            3849  2498
+
+
+% term:medication::Angiomax::285044::C0939677 = 0.53 (2447 terms in cluster (0.39), out of 4584 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.714229803019985e-86, corr_p=1.1142689409059957e-85, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           22085   706
+1           18190  1431
+2            3900  2447
+
+
+% term:medication::Aspirin 81 mg::315431::C0983882 = 0.15 (2305 terms in cluster (0.36), out of 15887 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.8570151093136e-49, corr_p=1.15710453279408e-48, rej=True
+Comparison: (0, 2) -- p=0.08135276373729017, corr_p=0.2440582912118705, rej=False
+Comparison: (1, 2) -- p=1.6521796859584234e-32, corr_p=4.95653905787527e-32, rej=True
+                0     1
+subcluster             
+0           14786  8005
+1           14044  5577
+2            4042  2305
+
+
+% term:medication::Clopidogrel::32968::C0070166 = 0.33 (2200 terms in cluster (0.35), out of 6668 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.3347878891129527e-125, corr_p=4.004363667338858e-125, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=3.5116249112794397e-277, corr_p=1.0534874733838318e-276, rej=True
+                0     1
+subcluster             
+0           21142  1649
+1           16802  2819
+2            4147  2200
+
+
+% term:medication::Acetaminophen::161::C0000970 = 0.11 (2080 terms in cluster (0.33), out of 19275 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.1762782649156101e-33, corr_p=3.52883479474683e-33, rej=True
+Comparison: (1, 2) -- p=1.6413658931571598e-276, corr_p=4.924097679471479e-276, rej=True
+                0      1
+subcluster              
+0           17057   5734
+1            8160  11461
+2            4267   2080
+
+
+% term:medication::Metformin::6809::C0025598 = 0.10 (2035 terms in cluster (0.32), out of 20333 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=5.917996078319041e-208, corr_p=1.7753988234957125e-207, rej=True
+Comparison: (1, 2) -- p=0.03456178484587983, corr_p=0.1036853545376395, rej=False
+                0      1
+subcluster              
+0           10505  12286
+1           13609   6012
+2            4312   2035
+
+
+% term:medication::Glucagon::4832::C0017687 = 0.14 (1871 terms in cluster (0.29), out of 13311 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.0088360884600578e-265, corr_p=3.026508265380173e-265, rej=True
+Comparison: (1, 2) -- p=1.3202317304105336e-103, corr_p=3.9606951912316006e-103, rej=True
+                0     1
+subcluster             
+0           20150  2641
+1           10822  8799
+2            4476  1871
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.02, alphacBonf=0.017
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1 -17.7796  0.0       0.0   True
+     0      2 -26.0059  0.0       0.0   True
+     1      2 -12.8373  0.0       0.0   True
+--------------------------------------------
+               score                                                
+               count   mean    std   min    25%    50%    75%    max
+subcluster                                                          
+0          22791.000 64.641 14.501 1.000 56.000 66.000 75.000 90.000
+1          19621.000 67.170 14.733 1.000 58.000 68.000 78.000 90.000
+2           6347.000 69.762 11.351 7.000 62.000 70.000 78.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.02, alphacBonf=0.017
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1 -28.3486  0.0       0.0   True
+     0      2   25.433  0.0       0.0   True
+     1      2   39.114  0.0       0.0   True
+--------------------------------------------
+               score                                                      
+               count    mean     std   min    25%     50%     75%      max
+subcluster                                                                
+0          22791.000 336.696 633.774 3.000 32.000  96.000 352.000 4849.000
+1          19621.000 536.743 817.529 9.000 64.000 221.000 599.000 4849.000
+2           6347.000 131.806 191.791 5.000 38.000  64.000 160.000 4749.000
+
+Multiple comparison chi-square test for SEX:
+Comparison: (0, 1) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (0, 2) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (1, 2) -- p=0.000, corr_p=0.000, rej=True
+   female   male
+0   12121  10652
+1    9247  10374
+2    2651   3692
+
+Processing time: 10481.02 seconds
+Task completed
+

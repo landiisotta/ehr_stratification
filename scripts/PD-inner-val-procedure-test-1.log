@@ -10,6 +10,15 @@ Number of clusters found:2, Max HC score:642.315
 
 Max number of clusters chosen: 2
 Cluster 0 numerosity: 1368
+% term:procedure::Ra mri brain without contrast = 0.36 (37 terms in cluster (0.03), out of 103 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0806229521784534, corr_p=0.0806229521784534, rej=False
+               0   1
+subcluster          
+0           1331  37
+1           1618  66
+
+
 % term:procedure::Electrocardiogram complete = 0.03 (23 terms in cluster (0.02), out of 719 terms in the disease dataset)
 
 Comparison: (0, 1) -- p=7.730448120295188e-145, corr_p=7.730448120295188e-145, rej=True
@@ -17,6 +26,51 @@ Comparison: (0, 1) -- p=7.730448120295188e-145, corr_p=7.730448120295188e-145, r
 subcluster           
 0           1345   23
 1            988  696
+
+
+% term:procedure::Mr brain = 0.33 (18 terms in cluster (0.01), out of 55 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.09228608470481824, corr_p=0.09228608470481824, rej=False
+               0   1
+subcluster          
+0           1350  18
+1           1647  37
+
+
+% term:procedure::Ra mri brain contrast = 0.31 (10 terms in cluster (0.01), out of 32 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.16962736086359212, corr_p=0.16962736086359212, rej=False
+               0   1
+subcluster          
+0           1358  10
+1           1662  22
+
+
+% term:procedure::Ra mri spine lumbar without contrast = 0.27 (9 terms in cluster (0.01), out of 33 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0625532468870154, corr_p=0.0625532468870154, rej=False
+               0   1
+subcluster          
+0           1359   9
+1           1660  24
+
+
+% term:procedure::Ra mri spine cervical without contrast = 0.31 (8 terms in cluster (0.01), out of 26 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.21162252041916546, corr_p=0.21162252041916546, rej=False
+               0   1
+subcluster          
+0           1360   8
+1           1666  18
+
+
+% term:procedure::Nm brain i123 spect = 0.45 (5 terms in cluster (0.00), out of 11 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.793708206902391, corr_p=0.793708206902391, rej=False
+               0  1
+subcluster         
+0           1363  5
+1           1678  6
 
 
 % term:procedure::C- head = 0.05 (5 terms in cluster (0.00), out of 111 terms in the disease dataset)
@@ -28,76 +82,31 @@ subcluster
 1           1578  106
 
 
-% term:procedure::Ra ct head without contrast = 0.10 (4 terms in cluster (0.00), out of 40 terms in the disease dataset)
+% term:procedure::Ra mri spine cervical contrast = 0.33 (4 terms in cluster (0.00), out of 12 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.724245147975514e-05, corr_p=1.724245147975514e-05, rej=True
+Comparison: (0, 1) -- p=0.6092780281778327, corr_p=0.6092780281778327, rej=False
+               0  1
+subcluster         
+0           1364  4
+1           1676  8
+
+
+% term:procedure::Mr-cervspine = 0.33 (4 terms in cluster (0.00), out of 12 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.6092780281778327, corr_p=0.6092780281778327, rej=False
+               0  1
+subcluster         
+0           1364  4
+1           1676  8
+
+
+% term:procedure::Mr-lumbarspine = 0.29 (4 terms in cluster (0.00), out of 14 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.3389594877894795, corr_p=0.3389594877894795, rej=False
                0   1
 subcluster          
 0           1364   4
-1           1648  36
-
-
-% term:procedure::Rm mri brain without contrast = 0.05 (4 terms in cluster (0.00), out of 86 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=6.945866371514246e-14, corr_p=6.945866371514246e-14, rej=True
-               0   1
-subcluster          
-0           1364   4
-1           1602  82
-
-
-% term:procedure::Pa ll cxr = 0.03 (4 terms in cluster (0.00), out of 123 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=7.195441330955636e-21, corr_p=7.195441330955636e-21, rej=True
-               0    1
-subcluster           
-0           1364    4
-1           1565  119
-
-
-% term:procedure::Mra head without contrast = 0.14 (3 terms in cluster (0.00), out of 21 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.009227899788249382, corr_p=0.009227899788249382, rej=True
-               0   1
-subcluster          
-0           1365   3
-1           1666  18
-
-
-% term:procedure::Rm screening mammography = 0.14 (3 terms in cluster (0.00), out of 22 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.006201922625928712, corr_p=0.006201922625928712, rej=True
-               0   1
-subcluster          
-0           1365   3
-1           1665  19
-
-
-% term:procedure::Rm hip ap and lateral left = 0.13 (3 terms in cluster (0.00), out of 23 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.004159042348774411, corr_p=0.004159042348774411, rej=True
-               0   1
-subcluster          
-0           1365   3
-1           1664  20
-
-
-% term:procedure::Ct no contrast head = 0.08 (3 terms in cluster (0.00), out of 36 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=2.0437082810137705e-05, corr_p=2.0437082810137705e-05, rej=True
-               0   1
-subcluster          
-0           1365   3
-1           1651  33
-
-
-% term:procedure::Ra chest pa and left lateral only = 0.04 (3 terms in cluster (0.00), out of 78 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=3.970416917500932e-13, corr_p=3.970416917500932e-13, rej=True
-               0   1
-subcluster          
-0           1365   3
-1           1609  75
+1           1674  10
 
 
 
@@ -193,6 +202,15 @@ subcluster
 1           1602  82
 
 
+% term:procedure::Ra chest pa and left lateral only = 0.96 (75 terms in cluster (0.04), out of 78 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.970416917500932e-13, corr_p=3.970416917500932e-13, rej=True
+               0   1
+subcluster          
+0           1365   3
+1           1609  75
+
+
 
 
 Multiple comparison t-test for AGE:
@@ -231,6 +249,6 @@ Comparison: (0, 1) -- p=0.976, corr_p=0.976, rej=False
 0     596   771
 1     734   950
 
-Processing time: 249.62 seconds
+Processing time: 263.58 seconds
 Task completed
 

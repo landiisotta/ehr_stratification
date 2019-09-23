@@ -1,0 +1,457 @@
+
+Cohort PC numerosity: 8645
+
+3 -- Silhouette: 0.098
+DB: 2.505
+CH: 1106.402
+Number of clusters found:3, Max Silhouette score:0.098
+Number of clusters found:3, Min DB score:2.505
+Number of clusters found:3, Max HC score:1106.402
+
+Max number of clusters chosen: 3
+Cluster 0 numerosity: 2703
+% term:lab::Psa, total = 0.33 (550 terms in cluster (0.20), out of 1656 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.084460884970819e-17, corr_p=1.5253382654912458e-16, rej=True
+Comparison: (0, 2) -- p=1.9232995203167014e-13, corr_p=5.769898560950104e-13, rej=True
+Comparison: (1, 2) -- p=1.2875315037071696e-57, corr_p=3.8625945111215087e-57, rej=True
+               0    1
+subcluster           
+0           2153  550
+1           3360  486
+2           1476  620
+
+
+% term:lab::Glucose::LP14635-4 = 0.11 (529 terms in cluster (0.20), out of 4766 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=5.7160059723784853e-92, corr_p=1.7148017917135457e-91, rej=True
+Comparison: (1, 2) -- p=1.1650858863983173e-202, corr_p=3.4952576591949517e-202, rej=True
+               0     1
+subcluster            
+0           2174   529
+1            597  3249
+2           1108   988
+
+
+% term:lab::Protein::LP15838-3 = 0.14 (482 terms in cluster (0.18), out of 3419 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.284919002254988e-171, corr_p=2.1854757006764965e-170, rej=True
+Comparison: (0, 2) -- p=2.852450891692549e-93, corr_p=8.557352675077647e-93, rej=True
+Comparison: (1, 2) -- p=1.1709472327725217e-06, corr_p=3.5128416983175653e-06, rej=True
+               0     1
+subcluster            
+0           2221   482
+1           1855  1991
+2           1150   946
+
+
+% term:lab::Bilirubin::LP15448-1 = 0.14 (470 terms in cluster (0.17), out of 3369 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.3661668779764588e-176, corr_p=7.098500633929376e-176, rej=True
+Comparison: (0, 2) -- p=3.011446470983108e-85, corr_p=9.034339412949324e-85, rej=True
+Comparison: (1, 2) -- p=2.0112713204095183e-10, corr_p=6.033813961228554e-10, rej=True
+               0     1
+subcluster            
+0           2233   470
+1           1852  1994
+2           1191   905
+
+
+% term:lab::Testosterone::LP14045-6 = 0.39 (423 terms in cluster (0.16), out of 1071 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.069458960364678e-09, corr_p=9.208376881094034e-09, rej=True
+Comparison: (0, 2) -- p=2.2428148720844348e-05, corr_p=6.728444616253304e-05, rej=True
+Comparison: (1, 2) -- p=0.4370735804542428, corr_p=1.0, rej=False
+               0    1
+subcluster           
+0           2280  423
+1           3436  410
+2           1858  238
+
+
+% term:lab::Psa post-prostatectomy = 0.37 (412 terms in cluster (0.15), out of 1124 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.09372560448241414, corr_p=0.28117681344724244, rej=False
+Comparison: (0, 2) -- p=6.862135497754407e-44, corr_p=2.058640649326322e-43, rej=True
+Comparison: (1, 2) -- p=2.5145394874616286e-54, corr_p=7.543618462384886e-54, rej=True
+               0    1
+subcluster           
+0           2291  412
+1           3199  647
+2           2031   65
+
+
+% term:lab::Nitrite::LP14270-0 = 0.18 (393 terms in cluster (0.15), out of 2140 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.166342372373296e-75, corr_p=2.149902711711989e-74, rej=True
+Comparison: (0, 2) -- p=8.258458773936483e-06, corr_p=2.4775376321809448e-05, rej=True
+Comparison: (1, 2) -- p=1.5984927177159501e-35, corr_p=4.7954781531478504e-35, rej=True
+               0     1
+subcluster            
+0           2310   393
+1           2506  1340
+2           1689   407
+
+
+% term:lab::Ketones::LP15683-3 = 0.19 (392 terms in cluster (0.15), out of 2113 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.409877132672144e-71, corr_p=1.0229631398016432e-70, rej=True
+Comparison: (0, 2) -- p=8.469752063053629e-06, corr_p=2.540925618916089e-05, rej=True
+Comparison: (1, 2) -- p=3.3372722462364836e-33, corr_p=1.0011816738709451e-32, rej=True
+               0     1
+subcluster            
+0           2311   392
+1           2531  1315
+2           1690   406
+
+
+% term:lab::Leukocytes::LP14419-3 = 0.08 (384 terms in cluster (0.14), out of 4524 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=9.11428962626465e-111, corr_p=2.734286887879395e-110, rej=True
+Comparison: (1, 2) -- p=3.049017483410606e-237, corr_p=9.147052450231818e-237, rej=True
+               0     1
+subcluster            
+0           2319   384
+1            609  3237
+2           1193   903
+
+
+% term:lab::Urobilinogen::LP15942-3 = 0.18 (383 terms in cluster (0.14), out of 2105 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.784483414078616e-76, corr_p=2.0353450242235847e-75, rej=True
+Comparison: (0, 2) -- p=1.8901618746080445e-05, corr_p=5.670485623824134e-05, rej=True
+Comparison: (1, 2) -- p=3.4381406797720515e-37, corr_p=1.0314422039316154e-36, rej=True
+               0     1
+subcluster            
+0           2320   383
+1           2518  1328
+2           1702   394
+
+
+% term:lab::Psa free = 0.47 (289 terms in cluster (0.11), out of 612 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.1789333037369326e-18, corr_p=9.536799911210798e-18, rej=True
+Comparison: (0, 2) -- p=1.254112760030807e-07, corr_p=3.7623382800924207e-07, rej=True
+Comparison: (1, 2) -- p=0.03544424014110769, corr_p=0.10633272042332306, rej=False
+               0    1
+subcluster           
+0           2414  289
+1           3655  191
+2           1964  132
+
+
+
+
+Cluster 1 numerosity: 3846
+% term:lab::Glucose::LP14635-4 = 0.68 (3249 terms in cluster (0.84), out of 4766 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=5.7160059723784853e-92, corr_p=1.7148017917135457e-91, rej=True
+Comparison: (1, 2) -- p=1.1650858863983173e-202, corr_p=3.4952576591949517e-202, rej=True
+               0     1
+subcluster            
+0           2174   529
+1            597  3249
+2           1108   988
+
+
+% term:lab::Erythrocytes::LP14304-7 = 0.74 (3242 terms in cluster (0.84), out of 4392 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.6894063796372956e-150, corr_p=5.068219138911886e-150, rej=True
+Comparison: (1, 2) -- p=3.138476134311811e-247, corr_p=9.415428402935434e-247, rej=True
+               0     1
+subcluster            
+0           2439   264
+1            604  3242
+2           1210   886
+
+
+% term:lab::Leukocytes::LP14419-3 = 0.72 (3237 terms in cluster (0.84), out of 4524 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=9.11428962626465e-111, corr_p=2.734286887879395e-110, rej=True
+Comparison: (1, 2) -- p=3.049017483410606e-237, corr_p=9.147052450231818e-237, rej=True
+               0     1
+subcluster            
+0           2319   384
+1            609  3237
+2           1193   903
+
+
+% term:lab::Urea nitrogen::LP14492-0 = 0.72 (3232 terms in cluster (0.84), out of 4472 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.5651616874715937e-168, corr_p=7.695485062414781e-168, rej=True
+Comparison: (1, 2) -- p=4.465113266373449e-210, corr_p=1.3395339799120347e-209, rej=True
+               0     1
+subcluster            
+0           2421   282
+1            614  3232
+2           1138   958
+
+
+% term:lab::Mean corp. hgb conc = 0.76 (3226 terms in cluster (0.84), out of 4261 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=9.519024441435506e-170, corr_p=2.855707332430652e-169, rej=True
+Comparison: (1, 2) -- p=4.326845653249567e-261, corr_p=1.2980536959748701e-260, rej=True
+               0     1
+subcluster            
+0           2513   190
+1            620  3226
+2           1251   845
+
+
+% term:lab::Hematocrit::LP15101-6 = 0.75 (3225 terms in cluster (0.84), out of 4303 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=4.4723090789387824e-176, corr_p=1.3416927236816347e-175, rej=True
+Comparison: (1, 2) -- p=3.756005421127294e-245, corr_p=1.126801626338188e-244, rej=True
+               0     1
+subcluster            
+0           2502   201
+1            621  3225
+2           1219   877
+
+
+% term:lab::Platelets::LP14597-6 = 0.76 (3222 terms in cluster (0.84), out of 4262 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=7.362255069433294e-170, corr_p=2.208676520829988e-169, rej=True
+Comparison: (1, 2) -- p=4.3864163052800105e-258, corr_p=1.3159248915840032e-257, rej=True
+               0     1
+subcluster            
+0           2511   192
+1            624  3222
+2           1248   848
+
+
+% term:lab::Width::LP18016-3 = 0.76 (3219 terms in cluster (0.84), out of 4262 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=8.271825539805677e-172, corr_p=2.481547661941703e-171, rej=True
+Comparison: (1, 2) -- p=5.481493607076574e-255, corr_p=1.6444480821229721e-254, rej=True
+               0     1
+subcluster            
+0           2512   191
+1            627  3219
+2           1244   852
+
+
+% term:lab::Mean corp. hgb = 0.76 (3215 terms in cluster (0.84), out of 4258 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=5.422022245410919e-177, corr_p=1.626606673623276e-176, rej=True
+Comparison: (1, 2) -- p=1.4549862555757787e-250, corr_p=4.364958766727336e-250, rej=True
+               0     1
+subcluster            
+0           2518   185
+1            631  3215
+2           1238   858
+
+
+% term:lab::Potassium::LP15098-4 = 0.73 (3215 terms in cluster (0.84), out of 4411 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=8.050554744831148e-167, corr_p=2.4151664234493445e-166, rej=True
+Comparison: (1, 2) -- p=7.672356442896124e-216, corr_p=2.3017069328688373e-215, rej=True
+               0     1
+subcluster            
+0           2439   264
+1            631  3215
+2           1164   932
+
+
+% term:lab::Mean plt volume = 0.75 (3209 terms in cluster (0.83), out of 4267 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.552260916996992e-177, corr_p=7.656782750990976e-177, rej=True
+Comparison: (1, 2) -- p=5.368844712547737e-244, corr_p=1.610653413764321e-243, rej=True
+               0     1
+subcluster            
+0           2512   191
+1            637  3209
+2           1229   867
+
+
+
+
+Cluster 2 numerosity: 2096
+% term:lab::Glucose::LP14635-4 = 0.21 (988 terms in cluster (0.47), out of 4766 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=5.7160059723784853e-92, corr_p=1.7148017917135457e-91, rej=True
+Comparison: (1, 2) -- p=1.1650858863983173e-202, corr_p=3.4952576591949517e-202, rej=True
+               0     1
+subcluster            
+0           2174   529
+1            597  3249
+2           1108   988
+
+
+% term:lab::Urea nitrogen::LP14492-0 = 0.21 (958 terms in cluster (0.46), out of 4472 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.5651616874715937e-168, corr_p=7.695485062414781e-168, rej=True
+Comparison: (1, 2) -- p=4.465113266373449e-210, corr_p=1.3395339799120347e-209, rej=True
+               0     1
+subcluster            
+0           2421   282
+1            614  3232
+2           1138   958
+
+
+% term:lab::Creatinine::LP14355-9 = 0.22 (957 terms in cluster (0.46), out of 4438 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.0468281284815508e-169, corr_p=3.140484385444652e-169, rej=True
+Comparison: (1, 2) -- p=1.6011800390190913e-200, corr_p=4.803540117057274e-200, rej=True
+               0     1
+subcluster            
+0           2425   278
+1            643  3203
+2           1139   957
+
+
+% term:lab::Protein::LP15838-3 = 0.28 (946 terms in cluster (0.45), out of 3419 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.284919002254988e-171, corr_p=2.1854757006764965e-170, rej=True
+Comparison: (0, 2) -- p=2.852450891692549e-93, corr_p=8.557352675077647e-93, rej=True
+Comparison: (1, 2) -- p=1.1709472327725217e-06, corr_p=3.5128416983175653e-06, rej=True
+               0     1
+subcluster            
+0           2221   482
+1           1855  1991
+2           1150   946
+
+
+% term:lab::Chloride::LP15483-8 = 0.21 (932 terms in cluster (0.44), out of 4370 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.2977400324862523e-164, corr_p=3.893220097458757e-164, rej=True
+Comparison: (1, 2) -- p=3.861396697871e-200, corr_p=1.1584190093613e-199, rej=True
+               0     1
+subcluster            
+0           2434   269
+1            677  3169
+2           1164   932
+
+
+% term:lab::Potassium::LP15098-4 = 0.21 (932 terms in cluster (0.44), out of 4411 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=8.050554744831148e-167, corr_p=2.4151664234493445e-166, rej=True
+Comparison: (1, 2) -- p=7.672356442896124e-216, corr_p=2.3017069328688373e-215, rej=True
+               0     1
+subcluster            
+0           2439   264
+1            631  3215
+2           1164   932
+
+
+% term:lab::Sodium::LP15099-2 = 0.21 (930 terms in cluster (0.44), out of 4404 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.0293963554454524e-161, corr_p=3.088189066336357e-161, rej=True
+Comparison: (1, 2) -- p=1.6257597179561372e-211, corr_p=4.877279153868411e-211, rej=True
+               0     1
+subcluster            
+0           2429   274
+1            646  3200
+2           1166   930
+
+
+% term:lab::Rate::LP74264-0 = 0.23 (918 terms in cluster (0.44), out of 3933 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.1361327416850609e-166, corr_p=3.4083982250551826e-166, rej=True
+Comparison: (1, 2) -- p=5.605785604747523e-100, corr_p=1.681735681424257e-99, rej=True
+               0     1
+subcluster            
+0           2450   253
+1           1084  2762
+2           1178   918
+
+
+% term:lab::Calcium::LP15257-6 = 0.26 (908 terms in cluster (0.43), out of 3529 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=5.994620111584632e-169, corr_p=1.7983860334753896e-168, rej=True
+Comparison: (1, 2) -- p=5.483953842124097e-43, corr_p=1.6451861526372292e-42, rej=True
+               0     1
+subcluster            
+0           2463   240
+1           1465  2381
+2           1188   908
+
+
+% term:lab::Co2 total = 0.22 (908 terms in cluster (0.43), out of 4223 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=8.597159124077189e-158, corr_p=2.5791477372231568e-157, rej=True
+Comparison: (1, 2) -- p=2.0329753923308455e-173, corr_p=6.098926176992536e-173, rej=True
+               0     1
+subcluster            
+0           2438   265
+1            796  3050
+2           1188   908
+
+
+% term:lab::Bilirubin::LP15448-1 = 0.27 (905 terms in cluster (0.43), out of 3369 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.3661668779764588e-176, corr_p=7.098500633929376e-176, rej=True
+Comparison: (0, 2) -- p=3.011446470983108e-85, corr_p=9.034339412949324e-85, rej=True
+Comparison: (1, 2) -- p=2.0112713204095183e-10, corr_p=6.033813961228554e-10, rej=True
+               0     1
+subcluster            
+0           2233   470
+1           1852  1994
+2           1191   905
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.02, alphacBonf=0.017
+============================================
+group1 group2  stat   pval  pval_corr reject
+--------------------------------------------
+     0      1 -7.239    0.0       0.0   True
+     0      2  2.278 0.0228    0.0683  False
+     1      2 8.8462    0.0       0.0   True
+--------------------------------------------
+              score                                                
+              count   mean    std   min    25%    50%    75%    max
+subcluster                                                         
+0          2703.000 68.712 12.461 1.000 62.000 69.000 77.000 90.000
+1          3846.000 70.919 11.921 1.000 63.000 71.000 80.000 90.000
+2          2096.000 67.825 14.485 2.000 59.000 69.000 79.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.02, alphacBonf=0.017
+==============================================
+group1 group2   stat    pval  pval_corr reject
+----------------------------------------------
+     0      1 -24.5078    0.0       0.0   True
+     0      2 -28.0073    0.0       0.0   True
+     1      2   1.8567 0.0634    0.1902  False
+----------------------------------------------
+              score                                                      
+              count    mean     std    min    25%    50%     75%      max
+subcluster                                                               
+0          2703.000  48.738  71.111  3.000 14.000 28.000  56.000 1051.000
+1          3846.000 255.025 433.524 11.000 64.000 96.000 252.750 4849.000
+2          2096.000 234.772 335.773 12.000 56.000 96.000 285.000 3392.000
+
+Multiple comparison chi-square test for SEX:
+
+Processing time: 640.31 seconds
+Task completed
+

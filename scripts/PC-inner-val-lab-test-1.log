@@ -1,560 +1,214 @@
 
-Cohort PC numerosity: 13860
+Cohort PC numerosity: 8522
 
-4 -- Silhouette: 0.065
-DB: 2.573
-CH: 1372.337
-Number of clusters found:4, Max Silhouette score:0.065
-Number of clusters found:4, Min DB score:2.573
-Number of clusters found:4, Max HC score:1372.337
+2 -- Silhouette: 0.246
+DB: 2.065
+CH: 1337.772
+Number of clusters found:2, Max Silhouette score:0.246
+Number of clusters found:2, Min DB score:2.065
+Number of clusters found:2, Max HC score:1337.772
 
-Max number of clusters chosen: 4
-Cluster 0 numerosity: 3293
-% term:lab::Po2 - ven = 0.94 (326 terms in cluster (0.10), out of 345 terms in the disease dataset)
+Max number of clusters chosen: 2
+Cluster 0 numerosity: 6916
+% term:lab::Glucose::LP14635-4 = 0.96 (4551 terms in cluster (0.66), out of 4722 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=8.641839286277671e-48, corr_p=5.185103571766603e-47, rej=True
-Comparison: (0, 2) -- p=1.2298977675766366e-83, corr_p=7.37938660545982e-83, rej=True
-Comparison: (0, 3) -- p=5.185191489974744e-98, corr_p=3.1111148939848463e-97, rej=True
-Comparison: (1, 2) -- p=0.34716433812004344, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.02559450909816308, corr_p=0.15356705458897849, rej=False
-Comparison: (2, 3) -- p=0.07433290206105184, corr_p=0.445997412366311, rej=False
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2365  4551
+1           1435   171
+
+
+% term:lab::Leukocytes::LP14419-3 = 0.98 (4370 terms in cluster (0.63), out of 4458 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2546  4370
+1           1518    88
+
+
+% term:lab::Creatinine::LP14355-9 = 0.99 (4369 terms in cluster (0.63), out of 4423 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2547  4369
+1           1552    54
+
+
+% term:lab::Urea nitrogen::LP14492-0 = 0.99 (4350 terms in cluster (0.63), out of 4404 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2566  4350
+1           1552    54
+
+
+% term:lab::Potassium::LP15098-4 = 0.99 (4314 terms in cluster (0.62), out of 4370 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2602  4314
+1           1550    56
+
+
+% term:lab::Sodium::LP15099-2 = 0.99 (4282 terms in cluster (0.62), out of 4336 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2634  4282
+1           1552    54
+
+
+% term:lab::Erythrocytes::LP14304-7 = 0.99 (4280 terms in cluster (0.62), out of 4336 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2636  4280
+1           1550    56
+
+
+% term:lab::Chloride::LP15483-8 = 0.99 (4278 terms in cluster (0.62), out of 4330 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2638  4278
+1           1554    52
+
+
+% term:lab::Mean corp. hgb conc = 0.99 (4225 terms in cluster (0.61), out of 4257 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2691  4225
+1           1574    32
+
+
+% term:lab::Mean corp. volume = 0.99 (4217 terms in cluster (0.61), out of 4247 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2699  4217
+1           1576    30
+
+
+% term:lab::Hematocrit::LP15101-6 = 0.99 (4213 terms in cluster (0.61), out of 4245 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2703  4213
+1           1574    32
+
+
+
+
+Cluster 1 numerosity: 1606
+% term:lab::Psa, total = 0.18 (301 terms in cluster (0.19), out of 1633 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.6603179726495737, corr_p=0.6603179726495737, rej=False
+               0     1
+subcluster            
+0           5584  1332
+1           1305   301
+
+
+% term:lab::Psa post-prostatectomy = 0.25 (276 terms in cluster (0.17), out of 1115 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.88060992231121e-08, corr_p=7.88060992231121e-08, rej=True
                0    1
 subcluster           
-0           2967  326
-1           2016    0
-2           3757    4
-3           4775   15
+0           6077  839
+1           1330  276
 
 
-% term:lab::Pco2 - ven = 0.95 (325 terms in cluster (0.10), out of 343 terms in the disease dataset)
+% term:lab::Testosterone::LP14045-6 = 0.26 (259 terms in cluster (0.16), out of 1007 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.224929218449767e-47, corr_p=7.349575310698602e-47, rej=True
-Comparison: (0, 2) -- p=4.781118353792923e-84, corr_p=2.868671012275754e-83, rej=True
-Comparison: (0, 3) -- p=1.1368430965069122e-97, corr_p=6.821058579041473e-97, rej=True
-Comparison: (1, 2) -- p=0.5075651066542577, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.02559450909816308, corr_p=0.15356705458897849, rej=False
-Comparison: (2, 3) -- p=0.03576124390970923, corr_p=0.2145674634582554, rej=False
+Comparison: (0, 1) -- p=3.6920692759226317e-09, corr_p=3.6920692759226317e-09, rej=True
                0    1
 subcluster           
-0           2968  325
-1           2016    0
-2           3758    3
-3           4775   15
+0           6168  748
+1           1347  259
 
 
-% term:lab::O2 saturation - ven = 0.95 (320 terms in cluster (0.10), out of 337 terms in the disease dataset)
+% term:lab::Glucose::LP14635-4 = 0.04 (171 terms in cluster (0.11), out of 4722 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=6.994535917475061e-47, corr_p=4.196721550485037e-46, rej=True
-Comparison: (0, 2) -- p=1.1041417562860436e-82, corr_p=6.624850537716262e-82, rej=True
-Comparison: (0, 3) -- p=1.1727874938138302e-96, corr_p=7.036724962882981e-96, rej=True
-Comparison: (1, 2) -- p=0.5075651066542577, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.03260405623837999, corr_p=0.19562433743027993, rej=False
-Comparison: (2, 3) -- p=0.0517447334636529, corr_p=0.3104684007819174, rej=False
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+               0     1
+subcluster            
+0           2365  4551
+1           1435   171
+
+
+% term:lab::Psa free = 0.27 (159 terms in cluster (0.10), out of 599 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.700034836055661e-07, corr_p=7.700034836055661e-07, rej=True
                0    1
 subcluster           
-0           2973  320
-1           2016    0
-2           3758    3
-3           4776   14
+0           6476  440
+1           1447  159
 
 
-% term:lab::Wb ionized ca - art = 0.96 (314 terms in cluster (0.10), out of 328 terms in the disease dataset)
+% term:lab::Free psa = 0.27 (158 terms in cluster (0.10), out of 594 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=5.6339813078075125e-46, corr_p=3.380388784684508e-45, rej=True
-Comparison: (0, 2) -- p=1.9800616426919075e-82, corr_p=1.1880369856151446e-81, rej=True
-Comparison: (0, 3) -- p=2.6214737815662167e-95, corr_p=1.57288426893973e-94, rej=True
-Comparison: (1, 2) -- p=0.7513284199986509, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.04161737588928909, corr_p=0.24970425533573454, rej=False
-Comparison: (2, 3) -- p=0.012076733365821544, corr_p=0.07246040019492926, rej=False
+Comparison: (0, 1) -- p=7.205751156347187e-07, corr_p=7.205751156347187e-07, rej=True
                0    1
 subcluster           
-0           2979  314
-1           2016    0
-2           3760    1
-3           4777   13
+0           6480  436
+1           1448  158
 
 
-% term:lab::Hco3 - ven = 0.95 (312 terms in cluster (0.09), out of 328 terms in the disease dataset)
+% term:lab::Bilirubin::LP15448-1 = 0.05 (153 terms in cluster (0.10), out of 3314 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=1.1281588528892898e-45, corr_p=6.768953117335739e-45, rej=True
-Comparison: (0, 2) -- p=1.661505418893831e-80, corr_p=9.969032513362985e-80, rej=True
-Comparison: (0, 3) -- p=1.2563768342249665e-94, corr_p=7.538261005349799e-94, rej=True
-Comparison: (1, 2) -- p=0.5075651066542577, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.04161737588928909, corr_p=0.24970425533573454, rej=False
-Comparison: (2, 3) -- p=0.0745425911456785, corr_p=0.447255546874071, rej=False
-               0    1
-subcluster           
-0           2981  312
-1           2016    0
-2           3758    3
-3           4777   13
+Comparison: (0, 1) -- p=8.456160816748336e-158, corr_p=8.456160816748336e-158, rej=True
+               0     1
+subcluster            
+0           3755  3161
+1           1453   153
 
 
-% term:lab::Total co2 - ven = 0.95 (310 terms in cluster (0.09), out of 327 terms in the disease dataset)
+% term:lab::Protein::LP15838-3 = 0.05 (152 terms in cluster (0.09), out of 3352 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=2.2578432403723855e-45, corr_p=1.3547059442234314e-44, rej=True
-Comparison: (0, 2) -- p=1.1948148674574558e-80, corr_p=7.168889204744734e-80, rej=True
-Comparison: (0, 3) -- p=1.4390944837963753e-92, corr_p=8.634566902778252e-92, rej=True
-Comparison: (1, 2) -- p=0.7689894884708507, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.02559450909816308, corr_p=0.15356705458897849, rej=False
-Comparison: (2, 3) -- p=0.014918157995201731, corr_p=0.0895089479712104, rej=False
-               0    1
-subcluster           
-0           2983  310
-1           2016    0
-2           3759    2
-3           4775   15
+Comparison: (0, 1) -- p=1.377292970536282e-162, corr_p=1.377292970536282e-162, rej=True
+               0     1
+subcluster            
+0           3716  3200
+1           1454   152
 
 
-% term:lab::Ck-mb mass = 0.87 (239 terms in cluster (0.07), out of 274 terms in the disease dataset)
+% term:lab::Urobilinogen::LP15942-3 = 0.06 (136 terms in cluster (0.08), out of 2115 terms in the disease dataset)
 
-               0    1
-subcluster           
-0           3054  239
-1           2016    0
-2           3761    0
-3           4755   35
+Comparison: (0, 1) -- p=2.2095012387122444e-63, corr_p=2.2095012387122444e-63, rej=True
+               0     1
+subcluster            
+0           4937  1979
+1           1470   136
 
 
-% term:lab::Ck-mb = 0.95 (177 terms in cluster (0.05), out of 186 terms in the disease dataset)
+% term:lab::Nitrite::LP14270-0 = 0.06 (133 terms in cluster (0.08), out of 2102 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=2.966447352961263e-25, corr_p=1.7798684117767576e-24, rej=True
-Comparison: (0, 2) -- p=1.5573583908772609e-46, corr_p=9.344150345263565e-46, rej=True
-Comparison: (0, 3) -- p=6.695269825458019e-53, corr_p=4.0171618952748114e-52, rej=True
-Comparison: (1, 2) -- p=0.7513284199986509, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=0.3943660902583993, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=0.031465062732969895, corr_p=0.18879037639781937, rej=False
-               0    1
-subcluster           
-0           3116  177
-1           2015    1
-2           3761    0
-3           4782    8
+Comparison: (0, 1) -- p=6.75063373156798e-64, corr_p=6.75063373156798e-64, rej=True
+               0     1
+subcluster            
+0           4947  1969
+1           1473   133
 
 
-% term:lab::Vancomycin::LP16306-0 = 0.96 (150 terms in cluster (0.05), out of 156 terms in the disease dataset)
+% term:lab::Ketones::LP15683-3 = 0.06 (133 terms in cluster (0.08), out of 2114 terms in the disease dataset)
 
-               0    1
-subcluster           
-0           3143  150
-1           2016    0
-2           3761    0
-3           4784    6
-
-
-% term:lab::Culture respiratory = 0.91 (131 terms in cluster (0.04), out of 144 terms in the disease dataset)
-
-               0    1
-subcluster           
-0           3162  131
-1           2016    0
-2           3761    0
-3           4777   13
-
-
-
-
-Cluster 1 numerosity: 2016
-% term:lab::3767-spec. grav.-dipstick (mpoct) = 0.21 (64 terms in cluster (0.03), out of 310 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.007681539721838122, corr_p=0.04608923833102873, rej=True
-Comparison: (0, 2) -- p=0.6121505247367927, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.2534170462379093, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.0009750294720706733, corr_p=0.00585017683242404, rej=True
-Comparison: (1, 3) -- p=0.07307141365610978, corr_p=0.4384284819366587, rej=False
-Comparison: (2, 3) -- p=0.06682243178070722, corr_p=0.4009345906842433, rej=False
-               0    1
-subcluster           
-0           3228   65
-1           1952   64
-2           3694   67
-3           4676  114
-
-
-% term:lab::3765-blood - dipstick (mpoct) = 0.20 (63 terms in cluster (0.03), out of 317 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.02460539506418308, corr_p=0.1476323703850985, rej=False
-Comparison: (0, 2) -- p=0.3844176340189719, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.31422058145269605, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.0014284719317493844, corr_p=0.008570831590496306, rej=True
-Comparison: (1, 3) -- p=0.14258267443861308, corr_p=0.8554960466316786, rej=False
-Comparison: (2, 3) -- p=0.03781702657095677, corr_p=0.22690215942574063, rej=False
-               0    1
-subcluster           
-0           3224   69
-1           1953   63
-2           3694   67
-3           4672  118
-
-
-% term:lab::Autoimmune hepatitis ev = 1.00 (2 terms in cluster (0.00), out of 2 terms in the disease dataset)
-
-               0  1
-subcluster         
-0           3293  0
-1           2014  2
-2           3761  0
-3           4790  0
-
-
-% term:lab::Thrombin secretion = 1.00 (1 terms in cluster (0.00), out of 1 terms in the disease dataset)
-
-               0  1
-subcluster         
-0           3293  0
-1           2015  1
-2           3761  0
-3           4790  0
-
-
-% term:lab::30978-liver-kid ms-1 ab, igg by elisa = 1.00 (1 terms in cluster (0.00), out of 1 terms in the disease dataset)
-
-               0  1
-subcluster         
-0           3293  0
-1           2015  1
-2           3761  0
-3           4790  0
-
-
-% term:lab::Platelet aggregation::LP29282-8 = 1.00 (1 terms in cluster (0.00), out of 1 terms in the disease dataset)
-
-               0  1
-subcluster         
-0           3293  0
-1           2015  1
-2           3761  0
-3           4790  0
-
-
-% term:lab::Collagen Ab::LP37753-8 = 1.00 (1 terms in cluster (0.00), out of 1 terms in the disease dataset)
-
-               0  1
-subcluster         
-0           3293  0
-1           2015  1
-2           3761  0
-3           4790  0
-
-
-% term:lab::Arachidon. acid = 1.00 (1 terms in cluster (0.00), out of 1 terms in the disease dataset)
-
-               0  1
-subcluster         
-0           3293  0
-1           2015  1
-2           3761  0
-3           4790  0
-
-
-% term:lab::Arachid = 1.00 (1 terms in cluster (0.00), out of 1 terms in the disease dataset)
-
-               0  1
-subcluster         
-0           3293  0
-1           2015  1
-2           3761  0
-3           4790  0
-
-
-% term:lab::Leptin::LP19488-3 = 0.50 (1 terms in cluster (0.00), out of 2 terms in the disease dataset)
-
-               0  1
-subcluster         
-0           3293  0
-1           2015  1
-2           3761  0
-3           4789  1
-
-
-
-
-Cluster 2 numerosity: 3761
-% term:lab::Blood - dipstick = 0.20 (156 terms in cluster (0.04), out of 761 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.262124239121349, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=1.4105745860706663e-06, corr_p=8.463447516423997e-06, rej=True
-Comparison: (0, 3) -- p=0.017570504887985727, corr_p=0.10542302932791436, rej=False
-Comparison: (1, 2) -- p=0.0026965318595561375, corr_p=0.016179191157336827, rej=True
-Comparison: (1, 3) -- p=0.46404363464205045, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=0.005720287885668446, corr_p=0.034321727314010675, rej=True
-               0    1
-subcluster           
-0           3070  223
-1           1896  120
-2           3605  156
-3           4528  262
-
-
-% term:lab::Spec. grav.-dipstick = 0.20 (152 terms in cluster (0.04), out of 760 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.4300593816378392, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=5.855630847689542e-07, corr_p=3.513378508613725e-06, rej=True
-Comparison: (0, 3) -- p=0.020324542852893254, corr_p=0.12194725711735951, rej=False
-Comparison: (1, 2) -- p=0.0004347722761642979, corr_p=0.0026086336569857873, rej=True
-Comparison: (1, 3) -- p=0.29291405170554335, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=0.0026692343640586946, corr_p=0.01601540618435217, rej=True
-               0    1
-subcluster           
-0           3071  222
-1           1892  124
-2           3609  152
-3           4528  262
-
-
-% term:lab::Parvovirus B19 IgM::LP39313-9 = 0.88 (136 terms in cluster (0.04), out of 155 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.7053494387759149, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=1.398707402362318e-26, corr_p=8.392244414173908e-26, rej=True
-Comparison: (0, 3) -- p=0.01429561794790366, corr_p=0.08577370768742196, rej=False
-Comparison: (1, 2) -- p=1.2371111708388866e-17, corr_p=7.42266702503332e-17, rej=True
-Comparison: (1, 3) -- p=0.01585299741902589, corr_p=0.09511798451415535, rej=False
-Comparison: (2, 3) -- p=3.65495626426985e-29, corr_p=2.1929737585619096e-28, rej=True
-               0    1
-subcluster           
-0           3291    2
-1           2016    0
-2           3625  136
-3           4773   17
-
-
-% term:lab::Parvovirus B19 IgG::LP39312-1 = 0.87 (136 terms in cluster (0.04), out of 156 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.7053494387759149, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=1.398707402362318e-26, corr_p=8.392244414173908e-26, rej=True
-Comparison: (0, 3) -- p=0.010067610863051763, corr_p=0.06040566517831058, rej=False
-Comparison: (1, 2) -- p=1.2371111708388866e-17, corr_p=7.42266702503332e-17, rej=True
-Comparison: (1, 3) -- p=0.012503568653216144, corr_p=0.07502141191929687, rej=False
-Comparison: (2, 3) -- p=1.2288886646519017e-28, corr_p=7.37333198791141e-28, rej=True
-               0    1
-subcluster           
-0           3291    2
-1           2016    0
-2           3625  136
-3           4772   18
-
-
-% term:lab::Group b strep screen = 0.96 (93 terms in cluster (0.02), out of 97 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.804262939246974, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=1.1347568221716786e-18, corr_p=6.8085409330300714e-18, rej=True
-Comparison: (0, 3) -- p=0.8950578383403831, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=2.411315563021879e-12, corr_p=1.4467893378131272e-11, rej=True
-Comparison: (1, 3) -- p=0.6230534512542587, corr_p=1.0, rej=False
-Comparison: (2, 3) -- p=2.5795081130308893e-25, corr_p=1.5477048678185336e-24, rej=True
-               0   1
-subcluster          
-0           3292   1
-1           2016   0
-2           3668  93
-3           4787   3
-
-
-% term:lab::Cmv ab, igm = 0.85 (93 terms in cluster (0.02), out of 109 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.09259871292376867, corr_p=0.5555922775426121, rej=False
-Comparison: (0, 2) -- p=2.5714230950404722e-15, corr_p=1.5428538570242833e-14, rej=True
-Comparison: (0, 3) -- p=0.992534363756635, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=2.411315563021879e-12, corr_p=1.4467893378131272e-11, rej=True
-Comparison: (1, 3) -- p=0.1135884331075205, corr_p=0.681530598645123, rej=False
-Comparison: (2, 3) -- p=1.1797431519129605e-21, corr_p=7.078458911477763e-21, rej=True
-               0   1
-subcluster          
-0           3286   7
-1           2016   0
-2           3668  93
-3           4781   9
-
-
-% term:lab::Genital culture = 0.88 (92 terms in cluster (0.02), out of 104 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.4468829235060804, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=2.7291694216546066e-17, corr_p=1.637501652992764e-16, rej=True
-Comparison: (0, 3) -- p=0.4141950096862479, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=3.197056028134842e-12, corr_p=1.918233616880905e-11, rej=True
-Comparison: (1, 3) -- p=0.1135884331075205, corr_p=0.681530598645123, rej=False
-Comparison: (2, 3) -- p=2.2343267792477253e-21, corr_p=1.3405960675486352e-20, rej=True
-               0   1
-subcluster          
-0           3290   3
-1           2016   0
-2           3669  92
-3           4781   9
-
-
-% term:lab::Interpretation = 0.78 (84 terms in cluster (0.02), out of 108 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.06428283363709054, corr_p=0.3856970018225433, rej=False
-Comparison: (0, 2) -- p=4.2863403396854955e-13, corr_p=2.5718042038112973e-12, rej=True
-Comparison: (0, 3) -- p=0.5950500008524775, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=3.0488512495280276e-11, corr_p=1.8293107497168167e-10, rej=True
-Comparison: (1, 3) -- p=0.020127523150477257, corr_p=0.12076513890286354, rej=False
-Comparison: (2, 3) -- p=1.164137295454064e-15, corr_p=6.984823772724383e-15, rej=True
-               0   1
-subcluster          
-0           3285   8
-1           2016   0
-2           3677  84
-3           4774  16
-
-
-% term:lab::Varicella zoster virus IgM::LP40113-0 = 0.84 (75 terms in cluster (0.02), out of 89 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.1972420292829372, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=7.096403698654974e-13, corr_p=4.2578422191929845e-12, rej=True
-Comparison: (0, 3) -- p=0.9117533115278598, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=3.8460369296855775e-10, corr_p=2.3076221578113463e-09, rej=True
-Comparison: (1, 3) -- p=0.1135884331075205, corr_p=0.681530598645123, rej=False
-Comparison: (2, 3) -- p=1.0783733126477393e-16, corr_p=6.470239875886436e-16, rej=True
-               0   1
-subcluster          
-0           3288   5
-1           2016   0
-2           3686  75
-3           4781   9
-
-
-% term:lab::3765-blood - dipstick (mpoct) = 0.21 (67 terms in cluster (0.02), out of 317 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.02460539506418308, corr_p=0.1476323703850985, rej=False
-Comparison: (0, 2) -- p=0.3844176340189719, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=0.31422058145269605, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.0014284719317493844, corr_p=0.008570831590496306, rej=True
-Comparison: (1, 3) -- p=0.14258267443861308, corr_p=0.8554960466316786, rej=False
-Comparison: (2, 3) -- p=0.03781702657095677, corr_p=0.22690215942574063, rej=False
-               0    1
-subcluster           
-0           3224   69
-1           1953   63
-2           3694   67
-3           4672  118
-
-
-
-
-Cluster 3 numerosity: 4790
-% term:lab::21231-ana screen (1:40) = 0.74 (92 terms in cluster (0.02), out of 124 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.009445123620148214, corr_p=0.05667074172088928, rej=False
-Comparison: (0, 2) -- p=0.4642756918592287, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=1.2862194274196267e-07, corr_p=7.71731656451776e-07, rej=True
-Comparison: (1, 2) -- p=0.04280146368442287, corr_p=0.25680878210653724, rej=False
-Comparison: (1, 3) -- p=2.5771222137622255e-09, corr_p=1.5462733282573353e-08, rej=True
-Comparison: (2, 3) -- p=2.53298385628732e-10, corr_p=1.519790313772392e-09, rej=True
-               0   1
-subcluster          
-0           3276  17
-1           2015   1
-2           3747  14
-3           4698  92
-
-
-% term:lab::Gamma glob = 0.66 (86 terms in cluster (0.02), out of 130 terms in the disease dataset)
-
-               0   1
-subcluster          
-0           3249  44
-1           2016   0
-2           3761   0
-3           4704  86
-
-
-% term:lab::Alpha 2 glob = 0.66 (84 terms in cluster (0.02), out of 128 terms in the disease dataset)
-
-               0   1
-subcluster          
-0           3249  44
-1           2016   0
-2           3761   0
-3           4706  84
-
-
-% term:lab::Alpha 1 glob = 0.63 (80 terms in cluster (0.02), out of 126 terms in the disease dataset)
-
-               0   1
-subcluster          
-0           3247  46
-1           2016   0
-2           3761   0
-3           4710  80
-
-
-% term:lab::Beta glob = 0.64 (77 terms in cluster (0.02), out of 121 terms in the disease dataset)
-
-               0   1
-subcluster          
-0           3249  44
-1           2016   0
-2           3761   0
-3           4713  77
-
-
-% term:lab::Ana screen = 0.77 (69 terms in cluster (0.01), out of 90 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.015702136781980427, corr_p=0.09421282069188255, rej=False
-Comparison: (0, 2) -- p=0.45735426457052075, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=3.177676178045677e-06, corr_p=1.906605706827406e-05, rej=True
-Comparison: (1, 2) -- p=0.06457473676861815, corr_p=0.3874484206117089, rej=False
-Comparison: (1, 3) -- p=1.2643212780437043e-07, corr_p=7.585927668262226e-07, rej=True
-Comparison: (2, 3) -- p=1.3099874514782763e-08, corr_p=7.859924708869658e-08, rej=True
-               0   1
-subcluster          
-0           3281  12
-1           2016   0
-2           3752   9
-3           4721  69
-
-
-% term:lab::M-spike = 0.77 (67 terms in cluster (0.01), out of 87 terms in the disease dataset)
-
-               0   1
-subcluster          
-0           3273  20
-1           2016   0
-2           3761   0
-3           4723  67
-
-
-% term:lab::T3 uptake = 0.67 (63 terms in cluster (0.01), out of 94 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.41110595343708467, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.32911709339651396, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=4.146861843615977e-06, corr_p=2.4881171061695863e-05, rej=True
-Comparison: (1, 2) -- p=0.0791049090873235, corr_p=0.474629454523941, rej=False
-Comparison: (1, 3) -- p=1.3736383170356306e-05, corr_p=8.241829902213784e-05, rej=True
-Comparison: (2, 3) -- p=0.00011715490499037029, corr_p=0.0007029294299422217, rej=True
-               0   1
-subcluster          
-0           3283  10
-1           2013   3
-2           3743  18
-3           4727  63
-
-
-% term:lab::M-spike g/dl = 0.79 (59 terms in cluster (0.01), out of 75 terms in the disease dataset)
-
-               0   1
-subcluster          
-0           3277  16
-1           2016   0
-2           3761   0
-3           4731  59
-
-
-% term:lab::IgE::LP14671-9 = 0.79 (58 terms in cluster (0.01), out of 73 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.044899374886477404, corr_p=0.2693962493188644, rej=False
-Comparison: (0, 2) -- p=0.4378167632630935, corr_p=1.0, rej=False
-Comparison: (0, 3) -- p=8.864010193399193e-06, corr_p=5.318406116039516e-05, rej=True
-Comparison: (1, 2) -- p=0.17199413397007945, corr_p=1.0, rej=False
-Comparison: (1, 3) -- p=1.4535835382839383e-06, corr_p=8.72150122970363e-06, rej=True
-Comparison: (2, 3) -- p=4.438766577180791e-08, corr_p=2.6632599463084743e-07, rej=True
-               0   1
-subcluster          
-0           3284   9
-1           2016   0
-2           3755   6
-3           4732  58
+Comparison: (0, 1) -- p=9.92696050487977e-65, corr_p=9.92696050487977e-65, rej=True
+               0     1
+subcluster            
+0           4935  1981
+1           1473   133
 
 
 
@@ -562,60 +216,35 @@ subcluster
 Multiple comparison t-test for AGE:
 Test Multiple Comparison ttest_ind 
 FWER=0.05 method=bonf
-alphacSidak=0.01, alphacBonf=0.008
-============================================
-group1 group2   stat   pval pval_corr reject
---------------------------------------------
-     0      1    6.835  0.0       0.0   True
-     0      2  82.3944  0.0       0.0   True
-     0      3  21.4376  0.0       0.0   True
-     1      2   64.672  0.0       0.0   True
-     1      3   12.058  0.0       0.0   True
-     2      3 -60.6022  0.0       0.0   True
---------------------------------------------
+alphacSidak=0.05, alphacBonf=0.050
+=============================================
+group1 group2   stat   pval  pval_corr reject
+---------------------------------------------
+     0      1 -0.4107 0.6813    0.6813  False
+---------------------------------------------
               score                                                 
               count   mean    std    min    25%    50%    75%    max
 subcluster                                                          
-0          3293.000 71.160 12.110  2.000 63.000 71.000 80.000 90.000
-1          2016.000 68.874 11.354 15.000 62.000 69.000 76.250 90.000
-2          3761.000 44.125 15.037  1.000 33.000 42.000 54.000 90.000
-3          4790.000 64.280 15.441  7.000 55.000 66.000 76.000 90.000
+0          6916.000 69.638 12.981  2.000 62.000 70.000 79.000 90.000
+1          1606.000 69.781 10.558 27.000 63.000 70.000 77.000 90.000
 
 Multiple comparison t-test for SEQUENCE LENGTH:
 Test Multiple Comparison ttest_ind 
 FWER=0.05 method=bonf
-alphacSidak=0.01, alphacBonf=0.008
-============================================
-group1 group2   stat   pval pval_corr reject
---------------------------------------------
-     0      1  20.4728  0.0       0.0   True
-     0      2  25.1221  0.0       0.0   True
-     0      3   5.5924  0.0       0.0   True
-     1      2  -8.6297  0.0       0.0   True
-     1      3 -22.9721  0.0       0.0   True
-     2      3 -27.2147  0.0       0.0   True
---------------------------------------------
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 19.2622  0.0       0.0   True
+-------------------------------------------
               score                                                     
               count    mean     std   min    25%    50%     75%      max
 subcluster                                                              
-0          3293.000 260.502 458.709 9.000 64.000 96.000 255.000 4337.000
-1          2016.000  49.629  75.123 3.000 13.000 27.000  59.000  896.000
-2          3761.000  68.997  84.431 6.000 24.000 35.000  64.000  864.000
-3          4790.000 212.412 314.398 6.000 47.000 96.000 256.000 4817.000
+0          6916.000 219.177 378.430 9.000 55.000 96.000 224.000 4817.000
+1          1606.000  36.843  54.113 3.000 11.000 20.000  39.000  672.000
 
 Multiple comparison chi-square test for SEX:
-Comparison: (0, 1) -- p=0.000, corr_p=0.001, rej=True
-Comparison: (0, 2) -- p=0.000, corr_p=0.000, rej=True
-Comparison: (0, 3) -- p=0.000, corr_p=0.000, rej=True
-Comparison: (1, 2) -- p=0.000, corr_p=0.000, rej=True
-Comparison: (1, 3) -- p=0.000, corr_p=0.000, rej=True
-Comparison: (2, 3) -- p=0.000, corr_p=0.000, rej=True
-   female  male
-0     171  3122
-1      59  1957
-2    3590   171
-3    1517  3272
 
-Processing time: 1339.34 seconds
+Processing time: 641.52 seconds
 Task completed
 

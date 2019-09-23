@@ -1,0 +1,254 @@
+
+Cohort PD numerosity: 3071
+
+2 -- Silhouette: 0.158
+DB: 1.909
+CH: 679.614
+Number of clusters found:2, Max Silhouette score:0.158
+Number of clusters found:2, Min DB score:1.909
+Number of clusters found:2, Max HC score:679.614
+
+Max number of clusters chosen: 2
+Cluster 0 numerosity: 1851
+% term:medication::Sinemet::36572::C0074559 = 0.68 (908 terms in cluster (0.49), out of 1343 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.1608088659846806e-13, corr_p=3.1608088659846806e-13, rej=True
+              0    1
+subcluster          
+0           943  908
+1           785  435
+
+
+% term:medication::Levodopa::6375::C0023570 = 0.58 (775 terms in cluster (0.42), out of 1335 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.03011164579250951, corr_p=0.03011164579250951, rej=True
+               0    1
+subcluster           
+0           1076  775
+1            660  560
+
+
+% term:medication::Carbidopa::2019::C0006982 = 0.57 (765 terms in cluster (0.41), out of 1343 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0010792124776608186, corr_p=0.0010792124776608186, rej=True
+               0    1
+subcluster           
+0           1086  765
+1            642  578
+
+
+% term:medication::Carbidopa 25 mg::315568::C0984524 = 0.75 (689 terms in cluster (0.37), out of 913 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.125269849521722e-29, corr_p=7.125269849521722e-29, rej=True
+               0    1
+subcluster           
+0           1162  689
+1            996  224
+
+
+% term:medication::Levodopa 100 mg::316141::C0987130 = 0.75 (673 terms in cluster (0.36), out of 896 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.263087592406202e-27, corr_p=6.263087592406202e-27, rej=True
+               0    1
+subcluster           
+0           1178  673
+1            997  223
+
+
+% term:medication::Amantadine::620::C0002403 = 0.74 (317 terms in cluster (0.17), out of 429 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=7.184681926786541e-10, corr_p=7.184681926786541e-10, rej=True
+               0    1
+subcluster           
+0           1534  317
+1           1108  112
+
+
+% term:medication::Aspirin 81 mg::315431::C0983882 = 0.54 (285 terms in cluster (0.15), out of 528 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0013731824888861622, corr_p=0.0013731824888861622, rej=True
+               0    1
+subcluster           
+0           1566  285
+1            977  243
+
+
+% term:medication::Mirapex::218402::C0721754 = 0.75 (282 terms in cluster (0.15), out of 374 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.5600189002295797e-10, corr_p=2.5600189002295797e-10, rej=True
+               0    1
+subcluster           
+0           1569  282
+1           1128   92
+
+
+% term:medication::Azilect::635985::C1712038 = 0.78 (255 terms in cluster (0.14), out of 326 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.795533360650522e-12, corr_p=3.795533360650522e-12, rej=True
+               0    1
+subcluster           
+0           1596  255
+1           1149   71
+
+
+% term:medication::Pramipexole::746741::C0074710 = 0.75 (249 terms in cluster (0.13), out of 331 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.6656341504417054e-09, corr_p=5.6656341504417054e-09, rej=True
+               0    1
+subcluster           
+0           1602  249
+1           1138   82
+
+
+% term:medication::Vitamin d3::1244014::C3265062 = 0.60 (247 terms in cluster (0.13), out of 411 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.9806270221750513, corr_p=0.9806270221750513, rej=False
+               0    1
+subcluster           
+0           1604  247
+1           1056  164
+
+
+
+
+Cluster 1 numerosity: 1220
+% term:medication::Carbidopa::2019::C0006982 = 0.43 (578 terms in cluster (0.47), out of 1343 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0010792124776608186, corr_p=0.0010792124776608186, rej=True
+               0    1
+subcluster           
+0           1086  765
+1            642  578
+
+
+% term:medication::Levodopa::6375::C0023570 = 0.42 (560 terms in cluster (0.46), out of 1335 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.03011164579250951, corr_p=0.03011164579250951, rej=True
+               0    1
+subcluster           
+0           1076  775
+1            660  560
+
+
+% term:medication::Acetaminophen::161::C0000970 = 0.77 (543 terms in cluster (0.45), out of 701 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.8567462716622384e-119, corr_p=4.8567462716622384e-119, rej=True
+               0    1
+subcluster           
+0           1693  158
+1            677  543
+
+
+% term:medication::Sodium chloride::9863::C0037494 = 0.90 (513 terms in cluster (0.42), out of 570 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.017128343575485e-162, corr_p=4.017128343575485e-162, rej=True
+               0    1
+subcluster           
+0           1794   57
+1            707  513
+
+
+% term:medication::Sinemet::36572::C0074559 = 0.32 (435 terms in cluster (0.36), out of 1343 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.1608088659846806e-13, corr_p=3.1608088659846806e-13, rej=True
+              0    1
+subcluster          
+0           943  908
+1           785  435
+
+
+% term:medication::Injection::1649574::C1272883 = 0.69 (398 terms in cluster (0.33), out of 579 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.6169896897376177e-56, corr_p=3.6169896897376177e-56, rej=True
+               0    1
+subcluster           
+0           1670  181
+1            822  398
+
+
+% term:medication::Docusate sodium::71722::C0243237 = 0.79 (362 terms in cluster (0.30), out of 456 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.617085261214199e-78, corr_p=4.617085261214199e-78, rej=True
+               0    1
+subcluster           
+0           1757   94
+1            858  362
+
+
+% term:medication::Oxycodone::7804::C0030049 = 0.70 (330 terms in cluster (0.27), out of 473 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0041828133484645e-47, corr_p=2.0041828133484645e-47, rej=True
+               0    1
+subcluster           
+0           1708  143
+1            890  330
+
+
+% term:medication::Aspirin::1191::C0004057 = 0.72 (321 terms in cluster (0.26), out of 444 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.3493097672205963e-51, corr_p=1.3493097672205963e-51, rej=True
+               0    1
+subcluster           
+0           1728  123
+1            899  321
+
+
+% term:medication::Fentanyl::4337::C0015846 = 0.70 (317 terms in cluster (0.26), out of 454 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.0094580556080798e-45, corr_p=2.0094580556080798e-45, rej=True
+               0    1
+subcluster           
+0           1714  137
+1            903  317
+
+
+% term:medication::Acetaminophen 325 mg::315263::C0982952 = 0.80 (296 terms in cluster (0.24), out of 372 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=1.416709437871702e-62, corr_p=1.416709437871702e-62, rej=True
+               0    1
+subcluster           
+0           1775   76
+1            924  296
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+===========================================
+group1 group2   stat  pval pval_corr reject
+-------------------------------------------
+     0      1 -8.3712  0.0       0.0   True
+-------------------------------------------
+              score                                                 
+              count   mean    std    min    25%    50%    75%    max
+subcluster                                                          
+0          1851.000 71.385 12.756 11.000 64.000 73.000 81.000 90.000
+1          1220.000 75.645 15.251  6.000 68.000 80.000 88.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.05, alphacBonf=0.050
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1 -21.4389  0.0       0.0   True
+--------------------------------------------
+              score                                                       
+              count    mean     std    min    25%     50%     75%      max
+subcluster                                                                
+0          1851.000  76.748 167.425  3.000 17.000  35.000  64.000 3855.000
+1          1220.000 319.032 440.340 12.000 64.000 160.000 384.000 4369.000
+
+Multiple comparison chi-square test for SEX:
+Comparison: (0, 1) -- p=0.730, corr_p=0.730, rej=False
+   female  male
+0     799  1051
+1     535   684
+
+Processing time: 256.47 seconds
+Task completed
+

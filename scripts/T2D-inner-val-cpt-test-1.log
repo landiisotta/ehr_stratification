@@ -1,379 +1,415 @@
 
-Cohort T2D numerosity: 1050
+Cohort T2D numerosity: 48688
 
-3 -- Silhouette: 0.130
-DB: 1.798
-CH: 203.182
-Number of clusters found:3, Max Silhouette score:0.130
-Number of clusters found:3, Min DB score:1.798
-Number of clusters found:3, Max HC score:203.182
+3 -- Silhouette: 0.116
+DB: 2.409
+CH: 5125.640
+Number of clusters found:3, Max Silhouette score:0.116
+Number of clusters found:3, Min DB score:2.409
+Number of clusters found:3, Max HC score:5125.640
 
 Max number of clusters chosen: 3
-Cluster 0 numerosity: 608
-% term:cpt::Electrocardiogram, routine ecg with at least 12 leads; with interpretation and report::93000::C0199567|C3516974|C3526715 = 0.52 (462 terms in cluster (0.76), out of 883 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=4.368879304461463e-06, corr_p=1.3106637913384388e-05, rej=True
-Comparison: (0, 2) -- p=1.1044474876844877e-13, corr_p=3.313342463053463e-13, rej=True
-Comparison: (1, 2) -- p=0.15541819606554846, corr_p=0.4662545881966454, rej=False
-              0    1
-subcluster          
-0           146  462
-1            11  146
-2            10  275
+Cluster 0 numerosity: 18325
+% term:cpt::Electrocardiogram, routine ecg with at least 12 leads; with interpretation and report::93000::C0199567|C3516974|C3526715 = 0.26 (7441 terms in cluster (0.41), out of 28438 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=4.7259439788965345e-116, corr_p=1.4177831936689603e-115, rej=True
+                0      1
+subcluster              
+0           10884   7441
+1            7792  14867
+2            1574   6130
 
 
-% term:cpt::Lipid panel this panel must include the following: cholesterol, serum, total (82465) lipoprotein, direct measurement, high density cholesterol (hdl cholesterol) (83718) triglycerides (84478)::80061::C0202236|C0200382|C3525572|C1445957 = 0.55 (406 terms in cluster (0.67), out of 732 terms in the disease dataset)
-
-Comparison: (0, 1) -- p=0.7012017455013332, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.004086402452323145, corr_p=0.012259207356969436, rej=True
-Comparison: (1, 2) -- p=0.09929537184842015, corr_p=0.29788611554526045, rej=False
-              0    1
-subcluster          
-0           202  406
-1            49  108
-2            67  218
+% term:cpt::Calcium::1011309::C0201925 = 0.28 (7209 terms in cluster (0.39), out of 26160 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.48678695707913633, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           11116   7209
+1            6775  15884
+2            4637   3067
 
 
-% term:cpt::Blood count; complete (cbc), automated (hgb, hct, rbc, wbc and platelet count)::85027::C3525787|C3516392|C1144713|C0373763|C3495375|C3525786|C3516393 = 0.44 (309 terms in cluster (0.51), out of 700 terms in the disease dataset)
+% term:cpt::Hemoglobin; glycosylated (a1c)::83036::C0474680|C0373638 = 0.34 (7165 terms in cluster (0.39), out of 21203 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.7297692167800165e-76, corr_p=8.18930765034005e-76, rej=True
+Comparison: (0, 2) -- p=0.055150019751779605, corr_p=0.16545005925533882, rej=False
+Comparison: (1, 2) -- p=1.0133815002107884e-32, corr_p=3.0401445006323655e-32, rej=True
+                0      1
+subcluster              
+0           11160   7165
+1           11732  10927
+2            4593   3111
 
-Comparison: (0, 1) -- p=5.256608252422847e-19, corr_p=1.5769824757268542e-18, rej=True
-Comparison: (0, 2) -- p=1.6168101775483645e-25, corr_p=4.850430532645093e-25, rej=True
-Comparison: (1, 2) -- p=0.41586092669910046, corr_p=1.0, rej=False
-              0    1
-subcluster          
-0           299  309
-1            15  142
-2            36  249
 
+% term:cpt::Glucose; blood, reagent strip::82948::C0373620 = 0.31 (6819 terms in cluster (0.37), out of 22011 terms in the disease dataset)
 
-% term:cpt::Lipoprotein, direct measurement::1011549::C3702066 = 0.45 (185 terms in cluster (0.30), out of 409 terms in the disease dataset)
+Comparison: (0, 1) -- p=5.942437237574221e-202, corr_p=1.7827311712722663e-201, rej=True
+Comparison: (0, 2) -- p=5.000397445651577e-22, corr_p=1.500119233695473e-21, rej=True
+Comparison: (1, 2) -- p=7.785122505617596e-39, corr_p=2.335536751685279e-38, rej=True
+                0      1
+subcluster              
+0           11506   6819
+1           10827  11832
+2            4344   3360
 
-Comparison: (0, 1) -- p=9.253687470464246e-06, corr_p=2.776106241139274e-05, rej=True
-Comparison: (0, 2) -- p=3.126009071587309e-09, corr_p=9.378027214761926e-09, rej=True
-Comparison: (1, 2) -- p=0.8322320278873937, corr_p=1.0, rej=False
-              0    1
-subcluster          
-0           423  185
-1            79   78
-2           139  146
 
+% term:cpt::Thyroid stimulating hormone (tsh)::84443::C0202230 = 0.44 (6450 terms in cluster (0.35), out of 14708 terms in the disease dataset)
 
-% term:cpt::Prostate specific antigen (psa); free::84154::C0201544|C1273437 = 0.82 (73 terms in cluster (0.12), out of 89 terms in the disease dataset)
+Comparison: (0, 1) -- p=5.839656584375585e-06, corr_p=1.7518969753126756e-05, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0     1
+subcluster             
+0           11875  6450
+1           15168  7491
+2            6937   767
 
-Comparison: (0, 1) -- p=3.395716974121904e-05, corr_p=0.00010187150922365713, rej=True
-Comparison: (0, 2) -- p=0.002435501091824151, corr_p=0.007306503275472453, rej=True
-Comparison: (1, 2) -- p=0.026019043580904188, corr_p=0.07805713074271256, rej=False
-              0   1
-subcluster         
-0           535  73
-1           156   1
-2           270  15
 
+% term:cpt::Urea nitrogen::1011731::C3683557 = 0.25 (6238 terms in cluster (0.34), out of 24871 terms in the disease dataset)
 
-% term:cpt::Thyroxine; total::84436::C1281902|C0202231 = 0.66 (54 terms in cluster (0.09), out of 82 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.3241938306192187e-12, corr_p=3.972581491857656e-12, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           12087   6238
+1            7004  15655
+2            4726   2978
 
-Comparison: (0, 1) -- p=0.012288615035637282, corr_p=0.03686584510691185, rej=True
-Comparison: (0, 2) -- p=0.9202801845412055, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.026286165916569865, corr_p=0.0788584977497096, rej=False
-              0   1
-subcluster         
-0           554  54
-1           153   4
-2           261  24
 
+% term:cpt::Transferase; aspartate amino (ast) (sgot)::84450::C0201899 = 0.32 (5616 terms in cluster (0.31), out of 17391 terms in the disease dataset)
 
-% term:cpt::Subtotal or total hysterectomy after cesarean delivery (list separately in addition to code for primary procedure)::59525::C1270947|C0677962|C3515064|C0372646 = 0.72 (51 terms in cluster (0.08), out of 71 terms in the disease dataset)
+Comparison: (0, 1) -- p=5.075365476376242e-128, corr_p=1.5226096429128727e-127, rej=True
+Comparison: (0, 2) -- p=0.0021359012953383175, corr_p=0.006407703886014953, rej=True
+Comparison: (1, 2) -- p=1.7065853122511658e-97, corr_p=5.119755936753497e-97, rej=True
+                0     1
+subcluster             
+0           12709  5616
+1           13097  9562
+2            5491  2213
 
-Comparison: (0, 1) -- p=0.0031439630599258317, corr_p=0.009431889179777496, rej=True
-Comparison: (0, 2) -- p=0.3437888032323645, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.027695851089432098, corr_p=0.0830875532682963, rej=False
-              0   1
-subcluster         
-0           557  51
-1           155   2
-2           267  18
 
+% term:cpt::Albumin::1011249::C0201838 = 0.30 (5561 terms in cluster (0.30), out of 18782 terms in the disease dataset)
 
-% term:cpt::Hepatitis b vaccine (hepb), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use::90747::C3703989|C0062527|C0374130 = 0.83 (49 terms in cluster (0.08), out of 59 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=3.479003072946756e-140, corr_p=1.0437009218840269e-139, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           12764   5561
+1           10620  12039
+2            6522   1182
 
-Comparison: (0, 1) -- p=0.0004758592103546957, corr_p=0.001427577631064087, rej=True
-Comparison: (0, 2) -- p=0.016071540212086673, corr_p=0.04821462063626002, rej=True
-Comparison: (1, 2) -- p=0.04136025084274547, corr_p=0.12408075252823642, rej=False
-              0   1
-subcluster         
-0           559  49
-1           157   0
-2           275  10
 
+% term:cpt::Triglycerides::84478::C0202236 = 0.40 (5249 terms in cluster (0.29), out of 13261 terms in the disease dataset)
 
-% term:cpt::Hepatitis b vaccine (hepb), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use::90740::C3703987|C0918229|C0062527 = 0.83 (49 terms in cluster (0.08), out of 59 terms in the disease dataset)
+Comparison: (0, 1) -- p=1.9371762396416365e-06, corr_p=5.8115287189249095e-06, rej=True
+Comparison: (0, 2) -- p=1.2311697748167776e-05, corr_p=3.693509324450333e-05, rej=True
+Comparison: (1, 2) -- p=0.34766612187059676, corr_p=1.0, rej=False
+                0     1
+subcluster             
+0           13076  5249
+1           16648  6011
+2            5703  2001
 
-Comparison: (0, 1) -- p=0.0004758592103546957, corr_p=0.001427577631064087, rej=True
-Comparison: (0, 2) -- p=0.016071540212086673, corr_p=0.04821462063626002, rej=True
-Comparison: (1, 2) -- p=0.04136025084274547, corr_p=0.12408075252823642, rej=False
-              0   1
-subcluster         
-0           559  49
-1           157   0
-2           275  10
 
+% term:cpt::Glucose::1011445::C0337438 = 0.22 (5188 terms in cluster (0.28), out of 23664 terms in the disease dataset)
 
-% term:cpt::Hepatitis b vaccine (hepb), adult dosage, 2 dose schedule, for intramuscular use::90739::C3516774|C0062527|C3511582 = 0.83 (49 terms in cluster (0.08), out of 59 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.1098660842425274e-64, corr_p=6.329598252727582e-64, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13137   5188
+1            7188  15471
+2            4699   3005
 
-Comparison: (0, 1) -- p=0.0004758592103546957, corr_p=0.001427577631064087, rej=True
-Comparison: (0, 2) -- p=0.016071540212086673, corr_p=0.04821462063626002, rej=True
-Comparison: (1, 2) -- p=0.04136025084274547, corr_p=0.12408075252823642, rej=False
-              0   1
-subcluster         
-0           559  49
-1           157   0
-2           275  10
 
+% term:cpt::Potassium::1011637::C0202194 = 0.22 (5177 terms in cluster (0.28), out of 24004 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.272916291009199e-79, corr_p=6.818748873027596e-79, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13148   5177
+1            6928  15731
+2            4608   3096
 
 
-Cluster 1 numerosity: 157
-% term:cpt::Hemoglobin; glycosylated (a1c)::83036::C0474680|C0373638 = 0.11 (106 terms in cluster (0.68), out of 933 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=3.2507846589846344e-18, corr_p=9.752353976953903e-18, rej=True
-Comparison: (0, 2) -- p=0.34574618290055426, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=5.975947844001516e-10, corr_p=1.7927843532004547e-09, rej=True
-             0    1
-subcluster         
-0           41  567
-1           51  106
-2           25  260
 
+Cluster 1 numerosity: 22659
+% term:cpt::Blood count; complete (cbc), automated (hgb, hct, rbc, wbc and platelet count) and automated differential wbc count::85025::C3516392|C1144713|C3525784|C3495375|C3525785|C1144711|C3525786|C3516393|C0373762 = 0.72 (16957 terms in cluster (0.75), out of 23481 terms in the disease dataset)
 
-% term:cpt::Triglycerides::84478::C0202236 = 0.12 (80 terms in cluster (0.51), out of 681 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0008516504733594982, corr_p=0.0025549514200784947, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13625   4700
+1            5702  16957
+2            5880   1824
 
-Comparison: (0, 1) -- p=0.000251731860491126, corr_p=0.000755195581473378, rej=True
-Comparison: (0, 2) -- p=0.9157267045689443, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=0.000755591961487113, corr_p=0.002266775884461339, rej=True
-              0    1
-subcluster          
-0           200  408
-1            77   80
-2            92  193
 
+% term:cpt::Calcium::1011309::C0201925 = 0.61 (15884 terms in cluster (0.70), out of 26160 terms in the disease dataset)
 
-% term:cpt::Bilirubin::1011294::C0201913 = 0.04 (29 terms in cluster (0.18), out of 689 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.48678695707913633, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           11116   7209
+1            6775  15884
+2            4637   3067
 
-Comparison: (0, 1) -- p=2.3101862015271755e-34, corr_p=6.9305586045815265e-34, rej=True
-Comparison: (0, 2) -- p=0.10692972790047608, corr_p=0.3207891837014283, rej=False
-Comparison: (1, 2) -- p=1.325350043481266e-32, corr_p=3.976050130443798e-32, rej=True
-              0    1
-subcluster          
-0           169  439
-1           128   29
-2            64  221
 
+% term:cpt::Potassium::1011637::C0202194 = 0.66 (15731 terms in cluster (0.69), out of 24004 terms in the disease dataset)
 
-% term:cpt::Thyroid stimulating hormone (tsh)::84443::C0202230 = 0.04 (28 terms in cluster (0.18), out of 699 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.272916291009199e-79, corr_p=6.818748873027596e-79, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13148   5177
+1            6928  15731
+2            4608   3096
 
-Comparison: (0, 1) -- p=2.3796569736104927e-40, corr_p=7.138970920831478e-40, rej=True
-Comparison: (0, 2) -- p=0.7841726026721956, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=1.0169394422243338e-29, corr_p=3.050818326673001e-29, rej=True
-              0    1
-subcluster          
-0           149  459
-1           129   28
-2            73  212
 
+% term:cpt::Urea nitrogen::1011731::C3683557 = 0.63 (15655 terms in cluster (0.69), out of 24871 terms in the disease dataset)
 
-% term:cpt::Albumin::1011249::C0201838 = 0.04 (28 terms in cluster (0.18), out of 711 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.3241938306192187e-12, corr_p=3.972581491857656e-12, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           12087   6238
+1            7004  15655
+2            4726   2978
 
-Comparison: (0, 1) -- p=8.615979059862854e-40, corr_p=2.584793717958856e-39, rej=True
-Comparison: (0, 2) -- p=0.20297006602749354, corr_p=0.6089101980824806, rej=False
-Comparison: (1, 2) -- p=2.363517404235469e-35, corr_p=7.090552212706407e-35, rej=True
-              0    1
-subcluster          
-0           151  457
-1           129   28
-2            59  226
 
+% term:cpt::Sodium::1011684::C0337443 = 0.66 (15651 terms in cluster (0.69), out of 23839 terms in the disease dataset)
 
-% term:cpt::Calcium; total::82310::C3525566|C0201925 = 0.02 (12 terms in cluster (0.08), out of 661 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.26509867407712e-69, corr_p=6.79529602223136e-69, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13163   5162
+1            7008  15651
+2            4678   3026
 
-Comparison: (0, 1) -- p=3.030627775896431e-47, corr_p=9.091883327689293e-47, rej=True
-Comparison: (0, 2) -- p=0.3867839218524328, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=5.729987319757755e-41, corr_p=1.7189961959273265e-40, rej=True
-              0    1
-subcluster          
-0           172  436
-1           145   12
-2            72  213
 
+% term:cpt::Chloride::1011335::C0201952 = 0.65 (15571 terms in cluster (0.69), out of 23777 terms in the disease dataset)
 
-% term:cpt::Glucose; quantitative, blood (except reagent strip)::82947::C0523658|C0392201 = 0.02 (10 terms in cluster (0.06), out of 570 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=5.398056643845745e-69, corr_p=1.6194169931537233e-68, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13149   5176
+1            7088  15571
+2            4674   3030
 
-Comparison: (0, 1) -- p=3.2015237281398707e-39, corr_p=9.604571184419612e-39, rej=True
-Comparison: (0, 2) -- p=0.02382442273341445, corr_p=0.07147326820024334, rej=False
-Comparison: (1, 2) -- p=3.2060713330982663e-25, corr_p=9.6182139992948e-25, rej=True
-              0    1
-subcluster          
-0           211  397
-1           147   10
-2           122  163
 
+% term:cpt::Glucose::1011445::C0337438 = 0.65 (15471 terms in cluster (0.68), out of 23664 terms in the disease dataset)
 
-% term:cpt::Calcium; ionized::82330::C0201927|C0489943|C0201925 = 0.02 (10 terms in cluster (0.06), out of 611 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.1098660842425274e-64, corr_p=6.329598252727582e-64, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13137   5188
+1            7188  15471
+2            4699   3005
 
-Comparison: (0, 1) -- p=1.8720728785692674e-43, corr_p=5.616218635707802e-43, rej=True
-Comparison: (0, 2) -- p=0.41658673518382705, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=2.808181920229008e-32, corr_p=8.424545760687024e-32, rej=True
-              0    1
-subcluster          
-0           193  415
-1           147   10
-2            99  186
 
+% term:cpt::Creatinine::1011373::C0201975 = 0.66 (15428 terms in cluster (0.68), out of 23531 terms in the disease dataset)
 
-% term:cpt::Unlisted psychiatric service or procedure::90899::C3526597|C3526598|C3516796|C0204513 = 0.02 (7 terms in cluster (0.04), out of 414 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=4.7324270704619045e-64, corr_p=1.4197281211385714e-63, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13197   5128
+1            7231  15428
+2            4729   2975
 
-Comparison: (0, 1) -- p=4.415530510695006e-22, corr_p=1.3246591532085017e-21, rej=True
-Comparison: (0, 2) -- p=0.2865486090866907, corr_p=0.8596458272600722, rej=False
-Comparison: (1, 2) -- p=5.3890892417395816e-17, corr_p=1.6167267725218744e-16, rej=True
-              0    1
-subcluster          
-0           323  285
-1           150    7
-2           163  122
 
+% term:cpt::Electrocardiogram, routine ecg with at least 12 leads; with interpretation and report::93000::C0199567|C3516974|C3526715 = 0.52 (14867 terms in cluster (0.66), out of 28438 terms in the disease dataset)
 
-% term:cpt::Thyroxine; free::84439::C0202225|C0202231 = 0.04 (6 terms in cluster (0.04), out of 148 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=4.7259439788965345e-116, corr_p=1.4177831936689603e-115, rej=True
+                0      1
+subcluster              
+0           10884   7441
+1            7792  14867
+2            1574   6130
 
-Comparison: (0, 1) -- p=0.00026606533768949, corr_p=0.00079819601306847, rej=True
-Comparison: (0, 2) -- p=0.41179661565248493, corr_p=1.0, rej=False
-Comparison: (1, 2) -- p=6.299925917262552e-05, corr_p=0.00018899777751787657, rej=True
-              0   1
-subcluster         
-0           516  92
-1           151   6
-2           235  50
 
+% term:cpt::Thromboplastin time, partial (ptt); plasma or whole blood::85730::C3516418|C3525809|C0040049|C3525810 = 0.76 (13521 terms in cluster (0.60), out of 17808 terms in the disease dataset)
 
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=9.738221639651849e-75, corr_p=2.9214664918955547e-74, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           15807   2518
+1            9138  13521
+2            5935   1769
 
 
-Cluster 2 numerosity: 285
-% term:cpt::Glucose; blood, reagent strip::82948::C0373620 = 0.30 (272 terms in cluster (0.95), out of 895 terms in the disease dataset)
+% term:cpt::Basic metabolic panel (calcium, total) this panel must include the following: calcium, total (82310) carbon dioxide (bicarbonate) (82374) chloride (82435) creatinine (82565) glucose (82947) potassium (84132) sodium (84295) urea nitrogen (bun) (84520)::80048::C2237045|C3525566|C0201975|C0519823|C0202194|C3525565|C0337438|C0201930|C0201952|C0337443|C0005845 = 0.68 (13201 terms in cluster (0.58), out of 19458 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.9343933245933619, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=3.6176036663966976e-08, corr_p=1.0852810999190093e-07, rej=True
-Comparison: (1, 2) -- p=4.16202229745309e-06, corr_p=1.2486066892359269e-05, rej=True
-              0    1
-subcluster          
-0           113  495
-1            29  128
-2            13  272
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=3.4153418814577145e-204, corr_p=1.0246025644373143e-203, rej=True
+Comparison: (1, 2) -- p=2.7041994045966024e-239, corr_p=8.112598213789807e-239, rej=True
+                0      1
+subcluster              
+0           14880   3445
+1            9458  13201
+2            4892   2812
 
 
-% term:cpt::Sodium::1011684::C0337443 = 0.33 (270 terms in cluster (0.95), out of 825 terms in the disease dataset)
 
-Comparison: (0, 1) -- p=0.022181141495448472, corr_p=0.06654342448634541, rej=False
-Comparison: (0, 2) -- p=1.3740225466532861e-12, corr_p=4.1220676399598585e-12, rej=True
-Comparison: (1, 2) -- p=7.156085039426207e-16, corr_p=2.146825511827862e-15, rej=True
-              0    1
-subcluster          
-0           155  453
-1            55  102
-2            15  270
 
+Cluster 2 numerosity: 7704
+% term:cpt::Electrocardiogram, routine ecg with at least 12 leads; with interpretation and report::93000::C0199567|C3516974|C3526715 = 0.22 (6130 terms in cluster (0.80), out of 28438 terms in the disease dataset)
 
-% term:cpt::Basic metabolic panel (calcium, ionized) this panel must include the following: calcium, ionized (82330) carbon dioxide (bicarbonate) (82374) chloride (82435) creatinine (82565) glucose (82947) potassium (84132) sodium (84295) urea nitrogen (bun) (84520)::80047::C2237045|C0201927|C0201975|C0202194|C3525564|C0337438|C1964052|C0201930|C0201952|C0337443|C0005845 = 0.35 (265 terms in cluster (0.93), out of 760 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=4.7259439788965345e-116, corr_p=1.4177831936689603e-115, rej=True
+                0      1
+subcluster              
+0           10884   7441
+1            7792  14867
+2            1574   6130
 
-Comparison: (0, 1) -- p=0.05878156183191213, corr_p=0.1763446854957364, rej=False
-Comparison: (0, 2) -- p=3.067994996712804e-17, corr_p=9.203984990138412e-17, rej=True
-Comparison: (1, 2) -- p=1.703554016123354e-18, corr_p=5.110662048370062e-18, rej=True
-              0    1
-subcluster          
-0           204  404
-1            66   91
-2            20  265
 
+% term:cpt::Blood count; complete (cbc), automated (hgb, hct, rbc, wbc and platelet count)::85027::C3525787|C3516392|C1144713|C0373763|C3495375|C3525786|C3516393 = 0.25 (5010 terms in cluster (0.65), out of 20049 terms in the disease dataset)
 
-% term:cpt::Basic metabolic panel (calcium, total) this panel must include the following: calcium, total (82310) carbon dioxide (bicarbonate) (82374) chloride (82435) creatinine (82565) glucose (82947) potassium (84132) sodium (84295) urea nitrogen (bun) (84520)::80048::C2237045|C3525566|C0201975|C0519823|C0202194|C3525565|C0337438|C0201930|C0201952|C0337443|C0005845 = 0.34 (263 terms in cluster (0.92), out of 763 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (1, 2) -- p=2.646959545464636e-67, corr_p=7.940878636393908e-67, rej=True
+                0      1
+subcluster              
+0           15452   2873
+1           10493  12166
+2            2694   5010
 
-Comparison: (0, 1) -- p=0.0863846456642887, corr_p=0.2591539369928661, rej=False
-Comparison: (0, 2) -- p=6.920614959927458e-16, corr_p=2.0761844879782376e-15, rej=True
-Comparison: (1, 2) -- p=1.303769134547232e-16, corr_p=3.911307403641696e-16, rej=True
-              0    1
-subcluster          
-0           201  407
-1            64   93
-2            22  263
 
+% term:cpt::Lipid panel this panel must include the following: cholesterol, serum, total (82465) lipoprotein, direct measurement, high density cholesterol (hdl cholesterol) (83718) triglycerides (84478)::80061::C0202236|C0200382|C3525572|C1445957 = 0.21 (3594 terms in cluster (0.47), out of 16725 terms in the disease dataset)
 
-% term:cpt::Troponin, quantitative::84484::C0519832|C0523952|C3516382 = 0.41 (230 terms in cluster (0.81), out of 556 terms in the disease dataset)
+Comparison: (0, 1) -- p=8.980092525958875e-206, corr_p=2.6940277577876626e-205, rej=True
+Comparison: (0, 2) -- p=1.0345575366100788e-280, corr_p=3.1036726098302364e-280, rej=True
+Comparison: (1, 2) -- p=3.0002979978109006e-37, corr_p=9.000893993432703e-37, rej=True
+                0     1
+subcluster             
+0           13892  4433
+1           13961  8698
+2            4110  3594
 
-Comparison: (0, 1) -- p=0.055100232631917864, corr_p=0.16530069789575358, rej=False
-Comparison: (0, 2) -- p=1.6532153444066446e-28, corr_p=4.959646033219933e-28, rej=True
-Comparison: (1, 2) -- p=2.3512066495827593e-11, corr_p=7.053619948748278e-11, rej=True
-              0    1
-subcluster          
-0           360  248
-1            79   78
-2            55  230
 
+% term:cpt::Glucose; blood, reagent strip::82948::C0373620 = 0.15 (3360 terms in cluster (0.44), out of 22011 terms in the disease dataset)
 
-% term:cpt::Lipid panel this panel must include the following: cholesterol, serum, total (82465) lipoprotein, direct measurement, high density cholesterol (hdl cholesterol) (83718) triglycerides (84478)::80061::C0202236|C0200382|C3525572|C1445957 = 0.30 (218 terms in cluster (0.76), out of 732 terms in the disease dataset)
+Comparison: (0, 1) -- p=5.942437237574221e-202, corr_p=1.7827311712722663e-201, rej=True
+Comparison: (0, 2) -- p=5.000397445651577e-22, corr_p=1.500119233695473e-21, rej=True
+Comparison: (1, 2) -- p=7.785122505617596e-39, corr_p=2.335536751685279e-38, rej=True
+                0      1
+subcluster              
+0           11506   6819
+1           10827  11832
+2            4344   3360
 
-Comparison: (0, 1) -- p=0.7012017455013332, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=0.004086402452323145, corr_p=0.012259207356969436, rej=True
-Comparison: (1, 2) -- p=0.09929537184842015, corr_p=0.29788611554526045, rej=False
-              0    1
-subcluster          
-0           202  406
-1            49  108
-2            67  218
 
+% term:cpt::Hemoglobin; glycosylated (a1c)::83036::C0474680|C0373638 = 0.15 (3111 terms in cluster (0.40), out of 21203 terms in the disease dataset)
 
-% term:cpt::Electrocardiogram, routine ecg with at least 12 leads; tracing only, without interpretation and report::93005::C3526716|C3516975|C0199566 = 0.36 (204 terms in cluster (0.72), out of 572 terms in the disease dataset)
+Comparison: (0, 1) -- p=2.7297692167800165e-76, corr_p=8.18930765034005e-76, rej=True
+Comparison: (0, 2) -- p=0.055150019751779605, corr_p=0.16545005925533882, rej=False
+Comparison: (1, 2) -- p=1.0133815002107884e-32, corr_p=3.0401445006323655e-32, rej=True
+                0      1
+subcluster              
+0           11160   7165
+1           11732  10927
+2            4593   3111
 
-Comparison: (0, 1) -- p=0.854401451933517, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=1.1846917666113827e-10, corr_p=3.554075299834148e-10, rej=True
-Comparison: (1, 2) -- p=6.085783166235403e-07, corr_p=1.8257349498706209e-06, rej=True
-              0    1
-subcluster          
-0           314  294
-1            83   74
-2            81  204
 
+% term:cpt::Potassium::1011637::C0202194 = 0.13 (3096 terms in cluster (0.40), out of 24004 terms in the disease dataset)
 
-% term:cpt::Creatinine; blood::82565::C3525719|C0201975 = 0.48 (135 terms in cluster (0.47), out of 283 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.272916291009199e-79, corr_p=6.818748873027596e-79, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13148   5177
+1            6928  15731
+2            4608   3096
 
-Comparison: (0, 1) -- p=0.5148518284346272, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=5.2189381162055103e-17, corr_p=1.565681434861653e-16, rej=True
-Comparison: (1, 2) -- p=5.762135594245171e-10, corr_p=1.7286406782735513e-09, rej=True
-              0    1
-subcluster          
-0           487  121
-1           130   27
-2           150  135
 
+% term:cpt::Calcium::1011309::C0201925 = 0.12 (3067 terms in cluster (0.40), out of 26160 terms in the disease dataset)
 
-% term:cpt::Potassium; serum, plasma or whole blood::84132::C2702996|C0729816|C0302353|C0858155 = 0.62 (132 terms in cluster (0.46), out of 212 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=0.48678695707913633, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           11116   7209
+1            6775  15884
+2            4637   3067
 
-Comparison: (0, 1) -- p=0.04297533985781348, corr_p=0.12892601957344044, rej=False
-Comparison: (0, 2) -- p=3.05855568296688e-30, corr_p=9.175667048900641e-30, rej=True
-Comparison: (1, 2) -- p=4.969739272551654e-18, corr_p=1.4909217817654963e-17, rej=True
-              0    1
-subcluster          
-0           537   71
-1           148    9
-2           153  132
 
+% term:cpt::Chloride::1011335::C0201952 = 0.13 (3030 terms in cluster (0.39), out of 23777 terms in the disease dataset)
 
-% term:cpt::Glucagon::82943::C0337437 = 0.64 (108 terms in cluster (0.38), out of 169 terms in the disease dataset)
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=5.398056643845745e-69, corr_p=1.6194169931537233e-68, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13149   5176
+1            7088  15571
+2            4674   3030
 
-Comparison: (0, 1) -- p=0.7363133356470197, corr_p=1.0, rej=False
-Comparison: (0, 2) -- p=6.841425885858927e-27, corr_p=2.052427765757678e-26, rej=True
-Comparison: (1, 2) -- p=5.405296189450162e-12, corr_p=1.6215888568350488e-11, rej=True
-              0    1
-subcluster          
-0           558   50
-1           146   11
-2           177  108
+
+% term:cpt::Sodium::1011684::C0337443 = 0.13 (3026 terms in cluster (0.39), out of 23839 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.26509867407712e-69, corr_p=6.79529602223136e-69, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13163   5162
+1            7008  15651
+2            4678   3026
+
+
+% term:cpt::Glucose::1011445::C0337438 = 0.13 (3005 terms in cluster (0.39), out of 23664 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=2.1098660842425274e-64, corr_p=6.329598252727582e-64, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           13137   5188
+1            7188  15471
+2            4699   3005
+
+
+% term:cpt::Urea nitrogen::1011731::C3683557 = 0.12 (2978 terms in cluster (0.39), out of 24871 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0, corr_p=0.0, rej=True
+Comparison: (0, 2) -- p=1.3241938306192187e-12, corr_p=3.972581491857656e-12, rej=True
+Comparison: (1, 2) -- p=0.0, corr_p=0.0, rej=True
+                0      1
+subcluster              
+0           12087   6238
+1            7004  15655
+2            4726   2978
 
 
 
@@ -382,19 +418,19 @@ Multiple comparison t-test for AGE:
 Test Multiple Comparison ttest_ind 
 FWER=0.05 method=bonf
 alphacSidak=0.02, alphacBonf=0.017
-===========================================
-group1 group2   stat  pval pval_corr reject
--------------------------------------------
-     0      1 -9.4647  0.0       0.0   True
-     0      2 -4.5002  0.0       0.0   True
-     1      2  4.9608  0.0       0.0   True
--------------------------------------------
-             score                                                 
-             count   mean    std    min    25%    50%    75%    max
-subcluster                                                         
-0          608.000 61.905 12.071 25.000 54.000 62.000 70.000 90.000
-1          157.000 71.720  9.453 41.000 65.000 71.000 78.000 90.000
-2          285.000 65.895 12.929 28.000 57.000 67.000 75.000 90.000
+============================================
+group1 group2   stat   pval pval_corr reject
+--------------------------------------------
+     0      1 -11.8987  0.0       0.0   True
+     0      2 -25.3984  0.0       0.0   True
+     1      2  -15.466  0.0       0.0   True
+--------------------------------------------
+               score                                                 
+               count   mean    std    min    25%    50%    75%    max
+subcluster                                                           
+0          18325.000 64.770 14.322  1.000 56.000 66.000 75.000 90.000
+1          22659.000 66.516 15.131  2.000 57.000 67.000 78.000 90.000
+2           7704.000 69.424 11.285 23.000 61.000 69.000 78.000 90.000
 
 Multiple comparison t-test for SEQUENCE LENGTH:
 Test Multiple Comparison ttest_ind 
@@ -403,26 +439,26 @@ alphacSidak=0.02, alphacBonf=0.017
 ============================================
 group1 group2   stat   pval pval_corr reject
 --------------------------------------------
-     0      1  12.6835  0.0       0.0   True
-     0      2   -6.245  0.0       0.0   True
-     1      2 -14.1467  0.0       0.0   True
+     0      1 -21.5719  0.0       0.0   True
+     0      2  29.4448  0.0       0.0   True
+     1      2  40.9427  0.0       0.0   True
 --------------------------------------------
-             score                                                            
-             count     mean      std    min     25%      50%      75%      max
-subcluster                                                                    
-0          608.000 1491.967 1216.714 32.000 608.000 1120.000 2077.750 4849.000
-1          157.000  250.427  295.678 28.000  64.000  160.000  316.000 1856.000
-2          285.000 2101.625 1624.085 32.000 564.000 1745.000 3520.000 4849.000
+               score                                                      
+               count    mean     std   min    25%     50%     75%      max
+subcluster                                                                
+0          18325.000 351.385 647.693 3.000 32.000  96.000 384.000 4849.000
+1          22659.000 509.901 806.369 9.000 64.000 192.000 544.000 4849.000
+2           7704.000 130.364 186.108 5.000 34.000  64.000 160.000 3767.000
 
 Multiple comparison chi-square test for SEX:
-Comparison: (0, 1) -- p=0.000, corr_p=0.001, rej=True
-Comparison: (0, 2) -- p=0.008, corr_p=0.023, rej=True
-Comparison: (1, 2) -- p=0.188, corr_p=0.563, rej=False
-   female  male
-0     395   213
-1      76    81
-2     158   127
+Comparison: (0, 1) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (0, 2) -- p=0.000, corr_p=0.000, rej=True
+Comparison: (1, 2) -- p=0.000, corr_p=0.000, rej=True
+   female   male
+0    9729   8585
+1   11053  11602
+2    3191   4510
 
-Processing time: 98.75 seconds
+Processing time: 10447.95 seconds
 Task completed
 

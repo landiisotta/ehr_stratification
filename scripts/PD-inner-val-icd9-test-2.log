@@ -99,6 +99,15 @@ subcluster
 1            925  295
 
 
+% term:icd9::Depressive disorder, not elsewhere classified::311::C0868892 = 0.53 (262 terms in cluster (0.14), out of 491 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0007652998950839423, corr_p=0.0007652998950839423, rej=True
+               0    1
+subcluster           
+0           1589  262
+1            991  229
+
+
 
 
 Cluster 1 numerosity: 1220
@@ -191,6 +200,15 @@ subcluster
 1            929  291
 
 
+% term:icd9::Fever, unspecified::780.60::C0015967 = 0.72 (278 terms in cluster (0.23), out of 387 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=4.955811723233519e-43, corr_p=4.955811723233519e-43, rej=True
+               0    1
+subcluster           
+0           1742  109
+1            942  278
+
+
 
 
 Multiple comparison t-test for AGE:
@@ -229,6 +247,6 @@ Comparison: (0, 1) -- p=0.730, corr_p=0.730, rej=False
 0     799  1051
 1     535   684
 
-Processing time: 245.6 seconds
+Processing time: 223.99 seconds
 Task completed
 

@@ -1,0 +1,781 @@
+
+Cohort MM numerosity: 1883
+
+4 -- Silhouette: 0.141
+DB: 2.303
+CH: 212.737
+Number of clusters found:4, Max Silhouette score:0.141
+Number of clusters found:4, Min DB score:2.303
+Number of clusters found:4, Max HC score:212.737
+
+Max number of clusters chosen: 4
+Cluster 0 numerosity: 191
+% term:procedure::Nm pet fdg oncology = 0.06 (22 terms in cluster (0.12), out of 374 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.307545219490742e-07, corr_p=3.7845271316944452e-06, rej=True
+Comparison: (0, 2) -- p=0.1423080133681742, corr_p=0.8538480802090451, rej=False
+Comparison: (0, 3) -- p=0.0003397848737654002, corr_p=0.002038709242592401, rej=True
+Comparison: (1, 2) -- p=1.0094340460456976e-07, corr_p=6.056604276274186e-07, rej=True
+Comparison: (1, 3) -- p=1.281049276533916e-20, corr_p=7.686295659203496e-20, rej=True
+Comparison: (2, 3) -- p=1.7731243190351646e-08, corr_p=1.0638745914210988e-07, rej=True
+              0    1
+subcluster          
+0           169   22
+1           630  261
+2           420   82
+3           290    9
+
+
+% term:procedure::Pet fdg oncology = 0.28 (13 terms in cluster (0.07), out of 47 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.80979294542578e-05, corr_p=0.0002285875767255468, rej=True
+Comparison: (0, 2) -- p=0.21809254688828447, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=1.835191415839633e-05, corr_p=0.00011011148495037798, rej=True
+Comparison: (1, 2) -- p=0.002857857679148839, corr_p=0.01714714607489303, rej=True
+Comparison: (1, 3) -- p=0.07529147961617456, corr_p=0.4517488776970474, rej=False
+Comparison: (2, 3) -- p=0.000792634107618809, corr_p=0.004755804645712854, rej=True
+              0   1
+subcluster         
+0           178  13
+1           878  13
+2           481  21
+3           299   0
+
+
+% term:procedure::Electrocardiogram complete = 0.01 (7 terms in cluster (0.04), out of 774 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.177127524747985e-16, corr_p=1.906276514848791e-15, rej=True
+Comparison: (0, 2) -- p=4.910390512603269e-65, corr_p=2.9462343075619613e-64, rej=True
+Comparison: (0, 3) -- p=1.840072320464053e-12, corr_p=1.1040433922784318e-11, rej=True
+Comparison: (1, 2) -- p=1.7993126933181723e-52, corr_p=1.0795876159909034e-51, rej=True
+Comparison: (1, 3) -- p=0.35441560556958784, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=9.515105699119063e-37, corr_p=5.709063419471438e-36, rej=True
+              0    1
+subcluster          
+0           184    7
+1           595  296
+2           121  381
+3           209   90
+
+
+% term:procedure::Ra chest pa and left lateral only = 0.02 (6 terms in cluster (0.03), out of 271 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.249441887377112e-07, corr_p=1.3496651324262671e-06, rej=True
+Comparison: (0, 2) -- p=0.00013072913473065974, corr_p=0.0007843748083839584, rej=True
+Comparison: (0, 3) -- p=0.0039929492507747456, corr_p=0.023957695504648473, rej=True
+Comparison: (1, 2) -- p=0.020734695022355802, corr_p=0.12440817013413481, rej=False
+Comparison: (1, 3) -- p=0.0022383318830884536, corr_p=0.013429991298530721, rej=True
+Comparison: (2, 3) -- p=0.28593223027722664, corr_p=1.0, rej=False
+              0    1
+subcluster          
+0           185    6
+1           726  165
+2           434   68
+3           267   32
+
+
+% term:procedure::Ra ct sinus without contrast = 0.21 (4 terms in cluster (0.02), out of 19 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.37776958930019555, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.09021269134086837, corr_p=0.5412761480452102, rej=False
+Comparison: (0, 3) -- p=0.7802868980606302, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.35594463673527366, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.8806030085862436, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.28562624352429333, corr_p=1.0, rej=False
+              0  1
+subcluster        
+0           187  4
+1           882  9
+2           500  2
+3           295  4
+
+
+% term:procedure::Ra mri spine lumbar contrast = 0.15 (4 terms in cluster (0.02), out of 26 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.6553731405732073, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.9585347565768552, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.15284230747052294, corr_p=0.9170538448231376, rej=False
+Comparison: (1, 2) -- p=0.669442181808455, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.2560731490950745, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.1418257136916446, corr_p=0.8509542821498676, rej=False
+              0   1
+subcluster         
+0           187   4
+1           879  12
+2           493   9
+3           298   1
+
+
+% term:procedure::Pa ll cxr = 0.04 (4 terms in cluster (0.02), out of 107 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.5611637696581315, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=1.3601928717570092e-07, corr_p=8.161157230542055e-07, rej=True
+Comparison: (0, 3) -- p=0.5470648022187548, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=8.13275084029344e-30, corr_p=4.879650504176064e-29, rej=True
+Comparison: (1, 3) -- p=0.9912726568608732, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=1.591981043668186e-12, corr_p=9.551886262009115e-12, rej=True
+              0   1
+subcluster         
+0           187   4
+1           880  11
+2           413  89
+3           296   3
+
+
+% term:procedure::Mr c spi c = 0.43 (3 terms in cluster (0.02), out of 7 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.01842737447223818, corr_p=0.11056424683342908, rej=False
+Comparison: (0, 2) -- p=0.4373792757581836, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.11409756609888114, corr_p=0.6845853965932869, rej=False
+Comparison: (1, 2) -- p=0.2696158177548439, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.5661574454140714, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.45851985495529923, corr_p=1.0, rej=False
+              0  1
+subcluster        
+0           188  3
+1           890  1
+2           499  3
+3           299  0
+
+
+% term:procedure::Bone scan injection = 0.21 (3 terms in cluster (0.02), out of 14 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.01842737447223818, corr_p=0.11056424683342908, rej=False
+Comparison: (0, 2) -- p=0.7500974572683616, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.6115436166258801, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.0030275734008276163, corr_p=0.018165440404965698, rej=True
+Comparison: (1, 3) -- p=0.31995585364512485, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.4173047427841471, corr_p=1.0, rej=False
+              0  1
+subcluster        
+0           188  3
+1           890  1
+2           494  8
+3           297  2
+
+
+% term:procedure::Ra mri spine thoracic without contrast = 0.18 (3 terms in cluster (0.02), out of 17 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.9838719957810578, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.4373792757581836, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.11409756609888114, corr_p=0.6845853965932869, rej=False
+Comparison: (1, 2) -- p=0.3872948525588684, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.1138684566795966, corr_p=0.6832107400775795, rej=False
+Comparison: (2, 3) -- p=0.45851985495529923, corr_p=1.0, rej=False
+              0   1
+subcluster         
+0           188   3
+1           880  11
+2           499   3
+3           299   0
+
+
+% term:procedure::Bone whole body = 0.18 (3 terms in cluster (0.02), out of 17 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.057232564972277626, corr_p=0.34339538983366574, rej=False
+Comparison: (0, 2) -- p=0.9585347565768552, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.6115436166258801, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.0017757679582426627, corr_p=0.010654607749455976, rej=True
+Comparison: (1, 3) -- p=0.5676377930855534, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.23391827783190355, corr_p=1.0, rej=False
+              0   1
+subcluster         
+0           188   3
+1           889   2
+2           492  10
+3           297   2
+
+
+
+
+Cluster 1 numerosity: 891
+% term:procedure::Electrocardiogram complete = 0.38 (296 terms in cluster (0.33), out of 774 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.177127524747985e-16, corr_p=1.906276514848791e-15, rej=True
+Comparison: (0, 2) -- p=4.910390512603269e-65, corr_p=2.9462343075619613e-64, rej=True
+Comparison: (0, 3) -- p=1.840072320464053e-12, corr_p=1.1040433922784318e-11, rej=True
+Comparison: (1, 2) -- p=1.7993126933181723e-52, corr_p=1.0795876159909034e-51, rej=True
+Comparison: (1, 3) -- p=0.35441560556958784, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=9.515105699119063e-37, corr_p=5.709063419471438e-36, rej=True
+              0    1
+subcluster          
+0           184    7
+1           595  296
+2           121  381
+3           209   90
+
+
+% term:procedure::Nm pet fdg oncology = 0.70 (261 terms in cluster (0.29), out of 374 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.307545219490742e-07, corr_p=3.7845271316944452e-06, rej=True
+Comparison: (0, 2) -- p=0.1423080133681742, corr_p=0.8538480802090451, rej=False
+Comparison: (0, 3) -- p=0.0003397848737654002, corr_p=0.002038709242592401, rej=True
+Comparison: (1, 2) -- p=1.0094340460456976e-07, corr_p=6.056604276274186e-07, rej=True
+Comparison: (1, 3) -- p=1.281049276533916e-20, corr_p=7.686295659203496e-20, rej=True
+Comparison: (2, 3) -- p=1.7731243190351646e-08, corr_p=1.0638745914210988e-07, rej=True
+              0    1
+subcluster          
+0           169   22
+1           630  261
+2           420   82
+3           290    9
+
+
+% term:procedure::Ra chest pa and left lateral only = 0.61 (165 terms in cluster (0.19), out of 271 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.249441887377112e-07, corr_p=1.3496651324262671e-06, rej=True
+Comparison: (0, 2) -- p=0.00013072913473065974, corr_p=0.0007843748083839584, rej=True
+Comparison: (0, 3) -- p=0.0039929492507747456, corr_p=0.023957695504648473, rej=True
+Comparison: (1, 2) -- p=0.020734695022355802, corr_p=0.12440817013413481, rej=False
+Comparison: (1, 3) -- p=0.0022383318830884536, corr_p=0.013429991298530721, rej=True
+Comparison: (2, 3) -- p=0.28593223027722664, corr_p=1.0, rej=False
+              0    1
+subcluster          
+0           185    6
+1           726  165
+2           434   68
+3           267   32
+
+
+% term:procedure::Ra bone survey complete = 0.78 (130 terms in cluster (0.15), out of 166 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.686305981308638e-08, corr_p=2.2117835887851827e-07, rej=True
+Comparison: (0, 2) -- p=0.0022900484689785954, corr_p=0.013740290813871573, rej=True
+Comparison: (0, 3) -- p=0.03797265348002175, corr_p=0.2278359208801305, rej=False
+Comparison: (1, 2) -- p=2.8733085630039775e-07, corr_p=1.7239851378023864e-06, rej=True
+Comparison: (1, 3) -- p=1.2194124069737159e-07, corr_p=7.316474441842295e-07, rej=True
+Comparison: (2, 3) -- p=0.16495421486575806, corr_p=0.9897252891945484, rej=False
+              0    1
+subcluster          
+0           191    0
+1           761  130
+2           475   27
+3           290    9
+
+
+% term:procedure::Ra ir placement of ventral venous catheter = 0.73 (119 terms in cluster (0.13), out of 162 terms in the disease dataset)
+
+              0    1
+subcluster          
+0           191    0
+1           772  119
+2           459   43
+3           299    0
+
+
+% term:procedure::Rm chest 1 view portable = 0.33 (110 terms in cluster (0.12), out of 337 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.993297349320285e-07, corr_p=3.5959784095921708e-06, rej=True
+Comparison: (0, 2) -- p=1.7844575448837993e-25, corr_p=1.0706745269302796e-24, rej=True
+Comparison: (0, 3) -- p=0.0003035541799718914, corr_p=0.0018213250798313483, rej=True
+Comparison: (1, 2) -- p=6.684822383720653e-34, corr_p=4.0108934302323916e-33, rej=True
+Comparison: (1, 3) -- p=0.023205154541242685, corr_p=0.13923092724745612, rej=False
+Comparison: (2, 3) -- p=6.206946879217245e-24, corr_p=3.7241681275303473e-23, rej=True
+              0    1
+subcluster          
+0           191    0
+1           781  110
+2           297  205
+3           277   22
+
+
+% term:procedure::Rm chest pa or ap = 0.49 (107 terms in cluster (0.12), out of 220 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.030139102854225e-07, corr_p=5.418083461712535e-06, rej=True
+Comparison: (0, 2) -- p=4.5008636643941246e-11, corr_p=2.700518198636475e-10, rej=True
+Comparison: (0, 3) -- p=0.012294876940681213, corr_p=0.07376926164408729, rej=False
+Comparison: (1, 2) -- p=6.347558183170513e-05, corr_p=0.0003808534909902308, rej=True
+Comparison: (1, 3) -- p=0.00010601940257329609, corr_p=0.0006361164154397765, rej=True
+Comparison: (2, 3) -- p=4.699193906801063e-10, corr_p=2.819516344080638e-09, rej=True
+              0    1
+subcluster          
+0           191    0
+1           784  107
+2           401  101
+3           287   12
+
+
+% term:procedure::Electrocardiogram tracing = 0.35 (107 terms in cluster (0.12), out of 304 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.030139102854225e-07, corr_p=5.418083461712535e-06, rej=True
+Comparison: (0, 2) -- p=4.671022866940046e-17, corr_p=2.8026137201640277e-16, rej=True
+Comparison: (0, 3) -- p=1.3912296664837978e-08, corr_p=8.347377998902787e-08, rej=True
+Comparison: (1, 2) -- p=5.305160721634128e-16, corr_p=3.1830964329804765e-15, rej=True
+Comparison: (1, 3) -- p=0.08938007260938667, corr_p=0.53628043565632, rej=False
+Comparison: (2, 3) -- p=2.165876855165276e-05, corr_p=0.00012995261130991655, rej=True
+              0    1
+subcluster          
+0           191    0
+1           784  107
+2           353  149
+3           251   48
+
+
+% term:procedure::Rm chest pa and left lateral only = 0.27 (77 terms in cluster (0.09), out of 290 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0004515515471518178, corr_p=0.0027093092829109065, rej=True
+Comparison: (0, 2) -- p=3.5897423528308296e-19, corr_p=2.1538454116984977e-18, rej=True
+Comparison: (0, 3) -- p=9.466882931012322e-06, corr_p=5.6801297586073934e-05, rej=True
+Comparison: (1, 2) -- p=4.305203817454414e-33, corr_p=2.5831222904726485e-32, rej=True
+Comparison: (1, 3) -- p=0.05159931709906082, corr_p=0.3095959025943649, rej=False
+Comparison: (2, 3) -- p=2.4345754695572936e-11, corr_p=1.4607452817343762e-10, rej=True
+              0    1
+subcluster          
+0           189    2
+1           814   77
+2           329  173
+3           261   38
+
+
+% term:procedure::Ra mri spinal survey complete without contrast = 0.87 (62 terms in cluster (0.07), out of 71 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0010526729040607938, corr_p=0.006316037424364763, rej=True
+Comparison: (0, 2) -- p=0.4615652385923248, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.8210489119449702, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=1.9311929915235766e-05, corr_p=0.0001158715794914146, rej=True
+Comparison: (1, 3) -- p=5.7699299338910216e-06, corr_p=3.461957960334613e-05, rej=True
+Comparison: (2, 3) -- p=0.06777001144095886, corr_p=0.4066200686457532, rej=False
+              0   1
+subcluster         
+0           190   1
+1           829  62
+2           494   8
+3           299   0
+
+
+% term:procedure::Ra doppler extremity vein complete = 0.73 (48 terms in cluster (0.05), out of 66 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.006111459357671215, corr_p=0.03666875614602729, rej=True
+Comparison: (0, 2) -- p=0.15409154289220484, corr_p=0.924549257353229, rej=False
+Comparison: (0, 3) -- p=0.6790051713915508, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.02069891741980125, corr_p=0.12419350451880751, rej=False
+Comparison: (1, 3) -- p=0.005103097113592275, corr_p=0.030618582681553652, rej=True
+Comparison: (2, 3) -- p=0.3495042192855421, corr_p=1.0, rej=False
+              0   1
+subcluster         
+0           190   1
+1           843  48
+2           489  13
+3           295   4
+
+
+
+
+Cluster 2 numerosity: 502
+% term:procedure::Electrocardiogram complete = 0.49 (381 terms in cluster (0.76), out of 774 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.177127524747985e-16, corr_p=1.906276514848791e-15, rej=True
+Comparison: (0, 2) -- p=4.910390512603269e-65, corr_p=2.9462343075619613e-64, rej=True
+Comparison: (0, 3) -- p=1.840072320464053e-12, corr_p=1.1040433922784318e-11, rej=True
+Comparison: (1, 2) -- p=1.7993126933181723e-52, corr_p=1.0795876159909034e-51, rej=True
+Comparison: (1, 3) -- p=0.35441560556958784, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=9.515105699119063e-37, corr_p=5.709063419471438e-36, rej=True
+              0    1
+subcluster          
+0           184    7
+1           595  296
+2           121  381
+3           209   90
+
+
+% term:procedure::Rm chest 1 view portable = 0.61 (205 terms in cluster (0.41), out of 337 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.993297349320285e-07, corr_p=3.5959784095921708e-06, rej=True
+Comparison: (0, 2) -- p=1.7844575448837993e-25, corr_p=1.0706745269302796e-24, rej=True
+Comparison: (0, 3) -- p=0.0003035541799718914, corr_p=0.0018213250798313483, rej=True
+Comparison: (1, 2) -- p=6.684822383720653e-34, corr_p=4.0108934302323916e-33, rej=True
+Comparison: (1, 3) -- p=0.023205154541242685, corr_p=0.13923092724745612, rej=False
+Comparison: (2, 3) -- p=6.206946879217245e-24, corr_p=3.7241681275303473e-23, rej=True
+              0    1
+subcluster          
+0           191    0
+1           781  110
+2           297  205
+3           277   22
+
+
+% term:procedure::Rm chest pa and left lateral only = 0.60 (173 terms in cluster (0.34), out of 290 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0004515515471518178, corr_p=0.0027093092829109065, rej=True
+Comparison: (0, 2) -- p=3.5897423528308296e-19, corr_p=2.1538454116984977e-18, rej=True
+Comparison: (0, 3) -- p=9.466882931012322e-06, corr_p=5.6801297586073934e-05, rej=True
+Comparison: (1, 2) -- p=4.305203817454414e-33, corr_p=2.5831222904726485e-32, rej=True
+Comparison: (1, 3) -- p=0.05159931709906082, corr_p=0.3095959025943649, rej=False
+Comparison: (2, 3) -- p=2.4345754695572936e-11, corr_p=1.4607452817343762e-10, rej=True
+              0    1
+subcluster          
+0           189    2
+1           814   77
+2           329  173
+3           261   38
+
+
+% term:procedure::Electrocardiogram tracing = 0.49 (149 terms in cluster (0.30), out of 304 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.030139102854225e-07, corr_p=5.418083461712535e-06, rej=True
+Comparison: (0, 2) -- p=4.671022866940046e-17, corr_p=2.8026137201640277e-16, rej=True
+Comparison: (0, 3) -- p=1.3912296664837978e-08, corr_p=8.347377998902787e-08, rej=True
+Comparison: (1, 2) -- p=5.305160721634128e-16, corr_p=3.1830964329804765e-15, rej=True
+Comparison: (1, 3) -- p=0.08938007260938667, corr_p=0.53628043565632, rej=False
+Comparison: (2, 3) -- p=2.165876855165276e-05, corr_p=0.00012995261130991655, rej=True
+              0    1
+subcluster          
+0           191    0
+1           784  107
+2           353  149
+3           251   48
+
+
+% term:procedure::Cxr 1 view portable = 0.88 (108 terms in cluster (0.22), out of 123 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.4931243323761978, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=2.6484357848736758e-11, corr_p=1.5890614709242056e-10, rej=True
+Comparison: (0, 3) -- p=0.6845946223038041, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=9.73449957287227e-37, corr_p=5.840699743723362e-36, rej=True
+Comparison: (1, 3) -- p=0.21107509879309116, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=6.870403194564275e-17, corr_p=4.122241916738565e-16, rej=True
+              0    1
+subcluster          
+0           190    1
+1           878   13
+2           394  108
+3           298    1
+
+
+% term:procedure::Rm chest pa or ap = 0.46 (101 terms in cluster (0.20), out of 220 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.030139102854225e-07, corr_p=5.418083461712535e-06, rej=True
+Comparison: (0, 2) -- p=4.5008636643941246e-11, corr_p=2.700518198636475e-10, rej=True
+Comparison: (0, 3) -- p=0.012294876940681213, corr_p=0.07376926164408729, rej=False
+Comparison: (1, 2) -- p=6.347558183170513e-05, corr_p=0.0003808534909902308, rej=True
+Comparison: (1, 3) -- p=0.00010601940257329609, corr_p=0.0006361164154397765, rej=True
+Comparison: (2, 3) -- p=4.699193906801063e-10, corr_p=2.819516344080638e-09, rej=True
+              0    1
+subcluster          
+0           191    0
+1           784  107
+2           401  101
+3           287   12
+
+
+% term:procedure::Pa ll cxr = 0.83 (89 terms in cluster (0.18), out of 107 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.5611637696581315, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=1.3601928717570092e-07, corr_p=8.161157230542055e-07, rej=True
+Comparison: (0, 3) -- p=0.5470648022187548, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=8.13275084029344e-30, corr_p=4.879650504176064e-29, rej=True
+Comparison: (1, 3) -- p=0.9912726568608732, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=1.591981043668186e-12, corr_p=9.551886262009115e-12, rej=True
+              0   1
+subcluster         
+0           187   4
+1           880  11
+2           413  89
+3           296   3
+
+
+% term:procedure::Nm pet fdg oncology = 0.22 (82 terms in cluster (0.16), out of 374 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=6.307545219490742e-07, corr_p=3.7845271316944452e-06, rej=True
+Comparison: (0, 2) -- p=0.1423080133681742, corr_p=0.8538480802090451, rej=False
+Comparison: (0, 3) -- p=0.0003397848737654002, corr_p=0.002038709242592401, rej=True
+Comparison: (1, 2) -- p=1.0094340460456976e-07, corr_p=6.056604276274186e-07, rej=True
+Comparison: (1, 3) -- p=1.281049276533916e-20, corr_p=7.686295659203496e-20, rej=True
+Comparison: (2, 3) -- p=1.7731243190351646e-08, corr_p=1.0638745914210988e-07, rej=True
+              0    1
+subcluster          
+0           169   22
+1           630  261
+2           420   82
+3           290    9
+
+
+% term:procedure::Rm ct head without contrast = 0.71 (75 terms in cluster (0.15), out of 106 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.29567671122467243, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=1.217462423930086e-07, corr_p=7.304774543580516e-07, rej=True
+Comparison: (0, 3) -- p=0.027794893961000624, corr_p=0.16676936376600374, rej=False
+Comparison: (1, 2) -- p=1.5374402086323468e-20, corr_p=9.224641251794081e-20, rej=True
+Comparison: (1, 3) -- p=0.03438060163318579, corr_p=0.20628360979911475, rej=False
+Comparison: (2, 3) -- p=6.18580656565096e-06, corr_p=3.711483939390576e-05, rej=True
+              0   1
+subcluster         
+0           190   1
+1           874  17
+2           427  75
+3           286  13
+
+
+% term:procedure::Ra chest pa and left lateral only = 0.25 (68 terms in cluster (0.14), out of 271 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.249441887377112e-07, corr_p=1.3496651324262671e-06, rej=True
+Comparison: (0, 2) -- p=0.00013072913473065974, corr_p=0.0007843748083839584, rej=True
+Comparison: (0, 3) -- p=0.0039929492507747456, corr_p=0.023957695504648473, rej=True
+Comparison: (1, 2) -- p=0.020734695022355802, corr_p=0.12440817013413481, rej=False
+Comparison: (1, 3) -- p=0.0022383318830884536, corr_p=0.013429991298530721, rej=True
+Comparison: (2, 3) -- p=0.28593223027722664, corr_p=1.0, rej=False
+              0    1
+subcluster          
+0           185    6
+1           726  165
+2           434   68
+3           267   32
+
+
+% term:procedure::Rm doppler extremity vein complete = 0.71 (56 terms in cluster (0.11), out of 79 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.1429864937074385, corr_p=0.8579189622446309, rej=False
+Comparison: (0, 2) -- p=3.183954738648014e-06, corr_p=1.9103728431888084e-05, rej=True
+Comparison: (0, 3) -- p=0.055641572287143504, corr_p=0.333849433722861, rej=False
+Comparison: (1, 2) -- p=3.1919607765756374e-14, corr_p=1.9151764659453824e-13, rej=True
+Comparison: (1, 3) -- p=0.4034544512597691, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=3.376184707581676e-05, corr_p=0.00020257108245490057, rej=True
+              0   1
+subcluster         
+0           191   0
+1           876  15
+2           446  56
+3           291   8
+
+
+
+
+Cluster 3 numerosity: 299
+% term:procedure::Electrocardiogram complete = 0.12 (90 terms in cluster (0.30), out of 774 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.177127524747985e-16, corr_p=1.906276514848791e-15, rej=True
+Comparison: (0, 2) -- p=4.910390512603269e-65, corr_p=2.9462343075619613e-64, rej=True
+Comparison: (0, 3) -- p=1.840072320464053e-12, corr_p=1.1040433922784318e-11, rej=True
+Comparison: (1, 2) -- p=1.7993126933181723e-52, corr_p=1.0795876159909034e-51, rej=True
+Comparison: (1, 3) -- p=0.35441560556958784, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=9.515105699119063e-37, corr_p=5.709063419471438e-36, rej=True
+              0    1
+subcluster          
+0           184    7
+1           595  296
+2           121  381
+3           209   90
+
+
+% term:procedure::Electrocardiogram tracing = 0.16 (48 terms in cluster (0.16), out of 304 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.030139102854225e-07, corr_p=5.418083461712535e-06, rej=True
+Comparison: (0, 2) -- p=4.671022866940046e-17, corr_p=2.8026137201640277e-16, rej=True
+Comparison: (0, 3) -- p=1.3912296664837978e-08, corr_p=8.347377998902787e-08, rej=True
+Comparison: (1, 2) -- p=5.305160721634128e-16, corr_p=3.1830964329804765e-15, rej=True
+Comparison: (1, 3) -- p=0.08938007260938667, corr_p=0.53628043565632, rej=False
+Comparison: (2, 3) -- p=2.165876855165276e-05, corr_p=0.00012995261130991655, rej=True
+              0    1
+subcluster          
+0           191    0
+1           784  107
+2           353  149
+3           251   48
+
+
+% term:procedure::Rm chest pa and left lateral only = 0.13 (38 terms in cluster (0.13), out of 290 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.0004515515471518178, corr_p=0.0027093092829109065, rej=True
+Comparison: (0, 2) -- p=3.5897423528308296e-19, corr_p=2.1538454116984977e-18, rej=True
+Comparison: (0, 3) -- p=9.466882931012322e-06, corr_p=5.6801297586073934e-05, rej=True
+Comparison: (1, 2) -- p=4.305203817454414e-33, corr_p=2.5831222904726485e-32, rej=True
+Comparison: (1, 3) -- p=0.05159931709906082, corr_p=0.3095959025943649, rej=False
+Comparison: (2, 3) -- p=2.4345754695572936e-11, corr_p=1.4607452817343762e-10, rej=True
+              0    1
+subcluster          
+0           189    2
+1           814   77
+2           329  173
+3           261   38
+
+
+% term:procedure::Ra chest pa and left lateral only = 0.12 (32 terms in cluster (0.11), out of 271 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=2.249441887377112e-07, corr_p=1.3496651324262671e-06, rej=True
+Comparison: (0, 2) -- p=0.00013072913473065974, corr_p=0.0007843748083839584, rej=True
+Comparison: (0, 3) -- p=0.0039929492507747456, corr_p=0.023957695504648473, rej=True
+Comparison: (1, 2) -- p=0.020734695022355802, corr_p=0.12440817013413481, rej=False
+Comparison: (1, 3) -- p=0.0022383318830884536, corr_p=0.013429991298530721, rej=True
+Comparison: (2, 3) -- p=0.28593223027722664, corr_p=1.0, rej=False
+              0    1
+subcluster          
+0           185    6
+1           726  165
+2           434   68
+3           267   32
+
+
+% term:procedure::Rm screening mammography = 0.51 (22 terms in cluster (0.07), out of 43 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.9196742657491782, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.8143207328764495, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.0032599637094366664, corr_p=0.019559782256619997, rej=True
+Comparison: (1, 2) -- p=0.867371656114864, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=5.007153959597516e-07, corr_p=3.0042923757585097e-06, rej=True
+Comparison: (2, 3) -- p=1.1118682619309222e-05, corr_p=6.671209571585533e-05, rej=True
+              0   1
+subcluster         
+0           189   2
+1           878  13
+2           496   6
+3           277  22
+
+
+% term:procedure::Rm chest 1 view portable = 0.07 (22 terms in cluster (0.07), out of 337 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=5.993297349320285e-07, corr_p=3.5959784095921708e-06, rej=True
+Comparison: (0, 2) -- p=1.7844575448837993e-25, corr_p=1.0706745269302796e-24, rej=True
+Comparison: (0, 3) -- p=0.0003035541799718914, corr_p=0.0018213250798313483, rej=True
+Comparison: (1, 2) -- p=6.684822383720653e-34, corr_p=4.0108934302323916e-33, rej=True
+Comparison: (1, 3) -- p=0.023205154541242685, corr_p=0.13923092724745612, rej=False
+Comparison: (2, 3) -- p=6.206946879217245e-24, corr_p=3.7241681275303473e-23, rej=True
+              0    1
+subcluster          
+0           191    0
+1           781  110
+2           297  205
+3           277   22
+
+
+% term:procedure::Rm ct head without contrast = 0.12 (13 terms in cluster (0.04), out of 106 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.29567671122467243, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=1.217462423930086e-07, corr_p=7.304774543580516e-07, rej=True
+Comparison: (0, 3) -- p=0.027794893961000624, corr_p=0.16676936376600374, rej=False
+Comparison: (1, 2) -- p=1.5374402086323468e-20, corr_p=9.224641251794081e-20, rej=True
+Comparison: (1, 3) -- p=0.03438060163318579, corr_p=0.20628360979911475, rej=False
+Comparison: (2, 3) -- p=6.18580656565096e-06, corr_p=3.711483939390576e-05, rej=True
+              0   1
+subcluster         
+0           190   1
+1           874  17
+2           427  75
+3           286  13
+
+
+% term:procedure::Rm chest pa or ap = 0.05 (12 terms in cluster (0.04), out of 220 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=9.030139102854225e-07, corr_p=5.418083461712535e-06, rej=True
+Comparison: (0, 2) -- p=4.5008636643941246e-11, corr_p=2.700518198636475e-10, rej=True
+Comparison: (0, 3) -- p=0.012294876940681213, corr_p=0.07376926164408729, rej=False
+Comparison: (1, 2) -- p=6.347558183170513e-05, corr_p=0.0003808534909902308, rej=True
+Comparison: (1, 3) -- p=0.00010601940257329609, corr_p=0.0006361164154397765, rej=True
+Comparison: (2, 3) -- p=4.699193906801063e-10, corr_p=2.819516344080638e-09, rej=True
+              0    1
+subcluster          
+0           191    0
+1           784  107
+2           401  101
+3           287   12
+
+
+% term:procedure::Ra ultrasound renal and bladder = 0.47 (9 terms in cluster (0.03), out of 19 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.9348684449255686, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.6721241446294172, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.11619371911586034, corr_p=0.697162314695162, rej=False
+Comparison: (1, 2) -- p=0.6046114579798152, corr_p=1.0, rej=False
+Comparison: (1, 3) -- p=0.009332084428810903, corr_p=0.05599250657286542, rej=False
+Comparison: (2, 3) -- p=0.005814984324491142, corr_p=0.03488990594694685, rej=True
+              0  1
+subcluster        
+0           190  1
+1           884  7
+2           500  2
+3           290  9
+
+
+% term:procedure::Ra mri spine lumbar without contrast = 0.23 (9 terms in cluster (0.03), out of 39 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=0.627941009048891, corr_p=1.0, rej=False
+Comparison: (0, 2) -- p=0.8143207328764495, corr_p=1.0, rej=False
+Comparison: (0, 3) -- p=0.48037786775072, corr_p=1.0, rej=False
+Comparison: (1, 2) -- p=0.08684332089371563, corr_p=0.5210599253622938, rej=False
+Comparison: (1, 3) -- p=0.7654775699202859, corr_p=1.0, rej=False
+Comparison: (2, 3) -- p=0.06798197548603524, corr_p=0.40789185291621144, rej=False
+              0   1
+subcluster         
+0           188   3
+1           869  22
+2           497   5
+3           290   9
+
+
+% term:procedure::Ra bone survey complete = 0.05 (9 terms in cluster (0.03), out of 166 terms in the disease dataset)
+
+Comparison: (0, 1) -- p=3.686305981308638e-08, corr_p=2.2117835887851827e-07, rej=True
+Comparison: (0, 2) -- p=0.0022900484689785954, corr_p=0.013740290813871573, rej=True
+Comparison: (0, 3) -- p=0.03797265348002175, corr_p=0.2278359208801305, rej=False
+Comparison: (1, 2) -- p=2.8733085630039775e-07, corr_p=1.7239851378023864e-06, rej=True
+Comparison: (1, 3) -- p=1.2194124069737159e-07, corr_p=7.316474441842295e-07, rej=True
+Comparison: (2, 3) -- p=0.16495421486575806, corr_p=0.9897252891945484, rej=False
+              0    1
+subcluster          
+0           191    0
+1           761  130
+2           475   27
+3           290    9
+
+
+
+
+Multiple comparison t-test for AGE:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.01, alphacBonf=0.008
+=============================================
+group1 group2   stat   pval  pval_corr reject
+---------------------------------------------
+     0      1  -2.384 0.0173    0.1038  False
+     0      2 -3.9176 0.0001    0.0006   True
+     0      3 -3.4877 0.0005    0.0032   True
+     1      2 -3.6714 0.0003    0.0015   True
+     1      3 -3.1718 0.0016    0.0093   True
+     2      3 -0.0548 0.9563       1.0  False
+---------------------------------------------
+             score                                                 
+             count   mean    std    min    25%    50%    75%    max
+subcluster                                                         
+0          191.000 61.874 18.760  9.000 50.000 65.000 76.000 90.000
+1          891.000 64.490 12.438 24.000 57.000 65.000 73.000 90.000
+2          502.000 67.237 14.970  1.000 58.250 68.000 78.750 90.000
+3          299.000 67.298 15.398 19.000 58.500 69.000 79.000 90.000
+
+Multiple comparison t-test for SEQUENCE LENGTH:
+Test Multiple Comparison ttest_ind 
+FWER=0.05 method=bonf
+alphacSidak=0.01, alphacBonf=0.008
+=============================================
+group1 group2   stat    pval pval_corr reject
+---------------------------------------------
+     0      1     -9.4   0.0       0.0   True
+     0      2 -10.8953   0.0       0.0   True
+     0      3  -7.5142   0.0       0.0   True
+     1      2   -0.418 0.676       1.0  False
+     1      3   6.6239   0.0       0.0   True
+     2      3   7.4945   0.0       0.0   True
+---------------------------------------------
+             score                                                          
+             count    mean      std    min     25%     50%      75%      max
+subcluster                                                                  
+0          191.000  67.649  113.914  3.000  11.000  29.000   54.000  779.000
+1          891.000 862.422 1166.898  6.000  96.000 318.000 1120.000 4849.000
+2          502.000 888.602 1038.513 16.000 160.000 507.000 1176.000 4849.000
+3          299.000 396.114  597.008 20.000  62.500 160.000  472.000 3835.000
+
+Multiple comparison chi-square test for SEX:
+Comparison: (0, 1) -- p=0.430, corr_p=1.000, rej=False
+Comparison: (0, 2) -- p=0.015, corr_p=0.088, rej=False
+Comparison: (0, 3) -- p=0.955, corr_p=1.000, rej=False
+Comparison: (1, 2) -- p=0.011, corr_p=0.065, rej=False
+Comparison: (1, 3) -- p=0.358, corr_p=1.000, rej=False
+Comparison: (2, 3) -- p=0.005, corr_p=0.029, rej=True
+   female  male
+0     108    83
+1     473   418
+2     230   272
+3     168   130
+
+Processing time: 145.01 seconds
+Task completed
+
