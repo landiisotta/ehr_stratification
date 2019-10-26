@@ -1,4 +1,7 @@
 scripts/phantomjs*
+scripts/
+src/__pycache__
+*.log
 *.png
 *.pt
 *.txt

@@ -1,6 +1,5 @@
 import csv
-from sklearn.metrics import adjusted_mutual_info_score, fowlkes_mallows_score
-
+from sklearn.metrics import adjusted_mutual_info_score, normalized_mutual_info_score, fowlkes_mallows_score
 
 with open('../data/mrn-t2d-groups.csv') as f:
     rd = csv.reader(f)
@@ -35,7 +34,8 @@ for g in sorted(lili.keys()):
         print("Group LiLi {0} -- Class convae {1}: {2}".format(g, cl, len(set(lili[g]).intersection(set(convae[cl])))))
     print("\n")
 
-#print(adjusted_mutual_info_score(gt_lab, class_lab))
 
+print(adjusted_mutual_info_score(gt_lab, class_lab))
+print(normalized_mutual_info_score(gt_lab, class_lab))
 print("Fowlkes - Mallows Score: {0:.3f}".format(fowlkes_mallows_score(gt_lab, 
                                                 class_lab)))
